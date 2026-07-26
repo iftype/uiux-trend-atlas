@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T11:49:22.184Z",
+  "generatedAt": "2026-07-26T11:51:16.363Z",
   "stats": {
     "catalogSources": 29,
     "feedSources": 17,
@@ -15,7 +15,7 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.238Z",
+      "checkedAt": "2026-07-26T11:51:15.894Z",
       "articles": [
         {
           "title": "Personalizing Airbnb search by learning from the guest journey",
@@ -35,7 +35,7 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.899Z",
+      "checkedAt": "2026-07-26T11:51:15.908Z",
       "articles": [
         {
           "title": "Better Experiments with LLM Evals — A funnel, not a fork",
@@ -65,7 +65,7 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.801Z",
+      "checkedAt": "2026-07-26T11:51:15.837Z",
       "articles": [
         {
           "title": "How to Stop the Stakeholder Swirl",
@@ -154,7 +154,7 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.191Z",
+      "checkedAt": "2026-07-26T11:51:15.849Z",
       "articles": [
         {
           "title": "The business of design",
@@ -243,7 +243,7 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.109Z",
+      "checkedAt": "2026-07-26T11:51:15.731Z",
       "articles": [
         {
           "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
@@ -331,7 +331,7 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.094Z",
+      "checkedAt": "2026-07-26T11:51:15.785Z",
       "articles": [
         {
           "title": "Gathering around the fire: Durable human experience patterns in the AI era",
@@ -421,7 +421,7 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:22.085Z",
+      "checkedAt": "2026-07-26T11:51:16.092Z",
       "articles": [
         {
           "title": "Conversation design: How to make your AI Agent communicate like your team",
@@ -442,7 +442,7 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:20.901Z",
+      "checkedAt": "2026-07-26T11:51:15.831Z",
       "articles": []
     },
     {
@@ -452,7 +452,7 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:20.907Z",
+      "checkedAt": "2026-07-26T11:51:15.775Z",
       "articles": [
         {
           "title": "Behind the scenes of Canva's DesignDNA campaign",
@@ -482,7 +482,7 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.044Z",
+      "checkedAt": "2026-07-26T11:51:15.790Z",
       "articles": [
         {
           "title": "How to build interactive experiences with canvases",
@@ -502,7 +502,7 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:22.183Z",
+      "checkedAt": "2026-07-26T11:51:15.962Z",
       "articles": [
         {
           "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
@@ -533,7 +533,7 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.388Z",
+      "checkedAt": "2026-07-26T11:51:16.363Z",
       "articles": [
         {
           "title": "Walking the Walk: Design Leadership in an AI-Native World",
@@ -623,7 +623,7 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.255Z",
+      "checkedAt": "2026-07-26T11:51:16.069Z",
       "articles": [
         {
           "title": "Breaking the Myth of Big Click Energy",
@@ -712,7 +712,7 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.231Z",
+      "checkedAt": "2026-07-26T11:51:16.120Z",
       "articles": [
         {
           "title": "Make design history",
@@ -796,7 +796,7 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.443Z",
+      "checkedAt": "2026-07-26T11:51:16.032Z",
       "articles": [
         {
           "title": "How Etsy Uses LLMs to Improve Search Relevance",
@@ -874,7 +874,7 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.382Z",
+      "checkedAt": "2026-07-26T11:51:15.982Z",
       "articles": [
         {
           "title": "A Framework to Integrate Accessible Design and Inclusive Research At Scale",
@@ -962,7 +962,7 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-26T11:49:21.069Z",
+      "checkedAt": "2026-07-26T11:51:16.002Z",
       "articles": [
         {
           "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
