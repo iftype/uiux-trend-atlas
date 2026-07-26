@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: research-refresh
@@ -30,8 +31,10 @@ jobs:
       - name: Validate generated data and site
         run: npm run check
       - name: Commit changes
+        id: commit
         run: |
           if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "uiux-trend-atlas-bot"
@@ -39,3 +42,9 @@ jobs:
           git add app/generated/foreign-updates.json public/data/foreign-updates.json research/13-foreign-tech-blogs/LATEST.md
           git commit -m "chore(data): refresh foreign UX feeds"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Redeploy updated site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
