@@ -322,5 +322,109 @@
     "focus": ["Product Craft", "Interaction", "Performance"],
     "topics": ["microinteractions", "dark-mode", "kinetic-typography"],
     "note": "빠르고 조용한 제품 경험, 키보드 중심 상호작용과 제품 원칙."
+  },
+  {
+    "id": "web-dev",
+    "company": "Google Chrome",
+    "name": "web.dev",
+    "url": "https://web.dev/",
+    "feed": "https://web.dev/feed.xml",
+    "feedMode": "filter",
+    "region": "GLOBAL",
+    "focus": ["Web Platform", "Performance", "Accessibility"],
+    "topics": ["frontend-platform", "accessibility-performance", "webview-hybrid"],
+    "note": "Baseline, Core Web Vitals, 접근성, 최신 웹 플랫폼 구현 가이드."
+  },
+  {
+    "id": "chrome-developers",
+    "company": "Google Chrome",
+    "name": "Chrome for Developers",
+    "url": "https://developer.chrome.com/",
+    "feed": "https://developer.chrome.com/static/blog/feed.xml",
+    "feedMode": "filter",
+    "region": "GLOBAL",
+    "focus": ["Browser APIs", "DevTools", "Web UI"],
+    "topics": ["frontend-platform", "accessibility-performance", "webview-hybrid"],
+    "note": "Chrome·Chromium 기능, View Transitions, DevTools와 성능 구현."
+  },
+  {
+    "id": "webkit-blog",
+    "company": "Apple WebKit",
+    "name": "WebKit Blog",
+    "url": "https://webkit.org/blog/",
+    "feed": "https://webkit.org/feed/",
+    "feedMode": "filter",
+    "region": "US",
+    "focus": ["Safari", "WKWebView", "CSS"],
+    "topics": ["webview-hybrid", "frontend-platform", "accessibility-performance"],
+    "note": "Safari 릴리스, WebKit·WKWebView API와 호환성 변경."
+  },
+  {
+    "id": "mdn-blog",
+    "company": "Mozilla",
+    "name": "MDN Blog",
+    "url": "https://developer.mozilla.org/en-US/blog/",
+    "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
+    "feedMode": "filter",
+    "region": "GLOBAL",
+    "focus": ["Web Standards", "Compatibility", "CSS"],
+    "topics": ["frontend-platform", "accessibility-performance"],
+    "note": "표준 웹 API, 브라우저 호환성, Baseline 도입 자료."
+  },
+  {
+    "id": "mozilla-hacks",
+    "company": "Mozilla",
+    "name": "Mozilla Hacks",
+    "url": "https://hacks.mozilla.org/",
+    "feed": "https://hacks.mozilla.org/feed/",
+    "feedMode": "filter",
+    "region": "GLOBAL",
+    "focus": ["Firefox", "Web Standards", "Performance"],
+    "topics": ["frontend-platform", "accessibility-performance"],
+    "note": "Firefox 구현과 개방형 웹 표준, 성능·개발자 도구."
+  },
+  {
+    "id": "microsoft-edge",
+    "company": "Microsoft Edge",
+    "name": "Microsoft Edge Blog",
+    "url": "https://blogs.windows.com/msedgedev/",
+    "feed": "https://blogs.windows.com/msedgedev/feed/",
+    "feedMode": "filter",
+    "region": "US",
+    "focus": ["Edge", "WebView2", "Accessibility"],
+    "topics": ["webview-hybrid", "frontend-platform", "accessibility-performance"],
+    "note": "Edge·Chromium과 데스크톱 임베디드 WebView2 구현."
+  },
+  {
+    "id": "android-developers",
+    "company": "Google Android",
+    "name": "Android Developers Blog",
+    "url": "https://android-developers.googleblog.com/",
+    "feed": "https://android-developers.googleblog.com/feeds/posts/default",
+    "feedMode": "filter",
+    "region": "GLOBAL",
+    "focus": ["Android WebView", "Identity", "Mobile UX"],
+    "topics": ["webview-hybrid", "accessibility-performance", "biometric-auth"],
+    "note": "Android 플랫폼, WebView·Credential Manager·패스키 변화."
+  },
+  {
+    "id": "apple-webkit-docs",
+    "company": "Apple",
+    "name": "WebKit Documentation",
+    "url": "https://developer.apple.com/documentation/webkit",
+    "region": "US",
+    "focus": ["WKWebView", "SwiftUI", "Passkeys"],
+    "topics": ["webview-hybrid", "frontend-platform", "biometric-auth"],
+    "note": "WKWebView, SwiftUI WebView, 탐색·보안·인증 공식 API 문서."
+  },
+  {
+    "id": "w3c-wai",
+    "company": "W3C",
+    "name": "Web Accessibility Initiative",
+    "url": "https://www.w3.org/WAI/",
+    "region": "GLOBAL",
+    "focus": ["WCAG", "ARIA", "Accessible UX"],
+    "topics": ["accessibility-performance", "sustainable-design"],
+    "note": "WCAG 2.2, ARIA와 웹 접근성 표준·이해 문서."
   }
 ]

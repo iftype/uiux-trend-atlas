@@ -3,7 +3,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { koreanCases, microRepos, trends } from "./data";
 import foreignCatalog from "../data/foreign-tech-blogs.json";
+import frontendGuide from "../data/frontend-webview-2026.json";
 import foreignUpdates from "./generated/foreign-updates.json";
+
+const frontendTopics = new Set(["frontend-platform", "webview-hybrid", "accessibility-performance"]);
 
 const categories = ["전체", "콘텐츠", "모션", "몰입", "신뢰", "행동"] as const;
 const categoryMap: Record<(typeof categories)[number], string[]> = {
@@ -52,6 +55,9 @@ export function TrendAtlas() {
       return categoryMatch && queryMatch;
     });
   }, [category, query]);
+  const frontendArticles = foreignUpdates.articles
+    .filter((article) => article.topics.some((topic) => frontendTopics.has(topic)))
+    .slice(0, 12);
 
   const toggleRead = (id: string) => {
     setRead((current) => {
@@ -79,9 +85,9 @@ export function TrendAtlas() {
           <span className="outline">인터페이스는</span>
           <span>어떻게 움직이는가?</span>
         </h1>
-        <p className="hero-copy">12개의 UI/UX 흐름을 개념, 패턴, 구현 기준과 실제 레퍼런스로 연결한 살아있는 정보 레포.</p>
+        <p className="hero-copy">12개의 UI/UX 흐름과 2026 프론트엔드·WebView 출시 기준을 실제 구현 문서로 연결한 살아있는 정보 레포.</p>
         <div className="hero-meta">
-          <span>12 TOPICS</span><span>29 GLOBAL BLOGS</span><span>AUTO UPDATED</span><span>OPEN RESEARCH</span>
+          <span>12 TOPICS</span><span>{foreignCatalog.length} GLOBAL SOURCES</span><span>WEBVIEW 2026</span><span>AUTO UPDATED</span>
         </div>
         <a className="scroll-cue" href="#index"><span>SCROLL TO EXPLORE</span><b>↓</b></a>
       </section>
@@ -256,9 +262,81 @@ export function TrendAtlas() {
         </div>
       </section>
 
+      <section className="frontend-guide" id="frontend-webview">
+        <div className="section-heading inverse">
+          <p>05 / FRONTEND × WEBVIEW</p>
+          <h2>브라우저 밖까지 설계하기</h2>
+          <span>2026 FIELD GUIDE</span>
+        </div>
+        <div className="frontend-intro">
+          <p>{frontendGuide.summary}</p>
+          <div>
+            <span>{frontendGuide.cards.length} RELEASE RULES</span>
+            <span>{frontendGuide.testMatrix.length} TEST TARGETS</span>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/research/14-frontend-webview-2026" target="_blank" rel="noreferrer">FULL CHECKLIST ↗</a>
+          </div>
+        </div>
+
+        <div className="webview-grid">
+          {frontendGuide.cards.map((card, index) => (
+            <article className={`webview-card status-${card.status.toLowerCase()}`} key={card.id}>
+              <div className="webview-card-head">
+                <span>{String(index + 1).padStart(2, "0")} · {card.area}</span>
+                <b>{card.status}</b>
+              </div>
+              <h3>{card.title}</h3>
+              <p>{card.summary}</p>
+              <ul>
+                {card.checks.map((check) => <li key={check}>{check}</li>)}
+              </ul>
+              <div className="webview-sources">
+                {card.sources.map((source) => (
+                  <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>{source.label} ↗</a>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <div className="webview-matrix">
+          <div className="subheading inverse-subheading">
+            <h3>최소 테스트 매트릭스</h3>
+            <p>기기 이름보다 런타임·컨테이너·입력 조건을 분리해서 회귀 테스트합니다.</p>
+          </div>
+          <div className="matrix-list">
+            {frontendGuide.testMatrix.map((row, index) => (
+              <div key={row.target}>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <h4>{row.target}</h4>
+                <p>{row.minimum}</p>
+                <b>{row.focus}</b>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {frontendArticles.length > 0 && (
+          <div className="frontend-feed">
+            <div className="subheading inverse-subheading">
+              <h3>Platform radar</h3>
+              <p>공식 브라우저·플랫폼 피드에서 자동 선별한 최신 프론트엔드 자료입니다.</p>
+            </div>
+            <div className="frontend-feed-list">
+              {frontendArticles.map((article) => (
+                <a href={article.url} target="_blank" rel="noreferrer" key={article.url}>
+                  <span>{article.publishedAt?.slice(0, 10) ?? "DATE N/A"}</span>
+                  <div><small>{article.company}</small><h4>{article.title}</h4></div>
+                  <b>↗</b>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </section>
+
       <section className="principles">
         <div className="section-heading inverse">
-          <p>05 / DECISION FILTER</p>
+          <p>06 / DECISION FILTER</p>
           <h2>유행보다 먼저 물을 것</h2>
           <span>5 QUESTIONS</span>
         </div>

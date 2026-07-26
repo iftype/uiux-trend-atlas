@@ -13,10 +13,12 @@ const previousBySource = new Map(previous.sources.map((source) => [source.id, so
 
 const uxKeywords = [
   "accessib", "animation", "canvas", "client", "color", "component", "content design",
-  "dark mode", "design", "experiment", "font", "frontend", "front-end", "gesture",
-  "haptic", "homepage", "interaction", "interface", "mobile", "motion",
+  "anchor positioning", "baseline", "browser", "css", "dark mode", "design", "devtools",
+  "experiment", "font", "frontend", "front-end", "gesture", "html", "haptic", "homepage",
+  "interaction", "interface", "javascript", "mobile", "motion",
   "personalization", "prototype", "recommend", "research", "search", "spatial",
-  "typography", "user experience", "user interface", "ux", "visual", "web performance",
+  "typography", "user experience", "user interface", "ux", "viewport", "visual",
+  "view transition", "web api", "web platform", "web performance", "webview", "webkit",
   "3d", "ar", "vr", "xr",
 ];
 
@@ -33,6 +35,9 @@ const topicRules = {
   "kinetic-typography": ["typography", "type", "font", "motion"],
   "gamification": ["game", "reward", "streak", "motivation"],
   "microinteractions": ["interaction", "motion", "feedback", "component", "toast", "gesture"],
+  "frontend-platform": ["baseline", "browser", "css", "html", "javascript", "web api", "web platform", "view transition", "anchor positioning"],
+  "webview-hybrid": ["webview", "web view", "webkit", "wkwebview", "webview2", "native bridge", "jsbridge", "viewport"],
+  "accessibility-performance": ["accessibility", "core web vital", "inp", "lcp", "cls", "performance", "devtools", "wcag"],
 };
 
 const feedSources = catalog.filter((source) => source.feed);
@@ -46,7 +51,7 @@ if (successful === 0) {
 const allArticles = settled
   .flatMap((source) => source.articles.map((article) => ({ ...article, sourceId: source.id, source: source.name, company: source.company })))
   .sort((a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0));
-const uniqueArticles = dedupeByUrl(allArticles).slice(0, 80);
+const uniqueArticles = dedupeByUrl(allArticles).slice(0, 120);
 
 const output = {
   schemaVersion: 1,
@@ -94,6 +99,7 @@ async function updateSource(source) {
       articles: parsed,
     };
   } catch (error) {
+    console.warn(`Feed failed: ${source.name} — ${error instanceof Error ? error.message : String(error)}`);
     return {
       id: source.id,
       company: source.company,
@@ -182,7 +188,8 @@ function isUxRelevant(article) {
   const summaryPhrases = [
     "accessibility", "design system", "interaction design", "user experience",
     "user interface", "content design", "frontend", "front-end", "web performance",
-    "mobile app", "client-side", "client experience",
+    "mobile app", "client-side", "client experience", "web platform", "web api",
+    "core web vital", "view transition", "scroll-driven", "webview", "webkit",
   ];
   return titleMatch || summaryPhrases.some((phrase) => strictSummary.includes(phrase));
 }
@@ -226,7 +233,7 @@ function renderMarkdown(data) {
     "| 발행일 | 출처 | 글 | 연결 주제 |",
     "|---|---|---|---|",
   ];
-  for (const article of data.articles.slice(0, 60)) {
+  for (const article of data.articles.slice(0, 100)) {
     const date = article.publishedAt?.slice(0, 10) ?? "날짜 없음";
     const topics = article.topics.map((topic) => `\`${topic}\``).join(" ");
     lines.push(`| ${date} | ${escapeMd(article.source)} | [${escapeMd(article.title)}](${article.url}) | ${topics} |`);

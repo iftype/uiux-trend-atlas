@@ -50,6 +50,18 @@
 - [Intercom Blog](https://www.intercom.com/blog/design/) — 대화형 제품과 AI 인터페이스.
 - [Duolingo Design](https://blog.duolingo.com/tag/design/) — 게이미피케이션, 캐릭터 모션, 학습 실험.
 
+### 웹 플랫폼·WebView
+
+- [web.dev](https://web.dev/) — Baseline, Core Web Vitals, 접근성과 웹 플랫폼 구현.
+- [Chrome for Developers](https://developer.chrome.com/) — Chromium API, View Transitions, DevTools.
+- [WebKit Blog](https://webkit.org/blog/) — Safari, WKWebView, CSS·Web API 릴리스.
+- [MDN Blog](https://developer.mozilla.org/en-US/blog/) — 웹 표준, 호환성, Baseline.
+- [Mozilla Hacks](https://hacks.mozilla.org/) — Firefox 구현과 개방형 웹 기술.
+- [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) — Edge, Chromium, WebView2.
+- [Android Developers Blog](https://android-developers.googleblog.com/) — Android WebView, 인증과 모바일 플랫폼.
+- [Apple WebKit Documentation](https://developer.apple.com/documentation/webkit) — WKWebView·SwiftUI WebView 공식 API.
+- [W3C Web Accessibility Initiative](https://www.w3.org/WAI/) — WCAG 2.2와 ARIA 표준.
+
 ## 읽는 방법
 
 1. 완성 화면보다 문제와 제약을 먼저 기록한다.
