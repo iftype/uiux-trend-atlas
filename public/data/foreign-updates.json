@@ -1,0 +1,1995 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-26T11:49:22.184Z",
+  "stats": {
+    "catalogSources": 29,
+    "feedSources": 17,
+    "healthyFeeds": 17,
+    "articles": 80
+  },
+  "sources": [
+    {
+      "id": "airbnb-engineering",
+      "company": "Airbnb",
+      "name": "Airbnb Engineering",
+      "url": "https://medium.com/airbnb-engineering",
+      "feed": "https://medium.com/feed/airbnb-engineering",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.238Z",
+      "articles": [
+        {
+          "title": "Personalizing Airbnb search by learning from the guest journey",
+          "url": "https://medium.com/airbnb-engineering/personalizing-airbnb-search-by-learning-from-the-guest-journey-bcefd1915624",
+          "publishedAt": "2026-07-21T17:01:04.000Z",
+          "summary": "How we built a Transformer-based sequence model that encodes years of guest behavior to surface the right listings at the right time. By: Daochen Zha , Chun How Tan , Xin Liu , Bin Xu , Han Zhao , Xiaowei Liu , Jun Shi…",
+          "topics": [
+            "personalization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spotify-engineering",
+      "company": "Spotify",
+      "name": "Spotify Engineering",
+      "url": "https://engineering.atspotify.com/",
+      "feed": "https://engineering.atspotify.com/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.899Z",
+      "articles": [
+        {
+          "title": "Better Experiments with LLM Evals — A funnel, not a fork",
+          "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
+          "publishedAt": "2026-05-18T13:27:23.000Z",
+          "summary": "TL;DR LLM evals, automated judges that assess relevance, coherence, and quality at scale, are a powerful new... The post Better Experiments with LLM Evals — A funnel, not a fork appeared first on Spotify Engineering .",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins",
+          "url": "https://engineering.atspotify.com/2026/5/spotify-ads-api-claude-plugins/",
+          "publishedAt": "2026-05-01T16:00:02.000Z",
+          "summary": "Turning OpenAPI spec and Markdown files into a conversational ads management tool — no compiled code required. The post Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins appeared firs…",
+          "topics": [
+            "personalization",
+            "realtime-content"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uber-design",
+      "company": "Uber",
+      "name": "Uber Design",
+      "url": "https://medium.com/uber-design",
+      "feed": "https://medium.com/feed/uber-design",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.801Z",
+      "articles": [
+        {
+          "title": "How to Stop the Stakeholder Swirl",
+          "url": "https://medium.com/uber-design/how-to-stop-the-stakeholder-swirl-78073b7e986b",
+          "publishedAt": "2025-11-20T20:03:24.000Z",
+          "summary": "And finally enjoy your big-company design reviews When I started at Uber in 2016, I was two and a half years into my career as a product designer. I had a background in graphic design and made the conscious choice to jo…",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Designing the latest generation of Uber Navigation: maps built for ridesharing",
+          "url": "https://medium.com/uber-design/designing-the-latest-generation-of-uber-navigation-maps-built-for-ridesharing-de3ede031ce1",
+          "publishedAt": "2023-06-07T16:00:30.000Z",
+          "summary": "The Uber platform currently powers more than 7 billion trips every year. When we launched Uber Navigation , the world’s first navigation system designed for ridesharing, in 2017, the platform was handling 4 billion trip…",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "What’s in a name? Introducing Content Design at Uber",
+          "url": "https://medium.com/uber-design/whats-in-a-name-introducing-content-design-at-uber-191ed04ca19b",
+          "publishedAt": "2021-04-28T18:17:44.000Z",
+          "summary": "Why we’ve changed the job title of our UX Writing team Co-authored with Jaime Walke In 2010, my job title was Content Strategist. At the time, I worked with information architects, interaction designers, graphic designe…",
+          "topics": [
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "How I programmatically built 256 new design system components in Figma",
+          "url": "https://medium.com/uber-design/how-i-programmatically-built-256-new-design-system-components-in-figma-84ee26d119c1",
+          "publishedAt": "2021-02-09T17:02:55.000Z",
+          "summary": "A look into how automation can supercharge the design process Uber’s Base design system offers a set of map marker components that are used extensively across our products, displayed any time we feature a map to the use…",
+          "topics": [
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Designing For A Cash Experience",
+          "url": "https://medium.com/uber-design/designing-for-a-cash-experience-ff8260e9d146",
+          "publishedAt": "2020-12-08T15:32:01.000Z",
+          "summary": "What cash trips in Mexico taught me about designing for international markets at Uber As a product designer at Uber working on the Money team in Amsterdam, it’s my job to help come up with design solutions for Uber prod…",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Where to? The journey to Uber’s iconography",
+          "url": "https://medium.com/uber-design/where-to-the-journey-to-ubers-iconography-bf8efd2be446",
+          "publishedAt": "2020-06-11T15:31:01.000Z",
+          "summary": "If a photo is worth a thousand words then an icon is worth at least a dozen. Continue reading on Uber Design »",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "What do I want to do with my c̶a̶r̶e̶e̶r̶ life?",
+          "url": "https://medium.com/uber-design/what-do-i-want-to-do-with-my-c%CC%B6a%CC%B6r%CC%B6e%CC%B6e%CC%B6r%CC%B6-life-54d7266c3cde",
+          "publishedAt": "2020-03-03T14:31:01.000Z",
+          "summary": "A design manager’s guide to jumpstart career conversations with your team. Uber Eats Design & Research Offsite in Monterey Bay Aquarium, Photo credit — Cocu Liu Let’s be honest, managing can feel like you are constantly…",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Ten things I’ve learned as a UX researcher at Uber",
+          "url": "https://medium.com/uber-design/ten-things-ive-learned-as-a-ux-researcher-at-uber-43464b1c544b",
+          "publishedAt": "2020-02-21T20:31:01.000Z",
+          "summary": "In July 2016, I joined Uber as the first member of our Bangalore-based UX team. I was one of the earliest researchers at the company outside of the U.S., and at that point, the Bangalore office had just opened and thing…",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dropbox-design",
+      "company": "Dropbox",
+      "name": "Dropbox Design",
+      "url": "https://medium.com/dropbox-design",
+      "feed": "https://medium.com/feed/dropbox-design",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.191Z",
+      "articles": [
+        {
+          "title": "The business of design",
+          "url": "https://medium.com/dropbox-design/the-business-of-design-359499a64c57",
+          "publishedAt": "2022-04-04T19:51:53.000Z",
+          "summary": "Core design principles are undervalued and overlooked in most of today’s business operating practices. Complementing design principles with business operational practices will bring more empathy, connection, innovation,…",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Designing the mind",
+          "url": "https://medium.com/dropbox-design/designing-the-mind-cdc331c85338",
+          "publishedAt": "2022-03-17T03:11:59.000Z",
+          "summary": "How to design the building blocks of your most powerful, creative asset: the mind Understanding how the mind works can help you design yours to embrace uncertainty, take more risks, and unlock creativity. I’ve always be…",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
+        },
+        {
+          "title": "The art of letting go",
+          "url": "https://medium.com/dropbox-design/the-art-of-letting-go-9682290e7777",
+          "publishedAt": "2022-01-21T16:28:05.000Z",
+          "summary": "Letting go of the need to be perfect and of things that are outside your control will enable more productivity at work and more joy in life. I’ve always been a perfectionist, making sure every “I” is dotted, every “T” c…",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
+        },
+        {
+          "title": "A design approach to diversity and inclusion",
+          "url": "https://medium.com/dropbox-design/a-design-approach-to-diversity-and-inclusion-3a8683de3c42",
+          "publishedAt": "2021-05-19T03:01:33.000Z",
+          "summary": "Foster more diverse and inclusive communities with the Dropbox Design toolkit. Artwork by Sarah Chon In May 2021, Dropbox Design introduced the Diversity and Inclusion Toolkit . Like the other Culture Kits we’ve shared…",
+          "topics": [
+            "sustainable-design"
+          ]
+        },
+        {
+          "title": "Take back your day with a meeting manifesto",
+          "url": "https://medium.com/dropbox-design/take-back-your-day-with-a-meeting-manifesto-a4e9c3105456",
+          "publishedAt": "2020-09-01T17:53:38.000Z",
+          "summary": "Photograph by Gabrielle Matte and Samuel Pasquier What an interesting six months it’s been Due to the coronavirus pandemic, I’ve worked from home for more than 100 days in a row. And during this time, videoconferences h…",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Designing with letters",
+          "url": "https://medium.com/dropbox-design/designing-with-letters-420c02b795b5",
+          "publishedAt": "2020-05-22T22:25:58.000Z",
+          "summary": "A story of collaboration: How writing and design joined forces to create a power publication for Sundance Film Festival Continue reading on Dropbox Design »",
+          "topics": [
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "PUT IT IN YOUR OWN WORDS",
+          "url": "https://medium.com/dropbox-design/put-it-in-your-own-words-1d7fbdae4c4",
+          "publishedAt": "2020-05-22T22:24:30.000Z",
+          "summary": "How to find your voice and set it free Continue reading on Dropbox Design »",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Distributed Sprints Kit",
+          "url": "https://medium.com/dropbox-design/distributed-sprints-kit-c59cced1484a",
+          "publishedAt": "2020-05-05T17:42:48.000Z",
+          "summary": "A Figma template to help your team ideate Artwork by Sydney Goldstein At Dropbox, we work in a distributed fashion across multiple countries all over the world. Although we try to make sure our team members feel closer…",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slack-design",
+      "company": "Slack",
+      "name": "Slack Design",
+      "url": "https://slack.design/",
+      "feed": "https://slack.design/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.109Z",
+      "articles": [
+        {
+          "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
+          "url": "https://slack.design/articles/product-quality-a-shared-commitment-to-craft-in-the-wake-of-ai/",
+          "publishedAt": "2026-07-17T19:45:23.000Z",
+          "summary": "Slack is a loved product, and that’s not an accident In 2013, Stewart Butterfield wrote what amounted to a promise: “You’re buying a commitment to the craft of making high quality software: polished, responsive, attract…",
+          "topics": [
+            "microinteractions",
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "We Didn’t Teach Our Designers AI: We Built a Place Where They Could Learn It Together",
+          "url": "https://slack.design/articles/we-didnt-teach-our-designers-ai-we-built-a-place-where-they-could-learn-it-together/",
+          "publishedAt": "2026-07-08T09:00:10.000Z",
+          "summary": "The Question We Kept Hearing “How do I use AI?” That question, typed in a DM rather than asked out loud, told us everything. Our design team was not short on curiosity. What was missing was somewhere to be a beginner. A…",
+          "topics": [
+            "kinetic-typography"
+          ]
+        },
+        {
+          "title": "How I Validated Design Decisions Before Writing Production Code",
+          "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/",
+          "publishedAt": "2026-06-04T01:29:47.000Z",
+          "summary": "The biggest shift AI has brought to design isn’t that designers can now write production code. It’s that we can finally generate evidence before committing to anything. There’s a lot of conversation about AI affecting p…",
+          "topics": [
+            "microinteractions",
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "Designing Where the Pixels Actually Live",
+          "url": "https://slack.design/articles/designing-where-the-pixels-actually-live/",
+          "publishedAt": "2026-05-27T18:12:34.000Z",
+          "summary": "For most of my design career, Figma was where the real work happened. I’d design screens, build prototypes, then hand off the designs for someone else to build. If something felt slightly wrong in production, we’d go ba…",
+          "topics": [
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "Leading design through the AI shift",
+          "url": "https://slack.design/articles/leading-design-through-the-ai-shift/",
+          "publishedAt": "2026-05-21T16:47:34.000Z",
+          "summary": "AI has eaten the technology industry. What started as a slow, hallucination-prone chatbot has become something much harder to ignore. As a designer, it can feel like the ground is shifting under your feet, quietly at fi…",
+          "topics": [
+            "microinteractions",
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "No Small Task: Evolving the Way Millions Catch Up in Slack",
+          "url": "https://slack.design/articles/no-small-task-evolving-the-way-millions-catch-up-in-slack/",
+          "publishedAt": "2026-04-09T17:06:52.000Z",
+          "summary": "Everyone has felt it: the anxiety of returning to Slack after a meeting, unsure where to start. Which channels have updates that matter? Did someone mention you? Are there DMs waiting? For years, staying caught up in Sl…",
+          "topics": [
+            "microinteractions",
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "How to Make a Big Impact with a Small Team: Design Ops at Slack",
+          "url": "https://slack.design/articles/how-to-make-a-big-impact-with-a-small-team-design-ops-at-slack/",
+          "publishedAt": "2025-09-05T15:54:34.000Z",
+          "summary": "Design Operations is all about helping designers do the best work of their lives. Our job is to clear the path so designers can focus on what they do best: design. At many tech companies, you’ll find a more traditional…",
+          "topics": [
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "Raising the Volume Quietly: A Designer’s Challenge",
+          "url": "https://slack.design/articles/raising-the-volume-quietly/",
+          "publishedAt": "2025-05-22T08:00:38.000Z",
+          "summary": "You spoke, and we listened. While working in Slack, there’s always a lot going on: you may be added to a new channel, mentioned by your manager in another channel, and direct-messaged by a colleague – all while more unr…",
+          "topics": [
+            "microinteractions",
+            "realtime-content"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microsoft-design",
+      "company": "Microsoft",
+      "name": "Microsoft Design",
+      "url": "https://microsoft.design/",
+      "feed": "https://microsoft.design/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.094Z",
+      "articles": [
+        {
+          "title": "Gathering around the fire: Durable human experience patterns in the AI era",
+          "url": "https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/",
+          "publishedAt": "2026-07-22T13:38:37.000Z",
+          "summary": "The post Gathering around the fire: Durable human experience patterns in the AI era appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "When outputs are the experience",
+          "url": "https://microsoft.design/articles/when-outputs-are-the-experience/",
+          "publishedAt": "2026-06-29T13:00:00.000Z",
+          "summary": "Inside our latest Copilot redesign, where the experience adapts to how people use it. The post When outputs are the experience appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Pride is alive",
+          "url": "https://microsoft.design/articles/pride-is-alive/",
+          "publishedAt": "2026-06-23T16:44:29.000Z",
+          "summary": "How everyday moments inspired Microsoft's Pride 2026 campaign The post Pride is alive appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "The Great UXR Transformation",
+          "url": "https://microsoft.design/articles/the-great-uxr-transformation/",
+          "publishedAt": "2026-06-18T13:00:00.000Z",
+          "summary": "A working guide to modernizing your UX research practice for the AI era The post The Great UXR Transformation appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "A touch of feeling: advanced haptics in Windows 11",
+          "url": "https://microsoft.design/articles/a-touch-of-feeling-advanced-haptics-in-windows-11/",
+          "publishedAt": "2026-06-16T13:00:00.000Z",
+          "summary": "Guidelines on how to design haptics for supported devices The post A touch of feeling: advanced haptics in Windows 11 appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Haptics design and implementation",
+          "url": "https://microsoft.design/articles/haptics-design-and-implementation/",
+          "publishedAt": "2026-06-15T23:32:27.000Z",
+          "summary": "Guidance for adding haptic feedback to improve clarity, support inclusion, and create more intuitive experiences. The post Haptics design and implementation appeared first on Microsoft Design .",
+          "topics": [
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Self-portraits: Anthony Dart",
+          "url": "https://microsoft.design/articles/self-portraits-anthony-dart/",
+          "publishedAt": "2026-06-09T14:16:54.000Z",
+          "summary": "A South African artist on his graphic design journey The post Self-portraits: Anthony Dart appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Self-portraits: Madeline Kleiner",
+          "url": "https://microsoft.design/articles/self-portraits-madeline-kleiner/",
+          "publishedAt": "2026-05-20T13:42:35.000Z",
+          "summary": "A UX researcher helped Copilot meet people in the flow of their work. The post Self-portraits: Madeline Kleiner appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "company": "Intercom",
+      "name": "Intercom Design & Product",
+      "url": "https://www.intercom.com/blog/design/",
+      "feed": "https://www.intercom.com/blog/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:22.085Z",
+      "articles": [
+        {
+          "title": "Conversation design: How to make your AI Agent communicate like your team",
+          "url": "https://www.intercom.com/blog/conversation-design-for-your-ai-agent/",
+          "publishedAt": "2026-06-18T16:55:07.000Z",
+          "summary": "If nobody on your team owns how your AI Agent communicates, it defaults to sounding like an LLM. Conversation design is the discipline that fixes that.",
+          "topics": [
+            "realtime-content",
+            "personalization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duolingo",
+      "company": "Duolingo",
+      "name": "Duolingo Design",
+      "url": "https://blog.duolingo.com/tag/design/",
+      "feed": "https://blog.duolingo.com/rss/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:20.901Z",
+      "articles": []
+    },
+    {
+      "id": "canva-engineering",
+      "company": "Canva",
+      "name": "Canva Engineering",
+      "url": "https://www.canva.dev/blog/engineering/",
+      "feed": "https://www.canva.dev/blog/engineering/feed.xml",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:20.907Z",
+      "articles": [
+        {
+          "title": "Behind the scenes of Canva's DesignDNA campaign",
+          "url": "https://www.canva.dev/blog/engineering/behind-the-scenes-of-canvas-designdna-campaign/",
+          "publishedAt": "2025-02-24T00:00:01.000Z",
+          "summary": "How we used generative AI to build our year-in-review campaign",
+          "topics": [
+            "3d-graphics-animation",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Image replacement in Canva designs using reverse image search",
+          "url": "https://www.canva.dev/blog/engineering/image-replacement-in-canva-designs-using-reverse-image-search/",
+          "publishedAt": "2025-01-28T09:05:01.000Z",
+          "summary": "Qualitative comparison of image embedding models to power a scalable similar-image replacement system for Canva designs.",
+          "topics": [
+            "personalization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "github-ux",
+      "company": "GitHub",
+      "name": "GitHub Engineering · UX",
+      "url": "https://github.blog/engineering/user-experience/",
+      "feed": "https://github.blog/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.044Z",
+      "articles": [
+        {
+          "title": "How to build interactive experiences with canvases",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+          "publishedAt": "2026-07-21T16:00:00.000Z",
+          "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on Th…",
+          "topics": [
+            "3d-graphics-animation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netflix-techblog",
+      "company": "Netflix",
+      "name": "Netflix TechBlog",
+      "url": "https://netflixtechblog.com/",
+      "feed": "https://medium.com/feed/netflix-techblog",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:22.183Z",
+      "articles": [
+        {
+          "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+          "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
+          "publishedAt": "2026-06-29T13:01:02.000Z",
+          "summary": "Authors: Lequn Wang , J iangwei Pan , and Linas Baltrunas Figure 1. Autoregressive homepage generation. GenPage builds a Netflix homepage one row or entity at a time, each one conditioned on what’s already on the page a…",
+          "topics": [
+            "personalization",
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
+          "url": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2",
+          "publishedAt": "2026-06-23T00:31:01.000Z",
+          "summary": "By Zhuoning Yuan , Ta-Ying Cheng , Benjamin Klein , Bahareh Azarnoush Introduction At Netflix, we build technology to help storytellers bring their creative visions to life and to help members discover the stories they…",
+          "topics": [
+            "personalization",
+            "realtime-content"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ibm-design",
+      "company": "IBM",
+      "name": "IBM Design",
+      "url": "https://medium.com/design-ibm",
+      "feed": "https://medium.com/feed/design-ibm",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.388Z",
+      "articles": [
+        {
+          "title": "Walking the Walk: Design Leadership in an AI-Native World",
+          "url": "https://medium.com/design-ibm/walking-the-walk-design-leadership-in-an-ai-native-world-fb2159ff4c93",
+          "publishedAt": "2026-05-27T13:01:01.000Z",
+          "summary": "Design health and signals site concept, built with IBM Bob We spend a lot of time helping designers understand how to work with AI. The question I keep coming back to is simpler. How many of us are doing the same for ou…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
+        },
+        {
+          "title": "IBM Systems Environment Estimator recognized with prestigious 2026 iF Design Award",
+          "url": "https://medium.com/design-ibm/ibm-systems-environment-estimator-recognized-with-prestigious-2026-if-design-award-af4ffa49bce9",
+          "publishedAt": "2026-05-25T13:01:02.000Z",
+          "summary": "Home page for the Systems Environment Estimator The IBM Systems Environment Estimator is a pre-sales and planning tool that enables IBM clients, sellers, and business partners to quickly and efficiently calculate energy…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Explainable AI: Insights from market and academic research",
+          "url": "https://medium.com/design-ibm/explainable-ai-insights-from-market-and-academic-research-b79b50243bb5",
+          "publishedAt": "2026-05-06T17:27:22.000Z",
+          "summary": "Written by Roosevelt Faulkner and Phil Doyle, PhD Edited by Carole Baden A 3D illustration of interconnected digital objects arranged in a flowing double-helix pattern, representing the integration of diverse data sourc…",
+          "topics": [
+            "bold-color",
+            "3d-graphics-animation"
+          ]
+        },
+        {
+          "title": "IBM IT automation solutions gain further recognition with prestigious Indigo Design Awards",
+          "url": "https://medium.com/design-ibm/ibm-it-automation-solutions-gain-further-recognition-with-prestigious-indigo-design-awards-004cb33518b8",
+          "publishedAt": "2026-04-23T18:21:55.000Z",
+          "summary": "Indigo Design Awards for IBM Instana and IBM Turbonomic After winning the iF Design Award , we’re proud to share that both IBM Instana and IBM Turbonomic have now been honored with the prestigious Indigo Design Award fo…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
+        },
+        {
+          "title": "I built a Figma plugin because the Carbon Data Table workflow was broken",
+          "url": "https://medium.com/design-ibm/i-built-a-figma-plugin-because-the-carbon-data-table-workflow-was-broken-6f9c16fb7c11",
+          "publishedAt": "2026-03-11T19:30:58.000Z",
+          "summary": "How a one-day conference, a Segway e-bike, and a frustrating design workflow led to an open-source Figma plugin that changed how teams work with Carbon Data Tables. Carbon Data Table Figma Plugin It was September 2025 w…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
+        },
+        {
+          "title": "IBM IT automation solutions recognized with prestigious iF Design Awards",
+          "url": "https://medium.com/design-ibm/ibm-it-automation-solutions-recognized-with-prestigious-if-design-awards-8f804945c1ec",
+          "publishedAt": "2026-03-06T19:26:19.000Z",
+          "summary": "In today’s rapidly evolving digital landscape, IT automation has become a critical enabler for organizations seeking to optimize operations, reduce costs, and accelerate innovation. By automating repetitive tasks, strea…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
+        },
+        {
+          "title": "The Prompt Is the Prototype: How Structured AI Prompting Is Reshaping Enterprise Design",
+          "url": "https://medium.com/design-ibm/the-prompt-is-the-prototype-how-structured-ai-prompting-is-reshaping-enterprise-design-b0c284549d76",
+          "publishedAt": "2026-02-26T18:09:30.000Z",
+          "summary": "How one-shot prompting with Figma Make and Carbon Design System compressed months of enterprise prototyping into minutes — and what any design team can learn from it. Designers experimenting with Figma Make The enterpri…",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Cracking AI toolkit for product design: Idea to MVP in under 1 hour",
+          "url": "https://medium.com/design-ibm/cracking-ai-toolkit-for-product-design-idea-to-mvp-in-under-1-hour-0eab8e6edac7",
+          "publishedAt": "2026-01-20T18:30:45.000Z",
+          "summary": "Written by Milin Ann John. Edited by Ashwini Kamath, Meghna Gautam Thakur and Thomas Hollifield. AI Buffet Dilemma In a rapidly evolving digital landscape, as workflows accelerate, the real challenge is distinguishing g…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "indeed-design",
+      "company": "Indeed",
+      "name": "Indeed Design",
+      "url": "https://medium.com/indeed-design",
+      "feed": "https://medium.com/feed/indeed-design",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.255Z",
+      "articles": [
+        {
+          "title": "Breaking the Myth of Big Click Energy",
+          "url": "https://medium.com/indeed-design/breaking-the-myth-of-big-click-energy-9edf6d47a1a7",
+          "publishedAt": "2024-05-10T17:05:00.000Z",
+          "summary": "Why measuring clicks to evaluate usability isn’t meaningful and what you can measure instead. After more than 10 years in interaction design, I had hoped to encounter increasingly fewer requests for either counting the…",
+          "topics": [
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Setting Up Your UX Mentorship Program For Success",
+          "url": "https://medium.com/indeed-design/setting-up-your-ux-mentorship-program-for-success-efed5ff51b13",
+          "publishedAt": "2024-04-16T16:12:03.000Z",
+          "summary": "Concrete advice and a free goal-setting template that will help you make your mentorship program vision a reality. Illustration by Ingrid Elias . Many UX professionals want to grow in their craft and organizations want…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "When Selecting the Best UX Icons, Context Is Essential",
+          "url": "https://medium.com/indeed-design/when-selecting-the-best-ux-icons-context-is-essential-508bc0299c5d",
+          "publishedAt": "2024-03-27T15:07:11.000Z",
+          "summary": "When Selecting the Best Icons, Context Is Essential How to choose meaningful visual cues, aliases, and user strategies from your design system. Recently, our design system team looked at a request to change some aliases…",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "A Survey of Digital Product Teams Reveals the Value of Content Design",
+          "url": "https://medium.com/indeed-design/a-survey-of-digital-product-teams-reveals-the-value-of-content-design-ae0fdd08d020",
+          "publishedAt": "2024-03-21T17:58:04.000Z",
+          "summary": "Better products, better solutions, and higher morale: Just a few benefits content designers bring to the UX design process. In October 2022, I hopped on a plane from Virginia to Seattle to attend Button , the world’s le…",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "How to Put Your UX Roadmap to Work",
+          "url": "https://medium.com/indeed-design/how-to-put-your-ux-roadmap-to-work-489300139e5a",
+          "publishedAt": "2024-02-22T16:42:53.000Z",
+          "summary": "Your planning master doc can be an effective hub for everyone. A senior UX director breaks down how to create your team’s roadmap. This is the final article in a four-part series. To start at the beginning, read the art…",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "How to Lead Effective UX Roadmap Planning Discussions",
+          "url": "https://medium.com/indeed-design/how-to-lead-effective-ux-roadmap-planning-discussions-44b3c057eb07",
+          "publishedAt": "2024-02-05T15:10:24.000Z",
+          "summary": "7 questions to ask and a spreadsheet template you can use to get your partners and team on the same page. This is the third article in a four-part series. To start at the beginning, read the article Guide to UX Planning…",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "5 Reader Favorites from 2023",
+          "url": "https://medium.com/indeed-design/5-reader-favorites-from-2023-b5c259d1c39e",
+          "publishedAt": "2024-02-02T17:48:21.000Z",
+          "summary": "You read. You shared. We celebrated. Here are some of Indeed Design’s top articles from last year. Hi, it’s the editors at Indeed Design. Phew, what a year! In 2023, we published our 100th article, worked with 75 contri…",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "4 Types of Design Projects for UX Roadmapping",
+          "url": "https://medium.com/indeed-design/4-types-of-design-projects-for-ux-roadmapping-7047a1d73ab6",
+          "publishedAt": "2024-01-24T23:52:18.000Z",
+          "summary": "How to align your team’s expectations on timing, deliverables, and process. Illustration by Jimmy Park This is the second article in a four-part series. To start at the beginning, read the article Guide to UX Planning —…",
+          "topics": [
+            "bold-color",
+            "kinetic-typography"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etsy-design",
+      "company": "Etsy",
+      "name": "Etsy Design",
+      "url": "https://medium.com/etsy-design",
+      "feed": "https://medium.com/feed/etsy-design",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.231Z",
+      "articles": [
+        {
+          "title": "Make design history",
+          "url": "https://medium.com/etsy-design/make-design-history-620000a7cbe",
+          "publishedAt": "2017-12-13T19:02:24.000Z",
+          "summary": "How to be a better designer by documenting your work quickly and effectively When you’re in the midst of a new design project, it can feel like everything is on fire. There isn’t enough time in the day to get the bare m…",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Ready When You Are",
+          "url": "https://medium.com/etsy-design/ready-when-you-are-3f6d3bfa1ee8",
+          "publishedAt": "2017-08-23T18:06:18.000Z",
+          "summary": "How to share your work fearlessly Illustration by Yoko Sakao Ohama Knowing the right time to show your work is kind of like knowing when to slice into an avocado: Not ready. Not ready. Not ready. Too late. I’ve definite…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Crafting an Effective Working Group",
+          "url": "https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf",
+          "publishedAt": "2017-06-20T18:07:03.000Z",
+          "summary": "Working together to solve complex, cross-functional problems Illustration by Karolin Schnoor At Etsy, some of the most interesting (and most difficult!) challenges we face as a design team don’t always have a clear or o…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Creating Etsy’s Design Principles",
+          "url": "https://medium.com/etsy-design/creating-etsys-design-principles-4faf31914be3",
+          "publishedAt": "2017-05-23T18:15:20.000Z",
+          "summary": "Aligning on a shared definition of design excellence Illustration by Lucy Sherston During my time at Etsy, I had the pleasure of watching the design team grow and evolve. When I joined over six years ago, there was just…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Etsy + Tent London",
+          "url": "https://medium.com/etsy-design/etsy-tent-london-fe6d90198048",
+          "publishedAt": "2017-03-29T17:55:14.000Z",
+          "summary": "Bringing an online experience into the real world Illustration by Mathilde Aubier If you’ve never been to an Etsy office, you might imagine us as swaths of engineers, coders, and product designers — teams of people work…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Etsy’s Evolving Icon System",
+          "url": "https://medium.com/etsy-design/etsys-evolving-icon-system-41c55a639be2",
+          "publishedAt": "2017-01-03T18:22:04.000Z",
+          "summary": "How we systematized and customized our ever-present icons Illustration by Erik Riley When an interface is made entirely of text, the amount of time and effort it takes to read and evaluate every word increases to the po…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Sandboxes at Etsy",
+          "url": "https://medium.com/etsy-design/sandboxes-at-etsy-8bb88fa7da92",
+          "publishedAt": "2016-11-17T19:13:18.000Z",
+          "summary": "A Better Experience for Everyone Illustration by Naomi Wilkinson Here at Etsy, sandboxes are places where designers working on digital experiences can build whatever they want without blowing things up. At their core, s…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Welcome to Etsy Design",
+          "url": "https://medium.com/etsy-design/welcome-to-etsy-design-cd89ba6f3e5d",
+          "publishedAt": "2016-10-18T19:06:09.000Z",
+          "summary": "Illustration by Jing Wei Allow us the privilege of introducing ourselves. “Hi! We’re Etsy Design.” “Hello, there. Wait…what’s Etsy?” “Oh, Etsy? It’s this special thing, and we’d love for you to be a part of it. Etsy is…",
+          "topics": [
+            "bold-color"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etsy-engineering",
+      "company": "Etsy",
+      "name": "Code as Craft",
+      "url": "https://www.etsy.com/codeascraft",
+      "feed": "https://codeascraft.com/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.443Z",
+      "articles": [
+        {
+          "title": "How Etsy Uses LLMs to Improve Search Relevance",
+          "url": "https://www.etsy.com/codeascraft/how-etsy-uses-llms-to-improve-search-relevance",
+          "publishedAt": "2026-01-16T20:02:28.000Z",
+          "summary": "Ever searched for something specific, only to be met with results that are close, but not quite ? On Etsy’s Search Relevance team, that frustration is exactly what we are tackling. Our goal is simple yet ambitious: to h…",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Reducing experiment duration with predicted control variates",
+          "url": "https://www.etsy.com/codeascraft/reducing-experiment-duration-with-predicted-control-variates",
+          "publishedAt": "2025-11-25T16:28:26.000Z",
+          "summary": "I n 2021, we published a blog post titled “ Increasing experimentation accuracy and speed by using control variates ,” describing how we reduce the variance of metrics using CUPED in our experimentation platform. This i…",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Improving performance by prefetching product pages from Etsy Search",
+          "url": "https://www.etsy.com/codeascraft/search-prefetching-performance",
+          "publishedAt": "2025-10-29T17:14:09.000Z",
+          "summary": "Rarely are there opportunities for big, bold, game-changing improvements in web performance. The Speculation Rules API (SRA) is a recent browser development that offers just such an opportunity. This post details a join…",
+          "topics": [
+            "personalization",
+            "sustainable-design",
+            "gamification"
+          ]
+        },
+        {
+          "title": "Unlocking Faster Insights with Experimenter-Defined Segmentations",
+          "url": "https://www.etsy.com/codeascraft/unlocking-faster-insights-with-experimenter-defined-segmentations",
+          "publishedAt": "2025-10-08T15:32:02.000Z",
+          "summary": "Imagine you have a fabulous idea to drive more sales on Etsy by giving out free ice cream with every purchase. How would you know if it will actually work? One way to test this out is to run an experiment ! An experimen…",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Efficient Visual Representation Learning And Evaluation",
+          "url": "https://www.etsy.com/codeascraft/efficient-visual-representation-learning-and-evaluation",
+          "publishedAt": "2024-06-07T17:23:02.000Z",
+          "summary": "Etsy features a diverse marketplace of unique handmade and vintage items. It’s a visually diverse marketplace as well, and computer vision has become increasingly important to Etsy as a way of enhancing our users’ shopp…",
+          "topics": [
+            "personalization",
+            "sustainable-design"
+          ]
+        },
+        {
+          "title": "How We Built The Deals Tab in Swift UI",
+          "url": "https://www.etsy.com/codeascraft/how-we-built-the-deals-tab-in-swift-ui",
+          "publishedAt": "2024-03-05T22:22:54.000Z",
+          "summary": "Balancing Engineering Ambition with Product Realism Introduction In July of 2023, Etsy’s App Updates team, responsible for the Updates feed in Etsy’s mobile apps, set off with an ambitious goal: to revamp the Updates ta…",
+          "topics": [
+            "personalization",
+            "sustainable-design"
+          ]
+        },
+        {
+          "title": "The AR Measuring Box: Etsy's answer to Big Tape Measure",
+          "url": "https://www.etsy.com/codeascraft/the-ar-measuring-box-etsys-answer-to-big-tape-measure",
+          "publishedAt": "2023-09-18T20:11:58.000Z",
+          "summary": "A little while ago, Etsy introduced a new feature in its iOS app that could place Etsy sellers' artwork on a user's wall using Apple's Augmented Reality (AR) tools. It let them visualize how a piece would look in their…",
+          "topics": [
+            "ar-vr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wayfair-design",
+      "company": "Wayfair",
+      "name": "Wayfair Design",
+      "url": "https://medium.com/wayfair-design",
+      "feed": "https://medium.com/feed/wayfair-design",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.382Z",
+      "articles": [
+        {
+          "title": "A Framework to Integrate Accessible Design and Inclusive Research At Scale",
+          "url": "https://medium.com/wayfair-design/a-framework-to-integrate-accessible-design-and-inclusive-research-at-scale-c71edb96a6a5",
+          "publishedAt": "2023-08-30T18:14:24.000Z",
+          "summary": "Co-authored with Riana Quinn Written by a product designer ( Cat Armistead ) and user research ops professional ( Riana Quinn ) focused on building more accessible and inclusive customer experiences at Wayfair. We hope…",
+          "topics": [
+            "sustainable-design"
+          ]
+        },
+        {
+          "title": "Design Infrastructure Engineering at Wayfair",
+          "url": "https://medium.com/wayfair-design/design-infrastructure-engineering-at-wayfair-a78df89fa075",
+          "publishedAt": "2022-12-12T15:26:05.000Z",
+          "summary": "A closer look at engineering’s role in Wayfair’s design system, Homebase Wayfair is a large company with lots of product designers working on our web and app experiences. These designers use Wayfair’s design system, Hom…",
+          "topics": [
+            "ar-vr",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Leveling up Office Hours with Airtable for Wayfair’s Design System, Homebase",
+          "url": "https://medium.com/wayfair-design/leveling-up-office-hours-with-airtable-for-wayfairs-design-system-homebase-e3fb0ee0d89e",
+          "publishedAt": "2022-11-22T14:08:35.000Z",
+          "summary": "A deep dive into the award winning Office Hours Command Center Airtable enables data-driven decisions. At Wayfair, our award-winning interface supports office hours by streamlining our workflow and providing crucial fee…",
+          "topics": [
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "Instructional Design…it isn’t just HR trainings?",
+          "url": "https://medium.com/wayfair-design/instructional-design-it-isnt-just-hr-trainings-55d28b240613",
+          "publishedAt": "2022-11-08T15:01:18.000Z",
+          "summary": "By Ellie King and Teri Cremeans Graphic showing the versatility of instructional design. Societally, we have a stigma toward teachers. We’ve all heard the saying, “those who can’t do, teach.” While we know this isn’t tr…",
+          "topics": [
+            "ar-vr",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Designed to Grow: How to Manage and Retain Top Design Talent",
+          "url": "https://medium.com/wayfair-design/designed-to-grow-how-to-manage-and-retain-top-design-talent-68dd6d4e7b04",
+          "publishedAt": "2022-10-31T19:13:00.000Z",
+          "summary": "As designers, we design experiences for many different end users. In a time of rapid change, we also need to design a support system for us, the designers and practitioners. At Wayfair, we’re doing that through equitabl…",
+          "topics": [
+            "ar-vr",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Building Empathy with Wayfair Suppliers",
+          "url": "https://medium.com/wayfair-design/building-empathy-with-wayfair-suppliers-48eacb7ab965",
+          "publishedAt": "2022-10-26T14:19:51.000Z",
+          "summary": "Photo by olia danilevich from Pexels Businesses have traditionally faced many unique complexities that make understanding their motivations a challenging task — things like product complexity, multiple users with differ…",
+          "topics": [
+            "gamification"
+          ]
+        },
+        {
+          "title": "How Wayfair’s Design System Empowers Feature Teams to Dream Bigger",
+          "url": "https://medium.com/wayfair-design/how-wayfairs-design-system-empowers-feature-teams-to-dream-bigger-c453611f561c",
+          "publishedAt": "2022-09-27T12:34:00.000Z",
+          "summary": "And other truths about (well-governed) design systems Many product designers who’ve worked with a design system have at some time felt one or more of the following: Design systems stunt creativity. Design systems get st…",
+          "topics": [
+            "ar-vr",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Are You Running A Remote Design Sprint? 12 questions you might have.",
+          "url": "https://medium.com/wayfair-design/are-you-running-a-remote-design-sprint-12-questions-you-might-have-30b1e3cb0aa3",
+          "publishedAt": "2022-09-20T13:54:11.000Z",
+          "summary": "Team members participating in a remote design sprint. Photo by Chris Montgomery, Unsplash. Two years ago, my Upper Funnel Design team introduced our own version of the Remote Design Sprint. We presented it to UXPA-Bosto…",
+          "topics": [
+            "ar-vr",
+            "personalization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meta-engineering",
+      "company": "Meta",
+      "name": "Meta Engineering",
+      "url": "https://engineering.fb.com/",
+      "feed": "https://engineering.fb.com/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-26T11:49:21.069Z",
+      "articles": [
+        {
+          "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
+          "url": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
+          "publishedAt": "2026-05-26T16:00:01.000Z",
+          "summary": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture. SilverTorch shows up to 23.7x higher throughput compa…",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "title": "Gathering around the fire: Durable human experience patterns in the AI era",
+      "url": "https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/",
+      "publishedAt": "2026-07-22T13:38:37.000Z",
+      "summary": "The post Gathering around the fire: Durable human experience patterns in the AI era appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Personalizing Airbnb search by learning from the guest journey",
+      "url": "https://medium.com/airbnb-engineering/personalizing-airbnb-search-by-learning-from-the-guest-journey-bcefd1915624",
+      "publishedAt": "2026-07-21T17:01:04.000Z",
+      "summary": "How we built a Transformer-based sequence model that encodes years of guest behavior to surface the right listings at the right time. By: Daochen Zha , Chun How Tan , Xin Liu , Bin Xu , Han Zhao , Xiaowei Liu , Jun Shi…",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "airbnb-engineering",
+      "source": "Airbnb Engineering",
+      "company": "Airbnb"
+    },
+    {
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "publishedAt": "2026-07-21T16:00:00.000Z",
+      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on Th…",
+      "topics": [
+        "3d-graphics-animation"
+      ],
+      "sourceId": "github-ux",
+      "source": "GitHub Engineering · UX",
+      "company": "GitHub"
+    },
+    {
+      "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
+      "url": "https://slack.design/articles/product-quality-a-shared-commitment-to-craft-in-the-wake-of-ai/",
+      "publishedAt": "2026-07-17T19:45:23.000Z",
+      "summary": "Slack is a loved product, and that’s not an accident In 2013, Stewart Butterfield wrote what amounted to a promise: “You’re buying a commitment to the craft of making high quality software: polished, responsive, attract…",
+      "topics": [
+        "microinteractions",
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "We Didn’t Teach Our Designers AI: We Built a Place Where They Could Learn It Together",
+      "url": "https://slack.design/articles/we-didnt-teach-our-designers-ai-we-built-a-place-where-they-could-learn-it-together/",
+      "publishedAt": "2026-07-08T09:00:10.000Z",
+      "summary": "The Question We Kept Hearing “How do I use AI?” That question, typed in a DM rather than asked out loud, told us everything. Our design team was not short on curiosity. What was missing was somewhere to be a beginner. A…",
+      "topics": [
+        "kinetic-typography"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+      "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
+      "publishedAt": "2026-06-29T13:01:02.000Z",
+      "summary": "Authors: Lequn Wang , J iangwei Pan , and Linas Baltrunas Figure 1. Autoregressive homepage generation. GenPage builds a Netflix homepage one row or entity at a time, each one conditioned on what’s already on the page a…",
+      "topics": [
+        "personalization",
+        "realtime-content"
+      ],
+      "sourceId": "netflix-techblog",
+      "source": "Netflix TechBlog",
+      "company": "Netflix"
+    },
+    {
+      "title": "When outputs are the experience",
+      "url": "https://microsoft.design/articles/when-outputs-are-the-experience/",
+      "publishedAt": "2026-06-29T13:00:00.000Z",
+      "summary": "Inside our latest Copilot redesign, where the experience adapts to how people use it. The post When outputs are the experience appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Pride is alive",
+      "url": "https://microsoft.design/articles/pride-is-alive/",
+      "publishedAt": "2026-06-23T16:44:29.000Z",
+      "summary": "How everyday moments inspired Microsoft's Pride 2026 campaign The post Pride is alive appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
+      "url": "https://netflixtechblog.com/toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-eb8160ed60a2",
+      "publishedAt": "2026-06-23T00:31:01.000Z",
+      "summary": "By Zhuoning Yuan , Ta-Ying Cheng , Benjamin Klein , Bahareh Azarnoush Introduction At Netflix, we build technology to help storytellers bring their creative visions to life and to help members discover the stories they…",
+      "topics": [
+        "personalization",
+        "realtime-content"
+      ],
+      "sourceId": "netflix-techblog",
+      "source": "Netflix TechBlog",
+      "company": "Netflix"
+    },
+    {
+      "title": "Conversation design: How to make your AI Agent communicate like your team",
+      "url": "https://www.intercom.com/blog/conversation-design-for-your-ai-agent/",
+      "publishedAt": "2026-06-18T16:55:07.000Z",
+      "summary": "If nobody on your team owns how your AI Agent communicates, it defaults to sounding like an LLM. Conversation design is the discipline that fixes that.",
+      "topics": [
+        "realtime-content",
+        "personalization"
+      ],
+      "sourceId": "intercom",
+      "source": "Intercom Design & Product",
+      "company": "Intercom"
+    },
+    {
+      "title": "The Great UXR Transformation",
+      "url": "https://microsoft.design/articles/the-great-uxr-transformation/",
+      "publishedAt": "2026-06-18T13:00:00.000Z",
+      "summary": "A working guide to modernizing your UX research practice for the AI era The post The Great UXR Transformation appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "A touch of feeling: advanced haptics in Windows 11",
+      "url": "https://microsoft.design/articles/a-touch-of-feeling-advanced-haptics-in-windows-11/",
+      "publishedAt": "2026-06-16T13:00:00.000Z",
+      "summary": "Guidelines on how to design haptics for supported devices The post A touch of feeling: advanced haptics in Windows 11 appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Haptics design and implementation",
+      "url": "https://microsoft.design/articles/haptics-design-and-implementation/",
+      "publishedAt": "2026-06-15T23:32:27.000Z",
+      "summary": "Guidance for adding haptic feedback to improve clarity, support inclusion, and create more intuitive experiences. The post Haptics design and implementation appeared first on Microsoft Design .",
+      "topics": [
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Self-portraits: Anthony Dart",
+      "url": "https://microsoft.design/articles/self-portraits-anthony-dart/",
+      "publishedAt": "2026-06-09T14:16:54.000Z",
+      "summary": "A South African artist on his graphic design journey The post Self-portraits: Anthony Dart appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "How I Validated Design Decisions Before Writing Production Code",
+      "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/",
+      "publishedAt": "2026-06-04T01:29:47.000Z",
+      "summary": "The biggest shift AI has brought to design isn’t that designers can now write production code. It’s that we can finally generate evidence before committing to anything. There’s a lot of conversation about AI affecting p…",
+      "topics": [
+        "microinteractions",
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "Designing Where the Pixels Actually Live",
+      "url": "https://slack.design/articles/designing-where-the-pixels-actually-live/",
+      "publishedAt": "2026-05-27T18:12:34.000Z",
+      "summary": "For most of my design career, Figma was where the real work happened. I’d design screens, build prototypes, then hand off the designs for someone else to build. If something felt slightly wrong in production, we’d go ba…",
+      "topics": [
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "Walking the Walk: Design Leadership in an AI-Native World",
+      "url": "https://medium.com/design-ibm/walking-the-walk-design-leadership-in-an-ai-native-world-fb2159ff4c93",
+      "publishedAt": "2026-05-27T13:01:01.000Z",
+      "summary": "Design health and signals site concept, built with IBM Bob We spend a lot of time helping designers understand how to work with AI. The question I keep coming back to is simpler. How many of us are doing the same for ou…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
+      "url": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
+      "publishedAt": "2026-05-26T16:00:01.000Z",
+      "summary": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture. SilverTorch shows up to 23.7x higher throughput compa…",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "meta-engineering",
+      "source": "Meta Engineering",
+      "company": "Meta"
+    },
+    {
+      "title": "IBM Systems Environment Estimator recognized with prestigious 2026 iF Design Award",
+      "url": "https://medium.com/design-ibm/ibm-systems-environment-estimator-recognized-with-prestigious-2026-if-design-award-af4ffa49bce9",
+      "publishedAt": "2026-05-25T13:01:02.000Z",
+      "summary": "Home page for the Systems Environment Estimator The IBM Systems Environment Estimator is a pre-sales and planning tool that enables IBM clients, sellers, and business partners to quickly and efficiently calculate energy…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "Leading design through the AI shift",
+      "url": "https://slack.design/articles/leading-design-through-the-ai-shift/",
+      "publishedAt": "2026-05-21T16:47:34.000Z",
+      "summary": "AI has eaten the technology industry. What started as a slow, hallucination-prone chatbot has become something much harder to ignore. As a designer, it can feel like the ground is shifting under your feet, quietly at fi…",
+      "topics": [
+        "microinteractions",
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "Self-portraits: Madeline Kleiner",
+      "url": "https://microsoft.design/articles/self-portraits-madeline-kleiner/",
+      "publishedAt": "2026-05-20T13:42:35.000Z",
+      "summary": "A UX researcher helped Copilot meet people in the flow of their work. The post Self-portraits: Madeline Kleiner appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Better Experiments with LLM Evals — A funnel, not a fork",
+      "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
+      "publishedAt": "2026-05-18T13:27:23.000Z",
+      "summary": "TL;DR LLM evals, automated judges that assess relevance, coherence, and quality at scale, are a powerful new... The post Better Experiments with LLM Evals — A funnel, not a fork appeared first on Spotify Engineering .",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "spotify-engineering",
+      "source": "Spotify Engineering",
+      "company": "Spotify"
+    },
+    {
+      "title": "Explainable AI: Insights from market and academic research",
+      "url": "https://medium.com/design-ibm/explainable-ai-insights-from-market-and-academic-research-b79b50243bb5",
+      "publishedAt": "2026-05-06T17:27:22.000Z",
+      "summary": "Written by Roosevelt Faulkner and Phil Doyle, PhD Edited by Carole Baden A 3D illustration of interconnected digital objects arranged in a flowing double-helix pattern, representing the integration of diverse data sourc…",
+      "topics": [
+        "bold-color",
+        "3d-graphics-animation"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins",
+      "url": "https://engineering.atspotify.com/2026/5/spotify-ads-api-claude-plugins/",
+      "publishedAt": "2026-05-01T16:00:02.000Z",
+      "summary": "Turning OpenAPI spec and Markdown files into a conversational ads management tool — no compiled code required. The post Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins appeared firs…",
+      "topics": [
+        "personalization",
+        "realtime-content"
+      ],
+      "sourceId": "spotify-engineering",
+      "source": "Spotify Engineering",
+      "company": "Spotify"
+    },
+    {
+      "title": "IBM IT automation solutions gain further recognition with prestigious Indigo Design Awards",
+      "url": "https://medium.com/design-ibm/ibm-it-automation-solutions-gain-further-recognition-with-prestigious-indigo-design-awards-004cb33518b8",
+      "publishedAt": "2026-04-23T18:21:55.000Z",
+      "summary": "Indigo Design Awards for IBM Instana and IBM Turbonomic After winning the iF Design Award , we’re proud to share that both IBM Instana and IBM Turbonomic have now been honored with the prestigious Indigo Design Award fo…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "No Small Task: Evolving the Way Millions Catch Up in Slack",
+      "url": "https://slack.design/articles/no-small-task-evolving-the-way-millions-catch-up-in-slack/",
+      "publishedAt": "2026-04-09T17:06:52.000Z",
+      "summary": "Everyone has felt it: the anxiety of returning to Slack after a meeting, unsure where to start. Which channels have updates that matter? Did someone mention you? Are there DMs waiting? For years, staying caught up in Sl…",
+      "topics": [
+        "microinteractions",
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "I built a Figma plugin because the Carbon Data Table workflow was broken",
+      "url": "https://medium.com/design-ibm/i-built-a-figma-plugin-because-the-carbon-data-table-workflow-was-broken-6f9c16fb7c11",
+      "publishedAt": "2026-03-11T19:30:58.000Z",
+      "summary": "How a one-day conference, a Segway e-bike, and a frustrating design workflow led to an open-source Figma plugin that changed how teams work with Carbon Data Tables. Carbon Data Table Figma Plugin It was September 2025 w…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "IBM IT automation solutions recognized with prestigious iF Design Awards",
+      "url": "https://medium.com/design-ibm/ibm-it-automation-solutions-recognized-with-prestigious-if-design-awards-8f804945c1ec",
+      "publishedAt": "2026-03-06T19:26:19.000Z",
+      "summary": "In today’s rapidly evolving digital landscape, IT automation has become a critical enabler for organizations seeking to optimize operations, reduce costs, and accelerate innovation. By automating repetitive tasks, strea…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "The Prompt Is the Prototype: How Structured AI Prompting Is Reshaping Enterprise Design",
+      "url": "https://medium.com/design-ibm/the-prompt-is-the-prototype-how-structured-ai-prompting-is-reshaping-enterprise-design-b0c284549d76",
+      "publishedAt": "2026-02-26T18:09:30.000Z",
+      "summary": "How one-shot prompting with Figma Make and Carbon Design System compressed months of enterprise prototyping into minutes — and what any design team can learn from it. Designers experimenting with Figma Make The enterpri…",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "Cracking AI toolkit for product design: Idea to MVP in under 1 hour",
+      "url": "https://medium.com/design-ibm/cracking-ai-toolkit-for-product-design-idea-to-mvp-in-under-1-hour-0eab8e6edac7",
+      "publishedAt": "2026-01-20T18:30:45.000Z",
+      "summary": "Written by Milin Ann John. Edited by Ashwini Kamath, Meghna Gautam Thakur and Thomas Hollifield. AI Buffet Dilemma In a rapidly evolving digital landscape, as workflows accelerate, the real challenge is distinguishing g…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
+      "title": "How Etsy Uses LLMs to Improve Search Relevance",
+      "url": "https://www.etsy.com/codeascraft/how-etsy-uses-llms-to-improve-search-relevance",
+      "publishedAt": "2026-01-16T20:02:28.000Z",
+      "summary": "Ever searched for something specific, only to be met with results that are close, but not quite ? On Etsy’s Search Relevance team, that frustration is exactly what we are tackling. Our goal is simple yet ambitious: to h…",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "etsy-engineering",
+      "source": "Code as Craft",
+      "company": "Etsy"
+    },
+    {
+      "title": "Reducing experiment duration with predicted control variates",
+      "url": "https://www.etsy.com/codeascraft/reducing-experiment-duration-with-predicted-control-variates",
+      "publishedAt": "2025-11-25T16:28:26.000Z",
+      "summary": "I n 2021, we published a blog post titled “ Increasing experimentation accuracy and speed by using control variates ,” describing how we reduce the variance of metrics using CUPED in our experimentation platform. This i…",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "etsy-engineering",
+      "source": "Code as Craft",
+      "company": "Etsy"
+    },
+    {
+      "title": "How to Stop the Stakeholder Swirl",
+      "url": "https://medium.com/uber-design/how-to-stop-the-stakeholder-swirl-78073b7e986b",
+      "publishedAt": "2025-11-20T20:03:24.000Z",
+      "summary": "And finally enjoy your big-company design reviews When I started at Uber in 2016, I was two and a half years into my career as a product designer. I had a background in graphic design and made the conscious choice to jo…",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Improving performance by prefetching product pages from Etsy Search",
+      "url": "https://www.etsy.com/codeascraft/search-prefetching-performance",
+      "publishedAt": "2025-10-29T17:14:09.000Z",
+      "summary": "Rarely are there opportunities for big, bold, game-changing improvements in web performance. The Speculation Rules API (SRA) is a recent browser development that offers just such an opportunity. This post details a join…",
+      "topics": [
+        "personalization",
+        "sustainable-design",
+        "gamification"
+      ],
+      "sourceId": "etsy-engineering",
+      "source": "Code as Craft",
+      "company": "Etsy"
+    },
+    {
+      "title": "Unlocking Faster Insights with Experimenter-Defined Segmentations",
+      "url": "https://www.etsy.com/codeascraft/unlocking-faster-insights-with-experimenter-defined-segmentations",
+      "publishedAt": "2025-10-08T15:32:02.000Z",
+      "summary": "Imagine you have a fabulous idea to drive more sales on Etsy by giving out free ice cream with every purchase. How would you know if it will actually work? One way to test this out is to run an experiment ! An experimen…",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "etsy-engineering",
+      "source": "Code as Craft",
+      "company": "Etsy"
+    },
+    {
+      "title": "How to Make a Big Impact with a Small Team: Design Ops at Slack",
+      "url": "https://slack.design/articles/how-to-make-a-big-impact-with-a-small-team-design-ops-at-slack/",
+      "publishedAt": "2025-09-05T15:54:34.000Z",
+      "summary": "Design Operations is all about helping designers do the best work of their lives. Our job is to clear the path so designers can focus on what they do best: design. At many tech companies, you’ll find a more traditional…",
+      "topics": [
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "Raising the Volume Quietly: A Designer’s Challenge",
+      "url": "https://slack.design/articles/raising-the-volume-quietly/",
+      "publishedAt": "2025-05-22T08:00:38.000Z",
+      "summary": "You spoke, and we listened. While working in Slack, there’s always a lot going on: you may be added to a new channel, mentioned by your manager in another channel, and direct-messaged by a colleague – all while more unr…",
+      "topics": [
+        "microinteractions",
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "Behind the scenes of Canva's DesignDNA campaign",
+      "url": "https://www.canva.dev/blog/engineering/behind-the-scenes-of-canvas-designdna-campaign/",
+      "publishedAt": "2025-02-24T00:00:01.000Z",
+      "summary": "How we used generative AI to build our year-in-review campaign",
+      "topics": [
+        "3d-graphics-animation",
+        "microinteractions"
+      ],
+      "sourceId": "canva-engineering",
+      "source": "Canva Engineering",
+      "company": "Canva"
+    },
+    {
+      "title": "Image replacement in Canva designs using reverse image search",
+      "url": "https://www.canva.dev/blog/engineering/image-replacement-in-canva-designs-using-reverse-image-search/",
+      "publishedAt": "2025-01-28T09:05:01.000Z",
+      "summary": "Qualitative comparison of image embedding models to power a scalable similar-image replacement system for Canva designs.",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "canva-engineering",
+      "source": "Canva Engineering",
+      "company": "Canva"
+    },
+    {
+      "title": "Efficient Visual Representation Learning And Evaluation",
+      "url": "https://www.etsy.com/codeascraft/efficient-visual-representation-learning-and-evaluation",
+      "publishedAt": "2024-06-07T17:23:02.000Z",
+      "summary": "Etsy features a diverse marketplace of unique handmade and vintage items. It’s a visually diverse marketplace as well, and computer vision has become increasingly important to Etsy as a way of enhancing our users’ shopp…",
+      "topics": [
+        "personalization",
+        "sustainable-design"
+      ],
+      "sourceId": "etsy-engineering",
+      "source": "Code as Craft",
+      "company": "Etsy"
+    },
+    {
+      "title": "Breaking the Myth of Big Click Energy",
+      "url": "https://medium.com/indeed-design/breaking-the-myth-of-big-click-energy-9edf6d47a1a7",
+      "publishedAt": "2024-05-10T17:05:00.000Z",
+      "summary": "Why measuring clicks to evaluate usability isn’t meaningful and what you can measure instead. After more than 10 years in interaction design, I had hoped to encounter increasingly fewer requests for either counting the…",
+      "topics": [
+        "microinteractions"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "Setting Up Your UX Mentorship Program For Success",
+      "url": "https://medium.com/indeed-design/setting-up-your-ux-mentorship-program-for-success-efed5ff51b13",
+      "publishedAt": "2024-04-16T16:12:03.000Z",
+      "summary": "Concrete advice and a free goal-setting template that will help you make your mentorship program vision a reality. Illustration by Ingrid Elias . Many UX professionals want to grow in their craft and organizations want…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "When Selecting the Best UX Icons, Context Is Essential",
+      "url": "https://medium.com/indeed-design/when-selecting-the-best-ux-icons-context-is-essential-508bc0299c5d",
+      "publishedAt": "2024-03-27T15:07:11.000Z",
+      "summary": "When Selecting the Best Icons, Context Is Essential How to choose meaningful visual cues, aliases, and user strategies from your design system. Recently, our design system team looked at a request to change some aliases…",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "A Survey of Digital Product Teams Reveals the Value of Content Design",
+      "url": "https://medium.com/indeed-design/a-survey-of-digital-product-teams-reveals-the-value-of-content-design-ae0fdd08d020",
+      "publishedAt": "2024-03-21T17:58:04.000Z",
+      "summary": "Better products, better solutions, and higher morale: Just a few benefits content designers bring to the UX design process. In October 2022, I hopped on a plane from Virginia to Seattle to attend Button , the world’s le…",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "How We Built The Deals Tab in Swift UI",
+      "url": "https://www.etsy.com/codeascraft/how-we-built-the-deals-tab-in-swift-ui",
+      "publishedAt": "2024-03-05T22:22:54.000Z",
+      "summary": "Balancing Engineering Ambition with Product Realism Introduction In July of 2023, Etsy’s App Updates team, responsible for the Updates feed in Etsy’s mobile apps, set off with an ambitious goal: to revamp the Updates ta…",
+      "topics": [
+        "personalization",
+        "sustainable-design"
+      ],
+      "sourceId": "etsy-engineering",
+      "source": "Code as Craft",
+      "company": "Etsy"
+    },
+    {
+      "title": "How to Put Your UX Roadmap to Work",
+      "url": "https://medium.com/indeed-design/how-to-put-your-ux-roadmap-to-work-489300139e5a",
+      "publishedAt": "2024-02-22T16:42:53.000Z",
+      "summary": "Your planning master doc can be an effective hub for everyone. A senior UX director breaks down how to create your team’s roadmap. This is the final article in a four-part series. To start at the beginning, read the art…",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "How to Lead Effective UX Roadmap Planning Discussions",
+      "url": "https://medium.com/indeed-design/how-to-lead-effective-ux-roadmap-planning-discussions-44b3c057eb07",
+      "publishedAt": "2024-02-05T15:10:24.000Z",
+      "summary": "7 questions to ask and a spreadsheet template you can use to get your partners and team on the same page. This is the third article in a four-part series. To start at the beginning, read the article Guide to UX Planning…",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "5 Reader Favorites from 2023",
+      "url": "https://medium.com/indeed-design/5-reader-favorites-from-2023-b5c259d1c39e",
+      "publishedAt": "2024-02-02T17:48:21.000Z",
+      "summary": "You read. You shared. We celebrated. Here are some of Indeed Design’s top articles from last year. Hi, it’s the editors at Indeed Design. Phew, what a year! In 2023, we published our 100th article, worked with 75 contri…",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "4 Types of Design Projects for UX Roadmapping",
+      "url": "https://medium.com/indeed-design/4-types-of-design-projects-for-ux-roadmapping-7047a1d73ab6",
+      "publishedAt": "2024-01-24T23:52:18.000Z",
+      "summary": "How to align your team’s expectations on timing, deliverables, and process. Illustration by Jimmy Park This is the second article in a four-part series. To start at the beginning, read the article Guide to UX Planning —…",
+      "topics": [
+        "bold-color",
+        "kinetic-typography"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "The AR Measuring Box: Etsy's answer to Big Tape Measure",
+      "url": "https://www.etsy.com/codeascraft/the-ar-measuring-box-etsys-answer-to-big-tape-measure",
+      "publishedAt": "2023-09-18T20:11:58.000Z",
+      "summary": "A little while ago, Etsy introduced a new feature in its iOS app that could place Etsy sellers' artwork on a user's wall using Apple's Augmented Reality (AR) tools. It let them visualize how a piece would look in their…",
+      "topics": [
+        "ar-vr"
+      ],
+      "sourceId": "etsy-engineering",
+      "source": "Code as Craft",
+      "company": "Etsy"
+    },
+    {
+      "title": "A Framework to Integrate Accessible Design and Inclusive Research At Scale",
+      "url": "https://medium.com/wayfair-design/a-framework-to-integrate-accessible-design-and-inclusive-research-at-scale-c71edb96a6a5",
+      "publishedAt": "2023-08-30T18:14:24.000Z",
+      "summary": "Co-authored with Riana Quinn Written by a product designer ( Cat Armistead ) and user research ops professional ( Riana Quinn ) focused on building more accessible and inclusive customer experiences at Wayfair. We hope…",
+      "topics": [
+        "sustainable-design"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "Designing the latest generation of Uber Navigation: maps built for ridesharing",
+      "url": "https://medium.com/uber-design/designing-the-latest-generation-of-uber-navigation-maps-built-for-ridesharing-de3ede031ce1",
+      "publishedAt": "2023-06-07T16:00:30.000Z",
+      "summary": "The Uber platform currently powers more than 7 billion trips every year. When we launched Uber Navigation , the world’s first navigation system designed for ridesharing, in 2017, the platform was handling 4 billion trip…",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Design Infrastructure Engineering at Wayfair",
+      "url": "https://medium.com/wayfair-design/design-infrastructure-engineering-at-wayfair-a78df89fa075",
+      "publishedAt": "2022-12-12T15:26:05.000Z",
+      "summary": "A closer look at engineering’s role in Wayfair’s design system, Homebase Wayfair is a large company with lots of product designers working on our web and app experiences. These designers use Wayfair’s design system, Hom…",
+      "topics": [
+        "ar-vr",
+        "personalization"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "Leveling up Office Hours with Airtable for Wayfair’s Design System, Homebase",
+      "url": "https://medium.com/wayfair-design/leveling-up-office-hours-with-airtable-for-wayfairs-design-system-homebase-e3fb0ee0d89e",
+      "publishedAt": "2022-11-22T14:08:35.000Z",
+      "summary": "A deep dive into the award winning Office Hours Command Center Airtable enables data-driven decisions. At Wayfair, our award-winning interface supports office hours by streamlining our workflow and providing crucial fee…",
+      "topics": [
+        "realtime-content"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "Instructional Design…it isn’t just HR trainings?",
+      "url": "https://medium.com/wayfair-design/instructional-design-it-isnt-just-hr-trainings-55d28b240613",
+      "publishedAt": "2022-11-08T15:01:18.000Z",
+      "summary": "By Ellie King and Teri Cremeans Graphic showing the versatility of instructional design. Societally, we have a stigma toward teachers. We’ve all heard the saying, “those who can’t do, teach.” While we know this isn’t tr…",
+      "topics": [
+        "ar-vr",
+        "personalization"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "Designed to Grow: How to Manage and Retain Top Design Talent",
+      "url": "https://medium.com/wayfair-design/designed-to-grow-how-to-manage-and-retain-top-design-talent-68dd6d4e7b04",
+      "publishedAt": "2022-10-31T19:13:00.000Z",
+      "summary": "As designers, we design experiences for many different end users. In a time of rapid change, we also need to design a support system for us, the designers and practitioners. At Wayfair, we’re doing that through equitabl…",
+      "topics": [
+        "ar-vr",
+        "personalization"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "Building Empathy with Wayfair Suppliers",
+      "url": "https://medium.com/wayfair-design/building-empathy-with-wayfair-suppliers-48eacb7ab965",
+      "publishedAt": "2022-10-26T14:19:51.000Z",
+      "summary": "Photo by olia danilevich from Pexels Businesses have traditionally faced many unique complexities that make understanding their motivations a challenging task — things like product complexity, multiple users with differ…",
+      "topics": [
+        "gamification"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "How Wayfair’s Design System Empowers Feature Teams to Dream Bigger",
+      "url": "https://medium.com/wayfair-design/how-wayfairs-design-system-empowers-feature-teams-to-dream-bigger-c453611f561c",
+      "publishedAt": "2022-09-27T12:34:00.000Z",
+      "summary": "And other truths about (well-governed) design systems Many product designers who’ve worked with a design system have at some time felt one or more of the following: Design systems stunt creativity. Design systems get st…",
+      "topics": [
+        "ar-vr",
+        "personalization"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "Are You Running A Remote Design Sprint? 12 questions you might have.",
+      "url": "https://medium.com/wayfair-design/are-you-running-a-remote-design-sprint-12-questions-you-might-have-30b1e3cb0aa3",
+      "publishedAt": "2022-09-20T13:54:11.000Z",
+      "summary": "Team members participating in a remote design sprint. Photo by Chris Montgomery, Unsplash. Two years ago, my Upper Funnel Design team introduced our own version of the Remote Design Sprint. We presented it to UXPA-Bosto…",
+      "topics": [
+        "ar-vr",
+        "personalization"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "The business of design",
+      "url": "https://medium.com/dropbox-design/the-business-of-design-359499a64c57",
+      "publishedAt": "2022-04-04T19:51:53.000Z",
+      "summary": "Core design principles are undervalued and overlooked in most of today’s business operating practices. Complementing design principles with business operational practices will bring more empathy, connection, innovation,…",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "Designing the mind",
+      "url": "https://medium.com/dropbox-design/designing-the-mind-cdc331c85338",
+      "publishedAt": "2022-03-17T03:11:59.000Z",
+      "summary": "How to design the building blocks of your most powerful, creative asset: the mind Understanding how the mind works can help you design yours to embrace uncertainty, take more risks, and unlock creativity. I’ve always be…",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "The art of letting go",
+      "url": "https://medium.com/dropbox-design/the-art-of-letting-go-9682290e7777",
+      "publishedAt": "2022-01-21T16:28:05.000Z",
+      "summary": "Letting go of the need to be perfect and of things that are outside your control will enable more productivity at work and more joy in life. I’ve always been a perfectionist, making sure every “I” is dotted, every “T” c…",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "A design approach to diversity and inclusion",
+      "url": "https://medium.com/dropbox-design/a-design-approach-to-diversity-and-inclusion-3a8683de3c42",
+      "publishedAt": "2021-05-19T03:01:33.000Z",
+      "summary": "Foster more diverse and inclusive communities with the Dropbox Design toolkit. Artwork by Sarah Chon In May 2021, Dropbox Design introduced the Diversity and Inclusion Toolkit . Like the other Culture Kits we’ve shared…",
+      "topics": [
+        "sustainable-design"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "What’s in a name? Introducing Content Design at Uber",
+      "url": "https://medium.com/uber-design/whats-in-a-name-introducing-content-design-at-uber-191ed04ca19b",
+      "publishedAt": "2021-04-28T18:17:44.000Z",
+      "summary": "Why we’ve changed the job title of our UX Writing team Co-authored with Jaime Walke In 2010, my job title was Content Strategist. At the time, I worked with information architects, interaction designers, graphic designe…",
+      "topics": [
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "How I programmatically built 256 new design system components in Figma",
+      "url": "https://medium.com/uber-design/how-i-programmatically-built-256-new-design-system-components-in-figma-84ee26d119c1",
+      "publishedAt": "2021-02-09T17:02:55.000Z",
+      "summary": "A look into how automation can supercharge the design process Uber’s Base design system offers a set of map marker components that are used extensively across our products, displayed any time we feature a map to the use…",
+      "topics": [
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Designing For A Cash Experience",
+      "url": "https://medium.com/uber-design/designing-for-a-cash-experience-ff8260e9d146",
+      "publishedAt": "2020-12-08T15:32:01.000Z",
+      "summary": "What cash trips in Mexico taught me about designing for international markets at Uber As a product designer at Uber working on the Money team in Amsterdam, it’s my job to help come up with design solutions for Uber prod…",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Take back your day with a meeting manifesto",
+      "url": "https://medium.com/dropbox-design/take-back-your-day-with-a-meeting-manifesto-a4e9c3105456",
+      "publishedAt": "2020-09-01T17:53:38.000Z",
+      "summary": "Photograph by Gabrielle Matte and Samuel Pasquier What an interesting six months it’s been Due to the coronavirus pandemic, I’ve worked from home for more than 100 days in a row. And during this time, videoconferences h…",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "Where to? The journey to Uber’s iconography",
+      "url": "https://medium.com/uber-design/where-to-the-journey-to-ubers-iconography-bf8efd2be446",
+      "publishedAt": "2020-06-11T15:31:01.000Z",
+      "summary": "If a photo is worth a thousand words then an icon is worth at least a dozen. Continue reading on Uber Design »",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Designing with letters",
+      "url": "https://medium.com/dropbox-design/designing-with-letters-420c02b795b5",
+      "publishedAt": "2020-05-22T22:25:58.000Z",
+      "summary": "A story of collaboration: How writing and design joined forces to create a power publication for Sundance Film Festival Continue reading on Dropbox Design »",
+      "topics": [
+        "realtime-content"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "PUT IT IN YOUR OWN WORDS",
+      "url": "https://medium.com/dropbox-design/put-it-in-your-own-words-1d7fbdae4c4",
+      "publishedAt": "2020-05-22T22:24:30.000Z",
+      "summary": "How to find your voice and set it free Continue reading on Dropbox Design »",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "Distributed Sprints Kit",
+      "url": "https://medium.com/dropbox-design/distributed-sprints-kit-c59cced1484a",
+      "publishedAt": "2020-05-05T17:42:48.000Z",
+      "summary": "A Figma template to help your team ideate Artwork by Sydney Goldstein At Dropbox, we work in a distributed fashion across multiple countries all over the world. Although we try to make sure our team members feel closer…",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "What do I want to do with my c̶a̶r̶e̶e̶r̶ life?",
+      "url": "https://medium.com/uber-design/what-do-i-want-to-do-with-my-c%CC%B6a%CC%B6r%CC%B6e%CC%B6e%CC%B6r%CC%B6-life-54d7266c3cde",
+      "publishedAt": "2020-03-03T14:31:01.000Z",
+      "summary": "A design manager’s guide to jumpstart career conversations with your team. Uber Eats Design & Research Offsite in Monterey Bay Aquarium, Photo credit — Cocu Liu Let’s be honest, managing can feel like you are constantly…",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Ten things I’ve learned as a UX researcher at Uber",
+      "url": "https://medium.com/uber-design/ten-things-ive-learned-as-a-ux-researcher-at-uber-43464b1c544b",
+      "publishedAt": "2020-02-21T20:31:01.000Z",
+      "summary": "In July 2016, I joined Uber as the first member of our Bangalore-based UX team. I was one of the earliest researchers at the company outside of the U.S., and at that point, the Bangalore office had just opened and thing…",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Make design history",
+      "url": "https://medium.com/etsy-design/make-design-history-620000a7cbe",
+      "publishedAt": "2017-12-13T19:02:24.000Z",
+      "summary": "How to be a better designer by documenting your work quickly and effectively When you’re in the midst of a new design project, it can feel like everything is on fire. There isn’t enough time in the day to get the bare m…",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "Ready When You Are",
+      "url": "https://medium.com/etsy-design/ready-when-you-are-3f6d3bfa1ee8",
+      "publishedAt": "2017-08-23T18:06:18.000Z",
+      "summary": "How to share your work fearlessly Illustration by Yoko Sakao Ohama Knowing the right time to show your work is kind of like knowing when to slice into an avocado: Not ready. Not ready. Not ready. Too late. I’ve definite…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "Crafting an Effective Working Group",
+      "url": "https://medium.com/etsy-design/crafting-an-effective-working-group-da77bded3aaf",
+      "publishedAt": "2017-06-20T18:07:03.000Z",
+      "summary": "Working together to solve complex, cross-functional problems Illustration by Karolin Schnoor At Etsy, some of the most interesting (and most difficult!) challenges we face as a design team don’t always have a clear or o…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "Creating Etsy’s Design Principles",
+      "url": "https://medium.com/etsy-design/creating-etsys-design-principles-4faf31914be3",
+      "publishedAt": "2017-05-23T18:15:20.000Z",
+      "summary": "Aligning on a shared definition of design excellence Illustration by Lucy Sherston During my time at Etsy, I had the pleasure of watching the design team grow and evolve. When I joined over six years ago, there was just…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "Etsy + Tent London",
+      "url": "https://medium.com/etsy-design/etsy-tent-london-fe6d90198048",
+      "publishedAt": "2017-03-29T17:55:14.000Z",
+      "summary": "Bringing an online experience into the real world Illustration by Mathilde Aubier If you’ve never been to an Etsy office, you might imagine us as swaths of engineers, coders, and product designers — teams of people work…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "Etsy’s Evolving Icon System",
+      "url": "https://medium.com/etsy-design/etsys-evolving-icon-system-41c55a639be2",
+      "publishedAt": "2017-01-03T18:22:04.000Z",
+      "summary": "How we systematized and customized our ever-present icons Illustration by Erik Riley When an interface is made entirely of text, the amount of time and effort it takes to read and evaluate every word increases to the po…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "Sandboxes at Etsy",
+      "url": "https://medium.com/etsy-design/sandboxes-at-etsy-8bb88fa7da92",
+      "publishedAt": "2016-11-17T19:13:18.000Z",
+      "summary": "A Better Experience for Everyone Illustration by Naomi Wilkinson Here at Etsy, sandboxes are places where designers working on digital experiences can build whatever they want without blowing things up. At their core, s…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    }
+  ]
+}

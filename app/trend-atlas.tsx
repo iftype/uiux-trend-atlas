@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { koreanCases, microRepos, trends } from "./data";
+import foreignCatalog from "../data/foreign-tech-blogs.json";
+import foreignUpdates from "./generated/foreign-updates.json";
 
 const categories = ["전체", "콘텐츠", "모션", "몰입", "신뢰", "행동"] as const;
 const categoryMap: Record<(typeof categories)[number], string[]> = {
@@ -79,7 +81,7 @@ export function TrendAtlas() {
         </h1>
         <p className="hero-copy">12개의 UI/UX 흐름을 개념, 패턴, 구현 기준과 실제 레퍼런스로 연결한 살아있는 정보 레포.</p>
         <div className="hero-meta">
-          <span>12 TOPICS</span><span>50+ SOURCES</span><span>MOBILE FIRST</span><span>OPEN RESEARCH</span>
+          <span>12 TOPICS</span><span>29 GLOBAL BLOGS</span><span>AUTO UPDATED</span><span>OPEN RESEARCH</span>
         </div>
         <a className="scroll-cue" href="#index"><span>SCROLL TO EXPLORE</span><b>↓</b></a>
       </section>
@@ -194,9 +196,69 @@ export function TrendAtlas() {
         </div>
       </section>
 
+      <section className="foreign-watch" id="foreign-watch">
+        <div className="section-heading">
+          <p>04 / GLOBAL WATCH</p>
+          <h2>해외 제품 팀이 남긴 기록</h2>
+          <span>AUTO UPDATED</span>
+        </div>
+        <div className="pipeline-status">
+          <div>
+            <i />
+            <span>PIPELINE HEALTHY</span>
+          </div>
+          <p>
+            공식 피드 <b>{foreignUpdates.stats.healthyFeeds}/{foreignUpdates.stats.feedSources}</b> 정상
+            <span>·</span>
+            최신 글 <b>{foreignUpdates.stats.articles}</b>개
+            <span>·</span>
+            마지막 수집 <b>{foreignUpdates.generatedAt.slice(0, 10)}</b>
+          </p>
+          <a href="https://github.com/iftype/uiux-trend-atlas/actions/workflows/update-research.yml" target="_blank" rel="noreferrer">ACTION LOG ↗</a>
+        </div>
+
+        <div className="subheading global-latest">
+          <h3>Latest from the field</h3>
+          <p>공식 RSS/Atom에서 제목·링크·발행일만 가져옵니다. 각 카드는 반드시 기업 원문으로 연결됩니다.</p>
+        </div>
+        <div className="article-grid">
+          {foreignUpdates.articles.slice(0, 18).map((article, index) => (
+            <a href={article.url} target="_blank" rel="noreferrer" className="article-card" key={article.url}>
+              <div>
+                <span>{article.publishedAt?.slice(0, 10) ?? "DATE N/A"}</span>
+                <b>{String(index + 1).padStart(2, "0")}</b>
+              </div>
+              <small>{article.company} / {article.source}</small>
+              <h4>{article.title}</h4>
+              <p>{article.summary}</p>
+              <div className="article-meta">
+                <div>{article.topics.slice(0, 2).map((topic) => <em key={topic}>{topic}</em>)}</div>
+                <b>READ ↗</b>
+              </div>
+            </a>
+          ))}
+        </div>
+
+        <div className="subheading global-directory">
+          <h3>Official directory</h3>
+          <p>디자인 블로그뿐 아니라 디자인 시스템과 실제 클라이언트 구현을 다루는 엔지니어링 채널을 함께 봅니다.</p>
+        </div>
+        <div className="foreign-directory">
+          {foreignCatalog.map((source, index) => (
+            <a href={source.url} target="_blank" rel="noreferrer" key={source.id}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <div><small>{source.region} · {source.company}</small><h4>{source.name}</h4></div>
+              <p>{source.note}</p>
+              <div className="focus-tags">{source.focus.slice(0, 2).map((focus) => <em key={focus}>{focus}</em>)}</div>
+              <b>↗</b>
+            </a>
+          ))}
+        </div>
+      </section>
+
       <section className="principles">
         <div className="section-heading inverse">
-          <p>04 / DECISION FILTER</p>
+          <p>05 / DECISION FILTER</p>
           <h2>유행보다 먼저 물을 것</h2>
           <span>5 QUESTIONS</span>
         </div>

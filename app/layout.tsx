@@ -4,10 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://iftype.github.io/uiux-trend-atlas/"),
   title: "UI/UX Trend Atlas — 12개의 인터페이스 흐름",
-  description: "실시간 콘텐츠부터 마이크로인터랙션까지, 모바일 우선 UI/UX 트렌드 리서치 레포.",
+  description: "12개 UI/UX 트렌드와 국내외 실제 제품 팀의 최신 글을 자동 갱신하는 모바일 우선 리서치 레포.",
   openGraph: {
     title: "UI/UX Trend Atlas",
-    description: "실시간 콘텐츠부터 마이크로인터랙션까지, 12개의 인터페이스 흐름.",
+    description: "12개의 인터페이스 흐름과 국내외 실제 제품 팀의 최신 글을 연결한 오픈 리서치.",
     type: "website",
     locale: "ko_KR",
     images: [{ url: "og.png", width: 1731, height: 909, alt: "UI/UX Trend Atlas 2026 Edition" }],
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "UI/UX Trend Atlas",
-    description: "12개의 인터페이스 흐름을 연결한 한국어 오픈 리서치 레포.",
+    description: "12개의 인터페이스 흐름과 해외 공식 UI/UX 블로그를 자동 갱신하는 한국어 오픈 리서치.",
     images: ["og.png"],
   },
 };
