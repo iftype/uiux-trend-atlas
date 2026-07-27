@@ -111,27 +111,27 @@
 
 | 출처 | 상태 | 확인 시각 |
 |---|---|---|
-| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | 2026-07-27 05:23 UTC |
-| [Spotify Engineering](https://engineering.atspotify.com/) | ok | 2026-07-27 05:23 UTC |
-| [Uber Design](https://medium.com/uber-design) | ok | 2026-07-27 05:23 UTC |
-| [Dropbox Design](https://medium.com/dropbox-design) | ok | 2026-07-27 05:23 UTC |
-| [Slack Design](https://slack.design/) | ok | 2026-07-27 05:23 UTC |
-| [Microsoft Design](https://microsoft.design/) | ok | 2026-07-27 05:23 UTC |
-| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | 2026-07-27 05:23 UTC |
-| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | 2026-07-27 05:23 UTC |
-| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | 2026-07-27 05:23 UTC |
-| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | 2026-07-27 05:23 UTC |
-| [Netflix TechBlog](https://netflixtechblog.com/) | ok | 2026-07-27 05:23 UTC |
-| [IBM Design](https://medium.com/design-ibm) | ok | 2026-07-27 05:23 UTC |
-| [Indeed Design](https://medium.com/indeed-design) | ok | 2026-07-27 05:23 UTC |
-| [Etsy Design](https://medium.com/etsy-design) | ok | 2026-07-27 05:23 UTC |
-| [Code as Craft](https://www.etsy.com/codeascraft) | ok | 2026-07-27 05:23 UTC |
-| [Wayfair Design](https://medium.com/wayfair-design) | ok | 2026-07-27 05:23 UTC |
-| [Meta Engineering](https://engineering.fb.com/) | ok | 2026-07-27 05:23 UTC |
-| [web.dev](https://web.dev/) | ok | 2026-07-27 05:23 UTC |
-| [Chrome for Developers](https://developer.chrome.com/) | ok | 2026-07-27 05:23 UTC |
-| [WebKit Blog](https://webkit.org/blog/) | ok | 2026-07-27 05:23 UTC |
-| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | 2026-07-27 05:23 UTC |
-| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | 2026-07-27 05:23 UTC |
-| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | 2026-07-27 05:23 UTC |
-| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | 2026-07-27 05:23 UTC |
+| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | 2026-07-27 05:24 UTC |
+| [Spotify Engineering](https://engineering.atspotify.com/) | ok | 2026-07-27 05:24 UTC |
+| [Uber Design](https://medium.com/uber-design) | ok | 2026-07-27 05:24 UTC |
+| [Dropbox Design](https://medium.com/dropbox-design) | ok | 2026-07-27 05:24 UTC |
+| [Slack Design](https://slack.design/) | ok | 2026-07-27 05:24 UTC |
+| [Microsoft Design](https://microsoft.design/) | ok | 2026-07-27 05:24 UTC |
+| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | 2026-07-27 05:24 UTC |
+| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | 2026-07-27 05:24 UTC |
+| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | 2026-07-27 05:24 UTC |
+| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | 2026-07-27 05:24 UTC |
+| [Netflix TechBlog](https://netflixtechblog.com/) | ok | 2026-07-27 05:24 UTC |
+| [IBM Design](https://medium.com/design-ibm) | ok | 2026-07-27 05:24 UTC |
+| [Indeed Design](https://medium.com/indeed-design) | ok | 2026-07-27 05:24 UTC |
+| [Etsy Design](https://medium.com/etsy-design) | ok | 2026-07-27 05:24 UTC |
+| [Code as Craft](https://www.etsy.com/codeascraft) | ok | 2026-07-27 05:24 UTC |
+| [Wayfair Design](https://medium.com/wayfair-design) | ok | 2026-07-27 05:24 UTC |
+| [Meta Engineering](https://engineering.fb.com/) | ok | 2026-07-27 05:24 UTC |
+| [web.dev](https://web.dev/) | ok | 2026-07-27 05:24 UTC |
+| [Chrome for Developers](https://developer.chrome.com/) | ok | 2026-07-27 05:24 UTC |
+| [WebKit Blog](https://webkit.org/blog/) | ok | 2026-07-27 05:24 UTC |
+| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | 2026-07-27 05:24 UTC |
+| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | 2026-07-27 05:24 UTC |
+| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | 2026-07-27 05:24 UTC |
+| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | 2026-07-27 05:24 UTC |

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T05:23:55.330Z",
+  "generatedAt": "2026-07-27T05:24:53.967Z",
   "stats": {
     "catalogSources": 38,
     "feedSources": 24,
@@ -15,7 +15,7 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.190Z",
+      "checkedAt": "2026-07-27T05:24:53.437Z",
       "articles": [
         {
           "title": "Personalizing Airbnb search by learning from the guest journey",
@@ -35,7 +35,7 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.636Z",
+      "checkedAt": "2026-07-27T05:24:53.787Z",
       "articles": [
         {
           "title": "Better Experiments with LLM Evals — A funnel, not a fork",
@@ -65,7 +65,7 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.185Z",
+      "checkedAt": "2026-07-27T05:24:53.448Z",
       "articles": [
         {
           "title": "How to Stop the Stakeholder Swirl",
@@ -154,7 +154,7 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.168Z",
+      "checkedAt": "2026-07-27T05:24:53.471Z",
       "articles": [
         {
           "title": "The business of design",
@@ -243,7 +243,7 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.164Z",
+      "checkedAt": "2026-07-27T05:24:53.305Z",
       "articles": [
         {
           "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
@@ -331,7 +331,7 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.238Z",
+      "checkedAt": "2026-07-27T05:24:53.325Z",
       "articles": [
         {
           "title": "Gathering around the fire: Durable human experience patterns in the AI era",
@@ -421,7 +421,7 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.879Z",
+      "checkedAt": "2026-07-27T05:24:53.672Z",
       "articles": [
         {
           "title": "Conversation design: How to make your AI Agent communicate like your team",
@@ -442,7 +442,7 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:53.774Z",
+      "checkedAt": "2026-07-27T05:24:53.560Z",
       "articles": []
     },
     {
@@ -452,7 +452,7 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:53.770Z",
+      "checkedAt": "2026-07-27T05:24:53.428Z",
       "articles": [
         {
           "title": "Behind the scenes of Canva's DesignDNA campaign",
@@ -482,7 +482,7 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.157Z",
+      "checkedAt": "2026-07-27T05:24:53.356Z",
       "articles": [
         {
           "title": "How to build interactive experiences with canvases",
@@ -502,7 +502,7 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.383Z",
+      "checkedAt": "2026-07-27T05:24:53.612Z",
       "articles": [
         {
           "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
@@ -533,7 +533,7 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.267Z",
+      "checkedAt": "2026-07-27T05:24:53.493Z",
       "articles": [
         {
           "title": "Walking the Walk: Design Leadership in an AI-Native World",
@@ -623,7 +623,7 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.172Z",
+      "checkedAt": "2026-07-27T05:24:53.504Z",
       "articles": [
         {
           "title": "Breaking the Myth of Big Click Energy",
@@ -712,7 +712,7 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.182Z",
+      "checkedAt": "2026-07-27T05:24:53.499Z",
       "articles": [
         {
           "title": "Make design history",
@@ -796,7 +796,7 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.693Z",
+      "checkedAt": "2026-07-27T05:24:53.777Z",
       "articles": [
         {
           "title": "How Etsy Uses LLMs to Improve Search Relevance",
@@ -875,7 +875,7 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.176Z",
+      "checkedAt": "2026-07-27T05:24:53.575Z",
       "articles": [
         {
           "title": "A Framework to Integrate Accessible Design and Inclusive Research At Scale",
@@ -963,7 +963,7 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.235Z",
+      "checkedAt": "2026-07-27T05:24:53.564Z",
       "articles": [
         {
           "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
@@ -984,7 +984,7 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:55.164Z",
+      "checkedAt": "2026-07-27T05:24:53.864Z",
       "articles": [
         {
           "title": "New to the web platform in May",
@@ -1067,7 +1067,7 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.453Z",
+      "checkedAt": "2026-07-27T05:24:53.836Z",
       "articles": [
         {
           "title": "Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents",
@@ -1096,7 +1096,7 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:55.298Z",
+      "checkedAt": "2026-07-27T05:24:53.967Z",
       "articles": [
         {
           "title": "Introducing the Field Guide to Grid Lanes",
@@ -1125,7 +1125,7 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:53.853Z",
+      "checkedAt": "2026-07-27T05:24:53.767Z",
       "articles": [
         {
           "title": "Introducing the MDN MCP server",
@@ -1211,7 +1211,7 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.293Z",
+      "checkedAt": "2026-07-27T05:24:53.616Z",
       "articles": [
         {
           "title": "Trustworthy JavaScript for the Open Web",
@@ -1240,7 +1240,7 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:54.384Z",
+      "checkedAt": "2026-07-27T05:24:53.656Z",
       "articles": [
         {
           "title": "New in Edge for developers – Style layout gaps, improve keyboard accessibility and migrate your PWA to a new origin",
@@ -1291,7 +1291,7 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:23:55.329Z",
+      "checkedAt": "2026-07-27T05:24:53.793Z",
       "articles": [
         {
           "title": "Building a Mixed-Reality Tour Guide with Android XR, the Geospatial API, and Gemini",
