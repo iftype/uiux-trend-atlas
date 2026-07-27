@@ -1,0 +1,519 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-07-27",
+  "selectionNote": "별표 수가 아니라 접근성, 유지보수, 라이선스, 폴백 가능성, WebView 적용성을 기준으로 선별했습니다.",
+  "skills": [
+    {
+      "id": "semantic-platform",
+      "name": "Semantic UI & Modern CSS",
+      "level": "FOUNDATION",
+      "summary": "HTML 기본 요소와 CSS 플랫폼 기능으로 상호작용의 의미와 폴백을 먼저 만든다.",
+      "learn": [
+        "dialog·popover·details",
+        "container queries·dvh·env()",
+        "focus·keyboard·form semantics"
+      ],
+      "proof": "라이브러리 없이 접근 가능한 dialog와 반응형 WebView 셸 만들기",
+      "tools": [
+        "Base UI",
+        "Radix",
+        "React Aria"
+      ]
+    },
+    {
+      "id": "interaction-state",
+      "name": "Interaction State Modeling",
+      "level": "FOUNDATION",
+      "summary": "hover 애니메이션보다 loading·success·error·disabled·offline 상태와 전이를 먼저 정의한다.",
+      "learn": [
+        "finite states",
+        "optimistic feedback",
+        "error recovery"
+      ],
+      "proof": "중복 요청과 실패 복구가 가능한 저장 마이크로인터랙션",
+      "tools": [
+        "Zag",
+        "MSW",
+        "Storybook"
+      ]
+    },
+    {
+      "id": "motion-engineering",
+      "name": "Motion Engineering",
+      "level": "BUILD",
+      "summary": "동작의 목적, easing, 물리, 합성 비용과 reduced-motion 대안을 함께 구현한다.",
+      "learn": [
+        "transform·opacity",
+        "spring·timeline",
+        "scroll·view transitions"
+      ],
+      "proof": "모션을 꺼도 의미가 남는 페이지 전환과 리스트 피드백",
+      "tools": [
+        "Motion",
+        "GSAP",
+        "React Spring",
+        "Auto Animate"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility Engineering",
+      "level": "PRODUCTION",
+      "summary": "WCAG 체크박스를 넘어 포커스, 이름·역할·값, 입력 방식과 보조기술 흐름을 테스트한다.",
+      "learn": [
+        "WCAG 2.2",
+        "ARIA authoring",
+        "TalkBack·VoiceOver"
+      ],
+      "proof": "키보드·스크린리더·확대에서 완성되는 모달과 복합 위젯",
+      "tools": [
+        "axe-core",
+        "Playwright",
+        "React Aria"
+      ]
+    },
+    {
+      "id": "performance",
+      "name": "Performance & RUM",
+      "level": "PRODUCTION",
+      "summary": "번들 크기만 보지 않고 실제 사용자의 LCP·INP·CLS와 긴 상호작용을 추적한다.",
+      "learn": [
+        "Core Web Vitals",
+        "long tasks",
+        "rendering·memory"
+      ],
+      "proof": "라우트·브리지 이벤트까지 연결한 Web Vitals 대시보드",
+      "tools": [
+        "web-vitals",
+        "Lighthouse",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "webview-contract",
+      "name": "WebView Contract & Security",
+      "level": "PRODUCTION",
+      "summary": "웹과 네이티브 사이의 탐색, 세션, 브리지, 권한과 오류 스키마를 공개 API처럼 관리한다.",
+      "learn": [
+        "origin allowlist",
+        "versioned message schema",
+        "native navigation·auth"
+      ],
+      "proof": "요청 ID·응답·타임아웃이 있는 타입 안전 브리지",
+      "tools": [
+        "React Native WebView",
+        "Capacitor"
+      ]
+    },
+    {
+      "id": "ui-testing",
+      "name": "UI Test Architecture",
+      "level": "PRODUCTION",
+      "summary": "컴포넌트 단위 상태, API 실패, 실제 브라우저와 접근성 회귀를 자동화한다.",
+      "learn": [
+        "component stories",
+        "network mocking",
+        "cross-browser E2E"
+      ],
+      "proof": "Chromium·Firefox·WebKit에서 결제 또는 로그인 흐름 검증",
+      "tools": [
+        "Storybook",
+        "MSW",
+        "Playwright",
+        "axe-core"
+      ]
+    },
+    {
+      "id": "design-system",
+      "name": "Design System Delivery",
+      "level": "SCALE",
+      "summary": "토큰, headless primitive, 문서, 시각·동작 회귀를 하나의 배포 흐름으로 묶는다.",
+      "learn": [
+        "design tokens",
+        "headless composition",
+        "versioning·migration"
+      ],
+      "proof": "웹·iOS·Android로 배포되는 토큰과 접근 가능한 컴포넌트 문서",
+      "tools": [
+        "Style Dictionary",
+        "Storybook",
+        "Radix"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "radix",
+      "repo": "radix-ui/primitives",
+      "name": "Radix Primitives",
+      "category": "UI PRIMITIVES",
+      "license": "MIT",
+      "stars": 19099,
+      "latestRelease": "releases in docs",
+      "pushedAt": "2026-07-25",
+      "verdict": "RECOMMENDED",
+      "bestFor": "React 디자인 시스템의 접근 가능한 headless 기반",
+      "why": "낮은 수준의 조합형 API, 포커스와 키보드 처리, 점진 도입이 강점.",
+      "cautions": "스타일과 제품 패턴은 직접 설계해야 하며 복잡한 합성 API 학습이 필요.",
+      "url": "https://github.com/radix-ui/primitives",
+      "archived": false
+    },
+    {
+      "id": "base-ui",
+      "repo": "mui/base-ui",
+      "name": "Base UI",
+      "category": "UI PRIMITIVES",
+      "license": "MIT",
+      "stars": 10449,
+      "latestRelease": "v1.6.0",
+      "pushedAt": "2026-07-27",
+      "verdict": "RECOMMENDED",
+      "bestFor": "새 React 프로젝트의 unstyled accessible components",
+      "why": "Radix·Floating UI·Material UI 경험을 모은 현대적인 primitive 계층.",
+      "cautions": "1.x 변화가 빠르므로 버전 고정과 마이그레이션 확인 필요.",
+      "url": "https://github.com/mui/base-ui",
+      "archived": false
+    },
+    {
+      "id": "react-spectrum",
+      "repo": "adobe/react-spectrum",
+      "name": "React Aria",
+      "category": "UI PRIMITIVES",
+      "license": "Apache-2.0",
+      "stars": 15722,
+      "latestRelease": "react-aria-components@1.19.0",
+      "pushedAt": "2026-07-26",
+      "verdict": "RECOMMENDED",
+      "bestFor": "국제화·다중 입력·접근성이 중요한 복합 React UI",
+      "why": "행동과 접근성 훅, headless components, Adobe 규모의 실전 검증.",
+      "cautions": "API 범위가 넓고 단순 UI에는 학습·번들 비용이 과할 수 있음.",
+      "url": "https://github.com/adobe/react-spectrum",
+      "archived": false
+    },
+    {
+      "id": "floating-ui",
+      "repo": "floating-ui/floating-ui",
+      "name": "Floating UI",
+      "category": "UI PRIMITIVES",
+      "license": "MIT",
+      "stars": 32675,
+      "latestRelease": "@floating-ui/vue@2.0.1",
+      "pushedAt": "2026-07-11",
+      "verdict": "RECOMMENDED",
+      "bestFor": "tooltip·popover·menu의 충돌 회피와 위치 계산",
+      "why": "프레임워크 독립 코어와 검증된 positioning middleware.",
+      "cautions": "접근성이나 상태 모델 전체를 제공하지 않으므로 primitive와 함께 사용.",
+      "url": "https://github.com/floating-ui/floating-ui",
+      "archived": false
+    },
+    {
+      "id": "zag",
+      "repo": "chakra-ui/zag",
+      "name": "Zag",
+      "category": "UI PRIMITIVES",
+      "license": "MIT",
+      "stars": 5169,
+      "latestRelease": "@zag-js/dom-query@1.42.0",
+      "pushedAt": "2026-07-27",
+      "verdict": "EVALUATE",
+      "bestFor": "React·Vue·Svelte·Solid에 공유할 상태 머신 기반 위젯",
+      "why": "행동 상태와 DOM 연결을 분리해 멀티 프레임워크 시스템에 적합.",
+      "cautions": "일반 React 팀에는 추상화와 생성 코드가 복잡하게 느껴질 수 있음.",
+      "url": "https://github.com/chakra-ui/zag",
+      "archived": false
+    },
+    {
+      "id": "headless-ui",
+      "repo": "tailwindlabs/headlessui",
+      "name": "Headless UI",
+      "category": "UI PRIMITIVES",
+      "license": "MIT",
+      "stars": 28677,
+      "latestRelease": "@headlessui/react@v2.2.10",
+      "pushedAt": "2026-04-13",
+      "verdict": "RECOMMENDED",
+      "bestFor": "Tailwind 기반 React·Vue 프로젝트의 빠른 기본 위젯",
+      "why": "작은 API와 Tailwind 조합, 접근 가능한 대표 패턴 제공.",
+      "cautions": "Radix나 React Aria보다 제공 범위와 세밀한 제어가 제한적.",
+      "url": "https://github.com/tailwindlabs/headlessui",
+      "archived": false
+    },
+    {
+      "id": "motion",
+      "repo": "motiondivision/motion",
+      "name": "Motion",
+      "category": "MOTION",
+      "license": "MIT",
+      "stars": 32970,
+      "latestRelease": "continuous packages",
+      "pushedAt": "2026-07-26",
+      "verdict": "RECOMMENDED",
+      "bestFor": "React 중심 제품 모션과 layout·gesture animation",
+      "why": "선언적 API, spring, layout transition과 JS 독립 API를 함께 제공.",
+      "cautions": "단순 CSS 전환에 도입하면 번들·런타임 비용이 불필요.",
+      "url": "https://github.com/motiondivision/motion",
+      "archived": false
+    },
+    {
+      "id": "gsap",
+      "repo": "greensock/GSAP",
+      "name": "GSAP",
+      "category": "MOTION",
+      "license": "GreenSock no-charge license",
+      "stars": 27106,
+      "latestRelease": "repository package",
+      "pushedAt": "2026-04-13",
+      "verdict": "SPECIALIZED",
+      "bestFor": "복잡한 timeline·SVG·scroll storytelling",
+      "why": "정교한 timeline과 풍부한 플러그인, 높은 브라우저 일관성.",
+      "cautions": "무료 상업 이용 가능하지만 OSI 오픈소스가 아닌 별도 라이선스이므로 조건 확인.",
+      "url": "https://github.com/greensock/GSAP",
+      "archived": false
+    },
+    {
+      "id": "react-spring",
+      "repo": "pmndrs/react-spring",
+      "name": "React Spring",
+      "category": "MOTION",
+      "license": "MIT",
+      "stars": 29129,
+      "latestRelease": "v10.1.2",
+      "pushedAt": "2026-07-25",
+      "verdict": "EVALUATE",
+      "bestFor": "물리 기반 연속 상태와 제스처 반응",
+      "why": "spring 모델과 보간을 통한 자연스러운 동작 표현.",
+      "cautions": "단순 enter/exit에는 API가 무겁고 디버깅이 어려울 수 있음.",
+      "url": "https://github.com/pmndrs/react-spring",
+      "archived": false
+    },
+    {
+      "id": "auto-animate",
+      "repo": "formkit/auto-animate",
+      "name": "Auto Animate",
+      "category": "MOTION",
+      "license": "MIT",
+      "stars": 13880,
+      "latestRelease": "v0.10.0",
+      "pushedAt": "2026-07-10",
+      "verdict": "RECOMMENDED",
+      "bestFor": "리스트 추가·삭제·정렬의 저비용 전환",
+      "why": "설정이 거의 없고 다양한 프레임워크에서 DOM 변화에 바로 적용.",
+      "cautions": "복잡한 choreography와 세밀한 timeline 제어에는 부적합.",
+      "url": "https://github.com/formkit/auto-animate",
+      "archived": false
+    },
+    {
+      "id": "lenis",
+      "repo": "darkroomengineering/lenis",
+      "name": "Lenis",
+      "category": "MOTION",
+      "license": "MIT",
+      "stars": 14973,
+      "latestRelease": "v1.3.25",
+      "pushedAt": "2026-07-23",
+      "verdict": "SPECIALIZED",
+      "bestFor": "브랜드·에디토리얼 페이지의 smooth scrolling",
+      "why": "스크롤 동기화와 animation loop 통합이 비교적 단순.",
+      "cautions": "일반 제품·WebView·접근성 환경에서는 네이티브 스크롤을 우선하고 신중히 채택.",
+      "url": "https://github.com/darkroomengineering/lenis",
+      "archived": false
+    },
+    {
+      "id": "anime",
+      "repo": "juliangarnier/anime",
+      "name": "Anime.js",
+      "category": "MOTION",
+      "license": "MIT",
+      "stars": 71525,
+      "latestRelease": "v4.5.0",
+      "pushedAt": "2026-06-22",
+      "verdict": "RECOMMENDED",
+      "bestFor": "프레임워크 독립 timeline·SVG·DOM 애니메이션",
+      "why": "작은 학습 표면과 강력한 sequence·stagger 기능.",
+      "cautions": "상태 기반 React UI에서는 lifecycle 정리와 DOM 소유권을 명확히 해야 함.",
+      "url": "https://github.com/juliangarnier/anime",
+      "archived": false
+    },
+    {
+      "id": "three",
+      "repo": "mrdoob/three.js",
+      "name": "Three.js",
+      "category": "3D & CANVAS",
+      "license": "MIT",
+      "stars": 114030,
+      "latestRelease": "r185",
+      "pushedAt": "2026-07-27",
+      "verdict": "SPECIALIZED",
+      "bestFor": "WebGL·WebGPU 3D, 제품 시각화, 공간 인터랙션",
+      "why": "가장 큰 생태계와 렌더링 기능, 지속적인 릴리스.",
+      "cautions": "성능·메모리·접근성·저사양 폴백을 별도 설계해야 함.",
+      "url": "https://github.com/mrdoob/three.js",
+      "archived": false
+    },
+    {
+      "id": "r3f",
+      "repo": "pmndrs/react-three-fiber",
+      "name": "React Three Fiber",
+      "category": "3D & CANVAS",
+      "license": "MIT",
+      "stars": 31537,
+      "latestRelease": "v9.6.1",
+      "pushedAt": "2026-07-25",
+      "verdict": "SPECIALIZED",
+      "bestFor": "React 상태와 Three.js scene graph 통합",
+      "why": "선언적 scene 구성과 pmndrs 생태계 활용.",
+      "cautions": "Three.js 기초 없이 사용하면 렌더 루프와 리소스 누수를 놓치기 쉬움.",
+      "url": "https://github.com/pmndrs/react-three-fiber",
+      "archived": false
+    },
+    {
+      "id": "rn-webview",
+      "repo": "react-native-webview/react-native-webview",
+      "name": "React Native WebView",
+      "category": "WEBVIEW",
+      "license": "MIT",
+      "stars": 7186,
+      "latestRelease": "v16.0.0",
+      "pushedAt": "2026-07-12",
+      "verdict": "RECOMMENDED",
+      "bestFor": "React Native 앱의 iOS·Android WebView",
+      "why": "사실상 표준 커뮤니티 구현과 탐색·브리지·쿠키 API.",
+      "cautions": "플랫폼별 동작 차이와 origin·injected JS 보안은 앱이 책임져야 함.",
+      "url": "https://github.com/react-native-webview/react-native-webview",
+      "archived": false
+    },
+    {
+      "id": "capacitor",
+      "repo": "ionic-team/capacitor",
+      "name": "Capacitor",
+      "category": "WEBVIEW",
+      "license": "MIT",
+      "stars": 16179,
+      "latestRelease": "8.4.2",
+      "pushedAt": "2026-07-22",
+      "verdict": "RECOMMENDED",
+      "bestFor": "웹 앱을 iOS·Android 네이티브 셸로 배포",
+      "why": "플러그인 모델과 웹 중심 개발 흐름, 네이티브 프로젝트 접근성.",
+      "cautions": "모든 네이티브 UX를 웹으로 해결하려 하지 말고 플러그인 품질을 검토.",
+      "url": "https://github.com/ionic-team/capacitor",
+      "archived": false
+    },
+    {
+      "id": "web-vitals",
+      "repo": "GoogleChrome/web-vitals",
+      "name": "web-vitals",
+      "category": "QUALITY",
+      "license": "Apache-2.0",
+      "stars": 8565,
+      "latestRelease": "continuous packages",
+      "pushedAt": "2026-07-21",
+      "verdict": "RECOMMENDED",
+      "bestFor": "LCP·INP·CLS 실제 사용자 측정",
+      "why": "Chrome 측정 정의와 일치하는 작은 공식 라이브러리.",
+      "cautions": "수집만으로 개선되지 않으며 attribution과 사용자 구간 분석이 필요.",
+      "url": "https://github.com/GoogleChrome/web-vitals",
+      "archived": false
+    },
+    {
+      "id": "axe-core",
+      "repo": "dequelabs/axe-core",
+      "name": "axe-core",
+      "category": "QUALITY",
+      "license": "MPL-2.0",
+      "stars": 7344,
+      "latestRelease": "v4.12.1",
+      "pushedAt": "2026-07-24",
+      "verdict": "RECOMMENDED",
+      "bestFor": "자동 접근성 규칙 검사",
+      "why": "브라우저·테스트 도구 통합과 낮은 오탐을 지향하는 규칙 엔진.",
+      "cautions": "자동 검사는 전체 접근성 문제의 일부만 찾으므로 수동 보조기술 테스트 필요.",
+      "url": "https://github.com/dequelabs/axe-core",
+      "archived": false
+    },
+    {
+      "id": "playwright",
+      "repo": "microsoft/playwright",
+      "name": "Playwright",
+      "category": "QUALITY",
+      "license": "Apache-2.0",
+      "stars": 93523,
+      "latestRelease": "v1.62.0",
+      "pushedAt": "2026-07-24",
+      "verdict": "RECOMMENDED",
+      "bestFor": "Chromium·Firefox·WebKit E2E와 시각 회귀",
+      "why": "하나의 API, auto-wait, device emulation, trace 도구.",
+      "cautions": "실제 Android WebView·WKWebView 테스트를 완전히 대체하지는 못함.",
+      "url": "https://github.com/microsoft/playwright",
+      "archived": false
+    },
+    {
+      "id": "storybook",
+      "repo": "storybookjs/storybook",
+      "name": "Storybook",
+      "category": "QUALITY",
+      "license": "MIT",
+      "stars": 90677,
+      "latestRelease": "v10.5.4",
+      "pushedAt": "2026-07-26",
+      "verdict": "RECOMMENDED",
+      "bestFor": "컴포넌트 상태 문서화·개발·테스트",
+      "why": "큰 생태계와 interaction·accessibility·visual testing 연계.",
+      "cautions": "스토리를 제품 테스트와 분리된 전시관으로 방치하지 않도록 CI 연결 필요.",
+      "url": "https://github.com/storybookjs/storybook",
+      "archived": false
+    },
+    {
+      "id": "msw",
+      "repo": "mswjs/msw",
+      "name": "MSW",
+      "category": "QUALITY",
+      "license": "MIT",
+      "stars": 18093,
+      "latestRelease": "v2.15.0",
+      "pushedAt": "2026-07-24",
+      "verdict": "RECOMMENDED",
+      "bestFor": "브라우저·Node에서 동일한 API 실패·지연 mocking",
+      "why": "네트워크 계층 interception으로 앱 코드를 바꾸지 않고 상태 재현.",
+      "cautions": "mock contract가 실제 API와 어긋나지 않도록 schema·contract test 연결 필요.",
+      "url": "https://github.com/mswjs/msw",
+      "archived": false
+    },
+    {
+      "id": "lighthouse",
+      "repo": "GoogleChrome/lighthouse",
+      "name": "Lighthouse",
+      "category": "QUALITY",
+      "license": "Apache-2.0",
+      "stars": 30582,
+      "latestRelease": "v13.4.1",
+      "pushedAt": "2026-07-26",
+      "verdict": "RECOMMENDED",
+      "bestFor": "성능·접근성·best practices의 반복 가능한 lab audit",
+      "why": "CI와 DevTools 연결, 개선 전후 비교에 유용.",
+      "cautions": "INP와 실제 WebView 환경은 현장 데이터·실기기 테스트로 보완.",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "archived": false
+    },
+    {
+      "id": "style-dictionary",
+      "repo": "style-dictionary/style-dictionary",
+      "name": "Style Dictionary",
+      "category": "DESIGN SYSTEM",
+      "license": "Apache-2.0",
+      "stars": 4751,
+      "latestRelease": "v5.5.0",
+      "pushedAt": "2026-07-26",
+      "verdict": "RECOMMENDED",
+      "bestFor": "웹·iOS·Android 디자인 토큰 빌드",
+      "why": "플랫폼별 format·transform으로 단일 토큰 원본을 배포.",
+      "cautions": "토큰 분류·의미 계층·변경 관리 규칙은 팀이 먼저 설계해야 함.",
+      "url": "https://github.com/style-dictionary/style-dictionary",
+      "archived": false
+    }
+  ],
+  "stats": {
+    "projects": 23,
+    "healthy": 23,
+    "archived": 0
+  }
+}

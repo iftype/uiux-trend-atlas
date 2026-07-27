@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { koreanCases, microRepos, trends } from "./data";
 import foreignCatalog from "../data/foreign-tech-blogs.json";
 import frontendGuide from "../data/frontend-webview-2026.json";
+import openSourceStack from "../data/open-source-stack.json";
 import foreignUpdates from "./generated/foreign-updates.json";
 
 const frontendTopics = new Set(["frontend-platform", "webview-hybrid", "accessibility-performance"]);
@@ -24,6 +25,11 @@ export function TrendAtlas() {
   const [category, setCategory] = useState<(typeof categories)[number]>("전체");
   const [read, setRead] = useState<string[]>([]);
   const [time, setTime] = useState("");
+  const [ossCategory, setOssCategory] = useState("ALL");
+  const [saveDemo, setSaveDemo] = useState<"idle" | "loading" | "saved">("idle");
+  const [keyboardDemo, setKeyboardDemo] = useState(false);
+  const [bridgeStep, setBridgeStep] = useState(0);
+  const sampleDialog = useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
     const storedTheme = localStorage.getItem("atlas-theme");
@@ -58,6 +64,10 @@ export function TrendAtlas() {
   const frontendArticles = foreignUpdates.articles
     .filter((article) => article.topics.some((topic) => frontendTopics.has(topic)))
     .slice(0, 12);
+  const ossCategories = ["ALL", ...new Set(openSourceStack.projects.map((project) => project.category))];
+  const filteredProjects = ossCategory === "ALL"
+    ? openSourceStack.projects
+    : openSourceStack.projects.filter((project) => project.category === ossCategory);
 
   const toggleRead = (id: string) => {
     setRead((current) => {
@@ -334,9 +344,143 @@ export function TrendAtlas() {
         )}
       </section>
 
+      <section className="sample-lab" id="sample-lab">
+        <div className="section-heading">
+          <p>06 / SAMPLE LAB</p>
+          <h2>보고, 눌러보고, 가져가기</h2>
+          <span>OPEN SOURCE</span>
+        </div>
+
+        <div className="sample-intro">
+          <p>완성 화면만 구경하지 않고 상태·접근성·폴백이 들어간 최소 코드를 직접 실행하고 복사할 수 있습니다.</p>
+          <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples" target="_blank" rel="noreferrer">BROWSE ALL SAMPLES ↗</a>
+        </div>
+
+        <div className="interactive-samples">
+          <article className="sample-card save-sample">
+            <div><span>01 / ASYNC FEEDBACK</span><b>ARIA LIVE</b></div>
+            <h3>저장 상태</h3>
+            <button
+              type="button"
+              data-state={saveDemo}
+              disabled={saveDemo === "loading"}
+              onClick={() => {
+                setSaveDemo("loading");
+                window.setTimeout(() => setSaveDemo("saved"), 700);
+              }}
+              aria-describedby="save-demo-status"
+            >
+              {saveDemo === "idle" && "저장"}
+              {saveDemo === "loading" && "저장 중…"}
+              {saveDemo === "saved" && "저장됨 ✓"}
+            </button>
+            <p id="save-demo-status" role="status" aria-live="polite">
+              {saveDemo === "loading" ? "변경사항을 저장하고 있습니다." : saveDemo === "saved" ? "변경사항을 저장했습니다." : "loading·success 상태를 눌러 확인하세요."}
+            </p>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/microinteraction-save" target="_blank" rel="noreferrer">SOURCE ↗</a>
+          </article>
+
+          <article className="sample-card dialog-sample">
+            <div><span>02 / NATIVE DIALOG</span><b>FOCUS</b></div>
+            <h3>접근 가능한 모달</h3>
+            <button type="button" onClick={() => sampleDialog.current?.showModal()}>설정 열기</button>
+            <p>브라우저의 focus trap·Escape·backdrop 동작을 기본값으로 사용합니다.</p>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/accessible-dialog" target="_blank" rel="noreferrer">SOURCE ↗</a>
+            <dialog ref={sampleDialog} aria-labelledby="sample-dialog-title">
+              <form method="dialog">
+                <h4 id="sample-dialog-title">알림 설정</h4>
+                <p>필요한 알림만 받을 수 있습니다.</p>
+                <label><input type="checkbox" /> 업데이트 알림 받기</label>
+                <div><button value="cancel">취소</button><button value="save">저장</button></div>
+              </form>
+            </dialog>
+          </article>
+
+          <article className="sample-card viewport-sample">
+            <div><span>03 / WEBVIEW LAYOUT</span><b>SAFE AREA</b></div>
+            <h3>키보드 뷰포트</h3>
+            <div className={`phone-demo ${keyboardDemo ? "keyboard-open" : ""}`}>
+              <span>SAFE TOP</span>
+              <main><input aria-label="샘플 메시지" placeholder="메시지" readOnly /></main>
+              <div className="phone-cta">CTA</div>
+              <i aria-hidden="true" />
+            </div>
+            <button type="button" aria-pressed={keyboardDemo} onClick={() => setKeyboardDemo(!keyboardDemo)}>
+              {keyboardDemo ? "키보드 닫기" : "키보드 열기"}
+            </button>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/safe-area-layout" target="_blank" rel="noreferrer">SOURCE ↗</a>
+          </article>
+
+          <article className="sample-card bridge-sample">
+            <div><span>04 / NATIVE BRIDGE</span><b>VERSIONED</b></div>
+            <h3>메시지 계약</h3>
+            <pre aria-live="polite"><code>{
+              [
+                '{ "version": 1, "state": "ready" }',
+                '{ "id": "a1", "method": "auth.open" }',
+                '{ "id": "a1", "ok": true }',
+                '{ "state": "resolved", "elapsed": "84ms" }',
+              ][bridgeStep]
+            }</code></pre>
+            <button type="button" onClick={() => setBridgeStep((bridgeStep + 1) % 4)}>다음 메시지 →</button>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/webview-bridge" target="_blank" rel="noreferrer">SOURCE ↗</a>
+          </article>
+        </div>
+
+        <div className="subheading skill-heading">
+          <h3>Frontend skill map</h3>
+          <p>도구 숙련도가 아니라 검증 가능한 결과물로 역량을 설명합니다.</p>
+        </div>
+        <div className="skill-grid">
+          {openSourceStack.skills.map((skill, index) => (
+            <article key={skill.id}>
+              <div><span>{String(index + 1).padStart(2, "0")}</span><b>{skill.level}</b></div>
+              <h4>{skill.name}</h4>
+              <p>{skill.summary}</p>
+              <ul>{skill.learn.map((item) => <li key={item}>{item}</li>)}</ul>
+              <div className="skill-proof"><small>PROOF PROJECT</small><strong>{skill.proof}</strong></div>
+              <div className="skill-tools">{skill.tools.map((tool) => <em key={tool}>{tool}</em>)}</div>
+            </article>
+          ))}
+        </div>
+
+        <div className="subheading oss-heading">
+          <h3>Open source stack</h3>
+          <p>{openSourceStack.selectionNote} · {openSourceStack.verifiedAt} 확인</p>
+        </div>
+        <div className="oss-filters" aria-label="오픈소스 카테고리">
+          {ossCategories.map((item) => (
+            <button type="button" key={item} className={ossCategory === item ? "active" : ""} onClick={() => setOssCategory(item)}>{item}</button>
+          ))}
+        </div>
+        <div className="oss-grid">
+          {filteredProjects.map((project) => (
+            <a href={project.url} target="_blank" rel="noreferrer" key={project.id}>
+              <div className="oss-card-head">
+                <span>{project.category}</span>
+                <b className={`verdict-${project.verdict.toLowerCase()}`}>{project.verdict}</b>
+              </div>
+              <h4>{project.name}</h4>
+              <code>{project.repo}</code>
+              <p>{project.why}</p>
+              <dl>
+                <div><dt>BEST FOR</dt><dd>{project.bestFor}</dd></div>
+                <div><dt>WATCH</dt><dd>{project.cautions}</dd></div>
+              </dl>
+              <div className="oss-meta">
+                <span>★ {new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 }).format(project.stars)}</span>
+                <span>{project.license}</span>
+                <span>{project.latestRelease}</span>
+                <b>↗</b>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
       <section className="principles">
         <div className="section-heading inverse">
-          <p>06 / DECISION FILTER</p>
+          <p>07 / DECISION FILTER</p>
           <h2>유행보다 먼저 물을 것</h2>
           <span>5 QUESTIONS</span>
         </div>
@@ -351,7 +495,7 @@ export function TrendAtlas() {
 
       <footer>
         <p>UI/UX TREND ATLAS</p>
-        <div><span>Research snapshot</span><b>2026.07.26</b></div>
+        <div><span>Research snapshot</span><b>2026.07.27</b></div>
         <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </main>

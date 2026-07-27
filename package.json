@@ -11,7 +11,7 @@
     "start": "node node_modules/next/dist/bin/next start",
     "test": "npm run build",
     "lint": "node node_modules/eslint/bin/eslint.js . --ignore-pattern .next --ignore-pattern out",
-    "research:update": "node scripts/update-foreign-sources.mjs",
+    "research:update": "node scripts/update-foreign-sources.mjs && node scripts/update-open-source-stats.mjs",
     "check": "npm run lint && npm run build"
   },
   "dependencies": {

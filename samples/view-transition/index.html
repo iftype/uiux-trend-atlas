@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>View Transition Sample</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; }
+    body { margin: 0; padding: 24px; background: #f1efe8; color: #111; }
+    button { min-height: 44px; padding: 0 16px; }
+    .card { width: min(520px, 100%); margin-top: 24px; padding: 28px; background: #111; color: #fff; view-transition-name: feature-card; }
+    .card[data-expanded="true"] { width: 100%; min-height: 60dvh; background: #d7ff38; color: #111; }
+    ::view-transition-old(feature-card), ::view-transition-new(feature-card) { animation-duration: .42s; }
+    @media (prefers-reduced-motion: reduce) {
+      ::view-transition-group(*) { animation-duration: .01ms; }
+    }
+  </style>
+</head>
+<body>
+  <button id="toggle" type="button" aria-expanded="false">카드 펼치기</button>
+  <article class="card" id="card" data-expanded="false">
+    <h1>Progressive motion</h1>
+    <p>View Transition API가 없어도 상태 변경과 콘텐츠는 그대로 작동합니다.</p>
+  </article>
+  <script>
+    const button = document.querySelector("#toggle");
+    const card = document.querySelector("#card");
+    const update = () => {
+      const expanded = card.dataset.expanded !== "true";
+      card.dataset.expanded = String(expanded);
+      button.setAttribute("aria-expanded", String(expanded));
+      button.textContent = expanded ? "카드 접기" : "카드 펼치기";
+    };
+    button.addEventListener("click", () => {
+      const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!document.startViewTransition || reduce) return update();
+      document.startViewTransition(update);
+    });
+  </script>
+</body>
+</html>

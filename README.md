@@ -9,6 +9,8 @@
 - [`research/12-microinteractions/`](./research/12-microinteractions): 오픈소스 샘플과 국내 기업 공개 사례
 - [`research/13-foreign-tech-blogs/`](./research/13-foreign-tech-blogs): 해외 기업 공식 블로그, 선별 사례 노트, 자동 수집 최신 글
 - [`research/14-frontend-webview-2026/`](./research/14-frontend-webview-2026): 프론트엔드·WebView 구현 기준과 출시 체크리스트
+- [`research/15-open-source-sample-lab/`](./research/15-open-source-sample-lab): 오픈소스 분석, 프론트엔드 스킬 맵, 복사 가능한 샘플
+- [`samples/`](./samples): 의존성 없이 실행 가능한 UI·WebView 예제
 
 ## 주제
 
@@ -26,10 +28,11 @@
 12. 마이크로인터랙션
 13. 해외 기업 UI/UX 기술·디자인 블로그
 14. 2026 프론트엔드·WebView 필드 가이드
+15. 오픈소스 스택·샘플 랩
 
 ## 자동 업데이트 파이프라인
 
-매주 GitHub Actions가 공식 RSS/Atom 피드를 확인해 최신 해외 UI/UX·웹 플랫폼·WebView 글 목록과 피드 상태를 갱신합니다. 변경된 데이터는 자동 커밋되고 GitHub Pages가 다시 배포됩니다. Actions의 **Refresh foreign UI UX research** 워크플로는 필요할 때 수동 실행할 수도 있습니다.
+매주 GitHub Actions가 공식 RSS/Atom 피드와 선별한 오픈소스 저장소 메타데이터를 확인해 최신 UI/UX·웹 플랫폼·WebView 글, 릴리스와 유지보수 상태를 갱신합니다. 변경된 데이터는 자동 커밋되고 GitHub Pages가 다시 배포됩니다. Actions의 **Refresh foreign UI UX research** 워크플로는 필요할 때 수동 실행할 수도 있습니다.
 
 ## 자료 원칙
 
@@ -38,7 +41,7 @@
 - 링크·별표 수·제품 상태는 변할 수 있으므로 조사일을 남깁니다.
 - 접근성, 성능, 프라이버시를 시각 효과와 같은 수준으로 다룹니다.
 
-조사 기준일: **2026-07-26**
+조사 기준일: **2026-07-27**
 
 ## 로컬 실행
 

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Save State Sample</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; margin: 0; background: #f1efe8; color: #111; }
+    button { min-width: 150px; min-height: 52px; border: 1px solid #111; background: #111; color: #fff; font: 750 15px/1 system-ui; cursor: pointer; }
+    button[data-state="saved"] { background: #d7ff38; color: #111; animation: pop .28s ease-out; }
+    button[data-state="error"] { background: #c5253e; }
+    button:disabled { cursor: wait; opacity: .7; }
+    @keyframes pop { 50% { transform: scale(1.05); } }
+    @media (prefers-reduced-motion: reduce) { button { animation: none !important; } }
+  </style>
+</head>
+<body>
+  <div>
+    <button id="save" type="button" data-state="idle" aria-describedby="status">저장</button>
+    <p id="status" role="status" aria-live="polite"></p>
+  </div>
+  <script>
+    const button = document.querySelector("#save");
+    const status = document.querySelector("#status");
+    button.addEventListener("click", async () => {
+      button.disabled = true;
+      button.dataset.state = "loading";
+      button.textContent = "저장 중…";
+      status.textContent = "변경사항을 저장하고 있습니다.";
+      try {
+        await new Promise((resolve) => setTimeout(resolve, 700));
+        button.dataset.state = "saved";
+        button.textContent = "저장됨 ✓";
+        status.textContent = "변경사항을 저장했습니다.";
+      } catch {
+        button.dataset.state = "error";
+        button.textContent = "다시 시도";
+        status.textContent = "저장하지 못했습니다. 다시 시도해 주세요.";
+      } finally {
+        button.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

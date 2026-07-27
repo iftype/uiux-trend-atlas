@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T04:00:26.187Z",
+  "generatedAt": "2026-07-27T05:23:55.330Z",
   "stats": {
-    "catalogSources": 29,
-    "feedSources": 17,
-    "healthyFeeds": 17,
-    "articles": 80
+    "catalogSources": 38,
+    "feedSources": 24,
+    "healthyFeeds": 24,
+    "articles": 110
   },
   "sources": [
     {
@@ -15,7 +15,7 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.578Z",
+      "checkedAt": "2026-07-27T05:23:54.190Z",
       "articles": [
         {
           "title": "Personalizing Airbnb search by learning from the guest journey",
@@ -35,7 +35,7 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:26.064Z",
+      "checkedAt": "2026-07-27T05:23:54.636Z",
       "articles": [
         {
           "title": "Better Experiments with LLM Evals — A funnel, not a fork",
@@ -65,7 +65,7 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.412Z",
+      "checkedAt": "2026-07-27T05:23:54.185Z",
       "articles": [
         {
           "title": "How to Stop the Stakeholder Swirl",
@@ -154,7 +154,7 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.377Z",
+      "checkedAt": "2026-07-27T05:23:54.168Z",
       "articles": [
         {
           "title": "The business of design",
@@ -243,7 +243,7 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.469Z",
+      "checkedAt": "2026-07-27T05:23:54.164Z",
       "articles": [
         {
           "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
@@ -331,7 +331,7 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.549Z",
+      "checkedAt": "2026-07-27T05:23:54.238Z",
       "articles": [
         {
           "title": "Gathering around the fire: Durable human experience patterns in the AI era",
@@ -421,7 +421,7 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.664Z",
+      "checkedAt": "2026-07-27T05:23:54.879Z",
       "articles": [
         {
           "title": "Conversation design: How to make your AI Agent communicate like your team",
@@ -442,7 +442,7 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.626Z",
+      "checkedAt": "2026-07-27T05:23:53.774Z",
       "articles": []
     },
     {
@@ -452,7 +452,7 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.546Z",
+      "checkedAt": "2026-07-27T05:23:53.770Z",
       "articles": [
         {
           "title": "Behind the scenes of Canva's DesignDNA campaign",
@@ -482,7 +482,7 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.744Z",
+      "checkedAt": "2026-07-27T05:23:54.157Z",
       "articles": [
         {
           "title": "How to build interactive experiences with canvases",
@@ -502,7 +502,7 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.882Z",
+      "checkedAt": "2026-07-27T05:23:54.383Z",
       "articles": [
         {
           "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
@@ -533,7 +533,7 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.731Z",
+      "checkedAt": "2026-07-27T05:23:54.267Z",
       "articles": [
         {
           "title": "Walking the Walk: Design Leadership in an AI-Native World",
@@ -623,7 +623,7 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.909Z",
+      "checkedAt": "2026-07-27T05:23:54.172Z",
       "articles": [
         {
           "title": "Breaking the Myth of Big Click Energy",
@@ -712,7 +712,7 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:26.051Z",
+      "checkedAt": "2026-07-27T05:23:54.182Z",
       "articles": [
         {
           "title": "Make design history",
@@ -796,7 +796,7 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.922Z",
+      "checkedAt": "2026-07-27T05:23:54.693Z",
       "articles": [
         {
           "title": "How Etsy Uses LLMs to Improve Search Relevance",
@@ -824,7 +824,8 @@
           "topics": [
             "personalization",
             "sustainable-design",
-            "gamification"
+            "gamification",
+            "frontend-platform"
           ]
         },
         {
@@ -874,7 +875,7 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:26.186Z",
+      "checkedAt": "2026-07-27T05:23:54.176Z",
       "articles": [
         {
           "title": "A Framework to Integrate Accessible Design and Inclusive Research At Scale",
@@ -962,7 +963,7 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T04:00:25.767Z",
+      "checkedAt": "2026-07-27T05:23:54.235Z",
       "articles": [
         {
           "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
@@ -972,6 +973,351 @@
           "topics": [
             "personalization",
             "microinteractions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-dev",
+      "company": "Google Chrome",
+      "name": "web.dev",
+      "url": "https://web.dev/",
+      "feed": "https://web.dev/feed.xml",
+      "status": "ok",
+      "checkedAt": "2026-07-27T05:23:55.164Z",
+      "articles": [
+        {
+          "title": "New to the web platform in May",
+          "url": "https://web.dev/blog/web-platform-05-2026?hl=en",
+          "publishedAt": "2026-05-29T07:00:00.000Z",
+          "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during May 2026.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "April 2026 Baseline monthly digest",
+          "url": "https://web.dev/blog/baseline-digest-apr-2026?hl=en",
+          "publishedAt": "2026-05-27T07:00:00.000Z",
+          "summary": "Read about various happenings with Baseline during April 2026.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "New to the web platform in April",
+          "url": "https://web.dev/blog/web-platform-04-2026?hl=en",
+          "publishedAt": "2026-04-24T07:00:00.000Z",
+          "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during April 2026.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "March 2026 Baseline monthly digest",
+          "url": "https://web.dev/blog/baseline-digest-mar-2026?hl=en",
+          "publishedAt": "2026-04-14T07:00:00.000Z",
+          "summary": "Read about various happenings with Baseline during March 2026.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "February 2026 Baseline monthly digest",
+          "url": "https://web.dev/blog/baseline-digest-feb-2026?hl=en",
+          "publishedAt": "2026-03-30T07:00:00.000Z",
+          "summary": "Read about various happenings with Baseline during February 2026.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "New to the web platform in March",
+          "url": "https://web.dev/blog/web-platform-03-2026?hl=en",
+          "publishedAt": "2026-03-27T07:00:00.000Z",
+          "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during March 2026.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "January 2026 Baseline monthly digest",
+          "url": "https://web.dev/blog/baseline-digest-jan-2026?hl=en",
+          "publishedAt": "2026-03-02T08:00:00.000Z",
+          "summary": "Read about various happenings with Baseline during January 2026",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "New to the web platform in February",
+          "url": "https://web.dev/blog/web-platform-02-2026?hl=en",
+          "publishedAt": "2026-02-26T08:00:00.000Z",
+          "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during February 2026.",
+          "topics": [
+            "frontend-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome-developers",
+      "company": "Google Chrome",
+      "name": "Chrome for Developers",
+      "url": "https://developer.chrome.com/",
+      "feed": "https://developer.chrome.com/static/blog/feed.xml",
+      "status": "ok",
+      "checkedAt": "2026-07-27T05:23:54.453Z",
+      "articles": [
+        {
+          "title": "Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents",
+          "url": "https://developer.chrome.com/blog/devtools-for-agents-3p-tools?hl=en",
+          "publishedAt": "2026-06-18T07:00:00.000Z",
+          "summary": "Chrome DevTools for agents introduces third-party developer tools, which lets frameworks and applications share rich, runtime context with AI coding assistants.",
+          "topics": [
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "What's new in DevTools (Chrome 149)",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-149?hl=en",
+          "publishedAt": "2026-06-02T07:00:00.000Z",
+          "summary": "DevTools for agents is stable, AI assistance gets major upgrade with Lighthouse and widgets, new WebMCP debugging tools.",
+          "topics": [
+            "accessibility-performance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "webkit-blog",
+      "company": "Apple WebKit",
+      "name": "WebKit Blog",
+      "url": "https://webkit.org/blog/",
+      "feed": "https://webkit.org/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-27T05:23:55.298Z",
+      "articles": [
+        {
+          "title": "Introducing the Field Guide to Grid Lanes",
+          "url": "https://webkit.org/blog/18098/introducing-the-field-guide-to-grid-lanes/",
+          "publishedAt": "2026-06-10T07:30:35.000Z",
+          "summary": "This week, we launched the Field Guide to Grid Lanes at gridlanes.webkit.org.",
+          "topics": [
+            "webview-hybrid"
+          ]
+        },
+        {
+          "title": "News from WWDC26: WebKit in Safari 27 beta",
+          "url": "https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/",
+          "publishedAt": "2026-06-08T19:00:34.000Z",
+          "summary": "Safari 27 beta is here.",
+          "topics": [
+            "webview-hybrid"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mdn-blog",
+      "company": "Mozilla",
+      "name": "MDN Blog",
+      "url": "https://developer.mozilla.org/en-US/blog/",
+      "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
+      "status": "ok",
+      "checkedAt": "2026-07-27T05:23:53.853Z",
+      "articles": [
+        {
+          "title": "Introducing the MDN MCP server",
+          "url": "https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/",
+          "publishedAt": "2026-06-15T00:00:00.000Z",
+          "summary": "MDN's MCP server brings MDN's documentation and browser compatibility data directly into your editor or IDE, giving your LLM or coding agent access to accurate, up-to-date web platform information.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Under the hood of MDN's new frontend",
+          "url": "https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/",
+          "publishedAt": "2026-04-08T00:00:00.000Z",
+          "summary": "You may have spotted that MDN has a new frontend. There's plenty happening under the surface, so let's unpack the technologies we chose, the architectural decisions we made, and why we did a rebuild at all.",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "A beginner-friendly guide to view transitions in CSS",
+          "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide/",
+          "publishedAt": "2025-10-09T00:00:00.000Z",
+          "summary": "Learn how to bring smooth, animated navigation to multi-page apps with view transitions. With just one line of CSS, you can enable seamless transitions between pages.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Image formats: Color models for humans and devices",
+          "url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices/",
+          "publishedAt": "2025-05-06T00:00:00.000Z",
+          "summary": "Images help bring more color and life to the web. This post describes how images are represented by humans and on different devices, with details about color spaces and vision theory.",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "JavaScript Temporal is coming",
+          "url": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/",
+          "publishedAt": "2025-01-24T00:00:00.000Z",
+          "summary": "A new way to handle dates and times is being added to JavaScript. Let's take a look at Temporal, what problems it solves, the current state, and what you'll find in the new documentation about it on MDN.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Fix your website's Largest Contentful Paint by optimizing image loading",
+          "url": "https://developer.mozilla.org/en-US/blog/fix-image-lcp/",
+          "publishedAt": "2025-01-13T00:00:00.000Z",
+          "summary": "Learn techniques to improve the Largest Contentful Paint metric, a part of Core Web Vitals, for your website.",
+          "topics": [
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Fixing your website's JavaScript performance",
+          "url": "https://developer.mozilla.org/en-US/blog/fix-javascript-performance/",
+          "publishedAt": "2024-10-09T00:00:00.000Z",
+          "summary": "Learn about lesser-known web performance bottlenecks connected to excessive JavaScript usage, like long tasks, large bundle sizes, and hydration issues.",
+          "topics": [
+            "sustainable-design",
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Locale-sensitive text segmentation in JavaScript with Intl.Segmenter",
+          "url": "https://developer.mozilla.org/en-US/blog/javascript-intl-segmenter-i18n/",
+          "publishedAt": "2024-09-03T00:00:00.000Z",
+          "summary": "Learn how to use Intl.Segmenter for locale-sensitive text segmentation in JavaScript to simplify localization, count words or sentences in different languages, and more.",
+          "topics": [
+            "frontend-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mozilla-hacks",
+      "company": "Mozilla",
+      "name": "Mozilla Hacks",
+      "url": "https://hacks.mozilla.org/",
+      "feed": "https://hacks.mozilla.org/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-27T05:23:54.293Z",
+      "articles": [
+        {
+          "title": "Trustworthy JavaScript for the Open Web",
+          "url": "https://hacks.mozilla.org/2026/05/trustworthy-javascript-for-the-open-web/",
+          "publishedAt": "2026-05-05T15:49:11.000Z",
+          "summary": "The open web is a critical platform for applications that handle highly sensitive data, from private communications to financial transactions and medical records. Traditionally, servers are trusted to deliver the approp…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Experimenting with local alt text generation in Firefox Nightly",
+          "url": "https://hacks.mozilla.org/2024/05/experimenting-with-local-alt-text-generation-in-firefox-nightly/",
+          "publishedAt": "2024-05-31T16:43:46.000Z",
+          "summary": "Firefox 130 will introduce an experimental new capability to automatically generate alt-text for images using a fully private on-device AI model. The feature will be available as part of Firefox’s built-in PDF editor, a…",
+          "topics": [
+            "personalization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microsoft-edge",
+      "company": "Microsoft Edge",
+      "name": "Microsoft Edge Blog",
+      "url": "https://blogs.windows.com/msedgedev/",
+      "feed": "https://blogs.windows.com/msedgedev/feed/",
+      "status": "ok",
+      "checkedAt": "2026-07-27T05:23:54.384Z",
+      "articles": [
+        {
+          "title": "New in Edge for developers – Style layout gaps, improve keyboard accessibility and migrate your PWA to a new origin",
+          "url": "https://blogs.windows.com/msedgedev/2026/07/07/new-in-edge-for-developers-style-layout-gaps-improve-keyboard-accessibility-and-migrate-your-pwa-to-a-new-origin/",
+          "publishedAt": "2026-07-07T16:04:36.000Z",
+          "summary": "Welcome to New in Edge for developers , a new series featuring recent web platform updates in Microsoft Edge that help web developers build better sites and apps. In this first edition, we'll look at CSS gap de The post…",
+          "topics": [
+            "sustainable-design",
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "New updates to Edge across desktop and mobile",
+          "url": "https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/",
+          "publishedAt": "2026-05-13T15:55:23.000Z",
+          "summary": "Edge just made it easier to go from first tab to final plan, wherever you go. Your favorite Copilot experiences, plus new ones, are now available directly in Edge on desktop and, for the first time, in the Edge mobile a…",
+          "topics": [
+            "webview-hybrid",
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Making keyboard navigation effortless",
+          "url": "https://blogs.windows.com/msedgedev/2026/03/05/making-keyboard-navigation-effortless/",
+          "publishedAt": "2026-03-05T16:39:27.000Z",
+          "summary": "Do you use a keyboard to navigate websites? If so, you've probably run into countless accessibility issues where groups of inputs or widgets are not easy, or even possible to get to with just the keyboard. A keyboard-ac…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Microsoft Edge and Interop 2026",
+          "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/",
+          "publishedAt": "2026-02-12T17:07:08.000Z",
+          "summary": "Microsoft Edge is commited to a more powerful, predictable, and reliable web platform. One way we pursue those goals is via our ongoing participation in the Interop project . This year mark The post Microsoft Edge and I…",
+          "topics": [
+            "frontend-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "android-developers",
+      "company": "Google Android",
+      "name": "Android Developers Blog",
+      "url": "https://android-developers.googleblog.com/",
+      "feed": "https://android-developers.googleblog.com/feeds/posts/default",
+      "status": "ok",
+      "checkedAt": "2026-07-27T05:23:55.329Z",
+      "articles": [
+        {
+          "title": "Building a Mixed-Reality Tour Guide with Android XR, the Geospatial API, and Gemini",
+          "url": "https://android-developers.googleblog.com/feeds/6921297495746094343/comments/default",
+          "publishedAt": "2026-06-17T17:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "ar-vr"
+          ]
+        },
+        {
+          "title": "What’s New in Android XR: Tooling, Engine Support, and Ecosystem Updates",
+          "url": "https://android-developers.googleblog.com/feeds/3515307535587922001/comments/default",
+          "publishedAt": "2026-06-15T13:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "ar-vr"
+          ]
+        },
+        {
+          "title": "Build for the future with the Android XR Developer Catalyst Program — Apply now!",
+          "url": "https://android-developers.googleblog.com/feeds/9087147301757384136/comments/default",
+          "publishedAt": "2026-05-19T11:15:00.000Z",
+          "summary": "",
+          "topics": [
+            "ar-vr"
           ]
         }
       ]
@@ -1039,6 +1385,20 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
+    },
+    {
+      "title": "New in Edge for developers – Style layout gaps, improve keyboard accessibility and migrate your PWA to a new origin",
+      "url": "https://blogs.windows.com/msedgedev/2026/07/07/new-in-edge-for-developers-style-layout-gaps-improve-keyboard-accessibility-and-migrate-your-pwa-to-a-new-origin/",
+      "publishedAt": "2026-07-07T16:04:36.000Z",
+      "summary": "Welcome to New in Edge for developers , a new series featuring recent web platform updates in Microsoft Edge that help web developers build better sites and apps. In this first edition, we'll look at CSS gap de The post…",
+      "topics": [
+        "sustainable-design",
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "microsoft-edge",
+      "source": "Microsoft Edge Blog",
+      "company": "Microsoft Edge"
     },
     {
       "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
@@ -1119,6 +1479,30 @@
       "company": "Microsoft"
     },
     {
+      "title": "Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents",
+      "url": "https://developer.chrome.com/blog/devtools-for-agents-3p-tools?hl=en",
+      "publishedAt": "2026-06-18T07:00:00.000Z",
+      "summary": "Chrome DevTools for agents introduces third-party developer tools, which lets frameworks and applications share rich, runtime context with AI coding assistants.",
+      "topics": [
+        "accessibility-performance"
+      ],
+      "sourceId": "chrome-developers",
+      "source": "Chrome for Developers",
+      "company": "Google Chrome"
+    },
+    {
+      "title": "Building a Mixed-Reality Tour Guide with Android XR, the Geospatial API, and Gemini",
+      "url": "https://android-developers.googleblog.com/feeds/6921297495746094343/comments/default",
+      "publishedAt": "2026-06-17T17:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "ar-vr"
+      ],
+      "sourceId": "android-developers",
+      "source": "Android Developers Blog",
+      "company": "Google Android"
+    },
+    {
       "title": "A touch of feeling: advanced haptics in Windows 11",
       "url": "https://microsoft.design/articles/a-touch-of-feeling-advanced-haptics-in-windows-11/",
       "publishedAt": "2026-06-16T13:00:00.000Z",
@@ -1144,6 +1528,42 @@
       "company": "Microsoft"
     },
     {
+      "title": "What’s New in Android XR: Tooling, Engine Support, and Ecosystem Updates",
+      "url": "https://android-developers.googleblog.com/feeds/3515307535587922001/comments/default",
+      "publishedAt": "2026-06-15T13:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "ar-vr"
+      ],
+      "sourceId": "android-developers",
+      "source": "Android Developers Blog",
+      "company": "Google Android"
+    },
+    {
+      "title": "Introducing the MDN MCP server",
+      "url": "https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/",
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "summary": "MDN's MCP server brings MDN's documentation and browser compatibility data directly into your editor or IDE, giving your LLM or coding agent access to accurate, up-to-date web platform information.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "Introducing the Field Guide to Grid Lanes",
+      "url": "https://webkit.org/blog/18098/introducing-the-field-guide-to-grid-lanes/",
+      "publishedAt": "2026-06-10T07:30:35.000Z",
+      "summary": "This week, we launched the Field Guide to Grid Lanes at gridlanes.webkit.org.",
+      "topics": [
+        "webview-hybrid"
+      ],
+      "sourceId": "webkit-blog",
+      "source": "WebKit Blog",
+      "company": "Apple WebKit"
+    },
+    {
       "title": "Self-portraits: Anthony Dart",
       "url": "https://microsoft.design/articles/self-portraits-anthony-dart/",
       "publishedAt": "2026-06-09T14:16:54.000Z",
@@ -1157,6 +1577,18 @@
       "company": "Microsoft"
     },
     {
+      "title": "News from WWDC26: WebKit in Safari 27 beta",
+      "url": "https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/",
+      "publishedAt": "2026-06-08T19:00:34.000Z",
+      "summary": "Safari 27 beta is here.",
+      "topics": [
+        "webview-hybrid"
+      ],
+      "sourceId": "webkit-blog",
+      "source": "WebKit Blog",
+      "company": "Apple WebKit"
+    },
+    {
       "title": "How I Validated Design Decisions Before Writing Production Code",
       "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/",
       "publishedAt": "2026-06-04T01:29:47.000Z",
@@ -1168,6 +1600,30 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
+    },
+    {
+      "title": "What's new in DevTools (Chrome 149)",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-149?hl=en",
+      "publishedAt": "2026-06-02T07:00:00.000Z",
+      "summary": "DevTools for agents is stable, AI assistance gets major upgrade with Lighthouse and widgets, new WebMCP debugging tools.",
+      "topics": [
+        "accessibility-performance"
+      ],
+      "sourceId": "chrome-developers",
+      "source": "Chrome for Developers",
+      "company": "Google Chrome"
+    },
+    {
+      "title": "New to the web platform in May",
+      "url": "https://web.dev/blog/web-platform-05-2026?hl=en",
+      "publishedAt": "2026-05-29T07:00:00.000Z",
+      "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during May 2026.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "Designing Where the Pixels Actually Live",
@@ -1193,6 +1649,18 @@
       "sourceId": "ibm-design",
       "source": "IBM Design",
       "company": "IBM"
+    },
+    {
+      "title": "April 2026 Baseline monthly digest",
+      "url": "https://web.dev/blog/baseline-digest-apr-2026?hl=en",
+      "publishedAt": "2026-05-27T07:00:00.000Z",
+      "summary": "Read about various happenings with Baseline during April 2026.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
@@ -1247,6 +1715,18 @@
       "company": "Microsoft"
     },
     {
+      "title": "Build for the future with the Android XR Developer Catalyst Program — Apply now!",
+      "url": "https://android-developers.googleblog.com/feeds/9087147301757384136/comments/default",
+      "publishedAt": "2026-05-19T11:15:00.000Z",
+      "summary": "",
+      "topics": [
+        "ar-vr"
+      ],
+      "sourceId": "android-developers",
+      "source": "Android Developers Blog",
+      "company": "Google Android"
+    },
+    {
       "title": "Better Experiments with LLM Evals — A funnel, not a fork",
       "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
       "publishedAt": "2026-05-18T13:27:23.000Z",
@@ -1257,6 +1737,19 @@
       "sourceId": "spotify-engineering",
       "source": "Spotify Engineering",
       "company": "Spotify"
+    },
+    {
+      "title": "New updates to Edge across desktop and mobile",
+      "url": "https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/",
+      "publishedAt": "2026-05-13T15:55:23.000Z",
+      "summary": "Edge just made it easier to go from first tab to final plan, wherever you go. Your favorite Copilot experiences, plus new ones, are now available directly in Edge on desktop and, for the first time, in the Edge mobile a…",
+      "topics": [
+        "webview-hybrid",
+        "frontend-platform"
+      ],
+      "sourceId": "microsoft-edge",
+      "source": "Microsoft Edge Blog",
+      "company": "Microsoft Edge"
     },
     {
       "title": "Explainable AI: Insights from market and academic research",
@@ -1272,6 +1765,18 @@
       "company": "IBM"
     },
     {
+      "title": "Trustworthy JavaScript for the Open Web",
+      "url": "https://hacks.mozilla.org/2026/05/trustworthy-javascript-for-the-open-web/",
+      "publishedAt": "2026-05-05T15:49:11.000Z",
+      "summary": "The open web is a critical platform for applications that handle highly sensitive data, from private communications to financial transactions and medical records. Traditionally, servers are trusted to deliver the approp…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mozilla-hacks",
+      "source": "Mozilla Hacks",
+      "company": "Mozilla"
+    },
+    {
       "title": "Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins",
       "url": "https://engineering.atspotify.com/2026/5/spotify-ads-api-claude-plugins/",
       "publishedAt": "2026-05-01T16:00:02.000Z",
@@ -1283,6 +1788,18 @@
       "sourceId": "spotify-engineering",
       "source": "Spotify Engineering",
       "company": "Spotify"
+    },
+    {
+      "title": "New to the web platform in April",
+      "url": "https://web.dev/blog/web-platform-04-2026?hl=en",
+      "publishedAt": "2026-04-24T07:00:00.000Z",
+      "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during April 2026.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "IBM IT automation solutions gain further recognition with prestigious Indigo Design Awards",
@@ -1298,6 +1815,18 @@
       "company": "IBM"
     },
     {
+      "title": "March 2026 Baseline monthly digest",
+      "url": "https://web.dev/blog/baseline-digest-mar-2026?hl=en",
+      "publishedAt": "2026-04-14T07:00:00.000Z",
+      "summary": "Read about various happenings with Baseline during March 2026.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
       "title": "No Small Task: Evolving the Way Millions Catch Up in Slack",
       "url": "https://slack.design/articles/no-small-task-evolving-the-way-millions-catch-up-in-slack/",
       "publishedAt": "2026-04-09T17:06:52.000Z",
@@ -1309,6 +1838,43 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
+    },
+    {
+      "title": "Under the hood of MDN's new frontend",
+      "url": "https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/",
+      "publishedAt": "2026-04-08T00:00:00.000Z",
+      "summary": "You may have spotted that MDN has a new frontend. There's plenty happening under the surface, so let's unpack the technologies we chose, the architectural decisions we made, and why we did a rebuild at all.",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "February 2026 Baseline monthly digest",
+      "url": "https://web.dev/blog/baseline-digest-feb-2026?hl=en",
+      "publishedAt": "2026-03-30T07:00:00.000Z",
+      "summary": "Read about various happenings with Baseline during February 2026.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
+      "title": "New to the web platform in March",
+      "url": "https://web.dev/blog/web-platform-03-2026?hl=en",
+      "publishedAt": "2026-03-27T07:00:00.000Z",
+      "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during March 2026.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "I built a Figma plugin because the Carbon Data Table workflow was broken",
@@ -1337,6 +1903,31 @@
       "company": "IBM"
     },
     {
+      "title": "Making keyboard navigation effortless",
+      "url": "https://blogs.windows.com/msedgedev/2026/03/05/making-keyboard-navigation-effortless/",
+      "publishedAt": "2026-03-05T16:39:27.000Z",
+      "summary": "Do you use a keyboard to navigate websites? If so, you've probably run into countless accessibility issues where groups of inputs or widgets are not easy, or even possible to get to with just the keyboard. A keyboard-ac…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "microsoft-edge",
+      "source": "Microsoft Edge Blog",
+      "company": "Microsoft Edge"
+    },
+    {
+      "title": "January 2026 Baseline monthly digest",
+      "url": "https://web.dev/blog/baseline-digest-jan-2026?hl=en",
+      "publishedAt": "2026-03-02T08:00:00.000Z",
+      "summary": "Read about various happenings with Baseline during January 2026",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
       "title": "The Prompt Is the Prototype: How Structured AI Prompting Is Reshaping Enterprise Design",
       "url": "https://medium.com/design-ibm/the-prompt-is-the-prototype-how-structured-ai-prompting-is-reshaping-enterprise-design-b0c284549d76",
       "publishedAt": "2026-02-26T18:09:30.000Z",
@@ -1347,6 +1938,30 @@
       "sourceId": "ibm-design",
       "source": "IBM Design",
       "company": "IBM"
+    },
+    {
+      "title": "New to the web platform in February",
+      "url": "https://web.dev/blog/web-platform-02-2026?hl=en",
+      "publishedAt": "2026-02-26T08:00:00.000Z",
+      "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during February 2026.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
+      "title": "Microsoft Edge and Interop 2026",
+      "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/",
+      "publishedAt": "2026-02-12T17:07:08.000Z",
+      "summary": "Microsoft Edge is commited to a more powerful, predictable, and reliable web platform. One way we pursue those goals is via our ongoing participation in the Interop project . This year mark The post Microsoft Edge and I…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "microsoft-edge",
+      "source": "Microsoft Edge Blog",
+      "company": "Microsoft Edge"
     },
     {
       "title": "Cracking AI toolkit for product design: Idea to MVP in under 1 hour",
@@ -1406,11 +2021,24 @@
       "topics": [
         "personalization",
         "sustainable-design",
-        "gamification"
+        "gamification",
+        "frontend-platform"
       ],
       "sourceId": "etsy-engineering",
       "source": "Code as Craft",
       "company": "Etsy"
+    },
+    {
+      "title": "A beginner-friendly guide to view transitions in CSS",
+      "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide/",
+      "publishedAt": "2025-10-09T00:00:00.000Z",
+      "summary": "Learn how to bring smooth, animated navigation to multi-page apps with view transitions. With just one line of CSS, you can enable seamless transitions between pages.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
     },
     {
       "title": "Unlocking Faster Insights with Experimenter-Defined Segmentations",
@@ -1450,6 +2078,18 @@
       "company": "Slack"
     },
     {
+      "title": "Image formats: Color models for humans and devices",
+      "url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices/",
+      "publishedAt": "2025-05-06T00:00:00.000Z",
+      "summary": "Images help bring more color and life to the web. This post describes how images are represented by humans and on different devices, with details about color spaces and vision theory.",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
       "title": "Behind the scenes of Canva's DesignDNA campaign",
       "url": "https://www.canva.dev/blog/engineering/behind-the-scenes-of-canvas-designdna-campaign/",
       "publishedAt": "2025-02-24T00:00:01.000Z",
@@ -1475,6 +2115,56 @@
       "company": "Canva"
     },
     {
+      "title": "JavaScript Temporal is coming",
+      "url": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/",
+      "publishedAt": "2025-01-24T00:00:00.000Z",
+      "summary": "A new way to handle dates and times is being added to JavaScript. Let's take a look at Temporal, what problems it solves, the current state, and what you'll find in the new documentation about it on MDN.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "Fix your website's Largest Contentful Paint by optimizing image loading",
+      "url": "https://developer.mozilla.org/en-US/blog/fix-image-lcp/",
+      "publishedAt": "2025-01-13T00:00:00.000Z",
+      "summary": "Learn techniques to improve the Largest Contentful Paint metric, a part of Core Web Vitals, for your website.",
+      "topics": [
+        "accessibility-performance"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "Fixing your website's JavaScript performance",
+      "url": "https://developer.mozilla.org/en-US/blog/fix-javascript-performance/",
+      "publishedAt": "2024-10-09T00:00:00.000Z",
+      "summary": "Learn about lesser-known web performance bottlenecks connected to excessive JavaScript usage, like long tasks, large bundle sizes, and hydration issues.",
+      "topics": [
+        "sustainable-design",
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "Locale-sensitive text segmentation in JavaScript with Intl.Segmenter",
+      "url": "https://developer.mozilla.org/en-US/blog/javascript-intl-segmenter-i18n/",
+      "publishedAt": "2024-09-03T00:00:00.000Z",
+      "summary": "Learn how to use Intl.Segmenter for locale-sensitive text segmentation in JavaScript to simplify localization, count words or sentences in different languages, and more.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
       "title": "Efficient Visual Representation Learning And Evaluation",
       "url": "https://www.etsy.com/codeascraft/efficient-visual-representation-learning-and-evaluation",
       "publishedAt": "2024-06-07T17:23:02.000Z",
@@ -1486,6 +2176,18 @@
       "sourceId": "etsy-engineering",
       "source": "Code as Craft",
       "company": "Etsy"
+    },
+    {
+      "title": "Experimenting with local alt text generation in Firefox Nightly",
+      "url": "https://hacks.mozilla.org/2024/05/experimenting-with-local-alt-text-generation-in-firefox-nightly/",
+      "publishedAt": "2024-05-31T16:43:46.000Z",
+      "summary": "Firefox 130 will introduce an experimental new capability to automatically generate alt-text for images using a fully private on-device AI model. The feature will be available as part of Firefox’s built-in PDF editor, a…",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "mozilla-hacks",
+      "source": "Mozilla Hacks",
+      "company": "Mozilla"
     },
     {
       "title": "Breaking the Myth of Big Click Energy",
@@ -1984,6 +2686,18 @@
       "url": "https://medium.com/etsy-design/sandboxes-at-etsy-8bb88fa7da92",
       "publishedAt": "2016-11-17T19:13:18.000Z",
       "summary": "A Better Experience for Everyone Illustration by Naomi Wilkinson Here at Etsy, sandboxes are places where designers working on digital experiences can build whatever they want without blowing things up. At their core, s…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "Welcome to Etsy Design",
+      "url": "https://medium.com/etsy-design/welcome-to-etsy-design-cd89ba6f3e5d",
+      "publishedAt": "2016-10-18T19:06:09.000Z",
+      "summary": "Illustration by Jing Wei Allow us the privilege of introducing ourselves. “Hi! We’re Etsy Design.” “Hello, there. Wait…what’s Etsy?” “Oh, Etsy? It’s this special thing, and we’d love for you to be a part of it. Etsy is…",
       "topics": [
         "bold-color"
       ],

@@ -16,5 +16,6 @@
 | 12 | [마이크로인터랙션](./12-microinteractions/) | 작은 피드백이 한 행동을 명확하게 완결하는가? |
 | 13 | [해외 기업 UI/UX 블로그](./13-foreign-tech-blogs/) | 실제 제품 팀은 어떤 문제와 구현 과정을 공개하는가? |
 | 14 | [Frontend × WebView 2026](./14-frontend-webview-2026/) | 최신 웹 UI를 앱 안에서도 안전하고 빠르게 출시하려면 무엇을 검수해야 하는가? |
+| 15 | [Open Source Stack & Sample Lab](./15-open-source-sample-lab/) | 어떤 도구를 왜 선택하고, 어떤 샘플로 역량을 증명할 것인가? |
 
-조사 기준일: **2026-07-26**
+조사 기준일: **2026-07-27**

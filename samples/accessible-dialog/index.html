@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessible Dialog Sample</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 24px; }
+    button { min-width: 44px; min-height: 44px; padding: 0 16px; font: inherit; cursor: pointer; }
+    dialog { width: min(480px, calc(100% - 32px)); padding: 0; border: 1px solid currentColor; }
+    dialog::backdrop { background: rgb(0 0 0 / .58); backdrop-filter: blur(4px); }
+    dialog[open] { animation: enter .22s ease-out; }
+    .panel { padding: 24px; }
+    .actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 24px; }
+    @keyframes enter { from { opacity: 0; transform: translateY(12px) scale(.98); } }
+    @media (prefers-reduced-motion: reduce) { dialog[open] { animation: none; } }
+  </style>
+</head>
+<body>
+  <button id="open">설정 열기</button>
+  <dialog id="settings" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <div class="panel">
+      <h1 id="dialog-title">알림 설정</h1>
+      <p id="dialog-description">필요한 알림만 받을 수 있습니다.</p>
+      <label><input type="checkbox"> 업데이트 알림 받기</label>
+      <div class="actions">
+        <button id="cancel" type="button">취소</button>
+        <button id="save" type="button">저장</button>
+      </div>
+    </div>
+  </dialog>
+  <p id="status" role="status" aria-live="polite"></p>
+  <script>
+    const dialog = document.querySelector("#settings");
+    const status = document.querySelector("#status");
+    document.querySelector("#open").addEventListener("click", () => dialog.showModal());
+    document.querySelector("#cancel").addEventListener("click", () => dialog.close("cancel"));
+    document.querySelector("#save").addEventListener("click", () => dialog.close("save"));
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close("backdrop");
+    });
+    dialog.addEventListener("close", () => {
+      status.textContent = dialog.returnValue === "save" ? "설정을 저장했습니다." : "";
+    });
+  </script>
+</body>
+</html>

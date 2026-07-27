@@ -27,6 +27,8 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Collect official feeds
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: npm run research:update
       - name: Validate generated data and site
         run: npm run check
@@ -39,7 +41,7 @@ jobs:
           fi
           git config user.name "uiux-trend-atlas-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/generated/foreign-updates.json public/data/foreign-updates.json research/13-foreign-tech-blogs/LATEST.md
+          git add app/generated/foreign-updates.json public/data/foreign-updates.json research/13-foreign-tech-blogs/LATEST.md data/open-source-stack.json
           git commit -m "chore(data): refresh foreign UX feeds"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
