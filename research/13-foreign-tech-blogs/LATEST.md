@@ -1,6 +1,6 @@
 # Latest Foreign UI/UX Articles
 
-자동 갱신: **2026-07-26** · 정상 피드 **17/17** · 수집 글 **80개**
+자동 갱신: **2026-07-27** · 정상 피드 **17/17** · 수집 글 **80개**
 
 > 이 문서는 GitHub Actions가 공식 RSS/Atom 피드의 제목·링크·발행일만 수집해 생성합니다. 본문은 복제하지 않습니다.
 
@@ -71,20 +71,20 @@
 
 | 출처 | 상태 | 확인 시각 |
 |---|---|---|
-| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | 2026-07-26 11:56 UTC |
-| [Spotify Engineering](https://engineering.atspotify.com/) | ok | 2026-07-26 11:56 UTC |
-| [Uber Design](https://medium.com/uber-design) | ok | 2026-07-26 11:56 UTC |
-| [Dropbox Design](https://medium.com/dropbox-design) | ok | 2026-07-26 11:56 UTC |
-| [Slack Design](https://slack.design/) | ok | 2026-07-26 11:56 UTC |
-| [Microsoft Design](https://microsoft.design/) | ok | 2026-07-26 11:56 UTC |
-| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | 2026-07-26 11:56 UTC |
-| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | 2026-07-26 11:56 UTC |
-| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | 2026-07-26 11:56 UTC |
-| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | 2026-07-26 11:56 UTC |
-| [Netflix TechBlog](https://netflixtechblog.com/) | ok | 2026-07-26 11:56 UTC |
-| [IBM Design](https://medium.com/design-ibm) | ok | 2026-07-26 11:56 UTC |
-| [Indeed Design](https://medium.com/indeed-design) | ok | 2026-07-26 11:56 UTC |
-| [Etsy Design](https://medium.com/etsy-design) | ok | 2026-07-26 11:56 UTC |
-| [Code as Craft](https://www.etsy.com/codeascraft) | ok | 2026-07-26 11:56 UTC |
-| [Wayfair Design](https://medium.com/wayfair-design) | ok | 2026-07-26 11:56 UTC |
-| [Meta Engineering](https://engineering.fb.com/) | ok | 2026-07-26 11:56 UTC |
+| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | 2026-07-27 04:00 UTC |
+| [Spotify Engineering](https://engineering.atspotify.com/) | ok | 2026-07-27 04:00 UTC |
+| [Uber Design](https://medium.com/uber-design) | ok | 2026-07-27 04:00 UTC |
+| [Dropbox Design](https://medium.com/dropbox-design) | ok | 2026-07-27 04:00 UTC |
+| [Slack Design](https://slack.design/) | ok | 2026-07-27 04:00 UTC |
+| [Microsoft Design](https://microsoft.design/) | ok | 2026-07-27 04:00 UTC |
+| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | 2026-07-27 04:00 UTC |
+| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | 2026-07-27 04:00 UTC |
+| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | 2026-07-27 04:00 UTC |
+| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | 2026-07-27 04:00 UTC |
+| [Netflix TechBlog](https://netflixtechblog.com/) | ok | 2026-07-27 04:00 UTC |
+| [IBM Design](https://medium.com/design-ibm) | ok | 2026-07-27 04:00 UTC |
+| [Indeed Design](https://medium.com/indeed-design) | ok | 2026-07-27 04:00 UTC |
+| [Etsy Design](https://medium.com/etsy-design) | ok | 2026-07-27 04:00 UTC |
+| [Code as Craft](https://www.etsy.com/codeascraft) | ok | 2026-07-27 04:00 UTC |
+| [Wayfair Design](https://medium.com/wayfair-design) | ok | 2026-07-27 04:00 UTC |
+| [Meta Engineering](https://engineering.fb.com/) | ok | 2026-07-27 04:00 UTC |
