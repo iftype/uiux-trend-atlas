@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T05:24:53.967Z",
+  "generatedAt": "2026-08-03T03:52:39.051Z",
   "stats": {
     "catalogSources": 38,
     "feedSources": 24,
     "healthyFeeds": 24,
-    "articles": 110
+    "articles": 109
   },
   "sources": [
     {
@@ -15,7 +15,7 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.437Z",
+      "checkedAt": "2026-08-03T03:52:37.623Z",
       "articles": [
         {
           "title": "Personalizing Airbnb search by learning from the guest journey",
@@ -35,7 +35,7 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.787Z",
+      "checkedAt": "2026-08-03T03:52:38.251Z",
       "articles": [
         {
           "title": "Better Experiments with LLM Evals — A funnel, not a fork",
@@ -44,16 +44,6 @@
           "summary": "TL;DR LLM evals, automated judges that assess relevance, coherence, and quality at scale, are a powerful new... The post Better Experiments with LLM Evals — A funnel, not a fork appeared first on Spotify Engineering .",
           "topics": [
             "personalization"
-          ]
-        },
-        {
-          "title": "Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins",
-          "url": "https://engineering.atspotify.com/2026/5/spotify-ads-api-claude-plugins/",
-          "publishedAt": "2026-05-01T16:00:02.000Z",
-          "summary": "Turning OpenAPI spec and Markdown files into a conversational ads management tool — no compiled code required. The post Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins appeared firs…",
-          "topics": [
-            "personalization",
-            "realtime-content"
           ]
         }
       ]
@@ -65,7 +55,7 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.448Z",
+      "checkedAt": "2026-08-03T03:52:37.891Z",
       "articles": [
         {
           "title": "How to Stop the Stakeholder Swirl",
@@ -154,7 +144,7 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.471Z",
+      "checkedAt": "2026-08-03T03:52:37.603Z",
       "articles": [
         {
           "title": "The business of design",
@@ -243,7 +233,7 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.305Z",
+      "checkedAt": "2026-08-03T03:52:37.715Z",
       "articles": [
         {
           "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
@@ -331,8 +321,18 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.325Z",
+      "checkedAt": "2026-08-03T03:52:37.821Z",
       "articles": [
+        {
+          "title": "Bringing a humanitarian lens to the future of AI",
+          "url": "https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/",
+          "publishedAt": "2026-07-28T16:35:21.000Z",
+          "summary": "The post Bringing a humanitarian lens to the future of AI appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
         {
           "title": "Gathering around the fire: Durable human experience patterns in the AI era",
           "url": "https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/",
@@ -401,16 +401,6 @@
             "personalization",
             "microinteractions"
           ]
-        },
-        {
-          "title": "Self-portraits: Madeline Kleiner",
-          "url": "https://microsoft.design/articles/self-portraits-madeline-kleiner/",
-          "publishedAt": "2026-05-20T13:42:35.000Z",
-          "summary": "A UX researcher helped Copilot meet people in the flow of their work. The post Self-portraits: Madeline Kleiner appeared first on Microsoft Design .",
-          "topics": [
-            "personalization",
-            "microinteractions"
-          ]
         }
       ]
     },
@@ -421,7 +411,7 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.672Z",
+      "checkedAt": "2026-08-03T03:52:37.876Z",
       "articles": [
         {
           "title": "Conversation design: How to make your AI Agent communicate like your team",
@@ -442,7 +432,7 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.560Z",
+      "checkedAt": "2026-08-03T03:52:37.900Z",
       "articles": []
     },
     {
@@ -452,7 +442,7 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.428Z",
+      "checkedAt": "2026-08-03T03:52:37.840Z",
       "articles": [
         {
           "title": "Behind the scenes of Canva's DesignDNA campaign",
@@ -482,7 +472,7 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.356Z",
+      "checkedAt": "2026-08-03T03:52:37.895Z",
       "articles": [
         {
           "title": "How to build interactive experiences with canvases",
@@ -502,8 +492,17 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.612Z",
+      "checkedAt": "2026-08-03T03:52:38.044Z",
       "articles": [
+        {
+          "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+          "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+          "publishedAt": "2026-07-30T20:10:15.000Z",
+          "summary": "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and inte…",
+          "topics": [
+            "personalization"
+          ]
+        },
         {
           "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
           "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
@@ -533,7 +532,7 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.493Z",
+      "checkedAt": "2026-08-03T03:52:38.009Z",
       "articles": [
         {
           "title": "Walking the Walk: Design Leadership in an AI-Native World",
@@ -623,7 +622,7 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.504Z",
+      "checkedAt": "2026-08-03T03:52:38.090Z",
       "articles": [
         {
           "title": "Breaking the Myth of Big Click Energy",
@@ -712,7 +711,7 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.499Z",
+      "checkedAt": "2026-08-03T03:52:38.031Z",
       "articles": [
         {
           "title": "Make design history",
@@ -796,7 +795,7 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.777Z",
+      "checkedAt": "2026-08-03T03:52:38.249Z",
       "articles": [
         {
           "title": "How Etsy Uses LLMs to Improve Search Relevance",
@@ -875,7 +874,7 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.575Z",
+      "checkedAt": "2026-08-03T03:52:39.050Z",
       "articles": [
         {
           "title": "A Framework to Integrate Accessible Design and Inclusive Research At Scale",
@@ -963,7 +962,7 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.564Z",
+      "checkedAt": "2026-08-03T03:52:38.012Z",
       "articles": [
         {
           "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
@@ -984,7 +983,7 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.864Z",
+      "checkedAt": "2026-08-03T03:52:38.310Z",
       "articles": [
         {
           "title": "New to the web platform in May",
@@ -1067,7 +1066,7 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.836Z",
+      "checkedAt": "2026-08-03T03:52:38.149Z",
       "articles": [
         {
           "title": "Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents",
@@ -1096,22 +1095,22 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.967Z",
+      "checkedAt": "2026-08-03T03:52:38.732Z",
       "articles": [
         {
-          "title": "Introducing the Field Guide to Grid Lanes",
-          "url": "https://webkit.org/blog/18098/introducing-the-field-guide-to-grid-lanes/",
-          "publishedAt": "2026-06-10T07:30:35.000Z",
-          "summary": "This week, we launched the Field Guide to Grid Lanes at gridlanes.webkit.org.",
+          "title": "WebKit Features for Safari 26.6",
+          "url": "https://webkit.org/blog/18178/webkit-features-for-safari-26-6/",
+          "publishedAt": "2026-07-27T18:00:52.000Z",
+          "summary": "Safari 26.6 is here.",
           "topics": [
             "webview-hybrid"
           ]
         },
         {
-          "title": "News from WWDC26: WebKit in Safari 27 beta",
-          "url": "https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/",
-          "publishedAt": "2026-06-08T19:00:34.000Z",
-          "summary": "Safari 27 beta is here.",
+          "title": "Introducing the Field Guide to Grid Lanes",
+          "url": "https://webkit.org/blog/18098/introducing-the-field-guide-to-grid-lanes/",
+          "publishedAt": "2026-06-10T07:30:35.000Z",
+          "summary": "This week, we launched the Field Guide to Grid Lanes at gridlanes.webkit.org.",
           "topics": [
             "webview-hybrid"
           ]
@@ -1125,7 +1124,7 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.767Z",
+      "checkedAt": "2026-08-03T03:52:38.106Z",
       "articles": [
         {
           "title": "Introducing the MDN MCP server",
@@ -1211,7 +1210,7 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.616Z",
+      "checkedAt": "2026-08-03T03:52:38.144Z",
       "articles": [
         {
           "title": "Trustworthy JavaScript for the Open Web",
@@ -1240,7 +1239,7 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.656Z",
+      "checkedAt": "2026-08-03T03:52:38.204Z",
       "articles": [
         {
           "title": "New in Edge for developers – Style layout gaps, improve keyboard accessibility and migrate your PWA to a new origin",
@@ -1291,7 +1290,7 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-07-27T05:24:53.793Z",
+      "checkedAt": "2026-08-03T03:52:38.383Z",
       "articles": [
         {
           "title": "Building a Mixed-Reality Tour Guide with Android XR, the Geospatial API, and Gemini",
@@ -1310,20 +1309,48 @@
           "topics": [
             "ar-vr"
           ]
-        },
-        {
-          "title": "Build for the future with the Android XR Developer Catalyst Program — Apply now!",
-          "url": "https://android-developers.googleblog.com/feeds/9087147301757384136/comments/default",
-          "publishedAt": "2026-05-19T11:15:00.000Z",
-          "summary": "",
-          "topics": [
-            "ar-vr"
-          ]
         }
       ]
     }
   ],
   "articles": [
+    {
+      "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+      "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+      "publishedAt": "2026-07-30T20:10:15.000Z",
+      "summary": "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and inte…",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "netflix-techblog",
+      "source": "Netflix TechBlog",
+      "company": "Netflix"
+    },
+    {
+      "title": "Bringing a humanitarian lens to the future of AI",
+      "url": "https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/",
+      "publishedAt": "2026-07-28T16:35:21.000Z",
+      "summary": "The post Bringing a humanitarian lens to the future of AI appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "WebKit Features for Safari 26.6",
+      "url": "https://webkit.org/blog/18178/webkit-features-for-safari-26-6/",
+      "publishedAt": "2026-07-27T18:00:52.000Z",
+      "summary": "Safari 26.6 is here.",
+      "topics": [
+        "webview-hybrid"
+      ],
+      "sourceId": "webkit-blog",
+      "source": "WebKit Blog",
+      "company": "Apple WebKit"
+    },
     {
       "title": "Gathering around the fire: Durable human experience patterns in the AI era",
       "url": "https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/",
@@ -1577,18 +1604,6 @@
       "company": "Microsoft"
     },
     {
-      "title": "News from WWDC26: WebKit in Safari 27 beta",
-      "url": "https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/",
-      "publishedAt": "2026-06-08T19:00:34.000Z",
-      "summary": "Safari 27 beta is here.",
-      "topics": [
-        "webview-hybrid"
-      ],
-      "sourceId": "webkit-blog",
-      "source": "WebKit Blog",
-      "company": "Apple WebKit"
-    },
-    {
       "title": "How I Validated Design Decisions Before Writing Production Code",
       "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/",
       "publishedAt": "2026-06-04T01:29:47.000Z",
@@ -1702,31 +1717,6 @@
       "company": "Slack"
     },
     {
-      "title": "Self-portraits: Madeline Kleiner",
-      "url": "https://microsoft.design/articles/self-portraits-madeline-kleiner/",
-      "publishedAt": "2026-05-20T13:42:35.000Z",
-      "summary": "A UX researcher helped Copilot meet people in the flow of their work. The post Self-portraits: Madeline Kleiner appeared first on Microsoft Design .",
-      "topics": [
-        "personalization",
-        "microinteractions"
-      ],
-      "sourceId": "microsoft-design",
-      "source": "Microsoft Design",
-      "company": "Microsoft"
-    },
-    {
-      "title": "Build for the future with the Android XR Developer Catalyst Program — Apply now!",
-      "url": "https://android-developers.googleblog.com/feeds/9087147301757384136/comments/default",
-      "publishedAt": "2026-05-19T11:15:00.000Z",
-      "summary": "",
-      "topics": [
-        "ar-vr"
-      ],
-      "sourceId": "android-developers",
-      "source": "Android Developers Blog",
-      "company": "Google Android"
-    },
-    {
       "title": "Better Experiments with LLM Evals — A funnel, not a fork",
       "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
       "publishedAt": "2026-05-18T13:27:23.000Z",
@@ -1775,19 +1765,6 @@
       "sourceId": "mozilla-hacks",
       "source": "Mozilla Hacks",
       "company": "Mozilla"
-    },
-    {
-      "title": "Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins",
-      "url": "https://engineering.atspotify.com/2026/5/spotify-ads-api-claude-plugins/",
-      "publishedAt": "2026-05-01T16:00:02.000Z",
-      "summary": "Turning OpenAPI spec and Markdown files into a conversational ads management tool — no compiled code required. The post Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins appeared firs…",
-      "topics": [
-        "personalization",
-        "realtime-content"
-      ],
-      "sourceId": "spotify-engineering",
-      "source": "Spotify Engineering",
-      "company": "Spotify"
     },
     {
       "title": "New to the web platform in April",

@@ -1,11 +1,14 @@
 # Latest Foreign UI/UX Articles
 
-자동 갱신: **2026-07-27** · 정상 피드 **24/24** · 수집 글 **110개**
+자동 갱신: **2026-08-03** · 정상 피드 **24/24** · 수집 글 **109개**
 
 > 이 문서는 GitHub Actions가 공식 RSS/Atom 피드의 제목·링크·발행일만 수집해 생성합니다. 본문은 복제하지 않습니다.
 
 | 발행일 | 출처 | 글 | 연결 주제 |
 |---|---|---|---|
+| 2026-07-30 | Netflix TechBlog | [GenRec: Towards LLM-Native Recommendation at Netflix](https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3) | `personalization` |
+| 2026-07-28 | Microsoft Design | [Bringing a humanitarian lens to the future of AI](https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/) | `personalization` `microinteractions` |
+| 2026-07-27 | WebKit Blog | [WebKit Features for Safari 26.6](https://webkit.org/blog/18178/webkit-features-for-safari-26-6/) | `webview-hybrid` |
 | 2026-07-22 | Microsoft Design | [Gathering around the fire: Durable human experience patterns in the AI era](https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/) | `personalization` `microinteractions` |
 | 2026-07-21 | Airbnb Engineering | [Personalizing Airbnb search by learning from the guest journey](https://medium.com/airbnb-engineering/personalizing-airbnb-search-by-learning-from-the-guest-journey-bcefd1915624) | `personalization` |
 | 2026-07-21 | GitHub Engineering · UX | [How to build interactive experiences with canvases](https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/) | `3d-graphics-animation` |
@@ -26,7 +29,6 @@
 | 2026-06-15 | MDN Blog | [Introducing the MDN MCP server](https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/) | `frontend-platform` |
 | 2026-06-10 | WebKit Blog | [Introducing the Field Guide to Grid Lanes](https://webkit.org/blog/18098/introducing-the-field-guide-to-grid-lanes/) | `webview-hybrid` |
 | 2026-06-09 | Microsoft Design | [Self-portraits: Anthony Dart](https://microsoft.design/articles/self-portraits-anthony-dart/) | `personalization` `microinteractions` |
-| 2026-06-08 | WebKit Blog | [News from WWDC26: WebKit in Safari 27 beta](https://webkit.org/blog/17967/news-from-wwdc26-webkit-in-safari-27-beta/) | `webview-hybrid` |
 | 2026-06-04 | Slack Design | [How I Validated Design Decisions Before Writing Production Code](https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/) | `microinteractions` `realtime-content` |
 | 2026-06-02 | Chrome for Developers | [What's new in DevTools (Chrome 149)](https://developer.chrome.com/blog/new-in-devtools-149?hl=en) | `accessibility-performance` |
 | 2026-05-29 | web.dev | [New to the web platform in May](https://web.dev/blog/web-platform-05-2026?hl=en) | `frontend-platform` |
@@ -36,13 +38,10 @@
 | 2026-05-26 | Meta Engineering | [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/) | `personalization` `microinteractions` |
 | 2026-05-25 | IBM Design | [IBM Systems Environment Estimator recognized with prestigious 2026 iF Design Award](https://medium.com/design-ibm/ibm-systems-environment-estimator-recognized-with-prestigious-2026-if-design-award-af4ffa49bce9) | `microinteractions` `personalization` |
 | 2026-05-21 | Slack Design | [Leading design through the AI shift](https://slack.design/articles/leading-design-through-the-ai-shift/) | `microinteractions` `realtime-content` |
-| 2026-05-20 | Microsoft Design | [Self-portraits: Madeline Kleiner](https://microsoft.design/articles/self-portraits-madeline-kleiner/) | `personalization` `microinteractions` |
-| 2026-05-19 | Android Developers Blog | [Build for the future with the Android XR Developer Catalyst Program — Apply now!](https://android-developers.googleblog.com/feeds/9087147301757384136/comments/default) | `ar-vr` |
 | 2026-05-18 | Spotify Engineering | [Better Experiments with LLM Evals — A funnel, not a fork](https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/) | `personalization` |
 | 2026-05-13 | Microsoft Edge Blog | [New updates to Edge across desktop and mobile](https://blogs.windows.com/msedgedev/2026/05/13/new-updates-to-edge-across-desktop-and-mobile/) | `webview-hybrid` `frontend-platform` |
 | 2026-05-06 | IBM Design | [Explainable AI: Insights from market and academic research](https://medium.com/design-ibm/explainable-ai-insights-from-market-and-academic-research-b79b50243bb5) | `bold-color` `3d-graphics-animation` |
 | 2026-05-05 | Mozilla Hacks | [Trustworthy JavaScript for the Open Web](https://hacks.mozilla.org/2026/05/trustworthy-javascript-for-the-open-web/) | `frontend-platform` |
-| 2026-05-01 | Spotify Engineering | [Building a Natural Language Interface to the Spotify Ads API with Claude Code Plugins](https://engineering.atspotify.com/2026/5/spotify-ads-api-claude-plugins/) | `personalization` `realtime-content` |
 | 2026-04-24 | web.dev | [New to the web platform in April](https://web.dev/blog/web-platform-04-2026?hl=en) | `frontend-platform` |
 | 2026-04-23 | IBM Design | [IBM IT automation solutions gain further recognition with prestigious Indigo Design Awards](https://medium.com/design-ibm/ibm-it-automation-solutions-gain-further-recognition-with-prestigious-indigo-design-awards-004cb33518b8) | `microinteractions` `personalization` |
 | 2026-04-14 | web.dev | [March 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-mar-2026?hl=en) | `frontend-platform` |
@@ -106,32 +105,33 @@
 | 2020-05-22 | Dropbox Design | [Designing with letters](https://medium.com/dropbox-design/designing-with-letters-420c02b795b5) | `realtime-content` |
 | 2020-05-22 | Dropbox Design | [PUT IT IN YOUR OWN WORDS](https://medium.com/dropbox-design/put-it-in-your-own-words-1d7fbdae4c4) | `microinteractions` `bold-color` |
 | 2020-05-05 | Dropbox Design | [Distributed Sprints Kit](https://medium.com/dropbox-design/distributed-sprints-kit-c59cced1484a) | `microinteractions` `bold-color` |
+| 2020-03-03 | Uber Design | [What do I want to do with my c̶a̶r̶e̶e̶r̶ life?](https://medium.com/uber-design/what-do-i-want-to-do-with-my-c%CC%B6a%CC%B6r%CC%B6e%CC%B6e%CC%B6r%CC%B6-life-54d7266c3cde) | `realtime-content` `microinteractions` |
 
 ## Feed health
 
 | 출처 | 상태 | 확인 시각 |
 |---|---|---|
-| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | 2026-07-27 05:24 UTC |
-| [Spotify Engineering](https://engineering.atspotify.com/) | ok | 2026-07-27 05:24 UTC |
-| [Uber Design](https://medium.com/uber-design) | ok | 2026-07-27 05:24 UTC |
-| [Dropbox Design](https://medium.com/dropbox-design) | ok | 2026-07-27 05:24 UTC |
-| [Slack Design](https://slack.design/) | ok | 2026-07-27 05:24 UTC |
-| [Microsoft Design](https://microsoft.design/) | ok | 2026-07-27 05:24 UTC |
-| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | 2026-07-27 05:24 UTC |
-| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | 2026-07-27 05:24 UTC |
-| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | 2026-07-27 05:24 UTC |
-| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | 2026-07-27 05:24 UTC |
-| [Netflix TechBlog](https://netflixtechblog.com/) | ok | 2026-07-27 05:24 UTC |
-| [IBM Design](https://medium.com/design-ibm) | ok | 2026-07-27 05:24 UTC |
-| [Indeed Design](https://medium.com/indeed-design) | ok | 2026-07-27 05:24 UTC |
-| [Etsy Design](https://medium.com/etsy-design) | ok | 2026-07-27 05:24 UTC |
-| [Code as Craft](https://www.etsy.com/codeascraft) | ok | 2026-07-27 05:24 UTC |
-| [Wayfair Design](https://medium.com/wayfair-design) | ok | 2026-07-27 05:24 UTC |
-| [Meta Engineering](https://engineering.fb.com/) | ok | 2026-07-27 05:24 UTC |
-| [web.dev](https://web.dev/) | ok | 2026-07-27 05:24 UTC |
-| [Chrome for Developers](https://developer.chrome.com/) | ok | 2026-07-27 05:24 UTC |
-| [WebKit Blog](https://webkit.org/blog/) | ok | 2026-07-27 05:24 UTC |
-| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | 2026-07-27 05:24 UTC |
-| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | 2026-07-27 05:24 UTC |
-| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | 2026-07-27 05:24 UTC |
-| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | 2026-07-27 05:24 UTC |
+| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | 2026-08-03 03:52 UTC |
+| [Spotify Engineering](https://engineering.atspotify.com/) | ok | 2026-08-03 03:52 UTC |
+| [Uber Design](https://medium.com/uber-design) | ok | 2026-08-03 03:52 UTC |
+| [Dropbox Design](https://medium.com/dropbox-design) | ok | 2026-08-03 03:52 UTC |
+| [Slack Design](https://slack.design/) | ok | 2026-08-03 03:52 UTC |
+| [Microsoft Design](https://microsoft.design/) | ok | 2026-08-03 03:52 UTC |
+| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | 2026-08-03 03:52 UTC |
+| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | 2026-08-03 03:52 UTC |
+| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | 2026-08-03 03:52 UTC |
+| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | 2026-08-03 03:52 UTC |
+| [Netflix TechBlog](https://netflixtechblog.com/) | ok | 2026-08-03 03:52 UTC |
+| [IBM Design](https://medium.com/design-ibm) | ok | 2026-08-03 03:52 UTC |
+| [Indeed Design](https://medium.com/indeed-design) | ok | 2026-08-03 03:52 UTC |
+| [Etsy Design](https://medium.com/etsy-design) | ok | 2026-08-03 03:52 UTC |
+| [Code as Craft](https://www.etsy.com/codeascraft) | ok | 2026-08-03 03:52 UTC |
+| [Wayfair Design](https://medium.com/wayfair-design) | ok | 2026-08-03 03:52 UTC |
+| [Meta Engineering](https://engineering.fb.com/) | ok | 2026-08-03 03:52 UTC |
+| [web.dev](https://web.dev/) | ok | 2026-08-03 03:52 UTC |
+| [Chrome for Developers](https://developer.chrome.com/) | ok | 2026-08-03 03:52 UTC |
+| [WebKit Blog](https://webkit.org/blog/) | ok | 2026-08-03 03:52 UTC |
+| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | 2026-08-03 03:52 UTC |
+| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | 2026-08-03 03:52 UTC |
+| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | 2026-08-03 03:52 UTC |
+| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | 2026-08-03 03:52 UTC |
