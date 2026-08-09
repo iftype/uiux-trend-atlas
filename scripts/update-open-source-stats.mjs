@@ -7,13 +7,13 @@ const data = JSON.parse(await readFile(dataPath, "utf8"));
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 const headers = {
   accept: "application/vnd.github+json",
-  "user-agent": "uiux-trend-atlas/1.0 (+https://github.com/iftype/uiux-trend-atlas)",
+  "user-agent": "uiux-trend-atlas/1.1 (+https://github.com/iftype/uiux-trend-atlas/blob/main/BOT_POLICY.md)",
   "x-github-api-version": "2022-11-28",
   ...(token ? { authorization: `Bearer ${token}` } : {}),
 };
 
 let healthy = 0;
-const projects = await Promise.all(data.projects.map(updateProject));
+const projects = await mapWithConcurrency(data.projects, 4, updateProject);
 
 if (healthy === 0) {
   throw new Error("Every GitHub repository metadata request failed. Existing open-source data was left untouched.");
@@ -58,4 +58,17 @@ async function github(path, allowNotFound = false) {
   if (allowNotFound && response.status === 404) return null;
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   return response.json();
+}
+
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = new Array(items.length);
+  let cursor = 0;
+  const worker = async () => {
+    while (cursor < items.length) {
+      const index = cursor++;
+      results[index] = await mapper(items[index]);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
 }

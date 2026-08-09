@@ -255,10 +255,12 @@ export function TrendAtlas() {
         <div className="pipeline-status">
           <div>
             <i />
-            <span>PIPELINE HEALTHY</span>
+            <span>{foreignUpdates.stats.healthyFeeds === foreignUpdates.stats.feedSources ? "PIPELINE HEALTHY" : "PIPELINE PARTIAL"}</span>
           </div>
           <p>
             공식 피드 <b>{foreignUpdates.stats.healthyFeeds}/{foreignUpdates.stats.feedSources}</b> 정상
+            <span>·</span>
+            robots 허용 <b>{foreignUpdates.stats.robotsAllowedFeeds}/{foreignUpdates.stats.feedSources}</b>
             <span>·</span>
             최신 글 <b>{foreignUpdates.stats.articles}</b>개
             <span>·</span>
@@ -269,7 +271,7 @@ export function TrendAtlas() {
 
         <div className="subheading global-latest">
           <h3>Latest from the field</h3>
-          <p>공식 RSS/Atom에서 제목·링크·발행일만 가져옵니다. 출처 도메인과 원문 링크를 모든 카드에 표시합니다.</p>
+          <p>매 수집 시 robots.txt를 확인하고 공식 RSS/Atom의 제목·링크·발행일만 보관합니다. 출처 도메인과 원문 링크를 모든 카드에 표시합니다.</p>
         </div>
         <div className="article-library-tools">
           <div className="article-filters" aria-label="아티클 주제 필터">
@@ -298,7 +300,7 @@ export function TrendAtlas() {
               </div>
               <small>{article.company} / {article.source}</small>
               <h4>{article.title}</h4>
-              <p>{article.summary}</p>
+              <p>{article.company} 공식 채널의 원문으로 이동합니다. 외부 본문과 요약문은 저장하지 않습니다.</p>
               <div className="article-meta">
                 <div className="article-tags">{article.topics.slice(0, 2).map((topic) => <em key={topic}>{topic}</em>)}</div>
                 <span className="article-link"><small>{getDomain(article.url)}</small><b>원문 읽기 ↗</b></span>
@@ -553,7 +555,12 @@ export function TrendAtlas() {
 
       <footer>
         <p>UI/UX TREND ATLAS</p>
-        <div><span>Research snapshot</span><b>{foreignUpdates.generatedAt.slice(0, 10)}</b></div>
+        <div>
+          <span>Research snapshot</span>
+          <b>{foreignUpdates.generatedAt.slice(0, 10)}</b>
+          <a href="https://github.com/iftype/uiux-trend-atlas/blob/main/LEGAL.md" target="_blank" rel="noreferrer">LEGAL &amp; ATTRIBUTION ↗</a>
+          <a href="https://github.com/iftype/uiux-trend-atlas/blob/main/BOT_POLICY.md" target="_blank" rel="noreferrer">CRAWLER POLICY ↗</a>
+        </div>
         <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </main>

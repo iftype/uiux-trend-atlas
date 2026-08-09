@@ -1,11 +1,23 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { evaluateRobots } from "./lib/robots.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const catalogPath = resolve(root, "data/foreign-tech-blogs.json");
 const publicPath = resolve(root, "public/data/foreign-updates.json");
 const appPath = resolve(root, "app/generated/foreign-updates.json");
 const markdownPath = resolve(root, "research/13-foreign-tech-blogs/LATEST.md");
+const botToken = "uiux-trend-atlas";
+const botUserAgent = `${botToken}/1.1 (+https://github.com/iftype/uiux-trend-atlas/blob/main/BOT_POLICY.md)`;
+const robotsCache = new Map();
+
+class RobotsPolicyError extends Error {
+  constructor(message, audit) {
+    super(message);
+    this.name = "RobotsPolicyError";
+    this.audit = audit;
+  }
+}
 
 const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
 const previous = await readJson(publicPath, { sources: [], articles: [] });
@@ -41,7 +53,7 @@ const topicRules = {
 };
 
 const feedSources = catalog.filter((source) => source.feed);
-const settled = await Promise.all(feedSources.map(updateSource));
+const settled = await collectSources(feedSources);
 const successful = settled.filter((source) => source.status === "ok").length;
 
 if (successful === 0) {
@@ -54,12 +66,14 @@ const allArticles = settled
 const uniqueArticles = dedupeByUrl(allArticles).slice(0, 240);
 
 const output = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   generatedAt: new Date().toISOString(),
+  collectionPolicy: "metadata-only",
   stats: {
     catalogSources: catalog.length,
     feedSources: feedSources.length,
     healthyFeeds: successful,
+    robotsAllowedFeeds: settled.filter((source) => source.robots?.status === "allowed").length,
     articles: uniqueArticles.length,
   },
   sources: settled,
@@ -76,8 +90,11 @@ console.log(`Updated ${output.articles.length} articles from ${successful}/${fee
 
 async function updateSource(source) {
   const prior = previousBySource.get(source.id);
+  let robots;
   try {
-    const response = await fetchWithTimeout(source.feed, 18_000);
+    const result = await fetchFeedWithPolicy(source.feed, 18_000);
+    robots = result.robots;
+    const response = result.response;
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const xml = await response.text();
     const feedItems = parseFeed(xml);
@@ -86,6 +103,7 @@ async function updateSource(source) {
       .filter((article) => source.feedMode === "all" || isUxRelevant(article))
       .map((article) => ({ ...article, topics: classify(article, source.topics) }))
       .filter((article) => article.url && article.title)
+      .map(toPublicArticle)
       .slice(0, 12);
 
     return {
@@ -96,6 +114,7 @@ async function updateSource(source) {
       feed: source.feed,
       status: "ok",
       checkedAt: new Date().toISOString(),
+      robots,
       articles: parsed,
     };
   } catch (error) {
@@ -109,23 +128,165 @@ async function updateSource(source) {
       status: "stale",
       checkedAt: new Date().toISOString(),
       error: error instanceof Error ? error.message : String(error),
-      articles: prior?.articles ?? [],
+      robots: error instanceof RobotsPolicyError ? error.audit : robots ?? prior?.robots ?? { status: "unknown" },
+      articles: error instanceof RobotsPolicyError ? [] : sanitizeArticles(prior?.articles ?? []),
     };
   }
 }
 
-async function fetchWithTimeout(url, timeout) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
-  try {
-    return await fetch(url, {
-      redirect: "follow",
-      signal: controller.signal,
-      headers: { "user-agent": "uiux-trend-atlas/1.0 (+https://github.com/iftype/uiux-trend-atlas)" },
-    });
-  } finally {
-    clearTimeout(timer);
+async function collectSources(sources) {
+  const groups = new Map();
+  sources.forEach((source, index) => {
+    const origin = new URL(source.feed).origin;
+    if (!groups.has(origin)) groups.set(origin, []);
+    groups.get(origin).push({ source, index });
+  });
+
+  const queues = [...groups.values()];
+  const results = new Array(sources.length);
+  let cursor = 0;
+  const worker = async () => {
+    while (cursor < queues.length) {
+      const queue = queues[cursor++];
+      for (const { source, index } of queue) {
+        results[index] = await updateSource(source);
+        await delay(350);
+      }
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(4, queues.length) }, worker));
+  return results;
+}
+
+async function fetchFeedWithPolicy(initialUrl, timeout) {
+  let currentUrl = new URL(initialUrl);
+  const checks = [];
+
+  for (let redirectCount = 0; redirectCount <= 5; redirectCount += 1) {
+    const check = await checkRobots(currentUrl, timeout);
+    checks.push(check.audit);
+    if (!check.allowed) {
+      throw new RobotsPolicyError(`robots.txt policy denied ${currentUrl.origin}`, makeRobotsAudit("blocked", currentUrl, checks));
+    }
+
+    const response = await request(currentUrl, timeout);
+    if (!isRedirect(response.status)) {
+      return { response, robots: makeRobotsAudit("allowed", currentUrl, checks) };
+    }
+
+    const location = response.headers.get("location");
+    if (!location) throw new Error(`HTTP ${response.status} redirect missing Location`);
+    currentUrl = new URL(location, currentUrl);
   }
+
+  throw new RobotsPolicyError("Feed exceeded the five-redirect safety limit", makeRobotsAudit("blocked", currentUrl, checks));
+}
+
+async function checkRobots(targetUrl, timeout) {
+  const document = await getRobotsDocument(targetUrl.origin, timeout);
+  if (document.mode === "blocked") {
+    return { allowed: false, audit: auditCheck(targetUrl, document, null) };
+  }
+  if (document.mode === "missing") {
+    return { allowed: true, audit: auditCheck(targetUrl, document, null) };
+  }
+
+  const decision = evaluateRobots(document.text, targetUrl, botToken);
+  return { allowed: decision.allowed, audit: auditCheck(targetUrl, document, decision.matchedRule) };
+}
+
+async function getRobotsDocument(origin, timeout) {
+  if (robotsCache.has(origin)) return robotsCache.get(origin);
+
+  const promise = (async () => {
+    let robotsUrl = new URL("/robots.txt", origin);
+    for (let redirectCount = 0; redirectCount <= 5; redirectCount += 1) {
+      try {
+        const response = await request(robotsUrl, timeout);
+        if (isRedirect(response.status)) {
+          const location = response.headers.get("location");
+          if (!location) return robotsDocument("blocked", robotsUrl, response.status, "redirect-without-location");
+          robotsUrl = new URL(location, robotsUrl);
+          continue;
+        }
+        if (response.ok) {
+          const text = (await response.text()).slice(0, 512_000);
+          return { ...robotsDocument("rules", robotsUrl, response.status, "rules-found"), text };
+        }
+        if (response.status === 404 || response.status === 410) {
+          return robotsDocument("missing", robotsUrl, response.status, "not-published");
+        }
+        if (response.status >= 400 && response.status < 500 && ![401, 403, 429].includes(response.status)) {
+          return robotsDocument("missing", robotsUrl, response.status, "rfc9309-unavailable");
+        }
+        return robotsDocument("blocked", robotsUrl, response.status, "unreachable-or-restricted");
+      } catch (error) {
+        return robotsDocument("blocked", robotsUrl, null, error instanceof Error ? error.message : String(error));
+      }
+    }
+    return robotsDocument("blocked", robotsUrl, null, "redirect-limit");
+  })();
+
+  robotsCache.set(origin, promise);
+  return promise;
+}
+
+async function request(url, timeout) {
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeout);
+    try {
+      const response = await fetch(url, {
+        redirect: "manual",
+        signal: controller.signal,
+        headers: {
+          accept: "application/atom+xml, application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.1",
+          "user-agent": botUserAgent,
+        },
+      });
+      if (![429, 503].includes(response.status) || attempt === 1) return response;
+      await response.body?.cancel();
+      await delay(retryDelay(response.headers.get("retry-after")));
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+  throw new Error("Request retry loop ended unexpectedly");
+}
+
+function retryDelay(value) {
+  if (!value) return 1_500;
+  const seconds = Number(value);
+  const milliseconds = Number.isFinite(seconds) ? seconds * 1_000 : Date.parse(value) - Date.now();
+  return Math.min(15_000, Math.max(0, milliseconds || 1_500));
+}
+
+function isRedirect(status) {
+  return [301, 302, 303, 307, 308].includes(status);
+}
+
+function robotsDocument(mode, url, httpStatus, reason) {
+  return { mode, url: url.toString(), httpStatus, reason, checkedAt: new Date().toISOString() };
+}
+
+function auditCheck(targetUrl, document, matchedRule) {
+  return {
+    origin: targetUrl.origin,
+    robotsUrl: document.url,
+    httpStatus: document.httpStatus,
+    decision: document.mode === "blocked" ? "blocked" : "allowed",
+    reason: matchedRule ?? document.reason,
+    checkedAt: document.checkedAt,
+  };
+}
+
+function makeRobotsAudit(status, finalUrl, checks) {
+  return {
+    status,
+    checkedAt: checks.at(-1)?.checkedAt ?? new Date().toISOString(),
+    finalFeedUrl: finalUrl.toString(),
+    checks,
+  };
 }
 
 function parseFeed(xml) {
@@ -139,7 +300,7 @@ function parseFeed(xml) {
     const publishedAt = normalizeDate(
       cleanText(matchTag(block, "pubDate") || matchTag(block, "published") || matchTag(block, "updated") || matchTag(block, "dc:date")),
     );
-    return { title, url, publishedAt, summary: truncate(description, 220) };
+    return { title, url, publishedAt, feedText: description.slice(0, 2_000) };
   });
 }
 
@@ -183,7 +344,7 @@ function normalizeDate(value) {
 
 function isUxRelevant(article) {
   const title = article.title.toLowerCase();
-  const strictSummary = article.summary.toLowerCase();
+  const strictSummary = article.feedText.toLowerCase();
   const titleMatch = uxKeywords.some((keyword) => wordMatch(title, keyword));
   const summaryPhrases = [
     "accessibility", "design system", "interaction design", "user experience",
@@ -195,7 +356,7 @@ function isUxRelevant(article) {
 }
 
 function classify(article, fallback = []) {
-  const haystack = `${article.title} ${article.summary}`.toLowerCase();
+  const haystack = `${article.title} ${article.feedText}`.toLowerCase();
   const matches = Object.entries(topicRules)
     .filter(([, keywords]) => keywords.some((keyword) => wordMatch(haystack, keyword)))
     .map(([topic]) => topic);
@@ -208,9 +369,24 @@ function wordMatch(haystack, keyword) {
   return new RegExp(`(^|[^a-z0-9])${keyword}`, "i").test(haystack);
 }
 
-function truncate(value, length) {
-  if (value.length <= length) return value;
-  return `${value.slice(0, length - 1).trim()}…`;
+function toPublicArticle(article) {
+  return {
+    title: article.title,
+    url: article.url,
+    publishedAt: article.publishedAt,
+    topics: article.topics,
+  };
+}
+
+function sanitizeArticles(articles) {
+  return articles.map((article) => toPublicArticle({
+    ...article,
+    topics: Array.isArray(article.topics) ? article.topics : [],
+  }));
+}
+
+function delay(milliseconds) {
+  return new Promise((resolveDelay) => setTimeout(resolveDelay, milliseconds));
 }
 
 function dedupeByUrl(items) {
@@ -226,7 +402,7 @@ function renderMarkdown(data) {
   const lines = [
     "# Latest Foreign UI/UX Articles",
     "",
-    `자동 갱신: **${data.generatedAt.slice(0, 10)}** · 정상 피드 **${data.stats.healthyFeeds}/${data.stats.feedSources}** · 수집 글 **${data.articles.length}개**`,
+    `자동 갱신: **${data.generatedAt.slice(0, 10)}** · 정상 피드 **${data.stats.healthyFeeds}/${data.stats.feedSources}** · robots 허용 **${data.stats.robotsAllowedFeeds}/${data.stats.feedSources}** · 수집 글 **${data.articles.length}개**`,
     "",
     "> 이 문서는 GitHub Actions가 공식 RSS/Atom 피드의 제목·링크·발행일만 수집해 생성합니다. 본문은 복제하지 않습니다.",
     "",
@@ -238,9 +414,9 @@ function renderMarkdown(data) {
     const topics = article.topics.map((topic) => `\`${topic}\``).join(" ");
     lines.push(`| ${date} | ${escapeMd(article.source)} | [${escapeMd(article.title)}](${article.url}) | ${topics} |`);
   }
-  lines.push("", "## Feed health", "", "| 출처 | 상태 | 확인 시각 |", "|---|---|---|");
+  lines.push("", "## Feed health", "", "| 출처 | 상태 | robots.txt | 확인 시각 |", "|---|---|---|---|");
   for (const source of data.sources) {
-    lines.push(`| [${escapeMd(source.name)}](${source.url}) | ${source.status} | ${source.checkedAt.slice(0, 16).replace("T", " ")} UTC |`);
+    lines.push(`| [${escapeMd(source.name)}](${source.url}) | ${source.status} | ${source.robots?.status ?? "unknown"} | ${source.checkedAt.slice(0, 16).replace("T", " ")} UTC |`);
   }
   return `${lines.join("\n")}\n`;
 }
