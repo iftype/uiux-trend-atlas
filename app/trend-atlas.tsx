@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { koreanCases, microRepos, trends, type Source } from "./data";
 import foreignCatalog from "../data/foreign-tech-blogs.json";
@@ -8,7 +9,30 @@ import openSourceStack from "../data/open-source-stack.json";
 import foreignUpdates from "./generated/foreign-updates.json";
 
 const frontendTopics = new Set(["frontend-platform", "webview-hybrid", "accessibility-performance"]);
-const articlePageSize = 18;
+const articlePageSize = 6;
+const sourcePageSize = 10;
+const ossPageSize = 6;
+
+export type AtlasView = "home" | "trends" | "trend" | "micro" | "global" | "sources" | "guide" | "samples" | "opensource";
+
+const routeNavigation: { view: AtlasView; label: string; href: string }[] = [
+  { view: "home", label: "HOME", href: "/" },
+  { view: "trends", label: "12 TRENDS", href: "/trends/" },
+  { view: "micro", label: "MICRO", href: "/microinteractions/" },
+  { view: "global", label: "GLOBAL", href: "/global/" },
+  { view: "guide", label: "2026 GUIDE", href: "/field-guide/" },
+  { view: "samples", label: "SAMPLES", href: "/samples/" },
+  { view: "opensource", label: "OPEN SOURCE", href: "/open-source/" },
+];
+
+const pageDirectory = [
+  { no: "01", href: "/trends/", title: "12 UI/UX 트렌드", copy: "트렌드 목록에서 한 주제씩 독립된 리서치 노트로 읽습니다.", meta: "12 NOTES" },
+  { no: "02", href: "/microinteractions/", title: "마이크로인터랙션", copy: "작동 샘플, 국내 기업 사례와 공개 저장소를 모았습니다.", meta: "CASES + DEMOS" },
+  { no: "03", href: "/global/", title: "글로벌 아티클", copy: "공식 기술 블로그 최신 글을 6개씩 넘겨가며 탐색합니다.", meta: "AUTO UPDATED" },
+  { no: "04", href: "/field-guide/", title: "2026 WebView 가이드", copy: "브라우저와 앱 컨테이너를 함께 다루는 출시 기준입니다.", meta: "FIELD GUIDE" },
+  { no: "05", href: "/samples/", title: "실행 샘플·스킬", copy: "직접 눌러보는 UI 샘플과 결과물 중심 스킬 맵입니다.", meta: "INTERACTIVE" },
+  { no: "06", href: "/open-source/", title: "오픈소스 스택", copy: "용도, 주의점, 라이선스를 비교해 필요한 도구를 고릅니다.", meta: "23 PROJECTS" },
+];
 
 const categories = ["전체", "콘텐츠", "모션", "몰입", "신뢰", "행동"] as const;
 const categoryMap: Record<(typeof categories)[number], string[]> = {
@@ -46,7 +70,29 @@ function ReferenceList({ items, sources, offset = 0 }: { items: string[]; source
   );
 }
 
-export function TrendAtlas() {
+function Pagination({ page, total, onChange, label }: { page: number; total: number; onChange: (page: number) => void; label: string }) {
+  if (total <= 1) return null;
+  const candidates = total <= 7
+    ? Array.from({ length: total }, (_, index) => index + 1)
+    : [...new Set([1, page - 1, page, page + 1, total].filter((item) => item >= 1 && item <= total))];
+
+  return (
+    <nav className="pagination" aria-label={label}>
+      <button type="button" disabled={page === 1} onClick={() => onChange(page - 1)}>← 이전</button>
+      <div>
+        {candidates.map((item, index) => (
+          <span key={item}>
+            {index > 0 && item - candidates[index - 1] > 1 && <i aria-hidden="true">…</i>}
+            <button type="button" className={item === page ? "active" : ""} aria-current={item === page ? "page" : undefined} onClick={() => onChange(item)}>{item}</button>
+          </span>
+        ))}
+      </div>
+      <button type="button" disabled={page === total} onClick={() => onChange(page + 1)}>다음 →</button>
+    </nav>
+  );
+}
+
+export function TrendAtlas({ view = "home", trendId }: { view?: AtlasView; trendId?: string }) {
   const [theme, setTheme] = useState<"light" | "dark">("light");
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<(typeof categories)[number]>("전체");
@@ -54,7 +100,9 @@ export function TrendAtlas() {
   const [time, setTime] = useState("");
   const [ossCategory, setOssCategory] = useState("ALL");
   const [articleTopic, setArticleTopic] = useState("ALL");
-  const [articleLimit, setArticleLimit] = useState(articlePageSize);
+  const [articlePage, setArticlePage] = useState(1);
+  const [sourcePage, setSourcePage] = useState(1);
+  const [ossPage, setOssPage] = useState(1);
   const [saveDemo, setSaveDemo] = useState<"idle" | "loading" | "saved">("idle");
   const [keyboardDemo, setKeyboardDemo] = useState(false);
   const [bridgeStep, setBridgeStep] = useState(0);
@@ -97,11 +145,23 @@ export function TrendAtlas() {
   const filteredArticles = articleTopic === "ALL"
     ? foreignUpdates.articles
     : foreignUpdates.articles.filter((article) => article.topics.includes(articleTopic));
-  const visibleArticles = filteredArticles.slice(0, articleLimit);
+  const articlePageCount = Math.max(1, Math.ceil(filteredArticles.length / articlePageSize));
+  const visibleArticles = filteredArticles.slice((articlePage - 1) * articlePageSize, articlePage * articlePageSize);
+  const sourcePageCount = Math.max(1, Math.ceil(foreignCatalog.length / sourcePageSize));
+  const visibleSources = foreignCatalog.slice((sourcePage - 1) * sourcePageSize, sourcePage * sourcePageSize);
   const ossCategories = ["ALL", ...new Set(openSourceStack.projects.map((project) => project.category))];
   const filteredProjects = ossCategory === "ALL"
     ? openSourceStack.projects
     : openSourceStack.projects.filter((project) => project.category === ossCategory);
+  const ossPageCount = Math.max(1, Math.ceil(filteredProjects.length / ossPageSize));
+  const visibleProjects = filteredProjects.slice((ossPage - 1) * ossPageSize, ossPage * ossPageSize);
+  const selectedTrendIndex = trends.findIndex((trend) => trend.id === trendId);
+  const selectedTrend = selectedTrendIndex >= 0 ? trends[selectedTrendIndex] : trends[0];
+
+  const changePage = (setter: (page: number) => void, nextPage: number, targetId: string) => {
+    setter(nextPage);
+    document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 
   const toggleRead = (id: string) => {
     setRead((current) => {
@@ -115,14 +175,21 @@ export function TrendAtlas() {
     <main>
       <div className="reading-line" style={{ transform: `scaleX(${read.length / trends.length})` }} />
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Trend Atlas 처음으로">UI/UX<br />TREND ATLAS</a>
+        <Link className="brand" href="/" aria-label="Trend Atlas 처음으로">UI/UX<br />TREND ATLAS</Link>
         <div className="live" aria-label={`현재 시각 ${time}`}><i /> LIVE · {time}</div>
         <button className="theme-toggle" onClick={() => setTheme(theme === "dark" ? "light" : "dark")} aria-label="색상 테마 전환">
           {theme === "dark" ? "LIGHT" : "DARK"} ↗
         </button>
       </header>
 
-      <section className="hero" id="top">
+      <nav className="page-nav" aria-label="주요 페이지">
+        {routeNavigation.map((item) => {
+          const active = item.view === view || (view === "trend" && item.view === "trends") || (view === "sources" && item.view === "global");
+          return <Link href={item.href} key={item.view} className={active ? "active" : ""} aria-current={active ? "page" : undefined}>{item.label}</Link>;
+        })}
+      </nav>
+
+      {view === "home" && <section className="hero" id="top">
         <div className="eyebrow">FIELD NOTES / 2026 EDITION</div>
         <h1>
           <span>지금,</span>
@@ -133,10 +200,29 @@ export function TrendAtlas() {
         <div className="hero-meta">
           <span>12 TOPICS</span><span>{foreignCatalog.length} GLOBAL SOURCES</span><span>WEBVIEW 2026</span><span>AUTO UPDATED</span>
         </div>
-        <a className="scroll-cue" href="#index"><span>SCROLL TO EXPLORE</span><b>↓</b></a>
-      </section>
+        <a className="scroll-cue" href="#pages"><span>CHOOSE A PAGE</span><b>↓</b></a>
+      </section>}
 
-      <section className="index" id="index">
+      {view === "home" && <section className="page-directory" id="pages">
+        <div className="section-heading">
+          <p>01 / PAGES</p>
+          <h2>필요한 만큼만 읽기</h2>
+          <span>6 SECTIONS</span>
+        </div>
+        <p className="page-directory-intro">하나의 긴 문서를 목적별 페이지로 나눴습니다. 트렌드 노트는 한 주제씩, 목록형 자료는 번호로 넘겨가며 볼 수 있습니다.</p>
+        <div className="page-grid">
+          {pageDirectory.map((item) => (
+            <Link href={item.href} className="page-card" key={item.href}>
+              <div><span>{item.no}</span><small>{item.meta}</small></div>
+              <h3>{item.title}</h3>
+              <p>{item.copy}</p>
+              <b>페이지 열기 ↗</b>
+            </Link>
+          ))}
+        </div>
+      </section>}
+
+      {view === "trends" && <section className="index" id="top">
         <div className="section-heading">
           <p>01 / INDEX</p>
           <h2>탐색할 흐름</h2>
@@ -157,7 +243,7 @@ export function TrendAtlas() {
 
         <div className="topic-grid">
           {filtered.map((trend) => (
-            <a className="topic-card" href={`#${trend.id}`} key={trend.id} style={{ "--accent": trend.color } as React.CSSProperties}>
+            <Link className="topic-card" href={`/trends/${trend.id}/`} key={trend.id} style={{ "--accent": trend.color } as React.CSSProperties}>
               <span className="topic-no">{trend.no}</span>
               <div>
                 <small>{trend.english}</small>
@@ -165,19 +251,19 @@ export function TrendAtlas() {
                 <p>{trend.summary}</p>
               </div>
               <span className="arrow">↘</span>
-            </a>
+            </Link>
           ))}
         </div>
         {filtered.length === 0 && <p className="empty">일치하는 흐름이 없습니다. 다른 검색어를 입력해 보세요.</p>}
-      </section>
+      </section>}
 
-      <section className="deep-dive">
+      {view === "trend" && <section className="deep-dive" id="top">
         <div className="section-heading inverse">
           <p>02 / FIELD NOTES</p>
           <h2>리서치 노트</h2>
-          <span>{read.length}/{trends.length} READ</span>
+          <span>{selectedTrend.no} / {trends.length.toString().padStart(2, "0")}</span>
         </div>
-        {trends.map((trend) => (
+        {[selectedTrend].map((trend) => (
           <article className="trend" id={trend.id} key={trend.id} style={{ "--accent": trend.color } as React.CSSProperties}>
             <div className="trend-title">
               <span>{trend.no}</span>
@@ -203,9 +289,14 @@ export function TrendAtlas() {
             </div>
           </article>
         ))}
-      </section>
+        <nav className="trend-pager" aria-label="트렌드 앞뒤 페이지">
+          {selectedTrendIndex > 0 ? <Link href={`/trends/${trends[selectedTrendIndex - 1].id}/`}><small>← 이전 노트</small><b>{trends[selectedTrendIndex - 1].title}</b></Link> : <span />}
+          <Link className="all-trends" href="/trends/">12개 목록</Link>
+          {selectedTrendIndex < trends.length - 1 ? <Link href={`/trends/${trends[selectedTrendIndex + 1].id}/`}><small>다음 노트 →</small><b>{trends[selectedTrendIndex + 1].title}</b></Link> : <span />}
+        </nav>
+      </section>}
 
-      <section className="micro-lab" id="micro-lab">
+      {view === "micro" && <section className="micro-lab" id="top">
         <div className="section-heading">
           <p>03 / MICRO LAB</p>
           <h2>작지만 결정적인 것들</h2>
@@ -244,14 +335,15 @@ export function TrendAtlas() {
             </a>
           ))}
         </div>
-      </section>
+      </section>}
 
-      <section className="foreign-watch" id="foreign-watch">
+      {(view === "global" || view === "sources") && <section className="foreign-watch" id="top">
         <div className="section-heading">
-          <p>04 / GLOBAL WATCH</p>
-          <h2>해외 제품 팀이 남긴 기록</h2>
-          <span>AUTO UPDATED</span>
+          <p>{view === "global" ? "04 / GLOBAL WATCH" : "04B / SOURCE DIRECTORY"}</p>
+          <h2>{view === "global" ? "해외 제품 팀이 남긴 기록" : "공식 채널 디렉터리"}</h2>
+          <span>{view === "global" ? "AUTO UPDATED" : `${foreignCatalog.length} SOURCES`}</span>
         </div>
+        {view === "global" && <>
         <div className="pipeline-status">
           <div>
             <i />
@@ -282,21 +374,21 @@ export function TrendAtlas() {
                 className={articleTopic === topic ? "active" : ""}
                 onClick={() => {
                   setArticleTopic(topic);
-                  setArticleLimit(articlePageSize);
+                  setArticlePage(1);
                 }}
               >
                 {topic}
               </button>
             ))}
           </div>
-          <span>{visibleArticles.length} / {filteredArticles.length} ARTICLES</span>
+          <span>PAGE {articlePage} / {articlePageCount} · {filteredArticles.length} ARTICLES</span>
         </div>
         <div className="article-grid">
           {visibleArticles.map((article, index) => (
             <a href={article.url} target="_blank" rel="noreferrer" className="article-card" key={article.url}>
               <div>
                 <span>{article.publishedAt?.slice(0, 10) ?? "DATE N/A"}</span>
-                <b>{String(index + 1).padStart(2, "0")}</b>
+                <b>{String((articlePage - 1) * articlePageSize + index + 1).padStart(2, "0")}</b>
               </div>
               <small>{article.company} / {article.source}</small>
               <h4>{article.title}</h4>
@@ -308,21 +400,22 @@ export function TrendAtlas() {
             </a>
           ))}
         </div>
-        {visibleArticles.length < filteredArticles.length && (
-          <button type="button" className="article-more" onClick={() => setArticleLimit((current) => current + articlePageSize)}>
-            아티클 {Math.min(articlePageSize, filteredArticles.length - visibleArticles.length)}개 더 보기
-            <span>{visibleArticles.length} / {filteredArticles.length}</span>
-          </button>
-        )}
+        <Pagination page={articlePage} total={articlePageCount} label="글 목록 페이지" onChange={(nextPage) => changePage(setArticlePage, nextPage, "top")} />
+        <div className="related-page">
+          <div><small>OFFICIAL DIRECTORY</small><h3>어떤 팀의 글인지 먼저 보고 싶다면</h3></div>
+          <Link href="/sources/">{foreignCatalog.length}개 공식 채널 보기 ↗</Link>
+        </div>
+        </>}
 
-        <div className="subheading global-directory">
+        {view === "sources" && <>
+        <div className="subheading global-directory" id="source-list">
           <h3>Official directory</h3>
           <p>디자인 블로그뿐 아니라 디자인 시스템과 실제 클라이언트 구현을 다루는 엔지니어링 채널을 함께 봅니다.</p>
         </div>
         <div className="foreign-directory">
-          {foreignCatalog.map((source, index) => (
+          {visibleSources.map((source, index) => (
             <a href={source.url} target="_blank" rel="noreferrer" key={source.id}>
-              <span>{String(index + 1).padStart(2, "0")}</span>
+              <span>{String((sourcePage - 1) * sourcePageSize + index + 1).padStart(2, "0")}</span>
               <div><small>{source.region} · {source.company}</small><h4>{source.name}</h4></div>
               <p>{source.note}</p>
               <div className="focus-tags">{source.focus.slice(0, 2).map((focus) => <em key={focus}>{focus}</em>)}</div>
@@ -330,9 +423,11 @@ export function TrendAtlas() {
             </a>
           ))}
         </div>
-      </section>
+        <Pagination page={sourcePage} total={sourcePageCount} label="공식 출처 목록 페이지" onChange={(nextPage) => changePage(setSourcePage, nextPage, "source-list")} />
+        </>}
+      </section>}
 
-      <section className="frontend-guide" id="frontend-webview">
+      {view === "guide" && <section className="frontend-guide" id="top">
         <div className="section-heading inverse">
           <p>05 / FRONTEND × WEBVIEW</p>
           <h2>브라우저 밖까지 설계하기</h2>
@@ -402,15 +497,16 @@ export function TrendAtlas() {
             </div>
           </div>
         )}
-      </section>
+      </section>}
 
-      <section className="sample-lab" id="sample-lab">
+      {(view === "samples" || view === "opensource") && <section className="sample-lab" id="top">
         <div className="section-heading">
-          <p>06 / SAMPLE LAB</p>
-          <h2>보고, 눌러보고, 가져가기</h2>
-          <span>OPEN SOURCE</span>
+          <p>{view === "samples" ? "06 / SAMPLE LAB" : "06B / OPEN SOURCE"}</p>
+          <h2>{view === "samples" ? "보고, 눌러보고, 가져가기" : "검증된 도구를 골라 쓰기"}</h2>
+          <span>{view === "samples" ? "INTERACTIVE" : `${openSourceStack.projects.length} PROJECTS`}</span>
         </div>
 
+        {view === "samples" && <>
         <div className="sample-intro">
           <p>완성 화면만 구경하지 않고 상태·접근성·폴백이 들어간 최소 코드를 직접 실행하고 복사할 수 있습니다.</p>
           <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples" target="_blank" rel="noreferrer">BROWSE ALL SAMPLES ↗</a>
@@ -503,18 +599,24 @@ export function TrendAtlas() {
             </article>
           ))}
         </div>
+        <div className="related-page">
+          <div><small>OPEN SOURCE STACK</small><h3>구현 도구와 라이선스를 비교하려면</h3></div>
+          <Link href="/open-source/">23개 프로젝트 비교하기 ↗</Link>
+        </div>
+        </>}
 
+        {view === "opensource" && <>
         <div className="subheading oss-heading">
           <h3>Open source stack</h3>
           <p>{openSourceStack.selectionNote} · {openSourceStack.verifiedAt} 확인</p>
         </div>
         <div className="oss-filters" aria-label="오픈소스 카테고리">
           {ossCategories.map((item) => (
-            <button type="button" key={item} className={ossCategory === item ? "active" : ""} onClick={() => setOssCategory(item)}>{item}</button>
+            <button type="button" key={item} className={ossCategory === item ? "active" : ""} onClick={() => { setOssCategory(item); setOssPage(1); }}>{item}</button>
           ))}
         </div>
         <div className="oss-grid">
-          {filteredProjects.map((project) => (
+          {visibleProjects.map((project) => (
             <a href={project.url} target="_blank" rel="noreferrer" key={project.id}>
               <div className="oss-card-head">
                 <span>{project.category}</span>
@@ -536,9 +638,11 @@ export function TrendAtlas() {
             </a>
           ))}
         </div>
-      </section>
+        <Pagination page={ossPage} total={ossPageCount} label="오픈소스 목록 페이지" onChange={(nextPage) => changePage(setOssPage, nextPage, "top")} />
+        </>}
+      </section>}
 
-      <section className="principles">
+      {view === "home" && <section className="principles">
         <div className="section-heading inverse">
           <p>07 / DECISION FILTER</p>
           <h2>유행보다 먼저 물을 것</h2>
@@ -551,7 +655,7 @@ export function TrendAtlas() {
           <li><span>04</span><p>효과가 사라져도 정보 구조와 브랜드가 <b>스스로 설 수</b> 있는가?</p></li>
           <li><span>05</span><p>클릭률뿐 아니라 이해도·완료율·장기 만족을 <b>측정</b>하는가?</p></li>
         </ol>
-      </section>
+      </section>}
 
       <footer>
         <p>UI/UX TREND ATLAS</p>

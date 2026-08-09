@@ -5,6 +5,11 @@
 ## 둘러보기
 
 - [GitHub Pages 사이트](https://iftype.github.io/uiux-trend-atlas/)
+- [12개 트렌드](https://iftype.github.io/uiux-trend-atlas/trends/): 각 트렌드를 독립된 읽기 페이지로 제공
+- [글로벌 아티클](https://iftype.github.io/uiux-trend-atlas/global/): 공식 피드 글을 번호 페이지로 탐색
+- [2026 Frontend × WebView 가이드](https://iftype.github.io/uiux-trend-atlas/field-guide/)
+- [실행 샘플·스킬 맵](https://iftype.github.io/uiux-trend-atlas/samples/)
+- [오픈소스 스택](https://iftype.github.io/uiux-trend-atlas/open-source/): 6개씩 비교하는 페이지 목록
 - [`research/`](./research): 주제별 개념, 적용 패턴, 체크리스트, 참고 자료
 - [`research/12-microinteractions/`](./research/12-microinteractions): 오픈소스 샘플과 국내 기업 공개 사례
 - [`research/13-foreign-tech-blogs/`](./research/13-foreign-tech-blogs): 해외 기업 공식 블로그, 선별 사례 노트, 자동 수집 최신 글
