@@ -51,7 +51,7 @@ if (successful === 0) {
 const allArticles = settled
   .flatMap((source) => source.articles.map((article) => ({ ...article, sourceId: source.id, source: source.name, company: source.company })))
   .sort((a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0));
-const uniqueArticles = dedupeByUrl(allArticles).slice(0, 120);
+const uniqueArticles = dedupeByUrl(allArticles).slice(0, 240);
 
 const output = {
   schemaVersion: 1,
@@ -86,7 +86,7 @@ async function updateSource(source) {
       .filter((article) => source.feedMode === "all" || isUxRelevant(article))
       .map((article) => ({ ...article, topics: classify(article, source.topics) }))
       .filter((article) => article.url && article.title)
-      .slice(0, 8);
+      .slice(0, 12);
 
     return {
       id: source.id,
@@ -233,7 +233,7 @@ function renderMarkdown(data) {
     "| 발행일 | 출처 | 글 | 연결 주제 |",
     "|---|---|---|---|",
   ];
-  for (const article of data.articles.slice(0, 100)) {
+  for (const article of data.articles.slice(0, 200)) {
     const date = article.publishedAt?.slice(0, 10) ?? "날짜 없음";
     const topics = article.topics.map((topic) => `\`${topic}\``).join(" ");
     lines.push(`| ${date} | ${escapeMd(article.source)} | [${escapeMd(article.title)}](${article.url}) | ${topics} |`);

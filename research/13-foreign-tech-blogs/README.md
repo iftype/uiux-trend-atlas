@@ -1,6 +1,6 @@
 # 13. 해외 기업 UI/UX 기술·디자인 블로그
 
-실제 제품을 운영하는 해외 기술 기업이 직접 공개한 디자인·엔지니어링 자료를 모은 디렉터리다. 일반 트렌드 매체보다 제품 팀의 문제 정의, 제약, 실패, 구현 과정을 확인할 수 있는 공식 채널을 우선했다.
+실제 제품을 운영하는 해외 기술 기업과 웹 표준 기관이 공개한 디자인·엔지니어링 자료를 모은 디렉터리다. 제품 팀의 문제 정의, 제약, 실패, 구현 과정을 확인할 수 있는 공식 채널을 우선하고, 실무 깊이가 검증된 전문 매체를 보완 자료로 포함했다. 현재 **43개 채널, 30개 자동 피드**를 추적한다.
 
 ## 자동 업데이트
 
@@ -49,6 +49,9 @@
 - [Meta Engineering](https://engineering.fb.com/) — 소셜 UI, AR/VR, 모바일 클라이언트.
 - [Intercom Blog](https://www.intercom.com/blog/design/) — 대화형 제품과 AI 인터페이스.
 - [Duolingo Design](https://blog.duolingo.com/tag/design/) — 게이미피케이션, 캐릭터 모션, 학습 실험.
+- [Pinterest Engineering](https://medium.com/pinterest-engineering) — 개인화·추천, Gestalt 디자인 시스템, 프론트엔드 플랫폼.
+- [Cloudflare Blog](https://blog.cloudflare.com/) — 웹 성능, 실시간 플랫폼, 브라우저·에이전트 인터페이스.
+- [Vercel Changelog](https://vercel.com/changelog) — 프론트엔드 플랫폼, 캐시·렌더링·관측성 변화.
 
 ### 웹 플랫폼·WebView
 
@@ -61,6 +64,8 @@
 - [Android Developers Blog](https://android-developers.googleblog.com/) — Android WebView, 인증과 모바일 플랫폼.
 - [Apple WebKit Documentation](https://developer.apple.com/documentation/webkit) — WKWebView·SwiftUI WebView 공식 API.
 - [W3C Web Accessibility Initiative](https://www.w3.org/WAI/) — WCAG 2.2와 ARIA 표준.
+- [Smashing Magazine](https://www.smashingmagazine.com/) — UX, 접근성, 성능과 디자인 엔지니어링 심층 자료.
+- [CSS-Tricks](https://css-tricks.com/) — CSS, 레이아웃, 애니메이션과 브라우저 UI 구현.
 
 ## 읽는 방법
 

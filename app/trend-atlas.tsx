@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { koreanCases, microRepos, trends } from "./data";
+import { koreanCases, microRepos, trends, type Source } from "./data";
 import foreignCatalog from "../data/foreign-tech-blogs.json";
 import frontendGuide from "../data/frontend-webview-2026.json";
 import openSourceStack from "../data/open-source-stack.json";
 import foreignUpdates from "./generated/foreign-updates.json";
 
 const frontendTopics = new Set(["frontend-platform", "webview-hybrid", "accessibility-performance"]);
+const articlePageSize = 18;
 
 const categories = ["전체", "콘텐츠", "모션", "몰입", "신뢰", "행동"] as const;
 const categoryMap: Record<(typeof categories)[number], string[]> = {
@@ -19,6 +20,32 @@ const categoryMap: Record<(typeof categories)[number], string[]> = {
   행동: ["gamification", "microinteractions", "realtime-content"],
 };
 
+function getDomain(url: string) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "official source";
+  }
+}
+
+function ReferenceList({ items, sources, offset = 0 }: { items: string[]; sources: Source[]; offset?: number }) {
+  return (
+    <ul>
+      {items.map((item, index) => {
+        const source = sources[(index + offset) % sources.length];
+        return (
+          <li key={item}>
+            <a href={source.url} target="_blank" rel="noreferrer" aria-label={`${item} 관련 원문: ${source.label}`}>
+              <span>{item}</span>
+              <small>{source.label} · 관련 원문 ↗</small>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 export function TrendAtlas() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
   const [query, setQuery] = useState("");
@@ -26,6 +53,8 @@ export function TrendAtlas() {
   const [read, setRead] = useState<string[]>([]);
   const [time, setTime] = useState("");
   const [ossCategory, setOssCategory] = useState("ALL");
+  const [articleTopic, setArticleTopic] = useState("ALL");
+  const [articleLimit, setArticleLimit] = useState(articlePageSize);
   const [saveDemo, setSaveDemo] = useState<"idle" | "loading" | "saved">("idle");
   const [keyboardDemo, setKeyboardDemo] = useState(false);
   const [bridgeStep, setBridgeStep] = useState(0);
@@ -64,6 +93,11 @@ export function TrendAtlas() {
   const frontendArticles = foreignUpdates.articles
     .filter((article) => article.topics.some((topic) => frontendTopics.has(topic)))
     .slice(0, 12);
+  const articleTopics = ["ALL", ...new Set(foreignUpdates.articles.flatMap((article) => article.topics))];
+  const filteredArticles = articleTopic === "ALL"
+    ? foreignUpdates.articles
+    : foreignUpdates.articles.filter((article) => article.topics.includes(articleTopic));
+  const visibleArticles = filteredArticles.slice(0, articleLimit);
   const ossCategories = ["ALL", ...new Set(openSourceStack.projects.map((project) => project.category))];
   const filteredProjects = ossCategory === "ALL"
     ? openSourceStack.projects
@@ -155,15 +189,15 @@ export function TrendAtlas() {
             <p className="trend-summary">{trend.summary}</p>
             <blockquote>{trend.signal}</blockquote>
             <div className="note-columns">
-              <div><h3>대표 패턴</h3><ul>{trend.patterns.map((item) => <li key={item}>{item}</li>)}</ul></div>
-              <div><h3>실무 체크</h3><ul>{trend.checklist.map((item) => <li key={item}>{item}</li>)}</ul></div>
-              <div><h3>주의할 점</h3><ul>{trend.risks.map((item) => <li key={item}>{item}</li>)}</ul></div>
+              <div><h3>대표 패턴</h3><ReferenceList items={trend.patterns} sources={trend.sources} /></div>
+              <div><h3>실무 체크</h3><ReferenceList items={trend.checklist} sources={trend.sources} offset={1} /></div>
+              <div><h3>주의할 점</h3><ReferenceList items={trend.risks} sources={trend.sources} offset={2} /></div>
             </div>
             <div className="sources">
               <h3>SOURCE TRAIL</h3>
               {trend.sources.map((source) => (
                 <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>
-                  <span>{source.label}</span><small>{source.note}</small><b>↗</b>
+                  <span>{source.label}</span><small>{source.note}</small><b>원문 ↗</b>
                 </a>
               ))}
             </div>
@@ -194,7 +228,7 @@ export function TrendAtlas() {
               <small>{repo.tag}</small>
               <h4>{repo.name}</h4>
               <p>{repo.note}</p>
-              <div><code>{repo.repo}</code><b>★ {repo.stars} ↗</b></div>
+              <div><code>{repo.repo}</code><b>★ {repo.stars} · 저장소 ↗</b></div>
             </a>
           ))}
         </div>
@@ -235,10 +269,28 @@ export function TrendAtlas() {
 
         <div className="subheading global-latest">
           <h3>Latest from the field</h3>
-          <p>공식 RSS/Atom에서 제목·링크·발행일만 가져옵니다. 각 카드는 반드시 기업 원문으로 연결됩니다.</p>
+          <p>공식 RSS/Atom에서 제목·링크·발행일만 가져옵니다. 출처 도메인과 원문 링크를 모든 카드에 표시합니다.</p>
+        </div>
+        <div className="article-library-tools">
+          <div className="article-filters" aria-label="아티클 주제 필터">
+            {articleTopics.map((topic) => (
+              <button
+                type="button"
+                key={topic}
+                className={articleTopic === topic ? "active" : ""}
+                onClick={() => {
+                  setArticleTopic(topic);
+                  setArticleLimit(articlePageSize);
+                }}
+              >
+                {topic}
+              </button>
+            ))}
+          </div>
+          <span>{visibleArticles.length} / {filteredArticles.length} ARTICLES</span>
         </div>
         <div className="article-grid">
-          {foreignUpdates.articles.slice(0, 18).map((article, index) => (
+          {visibleArticles.map((article, index) => (
             <a href={article.url} target="_blank" rel="noreferrer" className="article-card" key={article.url}>
               <div>
                 <span>{article.publishedAt?.slice(0, 10) ?? "DATE N/A"}</span>
@@ -248,12 +300,18 @@ export function TrendAtlas() {
               <h4>{article.title}</h4>
               <p>{article.summary}</p>
               <div className="article-meta">
-                <div>{article.topics.slice(0, 2).map((topic) => <em key={topic}>{topic}</em>)}</div>
-                <b>READ ↗</b>
+                <div className="article-tags">{article.topics.slice(0, 2).map((topic) => <em key={topic}>{topic}</em>)}</div>
+                <span className="article-link"><small>{getDomain(article.url)}</small><b>원문 읽기 ↗</b></span>
               </div>
             </a>
           ))}
         </div>
+        {visibleArticles.length < filteredArticles.length && (
+          <button type="button" className="article-more" onClick={() => setArticleLimit((current) => current + articlePageSize)}>
+            아티클 {Math.min(articlePageSize, filteredArticles.length - visibleArticles.length)}개 더 보기
+            <span>{visibleArticles.length} / {filteredArticles.length}</span>
+          </button>
+        )}
 
         <div className="subheading global-directory">
           <h3>Official directory</h3>
@@ -266,7 +324,7 @@ export function TrendAtlas() {
               <div><small>{source.region} · {source.company}</small><h4>{source.name}</h4></div>
               <p>{source.note}</p>
               <div className="focus-tags">{source.focus.slice(0, 2).map((focus) => <em key={focus}>{focus}</em>)}</div>
-              <b>↗</b>
+              <b>공식 사이트 ↗</b>
             </a>
           ))}
         </div>
@@ -336,7 +394,7 @@ export function TrendAtlas() {
                 <a href={article.url} target="_blank" rel="noreferrer" key={article.url}>
                   <span>{article.publishedAt?.slice(0, 10) ?? "DATE N/A"}</span>
                   <div><small>{article.company}</small><h4>{article.title}</h4></div>
-                  <b>↗</b>
+                  <b>원문 읽기 ↗</b>
                 </a>
               ))}
             </div>
@@ -377,7 +435,7 @@ export function TrendAtlas() {
             <p id="save-demo-status" role="status" aria-live="polite">
               {saveDemo === "loading" ? "변경사항을 저장하고 있습니다." : saveDemo === "saved" ? "변경사항을 저장했습니다." : "loading·success 상태를 눌러 확인하세요."}
             </p>
-            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/microinteraction-save" target="_blank" rel="noreferrer">SOURCE ↗</a>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/microinteraction-save" target="_blank" rel="noreferrer">샘플 코드 ↗</a>
           </article>
 
           <article className="sample-card dialog-sample">
@@ -385,7 +443,7 @@ export function TrendAtlas() {
             <h3>접근 가능한 모달</h3>
             <button type="button" onClick={() => sampleDialog.current?.showModal()}>설정 열기</button>
             <p>브라우저의 focus trap·Escape·backdrop 동작을 기본값으로 사용합니다.</p>
-            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/accessible-dialog" target="_blank" rel="noreferrer">SOURCE ↗</a>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/accessible-dialog" target="_blank" rel="noreferrer">샘플 코드 ↗</a>
             <dialog ref={sampleDialog} aria-labelledby="sample-dialog-title">
               <form method="dialog">
                 <h4 id="sample-dialog-title">알림 설정</h4>
@@ -408,7 +466,7 @@ export function TrendAtlas() {
             <button type="button" aria-pressed={keyboardDemo} onClick={() => setKeyboardDemo(!keyboardDemo)}>
               {keyboardDemo ? "키보드 닫기" : "키보드 열기"}
             </button>
-            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/safe-area-layout" target="_blank" rel="noreferrer">SOURCE ↗</a>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/safe-area-layout" target="_blank" rel="noreferrer">샘플 코드 ↗</a>
           </article>
 
           <article className="sample-card bridge-sample">
@@ -423,7 +481,7 @@ export function TrendAtlas() {
               ][bridgeStep]
             }</code></pre>
             <button type="button" onClick={() => setBridgeStep((bridgeStep + 1) % 4)}>다음 메시지 →</button>
-            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/webview-bridge" target="_blank" rel="noreferrer">SOURCE ↗</a>
+            <a href="https://github.com/iftype/uiux-trend-atlas/tree/main/samples/webview-bridge" target="_blank" rel="noreferrer">샘플 코드 ↗</a>
           </article>
         </div>
 
@@ -471,7 +529,7 @@ export function TrendAtlas() {
                 <span>★ {new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 }).format(project.stars)}</span>
                 <span>{project.license}</span>
                 <span>{project.latestRelease}</span>
-                <b>↗</b>
+                <b>저장소 열기 ↗</b>
               </div>
             </a>
           ))}
@@ -495,7 +553,7 @@ export function TrendAtlas() {
 
       <footer>
         <p>UI/UX TREND ATLAS</p>
-        <div><span>Research snapshot</span><b>2026.07.27</b></div>
+        <div><span>Research snapshot</span><b>{foreignUpdates.generatedAt.slice(0, 10)}</b></div>
         <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </main>

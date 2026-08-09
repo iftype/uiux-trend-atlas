@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T03:52:39.051Z",
+  "generatedAt": "2026-08-09T14:26:41.925Z",
   "stats": {
-    "catalogSources": 38,
-    "feedSources": 24,
-    "healthyFeeds": 24,
-    "articles": 109
+    "catalogSources": 43,
+    "feedSources": 30,
+    "healthyFeeds": 30,
+    "articles": 180
   },
   "sources": [
     {
@@ -15,7 +15,7 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.623Z",
+      "checkedAt": "2026-08-09T14:26:39.670Z",
       "articles": [
         {
           "title": "Personalizing Airbnb search by learning from the guest journey",
@@ -35,7 +35,7 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.251Z",
+      "checkedAt": "2026-08-09T14:26:40.189Z",
       "articles": [
         {
           "title": "Better Experiments with LLM Evals — A funnel, not a fork",
@@ -55,7 +55,7 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.891Z",
+      "checkedAt": "2026-08-09T14:26:39.710Z",
       "articles": [
         {
           "title": "How to Stop the Stakeholder Swirl",
@@ -134,6 +134,26 @@
             "realtime-content",
             "microinteractions"
           ]
+        },
+        {
+          "title": "Creating workplace support for parents doesn’t have to break the time or money bank",
+          "url": "https://medium.com/uber-design/creating-workplace-support-for-parents-doesnt-have-to-break-the-time-or-money-bank-4a1760b2ea62",
+          "publishedAt": "2019-11-12T18:36:02.000Z",
+          "summary": "By: Brook Sattler , Vince de Asis , Caitlin Thakral , and Amy Hooey Being pulled in multiple directions is a familiar feeling for all working parents. Parenting is a full-time job in itself, and many of us simultaneousl…",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "The Power of Insights: A behind-the-scenes look at the new insights platform at Uber",
+          "url": "https://medium.com/uber-design/the-power-of-insights-a-behind-the-scenes-look-at-the-new-insights-platform-at-uber-26f85becc2e6",
+          "publishedAt": "2019-08-27T16:00:03.000Z",
+          "summary": "Logo design by Ryan Koziel In the late 20th century, the dominant technological question was “How do we learn better?” In the early 21st, that question has been followed by “How do we better use the things we’ve learned…",
+          "topics": [
+            "realtime-content",
+            "microinteractions"
+          ]
         }
       ]
     },
@@ -144,7 +164,7 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.603Z",
+      "checkedAt": "2026-08-09T14:26:39.685Z",
       "articles": [
         {
           "title": "The business of design",
@@ -223,6 +243,26 @@
             "microinteractions",
             "bold-color"
           ]
+        },
+        {
+          "title": "Community powered by Design Ops",
+          "url": "https://medium.com/dropbox-design/community-powered-by-design-ops-b8d09239467e",
+          "publishedAt": "2020-04-30T20:18:20.000Z",
+          "summary": "How the Design Ops team at Dropbox team takes a strategic approach to people-centered problems By Michelle Morrison, Sarah Lin, and Andrew Lee Artwork by Gabrielle Matte , Samuel Pasquier , and Olivier Charland Among th…",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
+        },
+        {
+          "title": "Building diverse design communities",
+          "url": "https://medium.com/dropbox-design/building-diverse-design-communities-c1c1f39e40f5",
+          "publishedAt": "2020-04-30T19:23:59.000Z",
+          "summary": "Tips from the creators of Blacks Who Design, Latinxs Who Design, and Women Who Design Artwork by Gabrielle Matte , Samuel Pasquier , Olivier Charland Diversity makes a difference. Diverse teams innovate better, make dec…",
+          "topics": [
+            "microinteractions",
+            "bold-color"
+          ]
         }
       ]
     },
@@ -233,7 +273,7 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.715Z",
+      "checkedAt": "2026-08-09T14:26:39.768Z",
       "articles": [
         {
           "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
@@ -311,6 +351,45 @@
             "microinteractions",
             "realtime-content"
           ]
+        },
+        {
+          "title": "Crafting Digital Delight: Inside Slack’s Studio Team",
+          "url": "https://slack.design/articles/crafting-digital-delight-inside-slacks-studio-team/",
+          "publishedAt": "2025-05-15T14:54:44.000Z",
+          "summary": "Remember when you first heard that soothing music while joining a Huddle? Or watched the catch-up animation dance across your mobile app? Maybe you’ve been charmed by a friendly message and quirky emoji after clearing y…",
+          "topics": [
+            "3d-graphics-animation"
+          ]
+        },
+        {
+          "title": "Mentorship at Slack: Lessons from a Thriving Program",
+          "url": "https://slack.design/articles/mentorship-at-slack-lessons-from-a-thriving-program/",
+          "publishedAt": "2025-03-03T18:28:34.000Z",
+          "summary": "With an impressive 80% participation rate, one thing we attribute to the wild success of Slack Design’s mentorship program is simplicity. We’ve designed it to be easy to engage with, striking a balance between structure…",
+          "topics": [
+            "microinteractions",
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "Should we make it a preference?: On customization, defaults, and accessibility",
+          "url": "https://slack.design/articles/should-we-make-it-a-preference-on-customization-defaults-and-accessibility/",
+          "publishedAt": "2025-01-23T18:28:29.000Z",
+          "summary": "Design that is inclusive and accessible almost always works better for everyone. But once in a while we reach a genuine dilemma — the more technically accessible choice adds friction or breaks expectations for everyone…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Prototyping the path to Design Engineering",
+          "url": "https://slack.design/articles/prototyping-the-path-to-design-engineering/",
+          "publishedAt": "2024-10-23T20:44:22.000Z",
+          "summary": "If you work in design, you’ve probably already heard of design engineering. It’s not a new concept, and similar roles — such as Design Technologists, UI/UX Engineers, and Creative Technologists — have existed in softwar…",
+          "topics": [
+            "microinteractions",
+            "realtime-content"
+          ]
         }
       ]
     },
@@ -321,8 +400,18 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.821Z",
+      "checkedAt": "2026-08-09T14:26:39.839Z",
       "articles": [
+        {
+          "title": "The naked designer: What happens when you can’t hide behind craft",
+          "url": "https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/",
+          "publishedAt": "2026-08-05T13:00:00.000Z",
+          "summary": "Matthew Santone on the changing face of design The post The naked designer: What happens when you can’t hide behind craft appeared first on Microsoft Design .",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
         {
           "title": "Bringing a humanitarian lens to the future of AI",
           "url": "https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/",
@@ -411,7 +500,7 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.876Z",
+      "checkedAt": "2026-08-09T14:26:40.615Z",
       "articles": [
         {
           "title": "Conversation design: How to make your AI Agent communicate like your team",
@@ -432,7 +521,7 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.900Z",
+      "checkedAt": "2026-08-09T14:26:40.589Z",
       "articles": []
     },
     {
@@ -442,7 +531,7 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.840Z",
+      "checkedAt": "2026-08-09T14:26:39.631Z",
       "articles": [
         {
           "title": "Behind the scenes of Canva's DesignDNA campaign",
@@ -472,18 +561,8 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:37.895Z",
-      "articles": [
-        {
-          "title": "How to build interactive experiences with canvases",
-          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-          "publishedAt": "2026-07-21T16:00:00.000Z",
-          "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on Th…",
-          "topics": [
-            "3d-graphics-animation"
-          ]
-        }
-      ]
+      "checkedAt": "2026-08-09T14:26:39.910Z",
+      "articles": []
     },
     {
       "id": "netflix-techblog",
@@ -492,7 +571,7 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.044Z",
+      "checkedAt": "2026-08-09T14:26:39.882Z",
       "articles": [
         {
           "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
@@ -532,7 +611,7 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.009Z",
+      "checkedAt": "2026-08-09T14:26:39.942Z",
       "articles": [
         {
           "title": "Walking the Walk: Design Leadership in an AI-Native World",
@@ -612,6 +691,26 @@
             "microinteractions",
             "personalization"
           ]
+        },
+        {
+          "title": "How Do We Stop Designing for Personas and Start Designing for People?",
+          "url": "https://medium.com/design-ibm/how-do-we-stop-designing-for-personas-and-start-designing-for-people-f333ebd9d22f",
+          "publishedAt": "2025-12-10T14:42:31.000Z",
+          "summary": "Written by : Maigan Webster and Fabian Faes Edited by: Jack LaMarche The Limits of Persona-Driven Design Historically, we relied on personas not because they perfectly represented people, but because our own cognitive l…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Regulation by Design: What every designer needs to know about the newest EU regulations",
+          "url": "https://medium.com/design-ibm/regulation-by-design-what-every-designer-needs-to-know-about-the-newest-eu-regulations-6e91d2639005",
+          "publishedAt": "2025-11-19T15:02:28.000Z",
+          "summary": "By Marie-Therese Sekwenz , Dasha Simons and Alina Wundsam . Is your head spinning from European AI regulations? Don’t panic! Here’s how designers can contribute to the AI Act and Digital Services Act by creating impact…",
+          "topics": [
+            "microinteractions",
+            "personalization"
+          ]
         }
       ]
     },
@@ -622,7 +721,7 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.090Z",
+      "checkedAt": "2026-08-09T14:26:40.397Z",
       "articles": [
         {
           "title": "Breaking the Myth of Big Click Energy",
@@ -701,6 +800,25 @@
             "bold-color",
             "kinetic-typography"
           ]
+        },
+        {
+          "title": "Guide to UX Planning — How to Create a Roadmap",
+          "url": "https://medium.com/indeed-design/guide-to-ux-planning-how-to-create-a-roadmap-9e0ccb379d55",
+          "publishedAt": "2024-01-24T23:51:12.000Z",
+          "summary": "Guide to UX Planning — How to Create a Roadmap Three steps and some elbow grease will have your team cruising through KPIs with a clear master document. Illustration by Jimmy Park Most UXers say they don’t get enough ti…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "What Accessibility Certification Is and Why It Matters to UX",
+          "url": "https://medium.com/indeed-design/what-accessibility-certification-is-and-why-it-matters-to-ux-d2a3881290e2",
+          "publishedAt": "2024-01-08T13:28:16.000Z",
+          "summary": "Thinking about getting an a11y certification? A UX researcher shares lessons from her accessibility cert journey. It was a late night in March 2021. I was on a quest to find COVID-19 vaccine appointments for two of my e…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
         }
       ]
     },
@@ -711,7 +829,7 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.031Z",
+      "checkedAt": "2026-08-09T14:26:39.824Z",
       "articles": [
         {
           "title": "Make design history",
@@ -785,6 +903,24 @@
           "topics": [
             "bold-color"
           ]
+        },
+        {
+          "title": "How Etsy Gets Made",
+          "url": "https://medium.com/etsy-design/how-etsy-gets-made-276bd136618b",
+          "publishedAt": "2016-10-18T17:48:31.000Z",
+          "summary": "Illustration by Sarah Abbott Like many of you, we enjoy making things: trying out new ideas, building prototypes, and fine-tuning our work as we go. Etsy is constantly looking for opportunities to improve our products a…",
+          "topics": [
+            "bold-color"
+          ]
+        },
+        {
+          "title": "My Journey at Etsy as a Product Design Intern",
+          "url": "https://medium.com/etsy-design/my-journey-at-etsy-as-a-product-design-intern-35b557c44158",
+          "publishedAt": "2016-10-18T17:28:09.000Z",
+          "summary": "Thoughts, lessons, and tips Illustration by Laura Berger This June, I flew from San Francisco, California to Brooklyn, New York — far from my family, friends, and everything I’m familiar with. I felt curious and nervous…",
+          "topics": [
+            "bold-color"
+          ]
         }
       ]
     },
@@ -795,7 +931,7 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.249Z",
+      "checkedAt": "2026-08-09T14:26:40.385Z",
       "articles": [
         {
           "title": "How Etsy Uses LLMs to Improve Search Relevance",
@@ -874,7 +1010,7 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:39.050Z",
+      "checkedAt": "2026-08-09T14:26:40.240Z",
       "articles": [
         {
           "title": "A Framework to Integrate Accessible Design and Inclusive Research At Scale",
@@ -952,6 +1088,25 @@
             "ar-vr",
             "personalization"
           ]
+        },
+        {
+          "title": "How UX Design can Shape the Future of Sustainability",
+          "url": "https://medium.com/wayfair-design/how-ux-design-can-shape-the-future-of-sustainability-35598949b1e",
+          "publishedAt": "2022-09-08T12:57:28.000Z",
+          "summary": "The things we do, the transportation we use, and the products we consume all contribute to an alarmingly negative impact on our planet. Over time, they’ve caused irreversible damage that brings concern for the well-bein…",
+          "topics": [
+            "sustainable-design"
+          ]
+        },
+        {
+          "title": "UI at Scale: How Wayfair supports multiple brands and geos with a shared code base",
+          "url": "https://medium.com/wayfair-design/ui-at-scale-how-wayfair-supports-multiple-brands-and-geos-with-a-shared-code-base-4e2bfb1e7067",
+          "publishedAt": "2022-08-31T12:41:37.000Z",
+          "summary": "Authors: Neva Corbo-Hudak and Stephanie Cenatiempo Before 2019, our technology teams had no singular UI vision, resulting in inconsistent styling and user interactions. Creating cohesive user experiences was challenging…",
+          "topics": [
+            "bold-color",
+            "microinteractions"
+          ]
         }
       ]
     },
@@ -962,19 +1117,8 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.012Z",
-      "articles": [
-        {
-          "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
-          "url": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
-          "publishedAt": "2026-05-26T16:00:01.000Z",
-          "summary": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture. SilverTorch shows up to 23.7x higher throughput compa…",
-          "topics": [
-            "personalization",
-            "microinteractions"
-          ]
-        }
-      ]
+      "checkedAt": "2026-08-09T14:26:39.921Z",
+      "articles": []
     },
     {
       "id": "web-dev",
@@ -983,7 +1127,7 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.310Z",
+      "checkedAt": "2026-08-09T14:26:40.705Z",
       "articles": [
         {
           "title": "New to the web platform in May",
@@ -1056,6 +1200,15 @@
           "topics": [
             "frontend-platform"
           ]
+        },
+        {
+          "title": "Navigation API - a better way to navigate, is now Baseline Newly Available",
+          "url": "https://web.dev/blog/baseline-navigation-api?hl=en",
+          "publishedAt": "2026-02-17T08:00:00.000Z",
+          "summary": "The Navigation API is now Baseline Newly available, providing a better way to handle navigation in single-page applications.",
+          "topics": [
+            "frontend-platform"
+          ]
         }
       ]
     },
@@ -1066,7 +1219,7 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.149Z",
+      "checkedAt": "2026-08-09T14:26:40.246Z",
       "articles": [
         {
           "title": "Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents",
@@ -1095,7 +1248,7 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.732Z",
+      "checkedAt": "2026-08-09T14:26:40.839Z",
       "articles": [
         {
           "title": "WebKit Features for Safari 26.6",
@@ -1124,7 +1277,7 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.106Z",
+      "checkedAt": "2026-08-09T14:26:39.808Z",
       "articles": [
         {
           "title": "Introducing the MDN MCP server",
@@ -1200,6 +1353,43 @@
           "topics": [
             "frontend-platform"
           ]
+        },
+        {
+          "title": "How to debug mobile apps across devices",
+          "url": "https://developer.mozilla.org/en-US/blog/debug-mobile-apps-across-devices/",
+          "publishedAt": "2024-08-07T00:00:00.000Z",
+          "summary": "This post explores what mobile app debugging is, commonly used techniques, and how you can debug mobile apps on multiple devices.",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Exclusive accordions using the HTML details element",
+          "url": "https://developer.mozilla.org/en-US/blog/html-details-exclusive-accordions/",
+          "publishedAt": "2024-08-05T00:00:00.000Z",
+          "summary": "The 'name' attribute of the HTML details element is gaining more support across browsers. Learn how this feature allows creating exclusive accordions without scripting widgets from scratch.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "New JavaScript Set methods",
+          "url": "https://developer.mozilla.org/en-US/blog/javascript-set-methods/",
+          "publishedAt": "2024-06-24T00:00:00.000Z",
+          "summary": "New JavaScript Set methods are landing across browsers. Learn about sets, how you can use these methods to compare different sets, create new sets with specific properties, and more.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "A year of publishing the MDN Blog",
+          "url": "https://developer.mozilla.org/en-US/blog/mdn-blog-one-year-on/",
+          "publishedAt": "2024-05-03T00:00:00.000Z",
+          "summary": "We've been writing about web development and the web platform on the MDN Blog since May 2023. Here's our highlights and top posts along with our favorites.",
+          "topics": [
+            "frontend-platform"
+          ]
         }
       ]
     },
@@ -1210,7 +1400,7 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.144Z",
+      "checkedAt": "2026-08-09T14:26:40.088Z",
       "articles": [
         {
           "title": "Trustworthy JavaScript for the Open Web",
@@ -1239,7 +1429,7 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.204Z",
+      "checkedAt": "2026-08-09T14:26:40.046Z",
       "articles": [
         {
           "title": "New in Edge for developers – Style layout gaps, improve keyboard accessibility and migrate your PWA to a new origin",
@@ -1261,25 +1451,6 @@
             "webview-hybrid",
             "frontend-platform"
           ]
-        },
-        {
-          "title": "Making keyboard navigation effortless",
-          "url": "https://blogs.windows.com/msedgedev/2026/03/05/making-keyboard-navigation-effortless/",
-          "publishedAt": "2026-03-05T16:39:27.000Z",
-          "summary": "Do you use a keyboard to navigate websites? If so, you've probably run into countless accessibility issues where groups of inputs or widgets are not easy, or even possible to get to with just the keyboard. A keyboard-ac…",
-          "topics": [
-            "sustainable-design",
-            "accessibility-performance"
-          ]
-        },
-        {
-          "title": "Microsoft Edge and Interop 2026",
-          "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/",
-          "publishedAt": "2026-02-12T17:07:08.000Z",
-          "summary": "Microsoft Edge is commited to a more powerful, predictable, and reliable web platform. One way we pursue those goals is via our ongoing participation in the Interop project . This year mark The post Microsoft Edge and I…",
-          "topics": [
-            "frontend-platform"
-          ]
         }
       ]
     },
@@ -1290,7 +1461,7 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-08-03T03:52:38.383Z",
+      "checkedAt": "2026-08-09T14:26:41.924Z",
       "articles": [
         {
           "title": "Building a Mixed-Reality Tour Guide with Android XR, the Geospatial API, and Gemini",
@@ -1311,9 +1482,758 @@
           ]
         }
       ]
+    },
+    {
+      "id": "smashing-magazine",
+      "company": "Smashing Media",
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "feed": "https://www.smashingmagazine.com/feed/",
+      "status": "ok",
+      "checkedAt": "2026-08-09T14:26:39.892Z",
+      "articles": [
+        {
+          "title": "How Baseline Can Help You Ship Less JavaScript",
+          "url": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
+          "summary": "The gap between “you need a library for this” and “the browser does this” keeps closing. A practical guide to auditing your dependencies and finding what the web platform can now handle for you.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
+          "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+          "publishedAt": "2026-07-29T13:00:00.000Z",
+          "summary": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what happens when designers need…",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Thinking Outside The Box: Digital Design In The AI Era",
+          "url": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
+          "publishedAt": "2026-07-28T10:00:00.000Z",
+          "summary": "Many of the AI tools we interact with take the form of text boxes. But what if there was a different way to interact with AI? Oleksii Hrzhehorzhevskyi explores a different approach to creating a new AI assistant and how…",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
+          "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+          "publishedAt": "2026-07-10T13:00:00.000Z",
+          "summary": "The strongest visual concepts don’t start in Figma. They start with the right questions. Explore the pre-concept phase of brand identity design, where teams research brand context, uncover hidden assumptions with stakeh…",
+          "topics": [
+            "bold-color",
+            "biometric-auth"
+          ]
+        },
+        {
+          "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion",
+          "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+          "publishedAt": "2026-07-09T15:00:00.000Z",
+          "summary": "Many UI trends are designed to capture attention and signal innovation, but those goals often conflict with the needs of mental health apps: reducing cognitive strain, fostering trust, and providing a sense of refuge. K…",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
+          "url": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
+          "publishedAt": "2026-07-07T10:00:00.000Z",
+          "summary": "We have been building websites inside boxes for years on WordPress. Let’s take a closer look at [Kirki](https://kirki.com/), the first freeform visual builder with an infinite canvas, and explore how it redefines the ex…",
+          "topics": [
+            "3d-graphics-animation"
+          ]
+        },
+        {
+          "title": "Matching AI Modality To User Intent: Designing The Right Interface",
+          "url": "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
+          "publishedAt": "2026-07-02T10:00:00.000Z",
+          "summary": "We’ve fallen into conversational tunnel vision, defaulting every AI capability into a chat-based interface simply because LLMs are trained on dialogue data. But great UX is about matching modality to users’ context, int…",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Why Accessibility Is An Operational Capability, Not A Feature",
+          "url": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+          "publishedAt": "2026-06-30T12:00:00.000Z",
+          "summary": "Teams can generate UI faster than ever, but they still have to guarantee that what they ship is usable, secure, and maintainable. Accessibility as an operational capability rather than a compliance checklist or end-of-p…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
+          "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+          "publishedAt": "2026-06-16T15:00:00.000Z",
+          "summary": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, dec…",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "The Benefits Of Cognitive Inclusion In UX Research",
+          "url": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
+          "publishedAt": "2026-06-10T10:00:00.000Z",
+          "summary": "Findings from an exploratory user research study highlighting the unique insights and practical UX recommendations shared by participants with cognitive disabilities.",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "How To Make Your Design System AI-Ready",
+          "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+          "publishedAt": "2026-06-03T13:00:00.000Z",
+          "summary": "Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces , **friendly video course on UX** and…",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Algorithmic Theming Engines: Building Self-Correcting Color Systems With `contrast-color()`",
+          "url": "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
+          "publishedAt": "2026-05-28T13:00:00.000Z",
+          "summary": "Seventy percent of websites still fail basic WCAG contrast checks in 2025. After years of design system tooling, accessibility linters, and JavaScript libraries, nothing moved the needle. We didn’t need better libraries…",
+          "topics": [
+            "bold-color",
+            "sustainable-design",
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "css-tricks",
+      "company": "CSS-Tricks",
+      "name": "CSS-Tricks",
+      "url": "https://css-tricks.com/",
+      "feed": "https://css-tricks.com/feed/",
+      "status": "ok",
+      "checkedAt": "2026-08-09T14:26:40.573Z",
+      "articles": [
+        {
+          "title": "Using and Styling the Dialog Element",
+          "url": "https://css-tricks.com/using-and-styling-the-dialog-element/",
+          "publishedAt": "2026-08-07T14:06:43.000Z",
+          "summary": "There's a lot of nuance to the element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "2026 State of CSS, Devs Surveys",
+          "url": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+          "publishedAt": "2026-08-06T15:54:52.000Z",
+          "summary": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks . You should really ge…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Gap Decorations Are Now Available, Here’s What’s New",
+          "url": "https://css-tricks.com/css-gap-decorations-now-available/",
+          "publishedAt": "2026-08-03T15:53:20.000Z",
+          "summary": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New original…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Get Ready For the Powerful CSS border-shape Property!",
+          "url": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+          "publishedAt": "2026-07-31T15:14:00.000Z",
+          "summary": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Pr…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+          "url": "https://css-tricks.com/whats-important-16/",
+          "publishedAt": "2026-07-31T14:06:21.000Z",
+          "summary": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use…",
+          "topics": [
+            "3d-graphics-animation",
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "writing-mode",
+          "url": "https://css-tricks.com/almanac/properties/w/writing-mode/",
+          "publishedAt": "2026-07-21T09:39:10.000Z",
+          "summary": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in lang…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "pointer-events",
+          "url": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+          "publishedAt": "2026-07-15T19:57:51.000Z",
+          "summary": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should tr…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+          "url": "https://css-tricks.com/whats-important-15/",
+          "publishedAt": "2026-07-14T14:36:18.000Z",
+          "summary": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed…",
+          "topics": [
+            "sustainable-design",
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "What’s !important #14: Gap Decorations, random(), field-sizing, and More",
+          "url": "https://css-tricks.com/whats-important-14/",
+          "publishedAt": "2026-06-30T13:54:14.000Z",
+          "summary": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !impor…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "The Shifting Line Between CSS States and JavaScript Events",
+          "url": "https://css-tricks.com/css-states-and-javascript-events/",
+          "publishedAt": "2026-06-29T13:03:32.000Z",
+          "summary": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically l…",
+          "topics": [
+            "microinteractions",
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "translateZ()",
+          "url": "https://css-tricks.com/almanac/functions/t/translatez/",
+          "publishedAt": "2026-06-25T13:18:56.000Z",
+          "summary": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "translateY()",
+          "url": "https://css-tricks.com/almanac/functions/t/translatey/",
+          "publishedAt": "2026-06-25T13:17:56.000Z",
+          "summary": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
+          "topics": [
+            "frontend-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-blog",
+      "company": "Cloudflare",
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/",
+      "feed": "https://blog.cloudflare.com/rss/",
+      "status": "ok",
+      "checkedAt": "2026-08-09T14:26:39.872Z",
+      "articles": [
+        {
+          "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+          "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
+          "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queri…",
+          "topics": [
+            "accessibility-performance",
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Cloudflare AI Search: give your agents a search engine for your data",
+          "url": "https://blog.cloudflare.com/ai-search-easier/",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+          "url": "https://blog.cloudflare.com/aeo/",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+          "url": "https://blog.cloudflare.com/kitesurf/",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was d…",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Give any website a WebMCP interface",
+          "url": "https://blog.cloudflare.com/webmcp/",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep thei…",
+          "topics": [
+            "frontend-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vercel-changelog",
+      "company": "Vercel",
+      "name": "Vercel Changelog",
+      "url": "https://vercel.com/changelog",
+      "feed": "https://vercel.com/changelog/rss",
+      "status": "ok",
+      "checkedAt": "2026-08-09T14:26:40.168Z",
+      "articles": [
+        {
+          "title": "Search and buy domains in the dashboard",
+          "url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard",
+          "publishedAt": "2026-08-05T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Give your eve agent a browser",
+          "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+          "publishedAt": "2026-08-04T04:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Expanded search for workflow runs in Vercel Observability",
+          "url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+          "publishedAt": "2026-07-31T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Server-Timing response headers will pass through to the client",
+          "url": "https://vercel.com/changelog/server-timing-header",
+          "publishedAt": "2026-07-30T12:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
+          "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
+          "publishedAt": "2026-07-21T04:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Chat SDK adds Discord Components V2 support",
+          "url": "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support",
+          "publishedAt": "2026-07-15T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Teaching agents product design at Vercel",
+          "url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
+          "publishedAt": "2026-06-25T07:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Deploy from Claude Design to Vercel",
+          "url": "https://vercel.com/changelog/claude-design-and-vercel",
+          "publishedAt": "2026-06-23T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "How Code and Theory cut time-to-prototype 75% with v0",
+          "url": "https://vercel.com/blog/how-code-and-theory-cut-time-to-prototype-75-with-v0",
+          "publishedAt": "2026-06-09T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Domain Search is now available through the Vercel CLI",
+          "url": "https://vercel.com/changelog/domain-search-is-now-available-through-the-vercel-cli",
+          "publishedAt": "2026-06-09T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Experimental native binaries for Vercel CLI",
+          "url": "https://vercel.com/changelog/experimental-native-binaries-for-vercel-cli",
+          "publishedAt": "2026-05-27T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "personalization"
+          ]
+        },
+        {
+          "title": "Protected Source Maps: Ship browser source maps securely",
+          "url": "https://vercel.com/changelog/protected-source-maps-ship-browser-source-maps-securely",
+          "publishedAt": "2026-05-14T00:00:00.000Z",
+          "summary": "",
+          "topics": [
+            "frontend-platform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pinterest-engineering",
+      "company": "Pinterest",
+      "name": "Pinterest Engineering",
+      "url": "https://medium.com/pinterest-engineering",
+      "feed": "https://medium.com/feed/pinterest-engineering",
+      "status": "ok",
+      "checkedAt": "2026-08-09T14:26:40.332Z",
+      "articles": [
+        {
+          "title": "Enhancing Ad Relevance: Integrating Real-Time Context into Sequential Recommender Models",
+          "url": "https://medium.com/pinterest-engineering/enhancing-ad-relevance-integrating-real-time-context-into-sequential-recommender-models-bc3a2f9b682e",
+          "publishedAt": "2026-05-08T19:01:00.000Z",
+          "summary": "Huiqin Xin | Machine Learning Engineer II, Ads Vertical Modeling; Lakshmi Manoharan | Senior Machine Learning Engineer, Ads Vertical Modeling; Karthik Jayasurya | Staff Machine Learning Engineer, Ads Signals; Ziwei Guo…",
+          "topics": [
+            "realtime-content",
+            "personalization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w3c-wai",
+      "company": "W3C",
+      "name": "Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/",
+      "feed": "https://www.w3.org/WAI/feed.xml",
+      "status": "ok",
+      "checkedAt": "2026-08-09T14:26:39.855Z",
+      "articles": [
+        {
+          "title": "WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published",
+          "url": "https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/",
+          "publishedAt": "2026-07-23T00:00:00.000Z",
+          "summary": "WCAG Evaluation Methodology (WCAG-EM) 2.0 is published as a W3C Group Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelin…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "For Review: WCAG 3 Working Draft – March 2026",
+          "url": "https://www.w3.org/WAI/news/2026-03-03/wcag3/",
+          "publishedAt": "2026-03-03T00:00:00.000Z",
+          "summary": "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft is updated. The starting place for background, timeline, and up-to-date information is the WCAG 3 Introduction. For a list of changes in the March 2026 draft, see St…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "ACT Rules Format 1.1 is a Web Standard (W3C Recommendation)",
+          "url": "https://www.w3.org/WAI/news/2026-02-05/act-rules-11/",
+          "publishedAt": "2026-02-05T00:00:00.000Z",
+          "summary": "Accessibility Conformance Testing (ACT) Rules Format 1.1 is now a web standard (W3C Recommendation). ACT Rules Format defines a format for writing accessibility test rules. The test rules can be used for developing auto…",
+          "topics": [
+            "personalization",
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "For Review: Cognitive Accessibility Research Modules — First Draft Notes",
+          "url": "https://www.w3.org/WAI/news/2026-02-05/coga/",
+          "publishedAt": "2026-02-05T00:00:00.000Z",
+          "summary": "Cognitive Accessibility Research Modules are available as first Draft Notes. The documents cover research on accessibility for people with cognitive and learning disabilities for Voice Systems and Conversational Interfa…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "For Review: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 — First Draft Note",
+          "url": "https://www.w3.org/WAI/news/2026-02-05/wcag-em-2/",
+          "publishedAt": "2026-02-05T00:00:00.000Z",
+          "summary": "W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 is available as a first Draft Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Cont…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "WCAG 2.2 Approved as an ISO Standard",
+          "url": "https://www.w3.org/WAI/news/2025-10-21/wcag22-iso/",
+          "publishedAt": "2025-10-21T00:00:00.000Z",
+          "summary": "Web Content Accessibility Guidelines (WCAG) 2.2 is now an approved International Organization for Standardization (ISO) standard: ISO/IEC 40500:2025. It is available free from ISO/IEC 40500:2025 - Information technology…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "For Review: WCAG 3 Working Draft - September 2025",
+          "url": "https://www.w3.org/WAI/news/2025-09-04/wcag3/",
+          "publishedAt": "2025-09-04T00:00:00.000Z",
+          "summary": "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft is updated. For review questions and how to comment, please see the WCAG 3 section ‘About this draft’. The starting place for background, timeline, and up-to-date in…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "For Wide Review: Accessibility Maturity Model — Updated Draft Note",
+          "url": "https://www.w3.org/WAI/news/2025-09-01/maturity-model/",
+          "publishedAt": "2025-09-01T00:00:00.000Z",
+          "summary": "Accessibility Maturity Model Updated Draft Note is ready for review. The Accessibility Maturity Model provides a framework to assess an organization’s policies and procedures to deliver accessible products and services.…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "WCAG2ICT — W3C Group Note updated to coordinate with EN 301 549",
+          "url": "https://www.w3.org/WAI/news/2025-08-21/wcag2ict/",
+          "publishedAt": "2025-08-21T00:00:00.000Z",
+          "summary": "Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) has been updated in coordination with the work to update EN 301 549. EN 301 549 is the European standard ‘Accessibility requi…",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Call for implementations: Accessibility Conformance Testing (ACT) Rules Format 1.1 — Candidate Recommendation",
+          "url": "https://www.w3.org/WAI/news/2025-08-19/act-rules-format-1.1-CR/",
+          "publishedAt": "2025-08-19T00:00:00.000Z",
+          "summary": "Accessibility Conformance Testing (ACT) Rules Format 1.1 is now a Candidate Recommendation Snapshot. That means we’re seeking example implementations. ACT Rules Format defines a format for writing accessibility test rul…",
+          "topics": [
+            "personalization",
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        }
+      ]
     }
   ],
   "articles": [
+    {
+      "title": "Using and Styling the Dialog Element",
+      "url": "https://css-tricks.com/using-and-styling-the-dialog-element/",
+      "publishedAt": "2026-08-07T14:06:43.000Z",
+      "summary": "There's a lot of nuance to the element, a seemingly little piece of web architecture. I've got some notes from digging into it. Using and Styling the Dialog Element originally handwritten and published with love on CSS-…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "How Baseline Can Help You Ship Less JavaScript",
+      "url": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
+      "publishedAt": "2026-08-07T13:00:00.000Z",
+      "summary": "The gap between “you need a library for this” and “the browser does this” keeps closing. A practical guide to auditing your dependencies and finding what the web platform can now handle for you.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+      "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+      "publishedAt": "2026-08-07T13:00:00.000Z",
+      "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queri…",
+      "topics": [
+        "accessibility-performance",
+        "frontend-platform"
+      ],
+      "sourceId": "cloudflare-blog",
+      "source": "Cloudflare Blog",
+      "company": "Cloudflare"
+    },
+    {
+      "title": "2026 State of CSS, Devs Surveys",
+      "url": "https://css-tricks.com/2026-state-of-css-devs-surveys/",
+      "publishedAt": "2026-08-06T15:54:52.000Z",
+      "summary": "A few notes and takeaways from the 2026 State of CSS survey results, including a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten and published with love on CSS-Tricks . You should really ge…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Cloudflare AI Search: give your agents a search engine for your data",
+      "url": "https://blog.cloudflare.com/ai-search-easier/",
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "cloudflare-blog",
+      "source": "Cloudflare Blog",
+      "company": "Cloudflare"
+    },
+    {
+      "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+      "url": "https://blog.cloudflare.com/aeo/",
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "cloudflare-blog",
+      "source": "Cloudflare Blog",
+      "company": "Cloudflare"
+    },
+    {
+      "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was d…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "cloudflare-blog",
+      "source": "Cloudflare Blog",
+      "company": "Cloudflare"
+    },
+    {
+      "title": "Give any website a WebMCP interface",
+      "url": "https://blog.cloudflare.com/webmcp/",
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep thei…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "cloudflare-blog",
+      "source": "Cloudflare Blog",
+      "company": "Cloudflare"
+    },
+    {
+      "title": "The naked designer: What happens when you can’t hide behind craft",
+      "url": "https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/",
+      "publishedAt": "2026-08-05T13:00:00.000Z",
+      "summary": "Matthew Santone on the changing face of design The post The naked designer: What happens when you can’t hide behind craft appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Search and buy domains in the dashboard",
+      "url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "Give your eve agent a browser",
+      "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+      "publishedAt": "2026-08-04T04:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "Gap Decorations Are Now Available, Here’s What’s New",
+      "url": "https://css-tricks.com/css-gap-decorations-now-available/",
+      "publishedAt": "2026-08-03T15:53:20.000Z",
+      "summary": "Today, with CSS gap decorations fully supported in Chrome and Edge, starting with version 149, you can now very easily style gaps, and with a lot of control. Gap Decorations Are Now Available, Here’s What’s New original…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Get Ready For the Powerful CSS border-shape Property!",
+      "url": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
+      "publishedAt": "2026-07-31T15:14:00.000Z",
+      "summary": "We recently got the shape() function and corner-shape property. What else could we possibly need as far as making shapes in CSS? Let me tell you: the border-shape property! Get Ready For the Powerful CSS border-shape Pr…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
+      "url": "https://css-tricks.com/whats-important-16/",
+      "publishedAt": "2026-07-31T14:06:21.000Z",
+      "summary": "The soon-Baseline sibling-index() function for animations, CSS and the 2026 FIFA World Cup, use cases for the infinity keyword, container \"stuck\" queries, and more. What’s !important #16: sibling-index() Animations, Use…",
+      "topics": [
+        "3d-graphics-animation",
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Expanded search for workflow runs in Vercel Observability",
+      "url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
     {
       "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
       "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
@@ -1325,6 +2245,32 @@
       "sourceId": "netflix-techblog",
       "source": "Netflix TechBlog",
       "company": "Netflix"
+    },
+    {
+      "title": "Server-Timing response headers will pass through to the client",
+      "url": "https://vercel.com/changelog/server-timing-header",
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
+      "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+      "publishedAt": "2026-07-29T13:00:00.000Z",
+      "summary": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what happens when designers need…",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
     },
     {
       "title": "Bringing a humanitarian lens to the future of AI",
@@ -1340,6 +2286,19 @@
       "company": "Microsoft"
     },
     {
+      "title": "Thinking Outside The Box: Digital Design In The AI Era",
+      "url": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
+      "publishedAt": "2026-07-28T10:00:00.000Z",
+      "summary": "Many of the AI tools we interact with take the form of text boxes. But what if there was a different way to interact with AI? Oleksii Hrzhehorzhevskyi explores a different approach to creating a new AI assistant and how…",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
       "title": "WebKit Features for Safari 26.6",
       "url": "https://webkit.org/blog/18178/webkit-features-for-safari-26-6/",
       "publishedAt": "2026-07-27T18:00:52.000Z",
@@ -1350,6 +2309,19 @@
       "sourceId": "webkit-blog",
       "source": "WebKit Blog",
       "company": "Apple WebKit"
+    },
+    {
+      "title": "WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published",
+      "url": "https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/",
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "summary": "WCAG Evaluation Methodology (WCAG-EM) 2.0 is published as a W3C Group Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Content Accessibility Guidelin…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
     },
     {
       "title": "Gathering around the fire: Durable human experience patterns in the AI era",
@@ -1377,16 +2349,28 @@
       "company": "Airbnb"
     },
     {
-      "title": "How to build interactive experiences with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-      "publishedAt": "2026-07-21T16:00:00.000Z",
-      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on Th…",
+      "title": "writing-mode",
+      "url": "https://css-tricks.com/almanac/properties/w/writing-mode/",
+      "publishedAt": "2026-07-21T09:39:10.000Z",
+      "summary": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, and the direction in which blocks and lines progress. .element { writing-mode: vertical-rl; } This is most useful in lang…",
       "topics": [
-        "3d-graphics-animation"
+        "frontend-platform"
       ],
-      "sourceId": "github-ux",
-      "source": "GitHub Engineering · UX",
-      "company": "GitHub"
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
+      "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
     },
     {
       "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
@@ -1400,6 +2384,69 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
+    },
+    {
+      "title": "pointer-events",
+      "url": "https://css-tricks.com/almanac/properties/p/pointer-events/",
+      "publishedAt": "2026-07-15T19:57:51.000Z",
+      "summary": "The pointer-events property controls whether an element can become the target of pointer events like clicks, hover states, and other pointer-based events. In other words, it lets you decide whether the browser should tr…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Chat SDK adds Discord Components V2 support",
+      "url": "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "microinteractions"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
+      "url": "https://css-tricks.com/whats-important-15/",
+      "publishedAt": "2026-07-14T14:36:18.000Z",
+      "summary": "Read all about boundary-aware CSS, accessible grid lanes, time-based web designs, full-bleed, the customizable select, and new web platform features. What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed…",
+      "topics": [
+        "sustainable-design",
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
+      "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+      "publishedAt": "2026-07-10T13:00:00.000Z",
+      "summary": "The strongest visual concepts don’t start in Figma. They start with the right questions. Explore the pre-concept phase of brand identity design, where teams research brand context, uncover hidden assumptions with stakeh…",
+      "topics": [
+        "bold-color",
+        "biometric-auth"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion",
+      "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+      "publishedAt": "2026-07-09T15:00:00.000Z",
+      "summary": "Many UI trends are designed to capture attention and signal innovation, but those goals often conflict with the needs of mental health apps: reducing cognitive strain, fostering trust, and providing a sense of refuge. K…",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
     },
     {
       "title": "We Didn’t Teach Our Designers AI: We Built a Place Where They Could Learn It Together",
@@ -1428,6 +2475,69 @@
       "company": "Microsoft Edge"
     },
     {
+      "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
+      "url": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
+      "publishedAt": "2026-07-07T10:00:00.000Z",
+      "summary": "We have been building websites inside boxes for years on WordPress. Let’s take a closer look at [Kirki](https://kirki.com/), the first freeform visual builder with an infinite canvas, and explore how it redefines the ex…",
+      "topics": [
+        "3d-graphics-animation"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "Matching AI Modality To User Intent: Designing The Right Interface",
+      "url": "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
+      "publishedAt": "2026-07-02T10:00:00.000Z",
+      "summary": "We’ve fallen into conversational tunnel vision, defaulting every AI capability into a chat-based interface simply because LLMs are trained on dialogue data. But great UX is about matching modality to users’ context, int…",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "What’s !important #14: Gap Decorations, random(), field-sizing, and More",
+      "url": "https://css-tricks.com/whats-important-14/",
+      "publishedAt": "2026-06-30T13:54:14.000Z",
+      "summary": "I know you’re busy, so for What’s !important #14, I’ll be sprinting through what’s been a stacked couple of weeks despite few browser updates. From CSS Quake to CSS Gap Decorations, this isn’t one to miss! What’s !impor…",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Why Accessibility Is An Operational Capability, Not A Feature",
+      "url": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+      "publishedAt": "2026-06-30T12:00:00.000Z",
+      "summary": "Teams can generate UI faster than ever, but they still have to guarantee that what they ship is usable, secure, and maintainable. Accessibility as an operational capability rather than a compliance checklist or end-of-p…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "The Shifting Line Between CSS States and JavaScript Events",
+      "url": "https://css-tricks.com/css-states-and-javascript-events/",
+      "publishedAt": "2026-06-29T13:03:32.000Z",
+      "summary": "CSS has always had pseudo-classes that style things based on user interactions. Recent features, however, are blurring the line between what CSS \"listens\" for and how they are alternatives to what Javascript typically l…",
+      "topics": [
+        "microinteractions",
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
       "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
       "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
       "publishedAt": "2026-06-29T13:01:02.000Z",
@@ -1454,6 +2564,43 @@
       "company": "Microsoft"
     },
     {
+      "title": "translateZ()",
+      "url": "https://css-tricks.com/almanac/functions/t/translatez/",
+      "publishedAt": "2026-06-25T13:18:56.000Z",
+      "summary": "The translateZ() function moves an element closer to or farther from the user. translateZ() originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "translateY()",
+      "url": "https://css-tricks.com/almanac/functions/t/translatey/",
+      "publishedAt": "2026-06-25T13:17:56.000Z",
+      "summary": "The translateY() function shifts an element vertically by the specified amount. translateY() originally handwritten and published with love on CSS-Tricks . You should really get the newsletter as well.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Teaching agents product design at Vercel",
+      "url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
+      "publishedAt": "2026-06-25T07:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
       "title": "Pride is alive",
       "url": "https://microsoft.design/articles/pride-is-alive/",
       "publishedAt": "2026-06-23T16:44:29.000Z",
@@ -1478,6 +2625,19 @@
       "sourceId": "netflix-techblog",
       "source": "Netflix TechBlog",
       "company": "Netflix"
+    },
+    {
+      "title": "Deploy from Claude Design to Vercel",
+      "url": "https://vercel.com/changelog/claude-design-and-vercel",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
     },
     {
       "title": "Conversation design: How to make your AI Agent communicate like your team",
@@ -1530,6 +2690,19 @@
       "company": "Google Android"
     },
     {
+      "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
+      "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+      "publishedAt": "2026-06-16T15:00:00.000Z",
+      "summary": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, dec…",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
       "title": "A touch of feeling: advanced haptics in Windows 11",
       "url": "https://microsoft.design/articles/a-touch-of-feeling-advanced-haptics-in-windows-11/",
       "publishedAt": "2026-06-16T13:00:00.000Z",
@@ -1579,6 +2752,18 @@
       "company": "Mozilla"
     },
     {
+      "title": "The Benefits Of Cognitive Inclusion In UX Research",
+      "url": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
+      "publishedAt": "2026-06-10T10:00:00.000Z",
+      "summary": "Findings from an exploratory user research study highlighting the unique insights and practical UX recommendations shared by participants with cognitive disabilities.",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
       "title": "Introducing the Field Guide to Grid Lanes",
       "url": "https://webkit.org/blog/18098/introducing-the-field-guide-to-grid-lanes/",
       "publishedAt": "2026-06-10T07:30:35.000Z",
@@ -1604,6 +2789,31 @@
       "company": "Microsoft"
     },
     {
+      "title": "How Code and Theory cut time-to-prototype 75% with v0",
+      "url": "https://vercel.com/blog/how-code-and-theory-cut-time-to-prototype-75-with-v0",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "Domain Search is now available through the Vercel CLI",
+      "url": "https://vercel.com/changelog/domain-search-is-now-available-through-the-vercel-cli",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
       "title": "How I Validated Design Decisions Before Writing Production Code",
       "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/",
       "publishedAt": "2026-06-04T01:29:47.000Z",
@@ -1615,6 +2825,19 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
+    },
+    {
+      "title": "How To Make Your Design System AI-Ready",
+      "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+      "publishedAt": "2026-06-03T13:00:00.000Z",
+      "summary": "Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces , **friendly video course on UX** and…",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
     },
     {
       "title": "What's new in DevTools (Chrome 149)",
@@ -1639,6 +2862,21 @@
       "sourceId": "web-dev",
       "source": "web.dev",
       "company": "Google Chrome"
+    },
+    {
+      "title": "Algorithmic Theming Engines: Building Self-Correcting Color Systems With `contrast-color()`",
+      "url": "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
+      "publishedAt": "2026-05-28T13:00:00.000Z",
+      "summary": "Seventy percent of websites still fail basic WCAG contrast checks in 2025. After years of design system tooling, accessibility linters, and JavaScript libraries, nothing moved the needle. We didn’t need better libraries…",
+      "topics": [
+        "bold-color",
+        "sustainable-design",
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
     },
     {
       "title": "Designing Where the Pixels Actually Live",
@@ -1678,17 +2916,16 @@
       "company": "Google Chrome"
     },
     {
-      "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
-      "url": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
-      "publishedAt": "2026-05-26T16:00:01.000Z",
-      "summary": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture. SilverTorch shows up to 23.7x higher throughput compa…",
+      "title": "Experimental native binaries for Vercel CLI",
+      "url": "https://vercel.com/changelog/experimental-native-binaries-for-vercel-cli",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "summary": "",
       "topics": [
-        "personalization",
-        "microinteractions"
+        "personalization"
       ],
-      "sourceId": "meta-engineering",
-      "source": "Meta Engineering",
-      "company": "Meta"
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
     },
     {
       "title": "IBM Systems Environment Estimator recognized with prestigious 2026 iF Design Award",
@@ -1717,6 +2954,19 @@
       "company": "Slack"
     },
     {
+      "title": "Self-portraits: Madeline Kleiner",
+      "url": "https://microsoft.design/articles/self-portraits-madeline-kleiner/",
+      "publishedAt": "2026-05-20T13:42:35.000Z",
+      "summary": "A UX researcher helped Copilot meet people in the flow of their work. The post Self-portraits: Madeline Kleiner appeared first on Microsoft Design .",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
       "title": "Better Experiments with LLM Evals — A funnel, not a fork",
       "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
       "publishedAt": "2026-05-18T13:27:23.000Z",
@@ -1727,6 +2977,18 @@
       "sourceId": "spotify-engineering",
       "source": "Spotify Engineering",
       "company": "Spotify"
+    },
+    {
+      "title": "Protected Source Maps: Ship browser source maps securely",
+      "url": "https://vercel.com/changelog/protected-source-maps-ship-browser-source-maps-securely",
+      "publishedAt": "2026-05-14T00:00:00.000Z",
+      "summary": "",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
     },
     {
       "title": "New updates to Edge across desktop and mobile",
@@ -1740,6 +3002,19 @@
       "sourceId": "microsoft-edge",
       "source": "Microsoft Edge Blog",
       "company": "Microsoft Edge"
+    },
+    {
+      "title": "Enhancing Ad Relevance: Integrating Real-Time Context into Sequential Recommender Models",
+      "url": "https://medium.com/pinterest-engineering/enhancing-ad-relevance-integrating-real-time-context-into-sequential-recommender-models-bc3a2f9b682e",
+      "publishedAt": "2026-05-08T19:01:00.000Z",
+      "summary": "Huiqin Xin | Machine Learning Engineer II, Ads Vertical Modeling; Lakshmi Manoharan | Senior Machine Learning Engineer, Ads Vertical Modeling; Karthik Jayasurya | Staff Machine Learning Engineer, Ads Signals; Ziwei Guo…",
+      "topics": [
+        "realtime-content",
+        "personalization"
+      ],
+      "sourceId": "pinterest-engineering",
+      "source": "Pinterest Engineering",
+      "company": "Pinterest"
     },
     {
       "title": "Explainable AI: Insights from market and academic research",
@@ -1880,17 +3155,17 @@
       "company": "IBM"
     },
     {
-      "title": "Making keyboard navigation effortless",
-      "url": "https://blogs.windows.com/msedgedev/2026/03/05/making-keyboard-navigation-effortless/",
-      "publishedAt": "2026-03-05T16:39:27.000Z",
-      "summary": "Do you use a keyboard to navigate websites? If so, you've probably run into countless accessibility issues where groups of inputs or widgets are not easy, or even possible to get to with just the keyboard. A keyboard-ac…",
+      "title": "For Review: WCAG 3 Working Draft – March 2026",
+      "url": "https://www.w3.org/WAI/news/2026-03-03/wcag3/",
+      "publishedAt": "2026-03-03T00:00:00.000Z",
+      "summary": "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft is updated. The starting place for background, timeline, and up-to-date information is the WCAG 3 Introduction. For a list of changes in the March 2026 draft, see St…",
       "topics": [
         "sustainable-design",
         "accessibility-performance"
       ],
-      "sourceId": "microsoft-edge",
-      "source": "Microsoft Edge Blog",
-      "company": "Microsoft Edge"
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
     },
     {
       "title": "January 2026 Baseline monthly digest",
@@ -1929,16 +3204,56 @@
       "company": "Google Chrome"
     },
     {
-      "title": "Microsoft Edge and Interop 2026",
-      "url": "https://blogs.windows.com/msedgedev/2026/02/12/microsoft-edge-and-interop-2026/",
-      "publishedAt": "2026-02-12T17:07:08.000Z",
-      "summary": "Microsoft Edge is commited to a more powerful, predictable, and reliable web platform. One way we pursue those goals is via our ongoing participation in the Interop project . This year mark The post Microsoft Edge and I…",
+      "title": "Navigation API - a better way to navigate, is now Baseline Newly Available",
+      "url": "https://web.dev/blog/baseline-navigation-api?hl=en",
+      "publishedAt": "2026-02-17T08:00:00.000Z",
+      "summary": "The Navigation API is now Baseline Newly available, providing a better way to handle navigation in single-page applications.",
       "topics": [
         "frontend-platform"
       ],
-      "sourceId": "microsoft-edge",
-      "source": "Microsoft Edge Blog",
-      "company": "Microsoft Edge"
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
+      "title": "ACT Rules Format 1.1 is a Web Standard (W3C Recommendation)",
+      "url": "https://www.w3.org/WAI/news/2026-02-05/act-rules-11/",
+      "publishedAt": "2026-02-05T00:00:00.000Z",
+      "summary": "Accessibility Conformance Testing (ACT) Rules Format 1.1 is now a web standard (W3C Recommendation). ACT Rules Format defines a format for writing accessibility test rules. The test rules can be used for developing auto…",
+      "topics": [
+        "personalization",
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
+    },
+    {
+      "title": "For Review: Cognitive Accessibility Research Modules — First Draft Notes",
+      "url": "https://www.w3.org/WAI/news/2026-02-05/coga/",
+      "publishedAt": "2026-02-05T00:00:00.000Z",
+      "summary": "Cognitive Accessibility Research Modules are available as first Draft Notes. The documents cover research on accessibility for people with cognitive and learning disabilities for Voice Systems and Conversational Interfa…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
+    },
+    {
+      "title": "For Review: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 — First Draft Note",
+      "url": "https://www.w3.org/WAI/news/2026-02-05/wcag-em-2/",
+      "publishedAt": "2026-02-05T00:00:00.000Z",
+      "summary": "W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 is available as a first Draft Note. WCAG-EM describes a methodology with a step-by-step process to evaluate how well digital products conform to Web Cont…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
     },
     {
       "title": "Cracking AI toolkit for product design: Idea to MVP in under 1 hour",
@@ -1966,6 +3281,19 @@
       "company": "Etsy"
     },
     {
+      "title": "How Do We Stop Designing for Personas and Start Designing for People?",
+      "url": "https://medium.com/design-ibm/how-do-we-stop-designing-for-personas-and-start-designing-for-people-f333ebd9d22f",
+      "publishedAt": "2025-12-10T14:42:31.000Z",
+      "summary": "Written by : Maigan Webster and Fabian Faes Edited by: Jack LaMarche The Limits of Persona-Driven Design Historically, we relied on personas not because they perfectly represented people, but because our own cognitive l…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
       "title": "Reducing experiment duration with predicted control variates",
       "url": "https://www.etsy.com/codeascraft/reducing-experiment-duration-with-predicted-control-variates",
       "publishedAt": "2025-11-25T16:28:26.000Z",
@@ -1991,6 +3319,19 @@
       "company": "Uber"
     },
     {
+      "title": "Regulation by Design: What every designer needs to know about the newest EU regulations",
+      "url": "https://medium.com/design-ibm/regulation-by-design-what-every-designer-needs-to-know-about-the-newest-eu-regulations-6e91d2639005",
+      "publishedAt": "2025-11-19T15:02:28.000Z",
+      "summary": "By Marie-Therese Sekwenz , Dasha Simons and Alina Wundsam . Is your head spinning from European AI regulations? Don’t panic! Here’s how designers can contribute to the AI Act and Digital Services Act by creating impact…",
+      "topics": [
+        "microinteractions",
+        "personalization"
+      ],
+      "sourceId": "ibm-design",
+      "source": "IBM Design",
+      "company": "IBM"
+    },
+    {
       "title": "Improving performance by prefetching product pages from Etsy Search",
       "url": "https://www.etsy.com/codeascraft/search-prefetching-performance",
       "publishedAt": "2025-10-29T17:14:09.000Z",
@@ -2004,6 +3345,19 @@
       "sourceId": "etsy-engineering",
       "source": "Code as Craft",
       "company": "Etsy"
+    },
+    {
+      "title": "WCAG 2.2 Approved as an ISO Standard",
+      "url": "https://www.w3.org/WAI/news/2025-10-21/wcag22-iso/",
+      "publishedAt": "2025-10-21T00:00:00.000Z",
+      "summary": "Web Content Accessibility Guidelines (WCAG) 2.2 is now an approved International Organization for Standardization (ISO) standard: ISO/IEC 40500:2025. It is available free from ISO/IEC 40500:2025 - Information technology…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
     },
     {
       "title": "A beginner-friendly guide to view transitions in CSS",
@@ -2042,6 +3396,59 @@
       "company": "Slack"
     },
     {
+      "title": "For Review: WCAG 3 Working Draft - September 2025",
+      "url": "https://www.w3.org/WAI/news/2025-09-04/wcag3/",
+      "publishedAt": "2025-09-04T00:00:00.000Z",
+      "summary": "W3C Accessibility Guidelines (WCAG) 3.0 Working Draft is updated. For review questions and how to comment, please see the WCAG 3 section ‘About this draft’. The starting place for background, timeline, and up-to-date in…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
+    },
+    {
+      "title": "For Wide Review: Accessibility Maturity Model — Updated Draft Note",
+      "url": "https://www.w3.org/WAI/news/2025-09-01/maturity-model/",
+      "publishedAt": "2025-09-01T00:00:00.000Z",
+      "summary": "Accessibility Maturity Model Updated Draft Note is ready for review. The Accessibility Maturity Model provides a framework to assess an organization’s policies and procedures to deliver accessible products and services.…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
+    },
+    {
+      "title": "WCAG2ICT — W3C Group Note updated to coordinate with EN 301 549",
+      "url": "https://www.w3.org/WAI/news/2025-08-21/wcag2ict/",
+      "publishedAt": "2025-08-21T00:00:00.000Z",
+      "summary": "Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT) has been updated in coordination with the work to update EN 301 549. EN 301 549 is the European standard ‘Accessibility requi…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
+    },
+    {
+      "title": "Call for implementations: Accessibility Conformance Testing (ACT) Rules Format 1.1 — Candidate Recommendation",
+      "url": "https://www.w3.org/WAI/news/2025-08-19/act-rules-format-1.1-CR/",
+      "publishedAt": "2025-08-19T00:00:00.000Z",
+      "summary": "Accessibility Conformance Testing (ACT) Rules Format 1.1 is now a Candidate Recommendation Snapshot. That means we’re seeking example implementations. ACT Rules Format defines a format for writing accessibility test rul…",
+      "topics": [
+        "personalization",
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
+    },
+    {
       "title": "Raising the Volume Quietly: A Designer’s Challenge",
       "url": "https://slack.design/articles/raising-the-volume-quietly/",
       "publishedAt": "2025-05-22T08:00:38.000Z",
@@ -2049,6 +3456,18 @@
       "topics": [
         "microinteractions",
         "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
+      "title": "Crafting Digital Delight: Inside Slack’s Studio Team",
+      "url": "https://slack.design/articles/crafting-digital-delight-inside-slacks-studio-team/",
+      "publishedAt": "2025-05-15T14:54:44.000Z",
+      "summary": "Remember when you first heard that soothing music while joining a Huddle? Or watched the catch-up animation dance across your mobile app? Maybe you’ve been charmed by a friendly message and quirky emoji after clearing y…",
+      "topics": [
+        "3d-graphics-animation"
       ],
       "sourceId": "slack-design",
       "source": "Slack Design",
@@ -2065,6 +3484,19 @@
       "sourceId": "mdn-blog",
       "source": "MDN Blog",
       "company": "Mozilla"
+    },
+    {
+      "title": "Mentorship at Slack: Lessons from a Thriving Program",
+      "url": "https://slack.design/articles/mentorship-at-slack-lessons-from-a-thriving-program/",
+      "publishedAt": "2025-03-03T18:28:34.000Z",
+      "summary": "With an impressive 80% participation rate, one thing we attribute to the wild success of Slack Design’s mentorship program is simplicity. We’ve designed it to be easy to engage with, striking a balance between structure…",
+      "topics": [
+        "microinteractions",
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
     },
     {
       "title": "Behind the scenes of Canva's DesignDNA campaign",
@@ -2104,6 +3536,19 @@
       "company": "Mozilla"
     },
     {
+      "title": "Should we make it a preference?: On customization, defaults, and accessibility",
+      "url": "https://slack.design/articles/should-we-make-it-a-preference-on-customization-defaults-and-accessibility/",
+      "publishedAt": "2025-01-23T18:28:29.000Z",
+      "summary": "Design that is inclusive and accessible almost always works better for everyone. But once in a while we reach a genuine dilemma — the more technically accessible choice adds friction or breaks expectations for everyone…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
+    },
+    {
       "title": "Fix your website's Largest Contentful Paint by optimizing image loading",
       "url": "https://developer.mozilla.org/en-US/blog/fix-image-lcp/",
       "publishedAt": "2025-01-13T00:00:00.000Z",
@@ -2114,6 +3559,19 @@
       "sourceId": "mdn-blog",
       "source": "MDN Blog",
       "company": "Mozilla"
+    },
+    {
+      "title": "Prototyping the path to Design Engineering",
+      "url": "https://slack.design/articles/prototyping-the-path-to-design-engineering/",
+      "publishedAt": "2024-10-23T20:44:22.000Z",
+      "summary": "If you work in design, you’ve probably already heard of design engineering. It’s not a new concept, and similar roles — such as Design Technologists, UI/UX Engineers, and Creative Technologists — have existed in softwar…",
+      "topics": [
+        "microinteractions",
+        "realtime-content"
+      ],
+      "sourceId": "slack-design",
+      "source": "Slack Design",
+      "company": "Slack"
     },
     {
       "title": "Fixing your website's JavaScript performance",
@@ -2134,6 +3592,43 @@
       "url": "https://developer.mozilla.org/en-US/blog/javascript-intl-segmenter-i18n/",
       "publishedAt": "2024-09-03T00:00:00.000Z",
       "summary": "Learn how to use Intl.Segmenter for locale-sensitive text segmentation in JavaScript to simplify localization, count words or sentences in different languages, and more.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "How to debug mobile apps across devices",
+      "url": "https://developer.mozilla.org/en-US/blog/debug-mobile-apps-across-devices/",
+      "publishedAt": "2024-08-07T00:00:00.000Z",
+      "summary": "This post explores what mobile app debugging is, commonly used techniques, and how you can debug mobile apps on multiple devices.",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "Exclusive accordions using the HTML details element",
+      "url": "https://developer.mozilla.org/en-US/blog/html-details-exclusive-accordions/",
+      "publishedAt": "2024-08-05T00:00:00.000Z",
+      "summary": "The 'name' attribute of the HTML details element is gaining more support across browsers. Learn how this feature allows creating exclusive accordions without scripting widgets from scratch.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
+    },
+    {
+      "title": "New JavaScript Set methods",
+      "url": "https://developer.mozilla.org/en-US/blog/javascript-set-methods/",
+      "publishedAt": "2024-06-24T00:00:00.000Z",
+      "summary": "New JavaScript Set methods are landing across browsers. Learn about sets, how you can use these methods to compare different sets, create new sets with specific properties, and more.",
       "topics": [
         "frontend-platform"
       ],
@@ -2177,6 +3672,18 @@
       "sourceId": "indeed-design",
       "source": "Indeed Design",
       "company": "Indeed"
+    },
+    {
+      "title": "A year of publishing the MDN Blog",
+      "url": "https://developer.mozilla.org/en-US/blog/mdn-blog-one-year-on/",
+      "publishedAt": "2024-05-03T00:00:00.000Z",
+      "summary": "We've been writing about web development and the web platform on the MDN Blog since May 2023. Here's our highlights and top posts along with our favorites.",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "mdn-blog",
+      "source": "MDN Blog",
+      "company": "Mozilla"
     },
     {
       "title": "Setting Up Your UX Mentorship Program For Success",
@@ -2276,6 +3783,31 @@
       "topics": [
         "bold-color",
         "kinetic-typography"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "Guide to UX Planning — How to Create a Roadmap",
+      "url": "https://medium.com/indeed-design/guide-to-ux-planning-how-to-create-a-roadmap-9e0ccb379d55",
+      "publishedAt": "2024-01-24T23:51:12.000Z",
+      "summary": "Guide to UX Planning — How to Create a Roadmap Three steps and some elbow grease will have your team cruising through KPIs with a clear master document. Illustration by Jimmy Park Most UXers say they don’t get enough ti…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "indeed-design",
+      "source": "Indeed Design",
+      "company": "Indeed"
+    },
+    {
+      "title": "What Accessibility Certification Is and Why It Matters to UX",
+      "url": "https://medium.com/indeed-design/what-accessibility-certification-is-and-why-it-matters-to-ux-d2a3881290e2",
+      "publishedAt": "2024-01-08T13:28:16.000Z",
+      "summary": "Thinking about getting an a11y certification? A UX researcher shares lessons from her accessibility cert journey. It was a late night in March 2021. I was on a quest to find COVID-19 vaccine appointments for two of my e…",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
       ],
       "sourceId": "indeed-design",
       "source": "Indeed Design",
@@ -2402,6 +3934,31 @@
       "topics": [
         "ar-vr",
         "personalization"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "How UX Design can Shape the Future of Sustainability",
+      "url": "https://medium.com/wayfair-design/how-ux-design-can-shape-the-future-of-sustainability-35598949b1e",
+      "publishedAt": "2022-09-08T12:57:28.000Z",
+      "summary": "The things we do, the transportation we use, and the products we consume all contribute to an alarmingly negative impact on our planet. Over time, they’ve caused irreversible damage that brings concern for the well-bein…",
+      "topics": [
+        "sustainable-design"
+      ],
+      "sourceId": "wayfair-design",
+      "source": "Wayfair Design",
+      "company": "Wayfair"
+    },
+    {
+      "title": "UI at Scale: How Wayfair supports multiple brands and geos with a shared code base",
+      "url": "https://medium.com/wayfair-design/ui-at-scale-how-wayfair-supports-multiple-brands-and-geos-with-a-shared-code-base-4e2bfb1e7067",
+      "publishedAt": "2022-08-31T12:41:37.000Z",
+      "summary": "Authors: Neva Corbo-Hudak and Stephanie Cenatiempo Before 2019, our technology teams had no singular UI vision, resulting in inconsistent styling and user interactions. Creating cohesive user experiences was challenging…",
+      "topics": [
+        "bold-color",
+        "microinteractions"
       ],
       "sourceId": "wayfair-design",
       "source": "Wayfair Design",
@@ -2560,6 +4117,32 @@
       "company": "Dropbox"
     },
     {
+      "title": "Community powered by Design Ops",
+      "url": "https://medium.com/dropbox-design/community-powered-by-design-ops-b8d09239467e",
+      "publishedAt": "2020-04-30T20:18:20.000Z",
+      "summary": "How the Design Ops team at Dropbox team takes a strategic approach to people-centered problems By Michelle Morrison, Sarah Lin, and Andrew Lee Artwork by Gabrielle Matte , Samuel Pasquier , and Olivier Charland Among th…",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
+      "title": "Building diverse design communities",
+      "url": "https://medium.com/dropbox-design/building-diverse-design-communities-c1c1f39e40f5",
+      "publishedAt": "2020-04-30T19:23:59.000Z",
+      "summary": "Tips from the creators of Blacks Who Design, Latinxs Who Design, and Women Who Design Artwork by Gabrielle Matte , Samuel Pasquier , Olivier Charland Diversity makes a difference. Diverse teams innovate better, make dec…",
+      "topics": [
+        "microinteractions",
+        "bold-color"
+      ],
+      "sourceId": "dropbox-design",
+      "source": "Dropbox Design",
+      "company": "Dropbox"
+    },
+    {
       "title": "What do I want to do with my c̶a̶r̶e̶e̶r̶ life?",
       "url": "https://medium.com/uber-design/what-do-i-want-to-do-with-my-c%CC%B6a%CC%B6r%CC%B6e%CC%B6e%CC%B6r%CC%B6-life-54d7266c3cde",
       "publishedAt": "2020-03-03T14:31:01.000Z",
@@ -2577,6 +4160,32 @@
       "url": "https://medium.com/uber-design/ten-things-ive-learned-as-a-ux-researcher-at-uber-43464b1c544b",
       "publishedAt": "2020-02-21T20:31:01.000Z",
       "summary": "In July 2016, I joined Uber as the first member of our Bangalore-based UX team. I was one of the earliest researchers at the company outside of the U.S., and at that point, the Bangalore office had just opened and thing…",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "Creating workplace support for parents doesn’t have to break the time or money bank",
+      "url": "https://medium.com/uber-design/creating-workplace-support-for-parents-doesnt-have-to-break-the-time-or-money-bank-4a1760b2ea62",
+      "publishedAt": "2019-11-12T18:36:02.000Z",
+      "summary": "By: Brook Sattler , Vince de Asis , Caitlin Thakral , and Amy Hooey Being pulled in multiple directions is a familiar feeling for all working parents. Parenting is a full-time job in itself, and many of us simultaneousl…",
+      "topics": [
+        "realtime-content",
+        "microinteractions"
+      ],
+      "sourceId": "uber-design",
+      "source": "Uber Design",
+      "company": "Uber"
+    },
+    {
+      "title": "The Power of Insights: A behind-the-scenes look at the new insights platform at Uber",
+      "url": "https://medium.com/uber-design/the-power-of-insights-a-behind-the-scenes-look-at-the-new-insights-platform-at-uber-26f85becc2e6",
+      "publishedAt": "2019-08-27T16:00:03.000Z",
+      "summary": "Logo design by Ryan Koziel In the late 20th century, the dominant technological question was “How do we learn better?” In the early 21st, that question has been followed by “How do we better use the things we’ve learned…",
       "topics": [
         "realtime-content",
         "microinteractions"
@@ -2675,6 +4284,30 @@
       "url": "https://medium.com/etsy-design/welcome-to-etsy-design-cd89ba6f3e5d",
       "publishedAt": "2016-10-18T19:06:09.000Z",
       "summary": "Illustration by Jing Wei Allow us the privilege of introducing ourselves. “Hi! We’re Etsy Design.” “Hello, there. Wait…what’s Etsy?” “Oh, Etsy? It’s this special thing, and we’d love for you to be a part of it. Etsy is…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "How Etsy Gets Made",
+      "url": "https://medium.com/etsy-design/how-etsy-gets-made-276bd136618b",
+      "publishedAt": "2016-10-18T17:48:31.000Z",
+      "summary": "Illustration by Sarah Abbott Like many of you, we enjoy making things: trying out new ideas, building prototypes, and fine-tuning our work as we go. Etsy is constantly looking for opportunities to improve our products a…",
+      "topics": [
+        "bold-color"
+      ],
+      "sourceId": "etsy-design",
+      "source": "Etsy Design",
+      "company": "Etsy"
+    },
+    {
+      "title": "My Journey at Etsy as a Product Design Intern",
+      "url": "https://medium.com/etsy-design/my-journey-at-etsy-as-a-product-design-intern-35b557c44158",
+      "publishedAt": "2016-10-18T17:28:09.000Z",
+      "summary": "Thoughts, lessons, and tips Illustration by Laura Berger This June, I flew from San Francisco, California to Brooklyn, New York — far from my family, friends, and everything I’m familiar with. I felt curious and nervous…",
       "topics": [
         "bold-color"
       ],

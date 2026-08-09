@@ -105,3 +105,53 @@
 **가져갈 점:** 다크 모드와 고대비 모드는 별도 색상표가 아니라 의미 기반 토큰을 공유하는 모드로 설계한다.
 
 - [Unlocking inclusive design: Primer’s color system](https://github.blog/engineering/user-experience/designs-journey-towards-accessibility/)
+
+## 11. W3C — 접근성 평가는 체크리스트가 아니라 범위가 있는 과정이다
+
+**문제:** 일부 대표 화면이나 자동 검사 결과만으로 제품 전체가 접근 가능하다고 판단하면 실제 사용자 흐름과 예외 상태가 빠진다.
+
+**해법:** WCAG-EM 2.0은 평가 범위 정의, 대표 표본 선택, 감사, 결과 보고를 단계별 방법론으로 제공한다.
+
+**가져갈 점:** 출시 게이트에 자동 점수 하나만 두지 말고 평가 범위·표본·수동 검증·미충족 사례를 함께 기록한다.
+
+- [WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published](https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/)
+
+## 12. Smashing Magazine — Baseline은 자바스크립트 의존성을 줄이는 판단 도구다
+
+**문제:** 브라우저가 이미 제공하는 기능에도 오래된 호환성 가정을 유지하면 번들, 폴리필, 유지보수 비용이 계속 남는다.
+
+**해법:** Baseline 지원 범위를 기준으로 의존성을 감사하고, 현재 타깃 브라우저에서 네이티브 기능으로 대체 가능한 코드를 찾는다.
+
+**가져갈 점:** 새 라이브러리 도입뿐 아니라 기존 의존성 제거에도 브라우저 지원 근거와 실제 사용자 분포를 남긴다.
+
+- [How Baseline Can Help You Ship Less JavaScript](https://www.smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/)
+
+## 13. Vercel — 성능 원인을 브라우저까지 전달한다
+
+**문제:** 사용자가 체감한 지연을 확인해도 서버·캐시·외부 API 중 어디에서 시간이 소모됐는지 클라이언트 관측만으로 분리하기 어렵다.
+
+**해법:** CDN이 `Server-Timing` 응답 헤더를 클라이언트로 전달하면 DevTools와 실사용자 측정에서 백엔드 구간을 함께 볼 수 있다.
+
+**가져갈 점:** LCP·INP 같은 결과 지표와 서버 구간 데이터를 같은 사용자 요청에 연결하되 내부 시스템 정보 노출은 제한한다.
+
+- [Server-Timing response headers will pass through to the client](https://vercel.com/changelog/server-timing-header)
+
+## 14. Pinterest — 개인화는 실시간 맥락을 포함해야 한다
+
+**문제:** 장기 행동 이력만 사용하는 추천은 사용자가 지금 보고 있는 콘텐츠와 순간 의도를 충분히 반영하지 못한다.
+
+**해법:** 순차 추천 모델에 현재 세션의 실시간 맥락을 결합해 노출 시점의 관련성을 높인다.
+
+**가져갈 점:** 실시간 신호를 추가할수록 추천 근거, 최신성, 데이터 보존 기간과 사용자가 끌 수 있는 제어를 함께 설계한다.
+
+- [Enhancing Ad Relevance: Integrating Real-Time Context into Sequential Recommender Models](https://medium.com/pinterest-engineering/enhancing-ad-relevance-integrating-real-time-context-into-sequential-recommender-models-bc3a2f9b682e)
+
+## 15. CSS-Tricks — 네이티브 대화상자도 상태·포커스·레이어를 설계해야 한다
+
+**문제:** 모달은 열리고 닫히는 시각 효과보다 포커스 이동, 배경 비활성화, 닫기 동작과 중첩 레이어에서 더 자주 실패한다.
+
+**해법:** `<dialog>`의 네이티브 동작을 기반으로 `::backdrop`, 여백, 스크롤과 전환을 점진적으로 스타일링한다.
+
+**가져갈 점:** 커스텀 모달을 처음부터 만들기 전에 네이티브 시맨틱을 사용하고 키보드·스크린리더·모바일 스크롤을 회귀 테스트한다.
+
+- [Using and Styling the Dialog Element](https://css-tricks.com/using-and-styling-the-dialog-element/)
