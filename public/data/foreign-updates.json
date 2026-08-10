@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-09T15:09:54.672Z",
+  "generatedAt": "2026-08-10T02:32:48.893Z",
   "collectionPolicy": "metadata-only",
   "stats": {
     "catalogSources": 43,
@@ -17,10 +17,10 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:47.421Z",
+      "checkedAt": "2026-08-10T02:32:31.476Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/airbnb-engineering",
         "checks": [
           {
@@ -29,7 +29,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -52,10 +52,10 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:48.387Z",
+      "checkedAt": "2026-08-10T02:32:31.608Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:47.481Z",
+        "checkedAt": "2026-08-10T02:32:31.451Z",
         "finalFeedUrl": "https://engineering.atspotify.com/feed",
         "checks": [
           {
@@ -64,7 +64,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:47.481Z"
+            "checkedAt": "2026-08-10T02:32:31.451Z"
           },
           {
             "origin": "https://engineering.atspotify.com",
@@ -72,7 +72,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:47.481Z"
+            "checkedAt": "2026-08-10T02:32:31.451Z"
           }
         ]
       },
@@ -94,10 +94,10 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:48.133Z",
+      "checkedAt": "2026-08-10T02:32:31.918Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/uber-design",
         "checks": [
           {
@@ -106,7 +106,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -207,10 +207,10 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:48.809Z",
+      "checkedAt": "2026-08-10T02:32:32.520Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/dropbox-design",
         "checks": [
           {
@@ -219,7 +219,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -321,10 +321,10 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:47.353Z",
+      "checkedAt": "2026-08-10T02:32:31.399Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:47.137Z",
+        "checkedAt": "2026-08-10T02:32:31.360Z",
         "finalFeedUrl": "https://slack.design/feed/",
         "checks": [
           {
@@ -333,7 +333,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:47.137Z"
+            "checkedAt": "2026-08-10T02:32:31.360Z"
           }
         ]
       },
@@ -451,10 +451,10 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:47.426Z",
+      "checkedAt": "2026-08-10T02:32:31.511Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:47.138Z",
+        "checkedAt": "2026-08-10T02:32:31.401Z",
         "finalFeedUrl": "https://microsoft.design/feed/",
         "checks": [
           {
@@ -463,7 +463,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:47.138Z"
+            "checkedAt": "2026-08-10T02:32:31.401Z"
           }
         ]
       },
@@ -566,10 +566,10 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:48.965Z",
+      "checkedAt": "2026-08-10T02:32:32.243Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:47.812Z",
+        "checkedAt": "2026-08-10T02:32:31.924Z",
         "finalFeedUrl": "https://www.intercom.com/blog/feed/",
         "checks": [
           {
@@ -578,7 +578,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:47.812Z"
+            "checkedAt": "2026-08-10T02:32:31.924Z"
           }
         ]
       },
@@ -601,10 +601,10 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:47.864Z",
+      "checkedAt": "2026-08-10T02:32:31.956Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:47.829Z",
+        "checkedAt": "2026-08-10T02:32:31.941Z",
         "finalFeedUrl": "https://blog.duolingo.com/rss/",
         "checks": [
           {
@@ -613,7 +613,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:47.829Z"
+            "checkedAt": "2026-08-10T02:32:31.941Z"
           }
         ]
       },
@@ -626,10 +626,10 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:48.302Z",
+      "checkedAt": "2026-08-10T02:32:32.091Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:48.279Z",
+        "checkedAt": "2026-08-10T02:32:32.071Z",
         "finalFeedUrl": "https://www.canva.dev/blog/engineering/feed.xml",
         "checks": [
           {
@@ -638,7 +638,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:48.279Z"
+            "checkedAt": "2026-08-10T02:32:32.071Z"
           }
         ]
       },
@@ -669,10 +669,10 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:48.933Z",
+      "checkedAt": "2026-08-10T02:32:32.351Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:48.812Z",
+        "checkedAt": "2026-08-10T02:32:32.341Z",
         "finalFeedUrl": "https://github.blog/feed/",
         "checks": [
           {
@@ -681,7 +681,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:48.812Z"
+            "checkedAt": "2026-08-10T02:32:32.341Z"
           }
         ]
       },
@@ -694,10 +694,10 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:49.709Z",
+      "checkedAt": "2026-08-10T02:32:32.981Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/netflix-techblog",
         "checks": [
           {
@@ -706,7 +706,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -762,10 +762,10 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:50.524Z",
+      "checkedAt": "2026-08-10T02:32:33.420Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/design-ibm",
         "checks": [
           {
@@ -774,7 +774,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -883,10 +883,10 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:51.577Z",
+      "checkedAt": "2026-08-10T02:32:33.857Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/indeed-design",
         "checks": [
           {
@@ -895,7 +895,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -1001,10 +1001,10 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:52.685Z",
+      "checkedAt": "2026-08-10T02:32:34.429Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/etsy-design",
         "checks": [
           {
@@ -1013,7 +1013,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -1121,11 +1121,11 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "stale",
-      "checkedAt": "2026-08-09T15:09:49.054Z",
+      "checkedAt": "2026-08-10T02:32:32.653Z",
       "error": "robots.txt policy denied https://codeascraft.com",
       "robots": {
         "status": "blocked",
-        "checkedAt": "2026-08-09T15:09:49.053Z",
+        "checkedAt": "2026-08-10T02:32:32.653Z",
         "finalFeedUrl": "https://codeascraft.com/feed/",
         "checks": [
           {
@@ -1134,7 +1134,7 @@
             "httpStatus": 403,
             "decision": "blocked",
             "reason": "unreachable-or-restricted",
-            "checkedAt": "2026-08-09T15:09:49.053Z"
+            "checkedAt": "2026-08-10T02:32:32.653Z"
           }
         ]
       },
@@ -1147,10 +1147,10 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:53.383Z",
+      "checkedAt": "2026-08-10T02:32:35.107Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/wayfair-design",
         "checks": [
           {
@@ -1159,7 +1159,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -1268,10 +1268,10 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:49.545Z",
+      "checkedAt": "2026-08-10T02:32:33.013Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:49.423Z",
+        "checkedAt": "2026-08-10T02:32:33.001Z",
         "finalFeedUrl": "https://engineering.fb.com/feed/",
         "checks": [
           {
@@ -1280,7 +1280,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:49.423Z"
+            "checkedAt": "2026-08-10T02:32:33.001Z"
           }
         ]
       },
@@ -1293,10 +1293,10 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:50.748Z",
+      "checkedAt": "2026-08-10T02:32:48.542Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:49.856Z",
+        "checkedAt": "2026-08-10T02:32:48.316Z",
         "finalFeedUrl": "https://web.dev/static/blog/feed.xml",
         "checks": [
           {
@@ -1305,7 +1305,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:49.856Z"
+            "checkedAt": "2026-08-10T02:32:48.316Z"
           },
           {
             "origin": "https://web.dev",
@@ -1313,7 +1313,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:49.856Z"
+            "checkedAt": "2026-08-10T02:32:48.316Z"
           }
         ]
       },
@@ -1399,10 +1399,10 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:50.421Z",
+      "checkedAt": "2026-08-10T02:32:44.118Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:50.047Z",
+        "checkedAt": "2026-08-10T02:32:42.554Z",
         "finalFeedUrl": "https://developer.chrome.com/static/blog/feed.xml",
         "checks": [
           {
@@ -1411,7 +1411,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:50.047Z"
+            "checkedAt": "2026-08-10T02:32:42.554Z"
           }
         ]
       },
@@ -1441,10 +1441,10 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:51.408Z",
+      "checkedAt": "2026-08-10T02:32:34.462Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:50.575Z",
+        "checkedAt": "2026-08-10T02:32:33.922Z",
         "finalFeedUrl": "https://webkit.org/feed/",
         "checks": [
           {
@@ -1453,7 +1453,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:50.575Z"
+            "checkedAt": "2026-08-10T02:32:33.922Z"
           }
         ]
       },
@@ -1483,10 +1483,10 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:50.920Z",
+      "checkedAt": "2026-08-10T02:32:34.944Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:50.903Z",
+        "checkedAt": "2026-08-10T02:32:34.927Z",
         "finalFeedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
         "checks": [
           {
@@ -1495,7 +1495,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:50.903Z"
+            "checkedAt": "2026-08-10T02:32:34.927Z"
           }
         ]
       },
@@ -1609,10 +1609,10 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:51.472Z",
+      "checkedAt": "2026-08-10T02:32:35.352Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:51.374Z",
+        "checkedAt": "2026-08-10T02:32:35.330Z",
         "finalFeedUrl": "https://hacks.mozilla.org/feed/",
         "checks": [
           {
@@ -1621,7 +1621,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:51.374Z"
+            "checkedAt": "2026-08-10T02:32:35.330Z"
           }
         ]
       },
@@ -1651,10 +1651,10 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:51.631Z",
+      "checkedAt": "2026-08-10T02:32:35.872Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:51.457Z",
+        "checkedAt": "2026-08-10T02:32:35.776Z",
         "finalFeedUrl": "https://blogs.windows.com/msedgedev/feed/",
         "checks": [
           {
@@ -1663,7 +1663,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:51.457Z"
+            "checkedAt": "2026-08-10T02:32:35.776Z"
           }
         ]
       },
@@ -1705,19 +1705,19 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:53.463Z",
+      "checkedAt": "2026-08-10T02:32:36.379Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:52.485Z",
+        "checkedAt": "2026-08-10T02:32:36.324Z",
         "finalFeedUrl": "https://android-developers.googleblog.com/feeds/posts/default",
         "checks": [
           {
             "origin": "https://android-developers.googleblog.com",
             "robotsUrl": "https://android-developers.googleblog.com/robots.txt",
-            "httpStatus": 200,
+            "httpStatus": 404,
             "decision": "allowed",
-            "reason": "Allow: /",
-            "checkedAt": "2026-08-09T15:09:52.485Z"
+            "reason": "not-published",
+            "checkedAt": "2026-08-10T02:32:36.324Z"
           }
         ]
       },
@@ -1747,10 +1747,10 @@
       "url": "https://www.smashingmagazine.com/",
       "feed": "https://www.smashingmagazine.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:52.232Z",
+      "checkedAt": "2026-08-10T02:32:36.438Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:52.163Z",
+        "checkedAt": "2026-08-10T02:32:36.408Z",
         "finalFeedUrl": "https://www.smashingmagazine.com/feed/",
         "checks": [
           {
@@ -1759,7 +1759,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:52.163Z"
+            "checkedAt": "2026-08-10T02:32:36.408Z"
           }
         ]
       },
@@ -1881,10 +1881,10 @@
       "url": "https://css-tricks.com/",
       "feed": "https://css-tricks.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:53.216Z",
+      "checkedAt": "2026-08-10T02:32:37.181Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:52.103Z",
+        "checkedAt": "2026-08-10T02:32:36.835Z",
         "finalFeedUrl": "https://css-tricks.com/feed/",
         "checks": [
           {
@@ -1893,7 +1893,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-08-09T15:09:52.103Z"
+            "checkedAt": "2026-08-10T02:32:36.835Z"
           }
         ]
       },
@@ -2006,10 +2006,10 @@
       "url": "https://blog.cloudflare.com/",
       "feed": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:52.941Z",
+      "checkedAt": "2026-08-10T02:32:36.869Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:52.895Z",
+        "checkedAt": "2026-08-10T02:32:36.836Z",
         "finalFeedUrl": "https://blog.cloudflare.com/rss/",
         "checks": [
           {
@@ -2018,7 +2018,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-08-09T15:09:52.895Z"
+            "checkedAt": "2026-08-10T02:32:36.836Z"
           }
         ]
       },
@@ -2073,10 +2073,10 @@
       "url": "https://vercel.com/changelog",
       "feed": "https://vercel.com/changelog/rss",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:53.702Z",
+      "checkedAt": "2026-08-10T02:32:37.688Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:53.426Z",
+        "checkedAt": "2026-08-10T02:32:37.297Z",
         "finalFeedUrl": "https://vercel.com/atom",
         "checks": [
           {
@@ -2085,7 +2085,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:53.426Z"
+            "checkedAt": "2026-08-10T02:32:37.297Z"
           },
           {
             "origin": "https://vercel.com",
@@ -2093,7 +2093,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:53.426Z"
+            "checkedAt": "2026-08-10T02:32:37.297Z"
           }
         ]
       },
@@ -2207,10 +2207,10 @@
       "url": "https://medium.com/pinterest-engineering",
       "feed": "https://medium.com/feed/pinterest-engineering",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:54.320Z",
+      "checkedAt": "2026-08-10T02:32:35.552Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:46.985Z",
+        "checkedAt": "2026-08-10T02:32:31.363Z",
         "finalFeedUrl": "https://medium.com/feed/pinterest-engineering",
         "checks": [
           {
@@ -2219,7 +2219,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:46.985Z"
+            "checkedAt": "2026-08-10T02:32:31.363Z"
           }
         ]
       },
@@ -2244,10 +2244,10 @@
       "url": "https://www.w3.org/WAI/",
       "feed": "https://www.w3.org/WAI/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-09T15:09:53.721Z",
+      "checkedAt": "2026-08-10T02:32:37.575Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-09T15:09:53.703Z",
+        "checkedAt": "2026-08-10T02:32:37.561Z",
         "finalFeedUrl": "https://www.w3.org/WAI/feed.xml",
         "checks": [
           {
@@ -2256,7 +2256,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-09T15:09:53.703Z"
+            "checkedAt": "2026-08-10T02:32:37.561Z"
           }
         ]
       },

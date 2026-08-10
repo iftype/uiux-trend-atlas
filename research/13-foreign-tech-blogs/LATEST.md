@@ -1,6 +1,6 @@
 # Latest Foreign UI/UX Articles
 
-자동 갱신: **2026-08-09** · 정상 피드 **29/30** · robots 허용 **29/30** · 수집 글 **175개**
+자동 갱신: **2026-08-10** · 정상 피드 **29/30** · robots 허용 **29/30** · 수집 글 **175개**
 
 > 이 문서는 GitHub Actions가 공식 RSS/Atom 피드의 제목·링크·발행일만 수집해 생성합니다. 본문은 복제하지 않습니다.
 
@@ -186,33 +186,33 @@
 
 | 출처 | 상태 | robots.txt | 확인 시각 |
 |---|---|---|---|
-| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Spotify Engineering](https://engineering.atspotify.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Uber Design](https://medium.com/uber-design) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Dropbox Design](https://medium.com/dropbox-design) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Slack Design](https://slack.design/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Microsoft Design](https://microsoft.design/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Netflix TechBlog](https://netflixtechblog.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [IBM Design](https://medium.com/design-ibm) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Indeed Design](https://medium.com/indeed-design) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Etsy Design](https://medium.com/etsy-design) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Code as Craft](https://www.etsy.com/codeascraft) | stale | blocked | 2026-08-09 15:09 UTC |
-| [Wayfair Design](https://medium.com/wayfair-design) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Meta Engineering](https://engineering.fb.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [web.dev](https://web.dev/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Chrome for Developers](https://developer.chrome.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [WebKit Blog](https://webkit.org/blog/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Smashing Magazine](https://www.smashingmagazine.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [CSS-Tricks](https://css-tricks.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Cloudflare Blog](https://blog.cloudflare.com/) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Vercel Changelog](https://vercel.com/changelog) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Pinterest Engineering](https://medium.com/pinterest-engineering) | ok | allowed | 2026-08-09 15:09 UTC |
-| [Web Accessibility Initiative](https://www.w3.org/WAI/) | ok | allowed | 2026-08-09 15:09 UTC |
+| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Spotify Engineering](https://engineering.atspotify.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Uber Design](https://medium.com/uber-design) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Dropbox Design](https://medium.com/dropbox-design) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Slack Design](https://slack.design/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Microsoft Design](https://microsoft.design/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Netflix TechBlog](https://netflixtechblog.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [IBM Design](https://medium.com/design-ibm) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Indeed Design](https://medium.com/indeed-design) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Etsy Design](https://medium.com/etsy-design) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Code as Craft](https://www.etsy.com/codeascraft) | stale | blocked | 2026-08-10 02:32 UTC |
+| [Wayfair Design](https://medium.com/wayfair-design) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Meta Engineering](https://engineering.fb.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [web.dev](https://web.dev/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Chrome for Developers](https://developer.chrome.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [WebKit Blog](https://webkit.org/blog/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Smashing Magazine](https://www.smashingmagazine.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [CSS-Tricks](https://css-tricks.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Cloudflare Blog](https://blog.cloudflare.com/) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Vercel Changelog](https://vercel.com/changelog) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Pinterest Engineering](https://medium.com/pinterest-engineering) | ok | allowed | 2026-08-10 02:32 UTC |
+| [Web Accessibility Initiative](https://www.w3.org/WAI/) | ok | allowed | 2026-08-10 02:32 UTC |
