@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-10T02:32:48.893Z",
+  "generatedAt": "2026-08-17T01:54:20.635Z",
   "collectionPolicy": "metadata-only",
   "stats": {
     "catalogSources": 43,
@@ -17,10 +17,10 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:31.476Z",
+      "checkedAt": "2026-08-17T01:54:14.940Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/airbnb-engineering",
         "checks": [
           {
@@ -29,7 +29,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -52,10 +52,10 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:31.608Z",
+      "checkedAt": "2026-08-17T01:54:14.992Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.451Z",
+        "checkedAt": "2026-08-17T01:54:14.728Z",
         "finalFeedUrl": "https://engineering.atspotify.com/feed",
         "checks": [
           {
@@ -64,7 +64,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.451Z"
+            "checkedAt": "2026-08-17T01:54:14.728Z"
           },
           {
             "origin": "https://engineering.atspotify.com",
@@ -72,20 +72,11 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.451Z"
+            "checkedAt": "2026-08-17T01:54:14.728Z"
           }
         ]
       },
-      "articles": [
-        {
-          "title": "Better Experiments with LLM Evals — A funnel, not a fork",
-          "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
-          "publishedAt": "2026-05-18T13:27:23.000Z",
-          "topics": [
-            "personalization"
-          ]
-        }
-      ]
+      "articles": []
     },
     {
       "id": "uber-design",
@@ -94,10 +85,10 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:31.918Z",
+      "checkedAt": "2026-08-17T01:54:15.526Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/uber-design",
         "checks": [
           {
@@ -106,7 +97,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -207,10 +198,10 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:32.520Z",
+      "checkedAt": "2026-08-17T01:54:16.330Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/dropbox-design",
         "checks": [
           {
@@ -219,7 +210,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -321,10 +312,10 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:31.399Z",
+      "checkedAt": "2026-08-17T01:54:14.772Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.360Z",
+        "checkedAt": "2026-08-17T01:54:14.716Z",
         "finalFeedUrl": "https://slack.design/feed/",
         "checks": [
           {
@@ -333,7 +324,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.360Z"
+            "checkedAt": "2026-08-17T01:54:14.716Z"
           }
         ]
       },
@@ -451,10 +442,10 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:31.511Z",
+      "checkedAt": "2026-08-17T01:54:14.865Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.401Z",
+        "checkedAt": "2026-08-17T01:54:14.775Z",
         "finalFeedUrl": "https://microsoft.design/feed/",
         "checks": [
           {
@@ -463,11 +454,20 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.401Z"
+            "checkedAt": "2026-08-17T01:54:14.775Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Designing the first five minutes",
+          "url": "https://microsoft.design/articles/designing-the-first-five-minutes/",
+          "publishedAt": "2026-08-13T13:41:17.000Z",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
         {
           "title": "The naked designer: What happens when you can’t hide behind craft",
           "url": "https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/",
@@ -547,15 +547,6 @@
             "personalization",
             "microinteractions"
           ]
-        },
-        {
-          "title": "Self-portraits: Madeline Kleiner",
-          "url": "https://microsoft.design/articles/self-portraits-madeline-kleiner/",
-          "publishedAt": "2026-05-20T13:42:35.000Z",
-          "topics": [
-            "personalization",
-            "microinteractions"
-          ]
         }
       ]
     },
@@ -566,10 +557,10 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:32.243Z",
+      "checkedAt": "2026-08-17T01:54:15.574Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.924Z",
+        "checkedAt": "2026-08-17T01:54:15.205Z",
         "finalFeedUrl": "https://www.intercom.com/blog/feed/",
         "checks": [
           {
@@ -578,7 +569,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.924Z"
+            "checkedAt": "2026-08-17T01:54:15.205Z"
           }
         ]
       },
@@ -601,10 +592,10 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:31.956Z",
+      "checkedAt": "2026-08-17T01:54:15.266Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.941Z",
+        "checkedAt": "2026-08-17T01:54:15.253Z",
         "finalFeedUrl": "https://blog.duolingo.com/rss/",
         "checks": [
           {
@@ -613,7 +604,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.941Z"
+            "checkedAt": "2026-08-17T01:54:15.253Z"
           }
         ]
       },
@@ -626,10 +617,10 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:32.091Z",
+      "checkedAt": "2026-08-17T01:54:15.606Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:32.071Z",
+        "checkedAt": "2026-08-17T01:54:15.553Z",
         "finalFeedUrl": "https://www.canva.dev/blog/engineering/feed.xml",
         "checks": [
           {
@@ -638,7 +629,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:32.071Z"
+            "checkedAt": "2026-08-17T01:54:15.553Z"
           }
         ]
       },
@@ -669,10 +660,10 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:32.351Z",
+      "checkedAt": "2026-08-17T01:54:15.685Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:32.341Z",
+        "checkedAt": "2026-08-17T01:54:15.661Z",
         "finalFeedUrl": "https://github.blog/feed/",
         "checks": [
           {
@@ -681,7 +672,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:32.341Z"
+            "checkedAt": "2026-08-17T01:54:15.661Z"
           }
         ]
       },
@@ -694,10 +685,10 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:32.981Z",
+      "checkedAt": "2026-08-17T01:54:17.130Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/netflix-techblog",
         "checks": [
           {
@@ -706,7 +697,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -762,10 +753,10 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:33.420Z",
+      "checkedAt": "2026-08-17T01:54:17.794Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/design-ibm",
         "checks": [
           {
@@ -774,7 +765,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -883,10 +874,10 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:33.857Z",
+      "checkedAt": "2026-08-17T01:54:18.318Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/indeed-design",
         "checks": [
           {
@@ -895,7 +886,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -1001,10 +992,10 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:34.429Z",
+      "checkedAt": "2026-08-17T01:54:18.857Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/etsy-design",
         "checks": [
           {
@@ -1013,7 +1004,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -1121,11 +1112,11 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "stale",
-      "checkedAt": "2026-08-10T02:32:32.653Z",
+      "checkedAt": "2026-08-17T01:54:16.053Z",
       "error": "robots.txt policy denied https://codeascraft.com",
       "robots": {
         "status": "blocked",
-        "checkedAt": "2026-08-10T02:32:32.653Z",
+        "checkedAt": "2026-08-17T01:54:16.052Z",
         "finalFeedUrl": "https://codeascraft.com/feed/",
         "checks": [
           {
@@ -1134,7 +1125,7 @@
             "httpStatus": 403,
             "decision": "blocked",
             "reason": "unreachable-or-restricted",
-            "checkedAt": "2026-08-10T02:32:32.653Z"
+            "checkedAt": "2026-08-17T01:54:16.052Z"
           }
         ]
       },
@@ -1147,10 +1138,10 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:35.107Z",
+      "checkedAt": "2026-08-17T01:54:19.677Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/wayfair-design",
         "checks": [
           {
@@ -1159,7 +1150,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -1268,10 +1259,10 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:33.013Z",
+      "checkedAt": "2026-08-17T01:54:16.173Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:33.001Z",
+        "checkedAt": "2026-08-17T01:54:16.142Z",
         "finalFeedUrl": "https://engineering.fb.com/feed/",
         "checks": [
           {
@@ -1280,7 +1271,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:33.001Z"
+            "checkedAt": "2026-08-17T01:54:16.142Z"
           }
         ]
       },
@@ -1293,10 +1284,10 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:48.542Z",
+      "checkedAt": "2026-08-17T01:54:16.894Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:48.316Z",
+        "checkedAt": "2026-08-17T01:54:16.357Z",
         "finalFeedUrl": "https://web.dev/static/blog/feed.xml",
         "checks": [
           {
@@ -1305,7 +1296,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:48.316Z"
+            "checkedAt": "2026-08-17T01:54:16.357Z"
           },
           {
             "origin": "https://web.dev",
@@ -1313,7 +1304,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:48.316Z"
+            "checkedAt": "2026-08-17T01:54:16.357Z"
           }
         ]
       },
@@ -1399,10 +1390,10 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:44.118Z",
+      "checkedAt": "2026-08-17T01:54:16.915Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:42.554Z",
+        "checkedAt": "2026-08-17T01:54:16.682Z",
         "finalFeedUrl": "https://developer.chrome.com/static/blog/feed.xml",
         "checks": [
           {
@@ -1411,7 +1402,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:42.554Z"
+            "checkedAt": "2026-08-17T01:54:16.682Z"
           }
         ]
       },
@@ -1441,10 +1432,10 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:34.462Z",
+      "checkedAt": "2026-08-17T01:54:17.202Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:33.922Z",
+        "checkedAt": "2026-08-17T01:54:16.901Z",
         "finalFeedUrl": "https://webkit.org/feed/",
         "checks": [
           {
@@ -1453,7 +1444,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:33.922Z"
+            "checkedAt": "2026-08-17T01:54:16.901Z"
           }
         ]
       },
@@ -1483,10 +1474,10 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:34.944Z",
+      "checkedAt": "2026-08-17T01:54:17.334Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:34.927Z",
+        "checkedAt": "2026-08-17T01:54:17.319Z",
         "finalFeedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
         "checks": [
           {
@@ -1495,7 +1486,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:34.927Z"
+            "checkedAt": "2026-08-17T01:54:17.319Z"
           }
         ]
       },
@@ -1609,10 +1600,10 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:35.352Z",
+      "checkedAt": "2026-08-17T01:54:17.400Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:35.330Z",
+        "checkedAt": "2026-08-17T01:54:17.374Z",
         "finalFeedUrl": "https://hacks.mozilla.org/feed/",
         "checks": [
           {
@@ -1621,7 +1612,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:35.330Z"
+            "checkedAt": "2026-08-17T01:54:17.374Z"
           }
         ]
       },
@@ -1651,10 +1642,10 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:35.872Z",
+      "checkedAt": "2026-08-17T01:54:17.687Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:35.776Z",
+        "checkedAt": "2026-08-17T01:54:17.623Z",
         "finalFeedUrl": "https://blogs.windows.com/msedgedev/feed/",
         "checks": [
           {
@@ -1663,7 +1654,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:35.776Z"
+            "checkedAt": "2026-08-17T01:54:17.623Z"
           }
         ]
       },
@@ -1705,10 +1696,10 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:36.379Z",
+      "checkedAt": "2026-08-17T01:54:18.190Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:36.324Z",
+        "checkedAt": "2026-08-17T01:54:18.049Z",
         "finalFeedUrl": "https://android-developers.googleblog.com/feeds/posts/default",
         "checks": [
           {
@@ -1717,11 +1708,19 @@
             "httpStatus": 404,
             "decision": "allowed",
             "reason": "not-published",
-            "checkedAt": "2026-08-10T02:32:36.324Z"
+            "checkedAt": "2026-08-17T01:54:18.049Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Bring one-handed gestures to your Wear OS app",
+          "url": "https://android-developers.googleblog.com/feeds/2798697072776672466/comments/default",
+          "publishedAt": "2026-08-12T17:00:00.000Z",
+          "topics": [
+            "microinteractions"
+          ]
+        },
         {
           "title": "Building a Mixed-Reality Tour Guide with Android XR, the Geospatial API, and Gemini",
           "url": "https://android-developers.googleblog.com/feeds/6921297495746094343/comments/default",
@@ -1747,10 +1746,10 @@
       "url": "https://www.smashingmagazine.com/",
       "feed": "https://www.smashingmagazine.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:36.438Z",
+      "checkedAt": "2026-08-17T01:54:17.976Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:36.408Z",
+        "checkedAt": "2026-08-17T01:54:17.947Z",
         "finalFeedUrl": "https://www.smashingmagazine.com/feed/",
         "checks": [
           {
@@ -1759,11 +1758,22 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:36.408Z"
+            "checkedAt": "2026-08-17T01:54:17.947Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+          "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+          "publishedAt": "2026-08-11T10:00:00.000Z",
+          "topics": [
+            "3d-graphics-animation",
+            "kinetic-typography",
+            "gamification",
+            "microinteractions"
+          ]
+        },
         {
           "title": "How Baseline Can Help You Ship Less JavaScript",
           "url": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
@@ -1860,17 +1870,6 @@
             "frontend-platform",
             "accessibility-performance"
           ]
-        },
-        {
-          "title": "Algorithmic Theming Engines: Building Self-Correcting Color Systems With `contrast-color()`",
-          "url": "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
-          "publishedAt": "2026-05-28T13:00:00.000Z",
-          "topics": [
-            "bold-color",
-            "sustainable-design",
-            "frontend-platform",
-            "accessibility-performance"
-          ]
         }
       ]
     },
@@ -1881,10 +1880,10 @@
       "url": "https://css-tricks.com/",
       "feed": "https://css-tricks.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:37.181Z",
+      "checkedAt": "2026-08-17T01:54:18.577Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:36.835Z",
+        "checkedAt": "2026-08-17T01:54:18.099Z",
         "finalFeedUrl": "https://css-tricks.com/feed/",
         "checks": [
           {
@@ -1893,11 +1892,45 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-08-10T02:32:36.835Z"
+            "checkedAt": "2026-08-17T01:54:18.099Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
+          "url": "https://css-tricks.com/whats-important-17/",
+          "publishedAt": "2026-08-14T14:01:51.000Z",
+          "topics": [
+            "immersive-scrolling",
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong",
+          "url": "https://css-tricks.com/blocked-aria-hidden-fix/",
+          "publishedAt": "2026-08-12T13:43:56.000Z",
+          "topics": [
+            "personalization",
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Animating CSS border-image",
+          "url": "https://css-tricks.com/animating-css-border-image/",
+          "publishedAt": "2026-08-10T15:58:47.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "SmashingConf Freiburg 2026, September 7-10",
+          "url": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
+          "publishedAt": "2026-08-10T15:57:39.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
         {
           "title": "Using and Styling the Dialog Element",
           "url": "https://css-tricks.com/using-and-styling-the-dialog-element/",
@@ -1963,39 +1996,6 @@
             "sustainable-design",
             "frontend-platform"
           ]
-        },
-        {
-          "title": "What’s !important #14: Gap Decorations, random(), field-sizing, and More",
-          "url": "https://css-tricks.com/whats-important-14/",
-          "publishedAt": "2026-06-30T13:54:14.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "The Shifting Line Between CSS States and JavaScript Events",
-          "url": "https://css-tricks.com/css-states-and-javascript-events/",
-          "publishedAt": "2026-06-29T13:03:32.000Z",
-          "topics": [
-            "microinteractions",
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "translateZ()",
-          "url": "https://css-tricks.com/almanac/functions/t/translatez/",
-          "publishedAt": "2026-06-25T13:18:56.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "translateY()",
-          "url": "https://css-tricks.com/almanac/functions/t/translatey/",
-          "publishedAt": "2026-06-25T13:17:56.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
         }
       ]
     },
@@ -2006,10 +2006,10 @@
       "url": "https://blog.cloudflare.com/",
       "feed": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:36.869Z",
+      "checkedAt": "2026-08-17T01:54:18.499Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:36.836Z",
+        "checkedAt": "2026-08-17T01:54:18.467Z",
         "finalFeedUrl": "https://blog.cloudflare.com/rss/",
         "checks": [
           {
@@ -2018,7 +2018,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-08-10T02:32:36.836Z"
+            "checkedAt": "2026-08-17T01:54:18.467Z"
           }
         ]
       },
@@ -2073,10 +2073,10 @@
       "url": "https://vercel.com/changelog",
       "feed": "https://vercel.com/changelog/rss",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:37.688Z",
+      "checkedAt": "2026-08-17T01:54:18.779Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:37.297Z",
+        "checkedAt": "2026-08-17T01:54:18.570Z",
         "finalFeedUrl": "https://vercel.com/atom",
         "checks": [
           {
@@ -2085,7 +2085,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:37.297Z"
+            "checkedAt": "2026-08-17T01:54:18.570Z"
           },
           {
             "origin": "https://vercel.com",
@@ -2093,11 +2093,28 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:37.297Z"
+            "checkedAt": "2026-08-17T01:54:18.570Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
+          "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+          "publishedAt": "2026-08-14T16:00:00.000Z",
+          "topics": [
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        },
+        {
+          "title": "Exa web search free through August 31 on AI Gateway and eve",
+          "url": "https://vercel.com/changelog/exa-web-search-free-through-august-31-on-ai-gateway-and-eve",
+          "publishedAt": "2026-08-12T00:01:00.000Z",
+          "topics": [
+            "personalization"
+          ]
+        },
         {
           "title": "Search and buy domains in the dashboard",
           "url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard",
@@ -2181,22 +2198,6 @@
           "topics": [
             "personalization"
           ]
-        },
-        {
-          "title": "Experimental native binaries for Vercel CLI",
-          "url": "https://vercel.com/changelog/experimental-native-binaries-for-vercel-cli",
-          "publishedAt": "2026-05-27T00:00:00.000Z",
-          "topics": [
-            "personalization"
-          ]
-        },
-        {
-          "title": "Protected Source Maps: Ship browser source maps securely",
-          "url": "https://vercel.com/changelog/protected-source-maps-ship-browser-source-maps-securely",
-          "publishedAt": "2026-05-14T00:00:00.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
         }
       ]
     },
@@ -2207,10 +2208,10 @@
       "url": "https://medium.com/pinterest-engineering",
       "feed": "https://medium.com/feed/pinterest-engineering",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:35.552Z",
+      "checkedAt": "2026-08-17T01:54:20.284Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:31.363Z",
+        "checkedAt": "2026-08-17T01:54:14.678Z",
         "finalFeedUrl": "https://medium.com/feed/pinterest-engineering",
         "checks": [
           {
@@ -2219,7 +2220,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:31.363Z"
+            "checkedAt": "2026-08-17T01:54:14.678Z"
           }
         ]
       },
@@ -2244,10 +2245,10 @@
       "url": "https://www.w3.org/WAI/",
       "feed": "https://www.w3.org/WAI/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-10T02:32:37.575Z",
+      "checkedAt": "2026-08-17T01:54:18.906Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-10T02:32:37.561Z",
+        "checkedAt": "2026-08-17T01:54:18.889Z",
         "finalFeedUrl": "https://www.w3.org/WAI/feed.xml",
         "checks": [
           {
@@ -2256,7 +2257,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-10T02:32:37.561Z"
+            "checkedAt": "2026-08-17T01:54:18.889Z"
           }
         ]
       },
@@ -2357,6 +2358,112 @@
     }
   ],
   "articles": [
+    {
+      "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
+      "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+      "publishedAt": "2026-08-14T16:00:00.000Z",
+      "topics": [
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
+      "url": "https://css-tricks.com/whats-important-17/",
+      "publishedAt": "2026-08-14T14:01:51.000Z",
+      "topics": [
+        "immersive-scrolling",
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Designing the first five minutes",
+      "url": "https://microsoft.design/articles/designing-the-first-five-minutes/",
+      "publishedAt": "2026-08-13T13:41:17.000Z",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Bring one-handed gestures to your Wear OS app",
+      "url": "https://android-developers.googleblog.com/feeds/2798697072776672466/comments/default",
+      "publishedAt": "2026-08-12T17:00:00.000Z",
+      "topics": [
+        "microinteractions"
+      ],
+      "sourceId": "android-developers",
+      "source": "Android Developers Blog",
+      "company": "Google Android"
+    },
+    {
+      "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong",
+      "url": "https://css-tricks.com/blocked-aria-hidden-fix/",
+      "publishedAt": "2026-08-12T13:43:56.000Z",
+      "topics": [
+        "personalization",
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Exa web search free through August 31 on AI Gateway and eve",
+      "url": "https://vercel.com/changelog/exa-web-search-free-through-august-31-on-ai-gateway-and-eve",
+      "publishedAt": "2026-08-12T00:01:00.000Z",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+      "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "topics": [
+        "3d-graphics-animation",
+        "kinetic-typography",
+        "gamification",
+        "microinteractions"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "Animating CSS border-image",
+      "url": "https://css-tricks.com/animating-css-border-image/",
+      "publishedAt": "2026-08-10T15:58:47.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "SmashingConf Freiburg 2026, September 7-10",
+      "url": "https://css-tricks.com/smashingconf-freiburg-2026-september-7-10/",
+      "publishedAt": "2026-08-10T15:57:39.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
     {
       "title": "Using and Styling the Dialog Element",
       "url": "https://css-tricks.com/using-and-styling-the-dialog-element/",
@@ -2787,17 +2894,6 @@
       "company": "Smashing Media"
     },
     {
-      "title": "What’s !important #14: Gap Decorations, random(), field-sizing, and More",
-      "url": "https://css-tricks.com/whats-important-14/",
-      "publishedAt": "2026-06-30T13:54:14.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
       "title": "Why Accessibility Is An Operational Capability, Not A Feature",
       "url": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
       "publishedAt": "2026-06-30T12:00:00.000Z",
@@ -2808,18 +2904,6 @@
       "sourceId": "smashing-magazine",
       "source": "Smashing Magazine",
       "company": "Smashing Media"
-    },
-    {
-      "title": "The Shifting Line Between CSS States and JavaScript Events",
-      "url": "https://css-tricks.com/css-states-and-javascript-events/",
-      "publishedAt": "2026-06-29T13:03:32.000Z",
-      "topics": [
-        "microinteractions",
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
     },
     {
       "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
@@ -2846,28 +2930,6 @@
       "sourceId": "microsoft-design",
       "source": "Microsoft Design",
       "company": "Microsoft"
-    },
-    {
-      "title": "translateZ()",
-      "url": "https://css-tricks.com/almanac/functions/t/translatez/",
-      "publishedAt": "2026-06-25T13:18:56.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
-      "title": "translateY()",
-      "url": "https://css-tricks.com/almanac/functions/t/translatey/",
-      "publishedAt": "2026-06-25T13:17:56.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
     },
     {
       "title": "Teaching agents product design at Vercel",
@@ -3126,20 +3188,6 @@
       "company": "Google Chrome"
     },
     {
-      "title": "Algorithmic Theming Engines: Building Self-Correcting Color Systems With `contrast-color()`",
-      "url": "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
-      "publishedAt": "2026-05-28T13:00:00.000Z",
-      "topics": [
-        "bold-color",
-        "sustainable-design",
-        "frontend-platform",
-        "accessibility-performance"
-      ],
-      "sourceId": "smashing-magazine",
-      "source": "Smashing Magazine",
-      "company": "Smashing Media"
-    },
-    {
       "title": "Designing Where the Pixels Actually Live",
       "url": "https://slack.design/articles/designing-where-the-pixels-actually-live/",
       "publishedAt": "2026-05-27T18:12:34.000Z",
@@ -3173,17 +3221,6 @@
       "company": "Google Chrome"
     },
     {
-      "title": "Experimental native binaries for Vercel CLI",
-      "url": "https://vercel.com/changelog/experimental-native-binaries-for-vercel-cli",
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
       "title": "IBM Systems Environment Estimator recognized with prestigious 2026 iF Design Award",
       "url": "https://medium.com/design-ibm/ibm-systems-environment-estimator-recognized-with-prestigious-2026-if-design-award-af4ffa49bce9",
       "publishedAt": "2026-05-25T13:01:02.000Z",
@@ -3206,40 +3243,6 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
-    },
-    {
-      "title": "Self-portraits: Madeline Kleiner",
-      "url": "https://microsoft.design/articles/self-portraits-madeline-kleiner/",
-      "publishedAt": "2026-05-20T13:42:35.000Z",
-      "topics": [
-        "personalization",
-        "microinteractions"
-      ],
-      "sourceId": "microsoft-design",
-      "source": "Microsoft Design",
-      "company": "Microsoft"
-    },
-    {
-      "title": "Better Experiments with LLM Evals — A funnel, not a fork",
-      "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
-      "publishedAt": "2026-05-18T13:27:23.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "spotify-engineering",
-      "source": "Spotify Engineering",
-      "company": "Spotify"
-    },
-    {
-      "title": "Protected Source Maps: Ship browser source maps securely",
-      "url": "https://vercel.com/changelog/protected-source-maps-ship-browser-source-maps-securely",
-      "publishedAt": "2026-05-14T00:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
     },
     {
       "title": "New updates to Edge across desktop and mobile",
