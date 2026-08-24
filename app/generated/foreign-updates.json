@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-17T01:54:20.635Z",
+  "generatedAt": "2026-08-24T01:56:17.804Z",
   "collectionPolicy": "metadata-only",
   "stats": {
     "catalogSources": 43,
@@ -17,10 +17,10 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:14.940Z",
+      "checkedAt": "2026-08-24T01:56:10.468Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/airbnb-engineering",
         "checks": [
           {
@@ -29,7 +29,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -52,10 +52,10 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:14.992Z",
+      "checkedAt": "2026-08-24T01:56:10.809Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.728Z",
+        "checkedAt": "2026-08-24T01:56:10.451Z",
         "finalFeedUrl": "https://engineering.atspotify.com/feed",
         "checks": [
           {
@@ -64,7 +64,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.728Z"
+            "checkedAt": "2026-08-24T01:56:10.451Z"
           },
           {
             "origin": "https://engineering.atspotify.com",
@@ -72,7 +72,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.728Z"
+            "checkedAt": "2026-08-24T01:56:10.451Z"
           }
         ]
       },
@@ -85,10 +85,10 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:15.526Z",
+      "checkedAt": "2026-08-24T01:56:10.932Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/uber-design",
         "checks": [
           {
@@ -97,7 +97,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -198,10 +198,10 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:16.330Z",
+      "checkedAt": "2026-08-24T01:56:11.380Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/dropbox-design",
         "checks": [
           {
@@ -210,7 +210,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -312,10 +312,10 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:14.772Z",
+      "checkedAt": "2026-08-24T01:56:10.415Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.716Z",
+        "checkedAt": "2026-08-24T01:56:10.357Z",
         "finalFeedUrl": "https://slack.design/feed/",
         "checks": [
           {
@@ -324,7 +324,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.716Z"
+            "checkedAt": "2026-08-24T01:56:10.357Z"
           }
         ]
       },
@@ -442,10 +442,10 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:14.865Z",
+      "checkedAt": "2026-08-24T01:56:10.499Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.775Z",
+        "checkedAt": "2026-08-24T01:56:10.376Z",
         "finalFeedUrl": "https://microsoft.design/feed/",
         "checks": [
           {
@@ -454,7 +454,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.775Z"
+            "checkedAt": "2026-08-24T01:56:10.376Z"
           }
         ]
       },
@@ -557,10 +557,10 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:15.574Z",
+      "checkedAt": "2026-08-24T01:56:11.084Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:15.205Z",
+        "checkedAt": "2026-08-24T01:56:10.920Z",
         "finalFeedUrl": "https://www.intercom.com/blog/feed/",
         "checks": [
           {
@@ -569,7 +569,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:15.205Z"
+            "checkedAt": "2026-08-24T01:56:10.920Z"
           }
         ]
       },
@@ -592,10 +592,10 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:15.266Z",
+      "checkedAt": "2026-08-24T01:56:10.944Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:15.253Z",
+        "checkedAt": "2026-08-24T01:56:10.924Z",
         "finalFeedUrl": "https://blog.duolingo.com/rss/",
         "checks": [
           {
@@ -604,7 +604,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:15.253Z"
+            "checkedAt": "2026-08-24T01:56:10.924Z"
           }
         ]
       },
@@ -617,10 +617,10 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:15.606Z",
+      "checkedAt": "2026-08-24T01:56:11.310Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:15.553Z",
+        "checkedAt": "2026-08-24T01:56:11.279Z",
         "finalFeedUrl": "https://www.canva.dev/blog/engineering/feed.xml",
         "checks": [
           {
@@ -629,7 +629,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:15.553Z"
+            "checkedAt": "2026-08-24T01:56:11.279Z"
           }
         ]
       },
@@ -660,10 +660,10 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:15.685Z",
+      "checkedAt": "2026-08-24T01:56:11.617Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:15.661Z",
+        "checkedAt": "2026-08-24T01:56:11.601Z",
         "finalFeedUrl": "https://github.blog/feed/",
         "checks": [
           {
@@ -672,11 +672,21 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:15.661Z"
+            "checkedAt": "2026-08-24T01:56:11.601Z"
           }
         ]
       },
-      "articles": []
+      "articles": [
+        {
+          "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+          "publishedAt": "2026-08-17T16:00:00.000Z",
+          "topics": [
+            "immersive-scrolling",
+            "3d-graphics-animation"
+          ]
+        }
+      ]
     },
     {
       "id": "netflix-techblog",
@@ -685,10 +695,10 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:17.130Z",
+      "checkedAt": "2026-08-24T01:56:11.835Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/netflix-techblog",
         "checks": [
           {
@@ -697,7 +707,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -753,10 +763,10 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:17.794Z",
+      "checkedAt": "2026-08-24T01:56:12.275Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/design-ibm",
         "checks": [
           {
@@ -765,7 +775,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -874,10 +884,10 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:18.318Z",
+      "checkedAt": "2026-08-24T01:56:13.021Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/indeed-design",
         "checks": [
           {
@@ -886,7 +896,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -992,10 +1002,10 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:18.857Z",
+      "checkedAt": "2026-08-24T01:56:13.457Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/etsy-design",
         "checks": [
           {
@@ -1004,7 +1014,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -1112,11 +1122,11 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "stale",
-      "checkedAt": "2026-08-17T01:54:16.053Z",
+      "checkedAt": "2026-08-24T01:56:11.711Z",
       "error": "robots.txt policy denied https://codeascraft.com",
       "robots": {
         "status": "blocked",
-        "checkedAt": "2026-08-17T01:54:16.052Z",
+        "checkedAt": "2026-08-24T01:56:11.711Z",
         "finalFeedUrl": "https://codeascraft.com/feed/",
         "checks": [
           {
@@ -1125,7 +1135,7 @@
             "httpStatus": 403,
             "decision": "blocked",
             "reason": "unreachable-or-restricted",
-            "checkedAt": "2026-08-17T01:54:16.052Z"
+            "checkedAt": "2026-08-24T01:56:11.711Z"
           }
         ]
       },
@@ -1138,10 +1148,10 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:19.677Z",
+      "checkedAt": "2026-08-24T01:56:14.059Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/wayfair-design",
         "checks": [
           {
@@ -1150,7 +1160,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -1259,10 +1269,10 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:16.173Z",
+      "checkedAt": "2026-08-24T01:56:11.785Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:16.142Z",
+        "checkedAt": "2026-08-24T01:56:11.765Z",
         "finalFeedUrl": "https://engineering.fb.com/feed/",
         "checks": [
           {
@@ -1271,7 +1281,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:16.142Z"
+            "checkedAt": "2026-08-24T01:56:11.765Z"
           }
         ]
       },
@@ -1284,10 +1294,10 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:16.894Z",
+      "checkedAt": "2026-08-24T01:56:13.527Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:16.357Z",
+        "checkedAt": "2026-08-24T01:56:12.850Z",
         "finalFeedUrl": "https://web.dev/static/blog/feed.xml",
         "checks": [
           {
@@ -1296,7 +1306,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:16.357Z"
+            "checkedAt": "2026-08-24T01:56:12.850Z"
           },
           {
             "origin": "https://web.dev",
@@ -1304,7 +1314,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:16.357Z"
+            "checkedAt": "2026-08-24T01:56:12.850Z"
           }
         ]
       },
@@ -1390,10 +1400,10 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:16.915Z",
+      "checkedAt": "2026-08-24T01:56:12.616Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:16.682Z",
+        "checkedAt": "2026-08-24T01:56:12.500Z",
         "finalFeedUrl": "https://developer.chrome.com/static/blog/feed.xml",
         "checks": [
           {
@@ -1402,7 +1412,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:16.682Z"
+            "checkedAt": "2026-08-24T01:56:12.500Z"
           }
         ]
       },
@@ -1432,10 +1442,10 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:17.202Z",
+      "checkedAt": "2026-08-24T01:56:17.452Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:16.901Z",
+        "checkedAt": "2026-08-24T01:56:16.900Z",
         "finalFeedUrl": "https://webkit.org/feed/",
         "checks": [
           {
@@ -1444,7 +1454,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:16.901Z"
+            "checkedAt": "2026-08-24T01:56:16.900Z"
           }
         ]
       },
@@ -1474,10 +1484,10 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:17.334Z",
+      "checkedAt": "2026-08-24T01:56:13.029Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:17.319Z",
+        "checkedAt": "2026-08-24T01:56:13.007Z",
         "finalFeedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
         "checks": [
           {
@@ -1486,7 +1496,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:17.319Z"
+            "checkedAt": "2026-08-24T01:56:13.007Z"
           }
         ]
       },
@@ -1600,10 +1610,10 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:17.400Z",
+      "checkedAt": "2026-08-24T01:56:13.468Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:17.374Z",
+        "checkedAt": "2026-08-24T01:56:13.432Z",
         "finalFeedUrl": "https://hacks.mozilla.org/feed/",
         "checks": [
           {
@@ -1612,7 +1622,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:17.374Z"
+            "checkedAt": "2026-08-24T01:56:13.432Z"
           }
         ]
       },
@@ -1642,10 +1652,10 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:17.687Z",
+      "checkedAt": "2026-08-24T01:56:13.995Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:17.623Z",
+        "checkedAt": "2026-08-24T01:56:13.892Z",
         "finalFeedUrl": "https://blogs.windows.com/msedgedev/feed/",
         "checks": [
           {
@@ -1654,7 +1664,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:17.623Z"
+            "checkedAt": "2026-08-24T01:56:13.892Z"
           }
         ]
       },
@@ -1696,23 +1706,31 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:18.190Z",
+      "checkedAt": "2026-08-24T01:56:14.074Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:18.049Z",
+        "checkedAt": "2026-08-24T01:56:13.977Z",
         "finalFeedUrl": "https://android-developers.googleblog.com/feeds/posts/default",
         "checks": [
           {
             "origin": "https://android-developers.googleblog.com",
             "robotsUrl": "https://android-developers.googleblog.com/robots.txt",
-            "httpStatus": 404,
+            "httpStatus": 200,
             "decision": "allowed",
-            "reason": "not-published",
-            "checkedAt": "2026-08-17T01:54:18.049Z"
+            "reason": "Allow: /",
+            "checkedAt": "2026-08-24T01:56:13.977Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Jetpack XR SDK core libraries reach beta: The next milestone for Android XR",
+          "url": "https://android-developers.googleblog.com/feeds/5965363738026017539/comments/default",
+          "publishedAt": "2026-08-18T17:00:00.000Z",
+          "topics": [
+            "ar-vr"
+          ]
+        },
         {
           "title": "Bring one-handed gestures to your Wear OS app",
           "url": "https://android-developers.googleblog.com/feeds/2798697072776672466/comments/default",
@@ -1728,14 +1746,6 @@
           "topics": [
             "ar-vr"
           ]
-        },
-        {
-          "title": "What’s New in Android XR: Tooling, Engine Support, and Ecosystem Updates",
-          "url": "https://android-developers.googleblog.com/feeds/3515307535587922001/comments/default",
-          "publishedAt": "2026-06-15T13:00:00.000Z",
-          "topics": [
-            "ar-vr"
-          ]
         }
       ]
     },
@@ -1746,10 +1756,10 @@
       "url": "https://www.smashingmagazine.com/",
       "feed": "https://www.smashingmagazine.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:17.976Z",
+      "checkedAt": "2026-08-24T01:56:14.505Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:17.947Z",
+        "checkedAt": "2026-08-24T01:56:14.465Z",
         "finalFeedUrl": "https://www.smashingmagazine.com/feed/",
         "checks": [
           {
@@ -1758,11 +1768,20 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:17.947Z"
+            "checkedAt": "2026-08-24T01:56:14.465Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Timing Charts: A Blueprint For SMIL Animations",
+          "url": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+          "publishedAt": "2026-08-20T13:00:00.000Z",
+          "topics": [
+            "3d-graphics-animation",
+            "frontend-platform"
+          ]
+        },
         {
           "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
           "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
@@ -1861,15 +1880,6 @@
           "topics": [
             "personalization"
           ]
-        },
-        {
-          "title": "How To Make Your Design System AI-Ready",
-          "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
-          "publishedAt": "2026-06-03T13:00:00.000Z",
-          "topics": [
-            "frontend-platform",
-            "accessibility-performance"
-          ]
         }
       ]
     },
@@ -1880,10 +1890,10 @@
       "url": "https://css-tricks.com/",
       "feed": "https://css-tricks.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:18.577Z",
+      "checkedAt": "2026-08-24T01:56:14.899Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:18.099Z",
+        "checkedAt": "2026-08-24T01:56:14.563Z",
         "finalFeedUrl": "https://css-tricks.com/feed/",
         "checks": [
           {
@@ -1892,11 +1902,44 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-08-17T01:54:18.099Z"
+            "checkedAt": "2026-08-24T01:56:14.563Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Resolved: CSS Class Prefix Selector",
+          "url": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+          "publishedAt": "2026-08-21T15:13:03.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "CSS Navigation Matching, Early Days",
+          "url": "https://css-tricks.com/css-navigation-matching-early-days/",
+          "publishedAt": "2026-08-19T14:44:41.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "WordPress.com Student Plan",
+          "url": "https://css-tricks.com/wordpress-student-plan/",
+          "publishedAt": "2026-08-19T08:50:00.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Dark mode toggles: two states are enough",
+          "url": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+          "publishedAt": "2026-08-17T14:15:50.000Z",
+          "topics": [
+            "dark-mode",
+            "frontend-platform"
+          ]
+        },
         {
           "title": "What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More",
           "url": "https://css-tricks.com/whats-important-17/",
@@ -1962,40 +2005,6 @@
           "topics": [
             "frontend-platform"
           ]
-        },
-        {
-          "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-          "url": "https://css-tricks.com/whats-important-16/",
-          "publishedAt": "2026-07-31T14:06:21.000Z",
-          "topics": [
-            "3d-graphics-animation",
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "writing-mode",
-          "url": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-          "publishedAt": "2026-07-21T09:39:10.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "pointer-events",
-          "url": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-          "publishedAt": "2026-07-15T19:57:51.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-          "url": "https://css-tricks.com/whats-important-15/",
-          "publishedAt": "2026-07-14T14:36:18.000Z",
-          "topics": [
-            "sustainable-design",
-            "frontend-platform"
-          ]
         }
       ]
     },
@@ -2006,10 +2015,10 @@
       "url": "https://blog.cloudflare.com/",
       "feed": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:18.499Z",
+      "checkedAt": "2026-08-24T01:56:14.999Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:18.467Z",
+        "checkedAt": "2026-08-24T01:56:14.930Z",
         "finalFeedUrl": "https://blog.cloudflare.com/rss/",
         "checks": [
           {
@@ -2018,7 +2027,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-08-17T01:54:18.467Z"
+            "checkedAt": "2026-08-24T01:56:14.930Z"
           }
         ]
       },
@@ -2055,14 +2064,6 @@
           "topics": [
             "frontend-platform"
           ]
-        },
-        {
-          "title": "Give any website a WebMCP interface",
-          "url": "https://blog.cloudflare.com/webmcp/",
-          "publishedAt": "2026-08-06T13:00:00.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
         }
       ]
     },
@@ -2073,10 +2074,10 @@
       "url": "https://vercel.com/changelog",
       "feed": "https://vercel.com/changelog/rss",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:18.779Z",
+      "checkedAt": "2026-08-24T01:56:15.387Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:18.570Z",
+        "checkedAt": "2026-08-24T01:56:14.926Z",
         "finalFeedUrl": "https://vercel.com/atom",
         "checks": [
           {
@@ -2085,7 +2086,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:18.570Z"
+            "checkedAt": "2026-08-24T01:56:14.926Z"
           },
           {
             "origin": "https://vercel.com",
@@ -2093,11 +2094,19 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:18.570Z"
+            "checkedAt": "2026-08-24T01:56:14.926Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+          "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+          "publishedAt": "2026-08-21T00:00:00.000Z",
+          "topics": [
+            "personalization"
+          ]
+        },
         {
           "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
           "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
@@ -2190,14 +2199,6 @@
             "frontend-platform",
             "accessibility-performance"
           ]
-        },
-        {
-          "title": "Domain Search is now available through the Vercel CLI",
-          "url": "https://vercel.com/changelog/domain-search-is-now-available-through-the-vercel-cli",
-          "publishedAt": "2026-06-09T00:00:00.000Z",
-          "topics": [
-            "personalization"
-          ]
         }
       ]
     },
@@ -2208,10 +2209,10 @@
       "url": "https://medium.com/pinterest-engineering",
       "feed": "https://medium.com/feed/pinterest-engineering",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:20.284Z",
+      "checkedAt": "2026-08-24T01:56:14.511Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:14.678Z",
+        "checkedAt": "2026-08-24T01:56:10.354Z",
         "finalFeedUrl": "https://medium.com/feed/pinterest-engineering",
         "checks": [
           {
@@ -2220,7 +2221,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:14.678Z"
+            "checkedAt": "2026-08-24T01:56:10.354Z"
           }
         ]
       },
@@ -2245,10 +2246,10 @@
       "url": "https://www.w3.org/WAI/",
       "feed": "https://www.w3.org/WAI/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-08-17T01:54:18.906Z",
+      "checkedAt": "2026-08-24T01:56:15.390Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-08-17T01:54:18.889Z",
+        "checkedAt": "2026-08-24T01:56:15.294Z",
         "finalFeedUrl": "https://www.w3.org/WAI/feed.xml",
         "checks": [
           {
@@ -2257,7 +2258,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-08-17T01:54:18.889Z"
+            "checkedAt": "2026-08-24T01:56:15.294Z"
           }
         ]
       },
@@ -2358,6 +2359,97 @@
     }
   ],
   "articles": [
+    {
+      "title": "Resolved: CSS Class Prefix Selector",
+      "url": "https://css-tricks.com/resolved-css-class-prefix-selector/",
+      "publishedAt": "2026-08-21T15:13:03.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+      "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "vercel-changelog",
+      "source": "Vercel Changelog",
+      "company": "Vercel"
+    },
+    {
+      "title": "Timing Charts: A Blueprint For SMIL Animations",
+      "url": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "topics": [
+        "3d-graphics-animation",
+        "frontend-platform"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "CSS Navigation Matching, Early Days",
+      "url": "https://css-tricks.com/css-navigation-matching-early-days/",
+      "publishedAt": "2026-08-19T14:44:41.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "WordPress.com Student Plan",
+      "url": "https://css-tricks.com/wordpress-student-plan/",
+      "publishedAt": "2026-08-19T08:50:00.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Jetpack XR SDK core libraries reach beta: The next milestone for Android XR",
+      "url": "https://android-developers.googleblog.com/feeds/5965363738026017539/comments/default",
+      "publishedAt": "2026-08-18T17:00:00.000Z",
+      "topics": [
+        "ar-vr"
+      ],
+      "sourceId": "android-developers",
+      "source": "Android Developers Blog",
+      "company": "Google Android"
+    },
+    {
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "publishedAt": "2026-08-17T16:00:00.000Z",
+      "topics": [
+        "immersive-scrolling",
+        "3d-graphics-animation"
+      ],
+      "sourceId": "github-ux",
+      "source": "GitHub Engineering · UX",
+      "company": "GitHub"
+    },
+    {
+      "title": "Dark mode toggles: two states are enough",
+      "url": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
+      "publishedAt": "2026-08-17T14:15:50.000Z",
+      "topics": [
+        "dark-mode",
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
     {
       "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
       "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
@@ -2543,17 +2635,6 @@
       "company": "Cloudflare"
     },
     {
-      "title": "Give any website a WebMCP interface",
-      "url": "https://blog.cloudflare.com/webmcp/",
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "cloudflare-blog",
-      "source": "Cloudflare Blog",
-      "company": "Cloudflare"
-    },
-    {
       "title": "The naked designer: What happens when you can’t hide behind craft",
       "url": "https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/",
       "publishedAt": "2026-08-05T13:00:00.000Z",
@@ -2615,18 +2696,6 @@
       "url": "https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/",
       "publishedAt": "2026-07-31T15:14:00.000Z",
       "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
-      "title": "What’s !important #16: sibling-index() Animations, Use Cases for the infinity Keyword, Container Stuck Queries, and More",
-      "url": "https://css-tricks.com/whats-important-16/",
-      "publishedAt": "2026-07-31T14:06:21.000Z",
-      "topics": [
-        "3d-graphics-animation",
         "frontend-platform"
       ],
       "sourceId": "css-tricks",
@@ -2754,17 +2823,6 @@
       "company": "Airbnb"
     },
     {
-      "title": "writing-mode",
-      "url": "https://css-tricks.com/almanac/properties/w/writing-mode/",
-      "publishedAt": "2026-07-21T09:39:10.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
       "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
       "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
       "publishedAt": "2026-07-21T04:00:00.000Z",
@@ -2788,17 +2846,6 @@
       "company": "Slack"
     },
     {
-      "title": "pointer-events",
-      "url": "https://css-tricks.com/almanac/properties/p/pointer-events/",
-      "publishedAt": "2026-07-15T19:57:51.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
       "title": "Chat SDK adds Discord Components V2 support",
       "url": "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support",
       "publishedAt": "2026-07-15T00:00:00.000Z",
@@ -2808,18 +2855,6 @@
       "sourceId": "vercel-changelog",
       "source": "Vercel Changelog",
       "company": "Vercel"
-    },
-    {
-      "title": "What’s !important #15: Boundary-aware CSS, Time-based CSS, Full-bleed CSS, and More",
-      "url": "https://css-tricks.com/whats-important-15/",
-      "publishedAt": "2026-07-14T14:36:18.000Z",
-      "topics": [
-        "sustainable-design",
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
     },
     {
       "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
@@ -3063,17 +3098,6 @@
       "company": "Microsoft"
     },
     {
-      "title": "What’s New in Android XR: Tooling, Engine Support, and Ecosystem Updates",
-      "url": "https://android-developers.googleblog.com/feeds/3515307535587922001/comments/default",
-      "publishedAt": "2026-06-15T13:00:00.000Z",
-      "topics": [
-        "ar-vr"
-      ],
-      "sourceId": "android-developers",
-      "source": "Android Developers Blog",
-      "company": "Google Android"
-    },
-    {
       "title": "Introducing the MDN MCP server",
       "url": "https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/",
       "publishedAt": "2026-06-15T00:00:00.000Z",
@@ -3131,17 +3155,6 @@
       "company": "Vercel"
     },
     {
-      "title": "Domain Search is now available through the Vercel CLI",
-      "url": "https://vercel.com/changelog/domain-search-is-now-available-through-the-vercel-cli",
-      "publishedAt": "2026-06-09T00:00:00.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
       "title": "How I Validated Design Decisions Before Writing Production Code",
       "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/",
       "publishedAt": "2026-06-04T01:29:47.000Z",
@@ -3152,18 +3165,6 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
-    },
-    {
-      "title": "How To Make Your Design System AI-Ready",
-      "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
-      "publishedAt": "2026-06-03T13:00:00.000Z",
-      "topics": [
-        "frontend-platform",
-        "accessibility-performance"
-      ],
-      "sourceId": "smashing-magazine",
-      "source": "Smashing Magazine",
-      "company": "Smashing Media"
     },
     {
       "title": "What's new in DevTools (Chrome 149)",
