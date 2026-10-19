@@ -1,11 +1,24 @@
 # Latest Foreign UI/UX Articles
 
-자동 갱신: **2026-10-12** · 정상 피드 **29/30** · robots 허용 **29/30** · 수집 글 **177개**
+자동 갱신: **2026-10-19** · 정상 피드 **29/30** · robots 허용 **29/30** · 수집 글 **181개**
 
 > 이 문서는 GitHub Actions가 공식 RSS/Atom 피드의 제목·링크·발행일만 수집해 생성합니다. 본문은 복제하지 않습니다.
 
 | 발행일 | 출처 | 글 | 연결 주제 |
 |---|---|---|---|
+| 2026-10-16 | Netflix TechBlog | [Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale](https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf) | `realtime-content` `3d-graphics-animation` `personalization` |
+| 2026-10-16 | Spotify Engineering | [Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM](https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/) | `realtime-content` `personalization` `microinteractions` |
+| 2026-10-15 | GitHub Engineering · UX | [The next developer interface is ambient intelligence](https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/) | `microinteractions` `dark-mode` |
+| 2026-10-15 | Duolingo Design | [Strengthen your Chinese skills with new Component Sessions](https://blog.duolingo.com/component-sessions/) | `microinteractions` |
+| 2026-10-14 | Netflix TechBlog | [Integrating Netflix’s Foundation Model into Personalization applications](https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb) | `personalization` `gamification` `microinteractions` |
+| 2026-10-14 | Netflix TechBlog | [Measuring the Impact of Personalized Recommendations](https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96) | `personalization` |
+| 2026-10-14 | Netflix TechBlog | [Running Apache Spark experiments in my sleep (and on a plane)](https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8) | `realtime-content` `personalization` `sustainable-design` `accessibility-performance` |
+| 2026-10-13 | Airbnb Engineering | [CASTLE: training natural language search before the first real query](https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828) | `personalization` `accessibility-performance` |
+| 2026-10-13 | Microsoft Design | [Promptcraft](https://microsoft.design/articles/promptcraft/) | `personalization` `microinteractions` |
+| 2026-10-13 | Microsoft Design | [Design humanity in the intelligence age](https://microsoft.design/articles/design-humanity-in-the-intelligence-era/) | `personalization` `microinteractions` |
+| 2026-10-13 | Microsoft Design | [Scaling the design process](https://microsoft.design/articles/scaling-the-design-process/) | `personalization` `microinteractions` |
+| 2026-10-12 | Meta Engineering | [Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest](https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/) | `realtime-content` |
+| 2026-10-12 | Meta Engineering | [Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations](https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/) | `personalization` `sustainable-design` `frontend-platform` `accessibility-performance` |
 | 2026-10-08 | GitHub Engineering · UX | [How one bug bounty researcher chooses the features they investigate](https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/) | `microinteractions` `dark-mode` |
 | 2026-10-08 | Microsoft Design | [Designing Michelangelus](https://microsoft.design/articles/designing-michelangelus/) | `kinetic-typography` |
 | 2026-10-06 | Airbnb Engineering | [Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb](https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2) | `gamification` |
@@ -13,15 +26,18 @@
 | 2026-10-05 | IBM Design | [Why Your AI Product Still Needs a GUI](https://medium.com/design-ibm/why-your-ai-product-still-needs-a-gui-9e4db7d13ba9) | `microinteractions` |
 | 2026-10-05 | Microsoft Design | [More than a mark](https://microsoft.design/articles/more-than-a-mark/) | `personalization` `microinteractions` |
 | 2026-10-02 | Cloudflare Blog | [Introducing Web Search API via AI Gateway](https://blog.cloudflare.com/introducing-web-search-api/) | `realtime-content` `personalization` |
-| 2026-10-02 | Cloudflare Blog | [Updates on our pledge to make Cloudflare features accessible to everyone](https://blog.cloudflare.com/enterprise-for-all-update/) | `sustainable-design` |
+| 2026-10-02 | web.dev | [New to the web platform in September](https://web.dev/blog/web-platform-09-2026?hl=en) | `frontend-platform` |
 | 2026-09-30 | Vercel Changelog | [AI Gateway adds Browserbase Search and Fetch tools](https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools) | `personalization` `frontend-platform` |
 | 2026-09-29 | Airbnb Engineering | [Personalization without user identity](https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486) | `biometric-auth` `personalization` |
 | 2026-09-29 | Vercel Changelog | [Search trace spans from the Vercel CLI](https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli) | `personalization` |
+| 2026-09-29 | Chrome for Developers | [HTML-in-Canvas updates: Iterating toward a better Web API](https://developer.chrome.com/blog/html-in-canvas-ot-changes?hl=en) | `3d-graphics-animation` `personalization` `frontend-platform` |
+| 2026-09-28 | web.dev | [August 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-aug-2026?hl=en) | `frontend-platform` |
 | 2026-09-28 | Vercel Changelog | [Search domains without authentication](https://vercel.com/changelog/search-domains-without-authentication) | `biometric-auth` `personalization` |
 | 2026-09-25 | Vercel Changelog | [Vercel Marketplace database browser now supports Redis](https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis) | `frontend-platform` |
 | 2026-09-25 | Web Accessibility Initiative | [Crafting WCAG 3 for more accessible user experiences](https://www.w3.org/WAI/news/2026-09-25/wcag3-blog/) | `sustainable-design` `accessibility-performance` |
 | 2026-09-22 | IBM Design | [IBM Power Virtual Server wins 2026 Stratus Award for Cloud Computing](https://medium.com/design-ibm/ibm-power-virtual-server-wins-2026-stratus-award-for-cloud-computing-7a3e39961441) | `biometric-auth` `sustainable-design` `accessibility-performance` |
 | 2026-09-22 | Microsoft Design | [Create Ways of Being](https://microsoft.design/articles/qian-jiang-create-ways-of-being/) | `personalization` `microinteractions` |
+| 2026-09-22 | Chrome for Developers | [New in DevTools - October 2026](https://developer.chrome.com/blog/new-in-devtools-october-2026?hl=en) | `sustainable-design` `accessibility-performance` |
 | 2026-09-22 | Web Accessibility Initiative | [WCAG 2.2 and 2.1 in French — Authorized translations updated](https://www.w3.org/WAI/news/2026-09-22/wcag-french/) | `sustainable-design` `accessibility-performance` |
 | 2026-09-21 | Microsoft Edge Blog | [New in Edge for developers – Create better components and make your site agent-ready](https://blogs.windows.com/msedgedev/2026/09/21/new-in-edge-for-developers-create-better-components-and-make-your-site-agent-ready/) | `microinteractions` `frontend-platform` |
 | 2026-09-21 | Vercel Changelog | [AI Gateway now supports TypeSafe clients and an HTTP API for Jev](https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev) | `kinetic-typography` |
@@ -37,78 +53,66 @@
 | 2026-09-09 | Smashing Magazine | [The Death Of The Button: Why The Best Interface Is No Interface](https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/) | `frontend-platform` `accessibility-performance` |
 | 2026-09-09 | Vercel Changelog | [You can now read and search changelogs from the CLI](https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli) | `personalization` |
 | 2026-09-09 | Vercel Changelog | [v0 adds one-click integrations for email, auth, search, and databases](https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases) | `personalization` |
+| 2026-09-03 | web.dev | [Submit your proposals for Interop 2027](https://web.dev/blog/interop-2027-proposals?hl=en) | `frontend-platform` |
 | 2026-09-02 | WebKit Blog | [Fixing Top-Level Await in Safari](https://webkit.org/blog/18227/fixing-top-level-await-in-safari/) | `webview-hybrid` |
 | 2026-08-31 | CSS-Tricks | [Let’s Use the Emergent CSS random() Function in all the Browsers](https://css-tricks.com/css-random-function-polyfill/) | `frontend-platform` |
 | 2026-08-31 | CSS-Tricks | [What’s !important #18: , Syntax ::highlight()ing, named-feature(), and More](https://css-tricks.com/whats-important-18/) | `frontend-platform` |
 | 2026-08-31 | Vercel Changelog | [How our agents build on-brand pages with design.md](https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md) | `bold-color` |
-| 2026-08-28 | Netflix TechBlog | [MAPS: Netflix’s Multimodal Asset Personalization at Scale](https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e) | `personalization` `gamification` `microinteractions` |
+| 2026-08-28 | web.dev | [New to the web platform in August](https://web.dev/blog/web-platform-08-2026?hl=en) | `frontend-platform` |
 | 2026-08-27 | CSS-Tricks | [Creating Web Widgets Using the Document Picture-in-Picture API](https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/) | `frontend-platform` |
 | 2026-08-26 | CSS-Tricks | [animation-trigger](https://css-tricks.com/almanac/properties/a/animation-trigger/) | `3d-graphics-animation` `frontend-platform` |
 | 2026-08-26 | Smashing Magazine | [Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions](https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/) | `frontend-platform` `accessibility-performance` |
 | 2026-08-25 | Airbnb Engineering | [Project Lighthouse — Part 3: Introducing project-lighthouse-anonymize](https://medium.com/airbnb-engineering/project-lighthouse-part-3-introducing-project-lighthouse-anonymize-74f8b26653fb) | `microinteractions` `immersive-scrolling` |
 | 2026-08-25 | CSS-Tricks | [MicroLighter: Syntax Highlighter](https://css-tricks.com/microlighter-syntax-highlighter/) | `frontend-platform` |
-| 2026-08-24 | Android Developers Blog | [AAOS SDV - Secure by Design](https://android-developers.googleblog.com/feeds/6753712392854325591/comments/default) | `webview-hybrid` `accessibility-performance` |
 | 2026-08-24 | Microsoft Edge Blog | [WebView2 is moving to a 2-week release cadence](https://blogs.windows.com/msedgedev/2026/08/24/webview2-is-moving-to-a-2-week-release-cadence/) | `webview-hybrid` |
 | 2026-08-24 | CSS-Tricks | [WordPress PHP-Only Block Registration](https://css-tricks.com/wordpress-php-block-registration/) | `frontend-platform` |
+| 2026-08-24 | Android Developers Blog | [AAOS SDV - Secure by Design](https://developer.android.com/blog/posts/aaos-sdv-secure-by-design) | `webview-hybrid` `accessibility-performance` |
 | 2026-08-21 | CSS-Tricks | [Resolved: CSS Class Prefix Selector](https://css-tricks.com/resolved-css-class-prefix-selector/) | `frontend-platform` |
 | 2026-08-21 | Vercel Changelog | [DeepSeek V4 Flash Vision Experimental now available on AI Gateway](https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway) | `personalization` |
 | 2026-08-20 | Smashing Magazine | [Timing Charts: A Blueprint For SMIL Animations](https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/) | `3d-graphics-animation` `frontend-platform` |
 | 2026-08-19 | CSS-Tricks | [CSS Navigation Matching, Early Days](https://css-tricks.com/css-navigation-matching-early-days/) | `frontend-platform` |
 | 2026-08-19 | CSS-Tricks | [WordPress.com Student Plan](https://css-tricks.com/wordpress-student-plan/) | `frontend-platform` |
-| 2026-08-18 | Android Developers Blog | [Jetpack XR SDK core libraries reach beta: The next milestone for Android XR](https://android-developers.googleblog.com/feeds/5965363738026017539/comments/default) | `ar-vr` |
+| 2026-08-19 | Android Developers Blog | [Preparing your app for broader memory limits](https://developer.android.com/blog/posts/preparing-your-app-for-broader-memory-limits) | `webview-hybrid` `accessibility-performance` |
 | 2026-08-17 | CSS-Tricks | [Dark mode toggles: two states are enough](https://css-tricks.com/dark-mode-toggles-two-states-are-enough/) | `dark-mode` `frontend-platform` |
 | 2026-08-14 | Vercel Changelog | [Encrypted Client Hello (ECH) is now supported on Vercel CDN](https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn) | `frontend-platform` `accessibility-performance` |
 | 2026-08-14 | CSS-Tricks | [What’s !important #17: Custom Highlight API, CSS Navigation Matching, Fixing text-stroke, and More](https://css-tricks.com/whats-important-17/) | `immersive-scrolling` `frontend-platform` |
 | 2026-08-13 | Microsoft Design | [Designing the first five minutes](https://microsoft.design/articles/designing-the-first-five-minutes/) | `personalization` `microinteractions` |
-| 2026-08-12 | Android Developers Blog | [Bring one-handed gestures to your Wear OS app](https://android-developers.googleblog.com/feeds/2798697072776672466/comments/default) | `microinteractions` |
 | 2026-08-12 | CSS-Tricks | [Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong](https://css-tricks.com/blocked-aria-hidden-fix/) | `personalization` `frontend-platform` |
 | 2026-08-11 | Smashing Magazine | [Building Tactile UX: Honoring Intentional Design With Lottie](https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/) | `3d-graphics-animation` `kinetic-typography` `gamification` `microinteractions` |
+| 2026-08-10 | web.dev | [July 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-jul-2026?hl=en) | `frontend-platform` |
 | 2026-08-07 | Smashing Magazine | [How Baseline Can Help You Ship Less JavaScript](https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/) | `frontend-platform` |
 | 2026-08-05 | Microsoft Design | [The naked designer: What happens when you can’t hide behind craft](https://microsoft.design/articles/the-naked-designer-what-happens-when-you-cant-hide-behind-craft/) | `personalization` `microinteractions` |
-| 2026-07-31 | Netflix TechBlog | [Modeling Device Capabilities for Analytics](https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8) | `realtime-content` `kinetic-typography` |
-| 2026-07-30 | Netflix TechBlog | [GenRec: Towards LLM-Native Recommendation at Netflix](https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3) | `realtime-content` `personalization` `kinetic-typography` `gamification` |
+| 2026-07-31 | web.dev | [New to the web platform in July](https://web.dev/blog/web-platform-07-2026?hl=en) | `frontend-platform` |
 | 2026-07-29 | Smashing Magazine | [The Bull And Bear Case For Digital Design In The Age Of AI](https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/) | `frontend-platform` `accessibility-performance` |
-| 2026-07-28 | Microsoft Design | [Bringing a humanitarian lens to the future of AI](https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/) | `personalization` `microinteractions` |
 | 2026-07-28 | Smashing Magazine | [Thinking Outside The Box: Digital Design In The AI Era](https://smashingmagazine.com/2026/07/digital-design-ai-era/) | `frontend-platform` `accessibility-performance` |
 | 2026-07-27 | WebKit Blog | [WebKit Features for Safari 26.6](https://webkit.org/blog/18178/webkit-features-for-safari-26-6/) | `webview-hybrid` |
+| 2026-07-27 | web.dev | [The Baseline Features audit is now available in Lighthouse](https://web.dev/blog/baseline-lighthouse-features-audit?hl=en) | `frontend-platform` |
 | 2026-07-23 | Web Accessibility Initiative | [WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published](https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/) | `sustainable-design` `accessibility-performance` |
-| 2026-07-22 | Microsoft Design | [Gathering around the fire: Durable human experience patterns in the AI era](https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/) | `personalization` `microinteractions` |
 | 2026-07-21 | Airbnb Engineering | [Personalizing Airbnb search by learning from the guest journey](https://medium.com/airbnb-engineering/personalizing-airbnb-search-by-learning-from-the-guest-journey-bcefd1915624) | `personalization` `kinetic-typography` |
 | 2026-07-17 | Slack Design | [Product Quality: A Shared Commitment to Craft in the wake of AI](https://slack.design/articles/product-quality-a-shared-commitment-to-craft-in-the-wake-of-ai/) | `microinteractions` `realtime-content` |
+| 2026-07-17 | web.dev | [June 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-jun-2026?hl=en) | `frontend-platform` |
 | 2026-07-10 | Smashing Magazine | [From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction](https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/) | `bold-color` `biometric-auth` |
 | 2026-07-09 | Smashing Magazine | [Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion](https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/) | `microinteractions` |
 | 2026-07-08 | Slack Design | [We Didn’t Teach Our Designers AI: We Built a Place Where They Could Learn It Together](https://slack.design/articles/we-didnt-teach-our-designers-ai-we-built-a-place-where-they-could-learn-it-together/) | `kinetic-typography` |
 | 2026-07-07 | Microsoft Edge Blog | [New in Edge for developers – Style layout gaps, improve keyboard accessibility and migrate your PWA to a new origin](https://blogs.windows.com/msedgedev/2026/07/07/new-in-edge-for-developers-style-layout-gaps-improve-keyboard-accessibility-and-migrate-your-pwa-to-a-new-origin/) | `sustainable-design` `frontend-platform` `accessibility-performance` |
 | 2026-07-07 | Smashing Magazine | [Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas](https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/) | `3d-graphics-animation` `sustainable-design` `accessibility-performance` |
-| 2026-06-29 | Netflix TechBlog | [GenPage: Towards End-to-End Generative Homepage Construction at Netflix](https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08) | `realtime-content` `personalization` `gamification` `microinteractions` |
-| 2026-06-29 | Microsoft Design | [When outputs are the experience](https://microsoft.design/articles/when-outputs-are-the-experience/) | `personalization` `microinteractions` |
-| 2026-06-18 | Chrome for Developers | [Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents](https://developer.chrome.com/blog/devtools-for-agents-3p-tools?hl=en) | `accessibility-performance` |
+| 2026-06-30 | web.dev | [New to the web platform in June](https://web.dev/blog/web-platform-06-2026?hl=en) | `frontend-platform` |
 | 2026-06-18 | Intercom Design & Product | [Conversation design: How to make your AI Agent communicate like your team](https://www.intercom.com/blog/conversation-design-for-your-ai-agent) | `realtime-content` `personalization` |
 | 2026-06-15 | MDN Blog | [Introducing the MDN MCP server](https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/) | `frontend-platform` |
 | 2026-06-04 | Slack Design | [How I Validated Design Decisions Before Writing Production Code](https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/) | `microinteractions` `realtime-content` |
-| 2026-06-02 | Chrome for Developers | [What's new in DevTools (Chrome 149)](https://developer.chrome.com/blog/new-in-devtools-149?hl=en) | `accessibility-performance` |
-| 2026-05-29 | web.dev | [New to the web platform in May](https://web.dev/blog/web-platform-05-2026?hl=en) | `frontend-platform` |
 | 2026-05-27 | Slack Design | [Designing Where the Pixels Actually Live](https://slack.design/articles/designing-where-the-pixels-actually-live/) | `realtime-content` |
 | 2026-05-27 | IBM Design | [Walking the Walk: Design Leadership in an AI-Native World](https://medium.com/design-ibm/walking-the-walk-design-leadership-in-an-ai-native-world-fb2159ff4c93) | `personalization` |
-| 2026-05-27 | web.dev | [April 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-apr-2026?hl=en) | `frontend-platform` |
 | 2026-05-25 | IBM Design | [IBM Systems Environment Estimator recognized with prestigious 2026 iF Design Award](https://medium.com/design-ibm/ibm-systems-environment-estimator-recognized-with-prestigious-2026-if-design-award-af4ffa49bce9) | `bold-color` `sustainable-design` |
 | 2026-05-21 | Slack Design | [Leading design through the AI shift](https://slack.design/articles/leading-design-through-the-ai-shift/) | `microinteractions` `realtime-content` |
 | 2026-05-06 | IBM Design | [Explainable AI: Insights from market and academic research](https://medium.com/design-ibm/explainable-ai-insights-from-market-and-academic-research-b79b50243bb5) | `bold-color` `3d-graphics-animation` `kinetic-typography` |
 | 2026-05-05 | Mozilla Hacks | [Trustworthy JavaScript for the Open Web](https://hacks.mozilla.org/2026/05/trustworthy-javascript-for-the-open-web/) | `frontend-platform` |
-| 2026-04-24 | web.dev | [New to the web platform in April](https://web.dev/blog/web-platform-04-2026?hl=en) | `frontend-platform` |
 | 2026-04-23 | IBM Design | [IBM IT automation solutions gain further recognition with prestigious Indigo Design Awards](https://medium.com/design-ibm/ibm-it-automation-solutions-gain-further-recognition-with-prestigious-indigo-design-awards-004cb33518b8) | `realtime-content` `sustainable-design` `accessibility-performance` |
-| 2026-04-14 | web.dev | [March 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-mar-2026?hl=en) | `frontend-platform` |
 | 2026-04-09 | Slack Design | [No Small Task: Evolving the Way Millions Catch Up in Slack](https://slack.design/articles/no-small-task-evolving-the-way-millions-catch-up-in-slack/) | `microinteractions` `realtime-content` |
 | 2026-04-08 | MDN Blog | [Under the hood of MDN's new frontend](https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/) | `frontend-platform` `accessibility-performance` |
-| 2026-03-30 | web.dev | [February 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-feb-2026?hl=en) | `frontend-platform` |
-| 2026-03-27 | web.dev | [New to the web platform in March](https://web.dev/blog/web-platform-03-2026?hl=en) | `frontend-platform` |
 | 2026-03-11 | IBM Design | [I built a Figma plugin because the Carbon Data Table workflow was broken](https://medium.com/design-ibm/i-built-a-figma-plugin-because-the-carbon-data-table-workflow-was-broken-6f9c16fb7c11) | `realtime-content` `microinteractions` |
 | 2026-03-06 | IBM Design | [IBM IT automation solutions recognized with prestigious iF Design Awards](https://medium.com/design-ibm/ibm-it-automation-solutions-recognized-with-prestigious-if-design-awards-8f804945c1ec) | `realtime-content` `sustainable-design` |
 | 2026-03-03 | Web Accessibility Initiative | [For Review: WCAG 3 Working Draft – March 2026](https://www.w3.org/WAI/news/2026-03-03/wcag3/) | `sustainable-design` `accessibility-performance` |
-| 2026-03-02 | web.dev | [January 2026 Baseline monthly digest](https://web.dev/blog/baseline-digest-jan-2026?hl=en) | `frontend-platform` |
 | 2026-02-26 | IBM Design | [The Prompt Is the Prototype: How Structured AI Prompting Is Reshaping Enterprise Design](https://medium.com/design-ibm/the-prompt-is-the-prototype-how-structured-ai-prompting-is-reshaping-enterprise-design-b0c284549d76) | `personalization` `microinteractions` |
-| 2026-02-26 | web.dev | [New to the web platform in February](https://web.dev/blog/web-platform-02-2026?hl=en) | `frontend-platform` |
-| 2026-02-17 | web.dev | [Navigation API - a better way to navigate, is now Baseline Newly Available](https://web.dev/blog/baseline-navigation-api?hl=en) | `frontend-platform` |
 | 2026-02-05 | Web Accessibility Initiative | [ACT Rules Format 1.1 is a Web Standard (W3C Recommendation)](https://www.w3.org/WAI/news/2026-02-05/act-rules-11/) | `personalization` `sustainable-design` `accessibility-performance` |
 | 2026-02-05 | Web Accessibility Initiative | [For Review: Cognitive Accessibility Research Modules — First Draft Notes](https://www.w3.org/WAI/news/2026-02-05/coga/) | `sustainable-design` `accessibility-performance` |
 | 2026-02-05 | Web Accessibility Initiative | [For Review: W3C Accessibility Guidelines Evaluation Methodology (WCAG-EM) 2.0 — First Draft Note](https://www.w3.org/WAI/news/2026-02-05/wcag-em-2/) | `sustainable-design` `accessibility-performance` |
@@ -188,33 +192,33 @@
 
 | 출처 | 상태 | robots.txt | 확인 시각 |
 |---|---|---|---|
-| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Spotify Engineering](https://engineering.atspotify.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Uber Design](https://medium.com/uber-design) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Dropbox Design](https://medium.com/dropbox-design) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Slack Design](https://slack.design/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Microsoft Design](https://microsoft.design/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Netflix TechBlog](https://netflixtechblog.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [IBM Design](https://medium.com/design-ibm) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Indeed Design](https://medium.com/indeed-design) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Etsy Design](https://medium.com/etsy-design) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Code as Craft](https://www.etsy.com/codeascraft) | stale | blocked | 2026-10-12 05:52 UTC |
-| [Wayfair Design](https://medium.com/wayfair-design) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Meta Engineering](https://engineering.fb.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [web.dev](https://web.dev/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Chrome for Developers](https://developer.chrome.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [WebKit Blog](https://webkit.org/blog/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Smashing Magazine](https://www.smashingmagazine.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [CSS-Tricks](https://css-tricks.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Cloudflare Blog](https://blog.cloudflare.com/) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Vercel Changelog](https://vercel.com/changelog) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Pinterest Engineering](https://medium.com/pinterest-engineering) | ok | allowed | 2026-10-12 05:52 UTC |
-| [Web Accessibility Initiative](https://www.w3.org/WAI/) | ok | allowed | 2026-10-12 05:52 UTC |
+| [Airbnb Engineering](https://medium.com/airbnb-engineering) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Spotify Engineering](https://engineering.atspotify.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Uber Design](https://medium.com/uber-design) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Dropbox Design](https://medium.com/dropbox-design) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Slack Design](https://slack.design/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Microsoft Design](https://microsoft.design/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Intercom Design & Product](https://www.intercom.com/blog/design/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Duolingo Design](https://blog.duolingo.com/tag/design/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Canva Engineering](https://www.canva.dev/blog/engineering/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [GitHub Engineering · UX](https://github.blog/engineering/user-experience/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Netflix TechBlog](https://netflixtechblog.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [IBM Design](https://medium.com/design-ibm) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Indeed Design](https://medium.com/indeed-design) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Etsy Design](https://medium.com/etsy-design) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Code as Craft](https://www.etsy.com/codeascraft) | stale | blocked | 2026-10-19 04:35 UTC |
+| [Wayfair Design](https://medium.com/wayfair-design) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Meta Engineering](https://engineering.fb.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [web.dev](https://web.dev/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Chrome for Developers](https://developer.chrome.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [WebKit Blog](https://webkit.org/blog/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [MDN Blog](https://developer.mozilla.org/en-US/blog/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Mozilla Hacks](https://hacks.mozilla.org/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Microsoft Edge Blog](https://blogs.windows.com/msedgedev/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Android Developers Blog](https://android-developers.googleblog.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Smashing Magazine](https://www.smashingmagazine.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [CSS-Tricks](https://css-tricks.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Cloudflare Blog](https://blog.cloudflare.com/) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Vercel Changelog](https://vercel.com/changelog) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Pinterest Engineering](https://medium.com/pinterest-engineering) | ok | allowed | 2026-10-19 04:35 UTC |
+| [Web Accessibility Initiative](https://www.w3.org/WAI/) | ok | allowed | 2026-10-19 04:35 UTC |

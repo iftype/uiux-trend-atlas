@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T05:52:07.123Z",
+  "generatedAt": "2026-10-19T04:35:56.968Z",
   "collectionPolicy": "metadata-only",
   "stats": {
     "catalogSources": 43,
     "feedSources": 30,
     "healthyFeeds": 29,
     "robotsAllowedFeeds": 29,
-    "articles": 177
+    "articles": 181
   },
   "sources": [
     {
@@ -17,10 +17,10 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:02.551Z",
+      "checkedAt": "2026-10-19T04:35:51.184Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/airbnb-engineering",
         "checks": [
           {
@@ -29,11 +29,20 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "CASTLE: training natural language search before the first real query",
+          "url": "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828",
+          "publishedAt": "2026-10-13T17:01:02.000Z",
+          "topics": [
+            "personalization",
+            "accessibility-performance"
+          ]
+        },
         {
           "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
           "url": "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2",
@@ -88,10 +97,10 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:02.610Z",
+      "checkedAt": "2026-10-19T04:35:51.299Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.477Z",
+        "checkedAt": "2026-10-19T04:35:50.991Z",
         "finalFeedUrl": "https://engineering.atspotify.com/feed",
         "checks": [
           {
@@ -100,7 +109,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.477Z"
+            "checkedAt": "2026-10-19T04:35:50.991Z"
           },
           {
             "origin": "https://engineering.atspotify.com",
@@ -108,11 +117,22 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.477Z"
+            "checkedAt": "2026-10-19T04:35:50.991Z"
           }
         ]
       },
-      "articles": []
+      "articles": [
+        {
+          "title": "Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM",
+          "url": "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/",
+          "publishedAt": "2026-10-16T14:29:18.000Z",
+          "topics": [
+            "realtime-content",
+            "personalization",
+            "microinteractions"
+          ]
+        }
+      ]
     },
     {
       "id": "uber-design",
@@ -121,10 +141,10 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:03.261Z",
+      "checkedAt": "2026-10-19T04:35:51.818Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/uber-design",
         "checks": [
           {
@@ -133,7 +153,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
@@ -234,10 +254,10 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:03.739Z",
+      "checkedAt": "2026-10-19T04:35:52.389Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/dropbox-design",
         "checks": [
           {
@@ -246,7 +266,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
@@ -348,10 +368,10 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:02.526Z",
+      "checkedAt": "2026-10-19T04:35:51.086Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.501Z",
+        "checkedAt": "2026-10-19T04:35:51.013Z",
         "finalFeedUrl": "https://slack.design/feed/",
         "checks": [
           {
@@ -360,7 +380,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.501Z"
+            "checkedAt": "2026-10-19T04:35:51.013Z"
           }
         ]
       },
@@ -478,10 +498,10 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:02.542Z",
+      "checkedAt": "2026-10-19T04:35:51.432Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.475Z",
+        "checkedAt": "2026-10-19T04:35:51.351Z",
         "finalFeedUrl": "https://microsoft.design/feed/",
         "checks": [
           {
@@ -490,11 +510,38 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.475Z"
+            "checkedAt": "2026-10-19T04:35:51.351Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Promptcraft",
+          "url": "https://microsoft.design/articles/promptcraft/",
+          "publishedAt": "2026-10-13T16:59:22.000Z",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Design humanity in the intelligence age",
+          "url": "https://microsoft.design/articles/design-humanity-in-the-intelligence-era/",
+          "publishedAt": "2026-10-13T16:59:00.000Z",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
+        {
+          "title": "Scaling the design process",
+          "url": "https://microsoft.design/articles/scaling-the-design-process/",
+          "publishedAt": "2026-10-13T16:48:59.000Z",
+          "topics": [
+            "personalization",
+            "microinteractions"
+          ]
+        },
         {
           "title": "Designing Michelangelus",
           "url": "https://microsoft.design/articles/designing-michelangelus/",
@@ -556,33 +603,6 @@
             "personalization",
             "microinteractions"
           ]
-        },
-        {
-          "title": "Bringing a humanitarian lens to the future of AI",
-          "url": "https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/",
-          "publishedAt": "2026-07-28T16:35:21.000Z",
-          "topics": [
-            "personalization",
-            "microinteractions"
-          ]
-        },
-        {
-          "title": "Gathering around the fire: Durable human experience patterns in the AI era",
-          "url": "https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/",
-          "publishedAt": "2026-07-22T13:38:37.000Z",
-          "topics": [
-            "personalization",
-            "microinteractions"
-          ]
-        },
-        {
-          "title": "When outputs are the experience",
-          "url": "https://microsoft.design/articles/when-outputs-are-the-experience/",
-          "publishedAt": "2026-06-29T13:00:00.000Z",
-          "topics": [
-            "personalization",
-            "microinteractions"
-          ]
         }
       ]
     },
@@ -593,10 +613,10 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:03.340Z",
+      "checkedAt": "2026-10-19T04:35:51.727Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:03.049Z",
+        "checkedAt": "2026-10-19T04:35:51.604Z",
         "finalFeedUrl": "https://www.intercom.com/blog/feed",
         "checks": [
           {
@@ -605,7 +625,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:03.049Z"
+            "checkedAt": "2026-10-19T04:35:51.604Z"
           },
           {
             "origin": "https://www.intercom.com",
@@ -613,7 +633,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:03.049Z"
+            "checkedAt": "2026-10-19T04:35:51.604Z"
           }
         ]
       },
@@ -636,10 +656,10 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:02.986Z",
+      "checkedAt": "2026-10-19T04:35:51.980Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.978Z",
+        "checkedAt": "2026-10-19T04:35:51.944Z",
         "finalFeedUrl": "https://blog.duolingo.com/rss/",
         "checks": [
           {
@@ -648,11 +668,20 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.978Z"
+            "checkedAt": "2026-10-19T04:35:51.944Z"
           }
         ]
       },
-      "articles": []
+      "articles": [
+        {
+          "title": "Strengthen your Chinese skills with new Component Sessions",
+          "url": "https://blog.duolingo.com/component-sessions/",
+          "publishedAt": "2026-10-15T12:00:00.000Z",
+          "topics": [
+            "microinteractions"
+          ]
+        }
+      ]
     },
     {
       "id": "canva-engineering",
@@ -661,10 +690,10 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:03.122Z",
+      "checkedAt": "2026-10-19T04:35:51.970Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:03.100Z",
+        "checkedAt": "2026-10-19T04:35:51.931Z",
         "finalFeedUrl": "https://www.canva.dev/blog/engineering/feed.xml",
         "checks": [
           {
@@ -673,7 +702,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:03.100Z"
+            "checkedAt": "2026-10-19T04:35:51.931Z"
           }
         ]
       },
@@ -704,10 +733,10 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:03.400Z",
+      "checkedAt": "2026-10-19T04:35:52.233Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:03.382Z",
+        "checkedAt": "2026-10-19T04:35:52.169Z",
         "finalFeedUrl": "https://github.blog/feed/",
         "checks": [
           {
@@ -716,11 +745,20 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:03.382Z"
+            "checkedAt": "2026-10-19T04:35:52.169Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "The next developer interface is ambient intelligence",
+          "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+          "publishedAt": "2026-10-15T19:39:27.000Z",
+          "topics": [
+            "microinteractions",
+            "dark-mode"
+          ]
+        },
         {
           "title": "How one bug bounty researcher chooses the features they investigate",
           "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
@@ -739,10 +777,10 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:04.220Z",
+      "checkedAt": "2026-10-19T04:35:53.032Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/netflix-techblog",
         "checks": [
           {
@@ -751,15 +789,25 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
       "articles": [
         {
-          "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-          "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-          "publishedAt": "2026-08-28T16:01:02.000Z",
+          "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+          "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
+          "publishedAt": "2026-10-16T16:01:02.000Z",
+          "topics": [
+            "realtime-content",
+            "3d-graphics-animation",
+            "personalization"
+          ]
+        },
+        {
+          "title": "Integrating Netflix’s Foundation Model into Personalization applications",
+          "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb",
+          "publishedAt": "2026-10-14T20:02:22.000Z",
           "topics": [
             "personalization",
             "gamification",
@@ -767,34 +815,22 @@
           ]
         },
         {
-          "title": "Modeling Device Capabilities for Analytics",
-          "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
-          "publishedAt": "2026-07-31T16:01:02.000Z",
+          "title": "Measuring the Impact of Personalized Recommendations",
+          "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96",
+          "publishedAt": "2026-10-14T19:57:43.000Z",
           "topics": [
-            "realtime-content",
-            "kinetic-typography"
+            "personalization"
           ]
         },
         {
-          "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-          "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-          "publishedAt": "2026-07-30T20:10:15.000Z",
+          "title": "Running Apache Spark experiments in my sleep (and on a plane)",
+          "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8",
+          "publishedAt": "2026-10-14T19:49:11.000Z",
           "topics": [
             "realtime-content",
             "personalization",
-            "kinetic-typography",
-            "gamification"
-          ]
-        },
-        {
-          "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
-          "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
-          "publishedAt": "2026-06-29T13:01:02.000Z",
-          "topics": [
-            "realtime-content",
-            "personalization",
-            "gamification",
-            "microinteractions"
+            "sustainable-design",
+            "accessibility-performance"
           ]
         }
       ]
@@ -806,10 +842,10 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:04.667Z",
+      "checkedAt": "2026-10-19T04:35:53.639Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/design-ibm",
         "checks": [
           {
@@ -818,7 +854,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
@@ -925,10 +961,10 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:05.165Z",
+      "checkedAt": "2026-10-19T04:35:54.562Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/indeed-design",
         "checks": [
           {
@@ -937,7 +973,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
@@ -1043,10 +1079,10 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:05.623Z",
+      "checkedAt": "2026-10-19T04:35:55.168Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/etsy-design",
         "checks": [
           {
@@ -1055,7 +1091,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
@@ -1163,11 +1199,11 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "stale",
-      "checkedAt": "2026-10-12T05:52:03.663Z",
+      "checkedAt": "2026-10-19T04:35:52.612Z",
       "error": "robots.txt policy denied https://codeascraft.com",
       "robots": {
         "status": "blocked",
-        "checkedAt": "2026-10-12T05:52:03.662Z",
+        "checkedAt": "2026-10-19T04:35:52.612Z",
         "finalFeedUrl": "https://codeascraft.com/feed/",
         "checks": [
           {
@@ -1176,7 +1212,7 @@
             "httpStatus": 403,
             "decision": "blocked",
             "reason": "unreachable-or-restricted",
-            "checkedAt": "2026-10-12T05:52:03.662Z"
+            "checkedAt": "2026-10-19T04:35:52.612Z"
           }
         ]
       },
@@ -1189,10 +1225,10 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:06.313Z",
+      "checkedAt": "2026-10-19T04:35:55.969Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/wayfair-design",
         "checks": [
           {
@@ -1201,7 +1237,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
@@ -1310,10 +1346,10 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:03.781Z",
+      "checkedAt": "2026-10-19T04:35:52.486Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:03.773Z",
+        "checkedAt": "2026-10-19T04:35:52.451Z",
         "finalFeedUrl": "https://engineering.fb.com/feed/",
         "checks": [
           {
@@ -1322,11 +1358,31 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:03.773Z"
+            "checkedAt": "2026-10-19T04:35:52.451Z"
           }
         ]
       },
-      "articles": []
+      "articles": [
+        {
+          "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+          "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+          "publishedAt": "2026-10-12T16:01:32.000Z",
+          "topics": [
+            "realtime-content"
+          ]
+        },
+        {
+          "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+          "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+          "publishedAt": "2026-10-12T16:00:50.000Z",
+          "topics": [
+            "personalization",
+            "sustainable-design",
+            "frontend-platform",
+            "accessibility-performance"
+          ]
+        }
+      ]
     },
     {
       "id": "web-dev",
@@ -1335,10 +1391,10 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:04.463Z",
+      "checkedAt": "2026-10-19T04:35:53.798Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:04.150Z",
+        "checkedAt": "2026-10-19T04:35:52.914Z",
         "finalFeedUrl": "https://web.dev/static/blog/feed.xml",
         "checks": [
           {
@@ -1347,7 +1403,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:04.150Z"
+            "checkedAt": "2026-10-19T04:35:52.914Z"
           },
           {
             "origin": "https://web.dev",
@@ -1355,79 +1411,79 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:04.150Z"
+            "checkedAt": "2026-10-19T04:35:52.914Z"
           }
         ]
       },
       "articles": [
         {
-          "title": "New to the web platform in May",
-          "url": "https://web.dev/blog/web-platform-05-2026?hl=en",
-          "publishedAt": "2026-05-29T07:00:00.000Z",
+          "title": "New to the web platform in September",
+          "url": "https://web.dev/blog/web-platform-09-2026?hl=en",
+          "publishedAt": "2026-10-02T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "April 2026 Baseline monthly digest",
-          "url": "https://web.dev/blog/baseline-digest-apr-2026?hl=en",
-          "publishedAt": "2026-05-27T07:00:00.000Z",
+          "title": "August 2026 Baseline monthly digest",
+          "url": "https://web.dev/blog/baseline-digest-aug-2026?hl=en",
+          "publishedAt": "2026-09-28T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "New to the web platform in April",
-          "url": "https://web.dev/blog/web-platform-04-2026?hl=en",
-          "publishedAt": "2026-04-24T07:00:00.000Z",
+          "title": "Submit your proposals for Interop 2027",
+          "url": "https://web.dev/blog/interop-2027-proposals?hl=en",
+          "publishedAt": "2026-09-03T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "March 2026 Baseline monthly digest",
-          "url": "https://web.dev/blog/baseline-digest-mar-2026?hl=en",
-          "publishedAt": "2026-04-14T07:00:00.000Z",
+          "title": "New to the web platform in August",
+          "url": "https://web.dev/blog/web-platform-08-2026?hl=en",
+          "publishedAt": "2026-08-28T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "February 2026 Baseline monthly digest",
-          "url": "https://web.dev/blog/baseline-digest-feb-2026?hl=en",
-          "publishedAt": "2026-03-30T07:00:00.000Z",
+          "title": "July 2026 Baseline monthly digest",
+          "url": "https://web.dev/blog/baseline-digest-jul-2026?hl=en",
+          "publishedAt": "2026-08-10T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "New to the web platform in March",
-          "url": "https://web.dev/blog/web-platform-03-2026?hl=en",
-          "publishedAt": "2026-03-27T07:00:00.000Z",
+          "title": "New to the web platform in July",
+          "url": "https://web.dev/blog/web-platform-07-2026?hl=en",
+          "publishedAt": "2026-07-31T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "January 2026 Baseline monthly digest",
-          "url": "https://web.dev/blog/baseline-digest-jan-2026?hl=en",
-          "publishedAt": "2026-03-02T08:00:00.000Z",
+          "title": "The Baseline Features audit is now available in Lighthouse",
+          "url": "https://web.dev/blog/baseline-lighthouse-features-audit?hl=en",
+          "publishedAt": "2026-07-27T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "New to the web platform in February",
-          "url": "https://web.dev/blog/web-platform-02-2026?hl=en",
-          "publishedAt": "2026-02-26T08:00:00.000Z",
+          "title": "June 2026 Baseline monthly digest",
+          "url": "https://web.dev/blog/baseline-digest-jun-2026?hl=en",
+          "publishedAt": "2026-07-17T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
         },
         {
-          "title": "Navigation API - a better way to navigate, is now Baseline Newly Available",
-          "url": "https://web.dev/blog/baseline-navigation-api?hl=en",
-          "publishedAt": "2026-02-17T08:00:00.000Z",
+          "title": "New to the web platform in June",
+          "url": "https://web.dev/blog/web-platform-06-2026?hl=en",
+          "publishedAt": "2026-06-30T07:00:00.000Z",
           "topics": [
             "frontend-platform"
           ]
@@ -1441,10 +1497,10 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:04.491Z",
+      "checkedAt": "2026-10-19T04:35:53.692Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:04.380Z",
+        "checkedAt": "2026-10-19T04:35:53.061Z",
         "finalFeedUrl": "https://developer.chrome.com/static/blog/feed.xml",
         "checks": [
           {
@@ -1453,24 +1509,27 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:04.380Z"
+            "checkedAt": "2026-10-19T04:35:53.061Z"
           }
         ]
       },
       "articles": [
         {
-          "title": "Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents",
-          "url": "https://developer.chrome.com/blog/devtools-for-agents-3p-tools?hl=en",
-          "publishedAt": "2026-06-18T07:00:00.000Z",
+          "title": "HTML-in-Canvas updates: Iterating toward a better Web API",
+          "url": "https://developer.chrome.com/blog/html-in-canvas-ot-changes?hl=en",
+          "publishedAt": "2026-09-29T07:00:00.000Z",
           "topics": [
-            "accessibility-performance"
+            "3d-graphics-animation",
+            "personalization",
+            "frontend-platform"
           ]
         },
         {
-          "title": "What's new in DevTools (Chrome 149)",
-          "url": "https://developer.chrome.com/blog/new-in-devtools-149?hl=en",
-          "publishedAt": "2026-06-02T07:00:00.000Z",
+          "title": "New in DevTools - October 2026",
+          "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026?hl=en",
+          "publishedAt": "2026-09-22T07:00:00.000Z",
           "topics": [
+            "sustainable-design",
             "accessibility-performance"
           ]
         }
@@ -1483,10 +1542,10 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:05.270Z",
+      "checkedAt": "2026-10-19T04:35:54.052Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:04.583Z",
+        "checkedAt": "2026-10-19T04:35:53.452Z",
         "finalFeedUrl": "https://webkit.org/feed/",
         "checks": [
           {
@@ -1495,7 +1554,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:04.583Z"
+            "checkedAt": "2026-10-19T04:35:53.452Z"
           }
         ]
       },
@@ -1533,10 +1592,10 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:04.848Z",
+      "checkedAt": "2026-10-19T04:35:54.122Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:04.839Z",
+        "checkedAt": "2026-10-19T04:35:54.099Z",
         "finalFeedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
         "checks": [
           {
@@ -1545,7 +1604,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:04.839Z"
+            "checkedAt": "2026-10-19T04:35:54.099Z"
           }
         ]
       },
@@ -1659,10 +1718,10 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:05.008Z",
+      "checkedAt": "2026-10-19T04:35:54.494Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:04.890Z",
+        "checkedAt": "2026-10-19T04:35:54.337Z",
         "finalFeedUrl": "https://hacks.mozilla.org/feed/",
         "checks": [
           {
@@ -1671,7 +1730,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:04.890Z"
+            "checkedAt": "2026-10-19T04:35:54.337Z"
           }
         ]
       },
@@ -1701,10 +1760,10 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:05.343Z",
+      "checkedAt": "2026-10-19T04:35:54.607Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:05.246Z",
+        "checkedAt": "2026-10-19T04:35:54.496Z",
         "finalFeedUrl": "https://blogs.windows.com/msedgedev/feed/",
         "checks": [
           {
@@ -1713,7 +1772,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:05.246Z"
+            "checkedAt": "2026-10-19T04:35:54.496Z"
           }
         ]
       },
@@ -1754,11 +1813,11 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:06.007Z",
+      "checkedAt": "2026-10-19T04:35:55.757Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:05.868Z",
-        "finalFeedUrl": "https://android-developers.googleblog.com/feeds/posts/default",
+        "checkedAt": "2026-10-19T04:35:55.505Z",
+        "finalFeedUrl": "https://developer.android.com/static/blog/atom.xml",
         "checks": [
           {
             "origin": "https://android-developers.googleblog.com",
@@ -1766,34 +1825,35 @@
             "httpStatus": 404,
             "decision": "allowed",
             "reason": "not-published",
-            "checkedAt": "2026-10-12T05:52:05.868Z"
+            "checkedAt": "2026-10-19T04:35:55.014Z"
+          },
+          {
+            "origin": "https://developer.android.com",
+            "robotsUrl": "https://developer.android.com/robots.txt",
+            "httpStatus": 200,
+            "decision": "allowed",
+            "reason": "rules-found",
+            "checkedAt": "2026-10-19T04:35:55.505Z"
           }
         ]
       },
       "articles": [
         {
           "title": "AAOS SDV - Secure by Design",
-          "url": "https://android-developers.googleblog.com/feeds/6753712392854325591/comments/default",
-          "publishedAt": "2026-08-24T16:00:31.669Z",
+          "url": "https://developer.android.com/blog/posts/aaos-sdv-secure-by-design",
+          "publishedAt": "2026-08-24T00:00:00.000Z",
           "topics": [
             "webview-hybrid",
             "accessibility-performance"
           ]
         },
         {
-          "title": "Jetpack XR SDK core libraries reach beta: The next milestone for Android XR",
-          "url": "https://android-developers.googleblog.com/feeds/5965363738026017539/comments/default",
-          "publishedAt": "2026-08-18T17:00:00.000Z",
+          "title": "Preparing your app for broader memory limits",
+          "url": "https://developer.android.com/blog/posts/preparing-your-app-for-broader-memory-limits",
+          "publishedAt": "2026-08-19T00:00:00.000Z",
           "topics": [
-            "ar-vr"
-          ]
-        },
-        {
-          "title": "Bring one-handed gestures to your Wear OS app",
-          "url": "https://android-developers.googleblog.com/feeds/2798697072776672466/comments/default",
-          "publishedAt": "2026-08-12T17:00:00.000Z",
-          "topics": [
-            "microinteractions"
+            "webview-hybrid",
+            "accessibility-performance"
           ]
         }
       ]
@@ -1805,10 +1865,10 @@
       "url": "https://www.smashingmagazine.com/",
       "feed": "https://www.smashingmagazine.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:05.785Z",
+      "checkedAt": "2026-10-19T04:35:55.108Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:05.750Z",
+        "checkedAt": "2026-10-19T04:35:54.959Z",
         "finalFeedUrl": "https://www.smashingmagazine.com/feed/",
         "checks": [
           {
@@ -1817,7 +1877,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:05.750Z"
+            "checkedAt": "2026-10-19T04:35:54.959Z"
           }
         ]
       },
@@ -1940,10 +2000,10 @@
       "url": "https://css-tricks.com/",
       "feed": "https://css-tricks.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:06.289Z",
+      "checkedAt": "2026-10-19T04:35:55.729Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:05.809Z",
+        "checkedAt": "2026-10-19T04:35:55.092Z",
         "finalFeedUrl": "https://css-tricks.com/feed/",
         "checks": [
           {
@@ -1952,7 +2012,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-10-12T05:52:05.809Z"
+            "checkedAt": "2026-10-19T04:35:55.092Z"
           }
         ]
       },
@@ -2066,10 +2126,10 @@
       "url": "https://blog.cloudflare.com/",
       "feed": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:06.215Z",
+      "checkedAt": "2026-10-19T04:35:55.640Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:06.188Z",
+        "checkedAt": "2026-10-19T04:35:55.571Z",
         "finalFeedUrl": "https://blog.cloudflare.com/rss/",
         "checks": [
           {
@@ -2078,7 +2138,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-10-12T05:52:06.188Z"
+            "checkedAt": "2026-10-19T04:35:55.571Z"
           }
         ]
       },
@@ -2091,14 +2151,6 @@
             "realtime-content",
             "personalization"
           ]
-        },
-        {
-          "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-          "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-          "publishedAt": "2026-10-02T13:00:00.000Z",
-          "topics": [
-            "sustainable-design"
-          ]
         }
       ]
     },
@@ -2109,10 +2161,10 @@
       "url": "https://vercel.com/changelog",
       "feed": "https://vercel.com/changelog/rss",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:06.603Z",
+      "checkedAt": "2026-10-19T04:35:56.607Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:06.394Z",
+        "checkedAt": "2026-10-19T04:35:56.080Z",
         "finalFeedUrl": "https://vercel.com/atom",
         "checks": [
           {
@@ -2121,7 +2173,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:06.394Z"
+            "checkedAt": "2026-10-19T04:35:56.080Z"
           },
           {
             "origin": "https://vercel.com",
@@ -2129,7 +2181,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:06.394Z"
+            "checkedAt": "2026-10-19T04:35:56.080Z"
           }
         ]
       },
@@ -2243,10 +2295,10 @@
       "url": "https://medium.com/pinterest-engineering",
       "feed": "https://medium.com/feed/pinterest-engineering",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:06.771Z",
+      "checkedAt": "2026-10-19T04:35:56.617Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:02.428Z",
+        "checkedAt": "2026-10-19T04:35:50.918Z",
         "finalFeedUrl": "https://medium.com/feed/pinterest-engineering",
         "checks": [
           {
@@ -2255,7 +2307,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:02.428Z"
+            "checkedAt": "2026-10-19T04:35:50.918Z"
           }
         ]
       },
@@ -2268,10 +2320,10 @@
       "url": "https://www.w3.org/WAI/",
       "feed": "https://www.w3.org/WAI/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-12T05:52:06.651Z",
+      "checkedAt": "2026-10-19T04:35:56.162Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-12T05:52:06.633Z",
+        "checkedAt": "2026-10-19T04:35:56.133Z",
         "finalFeedUrl": "https://www.w3.org/WAI/feed.xml",
         "checks": [
           {
@@ -2280,7 +2332,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-12T05:52:06.633Z"
+            "checkedAt": "2026-10-19T04:35:56.133Z"
           }
         ]
       },
@@ -2381,6 +2433,166 @@
   ],
   "articles": [
     {
+      "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+      "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
+      "publishedAt": "2026-10-16T16:01:02.000Z",
+      "topics": [
+        "realtime-content",
+        "3d-graphics-animation",
+        "personalization"
+      ],
+      "sourceId": "netflix-techblog",
+      "source": "Netflix TechBlog",
+      "company": "Netflix"
+    },
+    {
+      "title": "Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM",
+      "url": "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/",
+      "publishedAt": "2026-10-16T14:29:18.000Z",
+      "topics": [
+        "realtime-content",
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "spotify-engineering",
+      "source": "Spotify Engineering",
+      "company": "Spotify"
+    },
+    {
+      "title": "The next developer interface is ambient intelligence",
+      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+      "publishedAt": "2026-10-15T19:39:27.000Z",
+      "topics": [
+        "microinteractions",
+        "dark-mode"
+      ],
+      "sourceId": "github-ux",
+      "source": "GitHub Engineering · UX",
+      "company": "GitHub"
+    },
+    {
+      "title": "Strengthen your Chinese skills with new Component Sessions",
+      "url": "https://blog.duolingo.com/component-sessions/",
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "topics": [
+        "microinteractions"
+      ],
+      "sourceId": "duolingo",
+      "source": "Duolingo Design",
+      "company": "Duolingo"
+    },
+    {
+      "title": "Integrating Netflix’s Foundation Model into Personalization applications",
+      "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb",
+      "publishedAt": "2026-10-14T20:02:22.000Z",
+      "topics": [
+        "personalization",
+        "gamification",
+        "microinteractions"
+      ],
+      "sourceId": "netflix-techblog",
+      "source": "Netflix TechBlog",
+      "company": "Netflix"
+    },
+    {
+      "title": "Measuring the Impact of Personalized Recommendations",
+      "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96",
+      "publishedAt": "2026-10-14T19:57:43.000Z",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "netflix-techblog",
+      "source": "Netflix TechBlog",
+      "company": "Netflix"
+    },
+    {
+      "title": "Running Apache Spark experiments in my sleep (and on a plane)",
+      "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8",
+      "publishedAt": "2026-10-14T19:49:11.000Z",
+      "topics": [
+        "realtime-content",
+        "personalization",
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "netflix-techblog",
+      "source": "Netflix TechBlog",
+      "company": "Netflix"
+    },
+    {
+      "title": "CASTLE: training natural language search before the first real query",
+      "url": "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828",
+      "publishedAt": "2026-10-13T17:01:02.000Z",
+      "topics": [
+        "personalization",
+        "accessibility-performance"
+      ],
+      "sourceId": "airbnb-engineering",
+      "source": "Airbnb Engineering",
+      "company": "Airbnb"
+    },
+    {
+      "title": "Promptcraft",
+      "url": "https://microsoft.design/articles/promptcraft/",
+      "publishedAt": "2026-10-13T16:59:22.000Z",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Design humanity in the intelligence age",
+      "url": "https://microsoft.design/articles/design-humanity-in-the-intelligence-era/",
+      "publishedAt": "2026-10-13T16:59:00.000Z",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Scaling the design process",
+      "url": "https://microsoft.design/articles/scaling-the-design-process/",
+      "publishedAt": "2026-10-13T16:48:59.000Z",
+      "topics": [
+        "personalization",
+        "microinteractions"
+      ],
+      "sourceId": "microsoft-design",
+      "source": "Microsoft Design",
+      "company": "Microsoft"
+    },
+    {
+      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+      "publishedAt": "2026-10-12T16:01:32.000Z",
+      "topics": [
+        "realtime-content"
+      ],
+      "sourceId": "meta-engineering",
+      "source": "Meta Engineering",
+      "company": "Meta"
+    },
+    {
+      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+      "publishedAt": "2026-10-12T16:00:50.000Z",
+      "topics": [
+        "personalization",
+        "sustainable-design",
+        "frontend-platform",
+        "accessibility-performance"
+      ],
+      "sourceId": "meta-engineering",
+      "source": "Meta Engineering",
+      "company": "Meta"
+    },
+    {
       "title": "How one bug bounty researcher chooses the features they investigate",
       "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
       "publishedAt": "2026-10-08T17:02:52.000Z",
@@ -2462,15 +2674,15 @@
       "company": "Cloudflare"
     },
     {
-      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-      "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-      "publishedAt": "2026-10-02T13:00:00.000Z",
+      "title": "New to the web platform in September",
+      "url": "https://web.dev/blog/web-platform-09-2026?hl=en",
+      "publishedAt": "2026-10-02T07:00:00.000Z",
       "topics": [
-        "sustainable-design"
+        "frontend-platform"
       ],
-      "sourceId": "cloudflare-blog",
-      "source": "Cloudflare Blog",
-      "company": "Cloudflare"
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "AI Gateway adds Browserbase Search and Fetch tools",
@@ -2506,6 +2718,30 @@
       "sourceId": "vercel-changelog",
       "source": "Vercel Changelog",
       "company": "Vercel"
+    },
+    {
+      "title": "HTML-in-Canvas updates: Iterating toward a better Web API",
+      "url": "https://developer.chrome.com/blog/html-in-canvas-ot-changes?hl=en",
+      "publishedAt": "2026-09-29T07:00:00.000Z",
+      "topics": [
+        "3d-graphics-animation",
+        "personalization",
+        "frontend-platform"
+      ],
+      "sourceId": "chrome-developers",
+      "source": "Chrome for Developers",
+      "company": "Google Chrome"
+    },
+    {
+      "title": "August 2026 Baseline monthly digest",
+      "url": "https://web.dev/blog/baseline-digest-aug-2026?hl=en",
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "Search domains without authentication",
@@ -2566,6 +2802,18 @@
       "sourceId": "microsoft-design",
       "source": "Microsoft Design",
       "company": "Microsoft"
+    },
+    {
+      "title": "New in DevTools - October 2026",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-october-2026?hl=en",
+      "publishedAt": "2026-09-22T07:00:00.000Z",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "chrome-developers",
+      "source": "Chrome for Developers",
+      "company": "Google Chrome"
     },
     {
       "title": "WCAG 2.2 and 2.1 in French — Authorized translations updated",
@@ -2744,6 +2992,17 @@
       "company": "Vercel"
     },
     {
+      "title": "Submit your proposals for Interop 2027",
+      "url": "https://web.dev/blog/interop-2027-proposals?hl=en",
+      "publishedAt": "2026-09-03T07:00:00.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
       "title": "Fixing Top-Level Await in Safari",
       "url": "https://webkit.org/blog/18227/fixing-top-level-await-in-safari/",
       "publishedAt": "2026-09-02T17:05:29.000Z",
@@ -2788,17 +3047,15 @@
       "company": "Vercel"
     },
     {
-      "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-      "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-      "publishedAt": "2026-08-28T16:01:02.000Z",
+      "title": "New to the web platform in August",
+      "url": "https://web.dev/blog/web-platform-08-2026?hl=en",
+      "publishedAt": "2026-08-28T07:00:00.000Z",
       "topics": [
-        "personalization",
-        "gamification",
-        "microinteractions"
+        "frontend-platform"
       ],
-      "sourceId": "netflix-techblog",
-      "source": "Netflix TechBlog",
-      "company": "Netflix"
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
@@ -2859,18 +3116,6 @@
       "company": "CSS-Tricks"
     },
     {
-      "title": "AAOS SDV - Secure by Design",
-      "url": "https://android-developers.googleblog.com/feeds/6753712392854325591/comments/default",
-      "publishedAt": "2026-08-24T16:00:31.669Z",
-      "topics": [
-        "webview-hybrid",
-        "accessibility-performance"
-      ],
-      "sourceId": "android-developers",
-      "source": "Android Developers Blog",
-      "company": "Google Android"
-    },
-    {
       "title": "WebView2 is moving to a 2-week release cadence",
       "url": "https://blogs.windows.com/msedgedev/2026/08/24/webview2-is-moving-to-a-2-week-release-cadence/",
       "publishedAt": "2026-08-24T15:55:41.000Z",
@@ -2891,6 +3136,18 @@
       "sourceId": "css-tricks",
       "source": "CSS-Tricks",
       "company": "CSS-Tricks"
+    },
+    {
+      "title": "AAOS SDV - Secure by Design",
+      "url": "https://developer.android.com/blog/posts/aaos-sdv-secure-by-design",
+      "publishedAt": "2026-08-24T00:00:00.000Z",
+      "topics": [
+        "webview-hybrid",
+        "accessibility-performance"
+      ],
+      "sourceId": "android-developers",
+      "source": "Android Developers Blog",
+      "company": "Google Android"
     },
     {
       "title": "Resolved: CSS Class Prefix Selector",
@@ -2949,11 +3206,12 @@
       "company": "CSS-Tricks"
     },
     {
-      "title": "Jetpack XR SDK core libraries reach beta: The next milestone for Android XR",
-      "url": "https://android-developers.googleblog.com/feeds/5965363738026017539/comments/default",
-      "publishedAt": "2026-08-18T17:00:00.000Z",
+      "title": "Preparing your app for broader memory limits",
+      "url": "https://developer.android.com/blog/posts/preparing-your-app-for-broader-memory-limits",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
       "topics": [
-        "ar-vr"
+        "webview-hybrid",
+        "accessibility-performance"
       ],
       "sourceId": "android-developers",
       "source": "Android Developers Blog",
@@ -3008,17 +3266,6 @@
       "company": "Microsoft"
     },
     {
-      "title": "Bring one-handed gestures to your Wear OS app",
-      "url": "https://android-developers.googleblog.com/feeds/2798697072776672466/comments/default",
-      "publishedAt": "2026-08-12T17:00:00.000Z",
-      "topics": [
-        "microinteractions"
-      ],
-      "sourceId": "android-developers",
-      "source": "Android Developers Blog",
-      "company": "Google Android"
-    },
-    {
       "title": "Blocked aria-hidden: The Warning is Right, and Every Fix You’ve Found is Wrong",
       "url": "https://css-tricks.com/blocked-aria-hidden-fix/",
       "publishedAt": "2026-08-12T13:43:56.000Z",
@@ -3045,6 +3292,17 @@
       "company": "Smashing Media"
     },
     {
+      "title": "July 2026 Baseline monthly digest",
+      "url": "https://web.dev/blog/baseline-digest-jul-2026?hl=en",
+      "publishedAt": "2026-08-10T07:00:00.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
       "title": "How Baseline Can Help You Ship Less JavaScript",
       "url": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
       "publishedAt": "2026-08-07T13:00:00.000Z",
@@ -3068,30 +3326,15 @@
       "company": "Microsoft"
     },
     {
-      "title": "Modeling Device Capabilities for Analytics",
-      "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
-      "publishedAt": "2026-07-31T16:01:02.000Z",
+      "title": "New to the web platform in July",
+      "url": "https://web.dev/blog/web-platform-07-2026?hl=en",
+      "publishedAt": "2026-07-31T07:00:00.000Z",
       "topics": [
-        "realtime-content",
-        "kinetic-typography"
+        "frontend-platform"
       ],
-      "sourceId": "netflix-techblog",
-      "source": "Netflix TechBlog",
-      "company": "Netflix"
-    },
-    {
-      "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-      "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-      "publishedAt": "2026-07-30T20:10:15.000Z",
-      "topics": [
-        "realtime-content",
-        "personalization",
-        "kinetic-typography",
-        "gamification"
-      ],
-      "sourceId": "netflix-techblog",
-      "source": "Netflix TechBlog",
-      "company": "Netflix"
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
@@ -3104,18 +3347,6 @@
       "sourceId": "smashing-magazine",
       "source": "Smashing Magazine",
       "company": "Smashing Media"
-    },
-    {
-      "title": "Bringing a humanitarian lens to the future of AI",
-      "url": "https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/",
-      "publishedAt": "2026-07-28T16:35:21.000Z",
-      "topics": [
-        "personalization",
-        "microinteractions"
-      ],
-      "sourceId": "microsoft-design",
-      "source": "Microsoft Design",
-      "company": "Microsoft"
     },
     {
       "title": "Thinking Outside The Box: Digital Design In The AI Era",
@@ -3141,6 +3372,17 @@
       "company": "Apple WebKit"
     },
     {
+      "title": "The Baseline Features audit is now available in Lighthouse",
+      "url": "https://web.dev/blog/baseline-lighthouse-features-audit?hl=en",
+      "publishedAt": "2026-07-27T07:00:00.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
+    },
+    {
       "title": "WCAG Evaluation Methodology (WCAG-EM) 2.0 — Note Published",
       "url": "https://www.w3.org/WAI/news/2026-07-23/wcag-em-2/",
       "publishedAt": "2026-07-23T00:00:00.000Z",
@@ -3151,18 +3393,6 @@
       "sourceId": "w3c-wai",
       "source": "Web Accessibility Initiative",
       "company": "W3C"
-    },
-    {
-      "title": "Gathering around the fire: Durable human experience patterns in the AI era",
-      "url": "https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/",
-      "publishedAt": "2026-07-22T13:38:37.000Z",
-      "topics": [
-        "personalization",
-        "microinteractions"
-      ],
-      "sourceId": "microsoft-design",
-      "source": "Microsoft Design",
-      "company": "Microsoft"
     },
     {
       "title": "Personalizing Airbnb search by learning from the guest journey",
@@ -3187,6 +3417,17 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
+    },
+    {
+      "title": "June 2026 Baseline monthly digest",
+      "url": "https://web.dev/blog/baseline-digest-jun-2026?hl=en",
+      "publishedAt": "2026-07-17T07:00:00.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "web-dev",
+      "source": "web.dev",
+      "company": "Google Chrome"
     },
     {
       "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
@@ -3249,40 +3490,14 @@
       "company": "Smashing Media"
     },
     {
-      "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
-      "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
-      "publishedAt": "2026-06-29T13:01:02.000Z",
+      "title": "New to the web platform in June",
+      "url": "https://web.dev/blog/web-platform-06-2026?hl=en",
+      "publishedAt": "2026-06-30T07:00:00.000Z",
       "topics": [
-        "realtime-content",
-        "personalization",
-        "gamification",
-        "microinteractions"
+        "frontend-platform"
       ],
-      "sourceId": "netflix-techblog",
-      "source": "Netflix TechBlog",
-      "company": "Netflix"
-    },
-    {
-      "title": "When outputs are the experience",
-      "url": "https://microsoft.design/articles/when-outputs-are-the-experience/",
-      "publishedAt": "2026-06-29T13:00:00.000Z",
-      "topics": [
-        "personalization",
-        "microinteractions"
-      ],
-      "sourceId": "microsoft-design",
-      "source": "Microsoft Design",
-      "company": "Microsoft"
-    },
-    {
-      "title": "Unlock runtime insights: Introducing third-party developer tools for Chrome DevTools for agents",
-      "url": "https://developer.chrome.com/blog/devtools-for-agents-3p-tools?hl=en",
-      "publishedAt": "2026-06-18T07:00:00.000Z",
-      "topics": [
-        "accessibility-performance"
-      ],
-      "sourceId": "chrome-developers",
-      "source": "Chrome for Developers",
+      "sourceId": "web-dev",
+      "source": "web.dev",
       "company": "Google Chrome"
     },
     {
@@ -3321,28 +3536,6 @@
       "company": "Slack"
     },
     {
-      "title": "What's new in DevTools (Chrome 149)",
-      "url": "https://developer.chrome.com/blog/new-in-devtools-149?hl=en",
-      "publishedAt": "2026-06-02T07:00:00.000Z",
-      "topics": [
-        "accessibility-performance"
-      ],
-      "sourceId": "chrome-developers",
-      "source": "Chrome for Developers",
-      "company": "Google Chrome"
-    },
-    {
-      "title": "New to the web platform in May",
-      "url": "https://web.dev/blog/web-platform-05-2026?hl=en",
-      "publishedAt": "2026-05-29T07:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
-    },
-    {
       "title": "Designing Where the Pixels Actually Live",
       "url": "https://slack.design/articles/designing-where-the-pixels-actually-live/",
       "publishedAt": "2026-05-27T18:12:34.000Z",
@@ -3363,17 +3556,6 @@
       "sourceId": "ibm-design",
       "source": "IBM Design",
       "company": "IBM"
-    },
-    {
-      "title": "April 2026 Baseline monthly digest",
-      "url": "https://web.dev/blog/baseline-digest-apr-2026?hl=en",
-      "publishedAt": "2026-05-27T07:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
     },
     {
       "title": "IBM Systems Environment Estimator recognized with prestigious 2026 iF Design Award",
@@ -3424,17 +3606,6 @@
       "company": "Mozilla"
     },
     {
-      "title": "New to the web platform in April",
-      "url": "https://web.dev/blog/web-platform-04-2026?hl=en",
-      "publishedAt": "2026-04-24T07:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
-    },
-    {
       "title": "IBM IT automation solutions gain further recognition with prestigious Indigo Design Awards",
       "url": "https://medium.com/design-ibm/ibm-it-automation-solutions-gain-further-recognition-with-prestigious-indigo-design-awards-004cb33518b8",
       "publishedAt": "2026-04-23T18:21:55.000Z",
@@ -3446,17 +3617,6 @@
       "sourceId": "ibm-design",
       "source": "IBM Design",
       "company": "IBM"
-    },
-    {
-      "title": "March 2026 Baseline monthly digest",
-      "url": "https://web.dev/blog/baseline-digest-mar-2026?hl=en",
-      "publishedAt": "2026-04-14T07:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
     },
     {
       "title": "No Small Task: Evolving the Way Millions Catch Up in Slack",
@@ -3481,28 +3641,6 @@
       "sourceId": "mdn-blog",
       "source": "MDN Blog",
       "company": "Mozilla"
-    },
-    {
-      "title": "February 2026 Baseline monthly digest",
-      "url": "https://web.dev/blog/baseline-digest-feb-2026?hl=en",
-      "publishedAt": "2026-03-30T07:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
-    },
-    {
-      "title": "New to the web platform in March",
-      "url": "https://web.dev/blog/web-platform-03-2026?hl=en",
-      "publishedAt": "2026-03-27T07:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
     },
     {
       "title": "I built a Figma plugin because the Carbon Data Table workflow was broken",
@@ -3541,17 +3679,6 @@
       "company": "W3C"
     },
     {
-      "title": "January 2026 Baseline monthly digest",
-      "url": "https://web.dev/blog/baseline-digest-jan-2026?hl=en",
-      "publishedAt": "2026-03-02T08:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
-    },
-    {
       "title": "The Prompt Is the Prototype: How Structured AI Prompting Is Reshaping Enterprise Design",
       "url": "https://medium.com/design-ibm/the-prompt-is-the-prototype-how-structured-ai-prompting-is-reshaping-enterprise-design-b0c284549d76",
       "publishedAt": "2026-02-26T18:09:30.000Z",
@@ -3562,28 +3689,6 @@
       "sourceId": "ibm-design",
       "source": "IBM Design",
       "company": "IBM"
-    },
-    {
-      "title": "New to the web platform in February",
-      "url": "https://web.dev/blog/web-platform-02-2026?hl=en",
-      "publishedAt": "2026-02-26T08:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
-    },
-    {
-      "title": "Navigation API - a better way to navigate, is now Baseline Newly Available",
-      "url": "https://web.dev/blog/baseline-navigation-api?hl=en",
-      "publishedAt": "2026-02-17T08:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "web-dev",
-      "source": "web.dev",
-      "company": "Google Chrome"
     },
     {
       "title": "ACT Rules Format 1.1 is a Web Standard (W3C Recommendation)",
