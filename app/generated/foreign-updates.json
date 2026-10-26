@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T04:35:56.968Z",
+  "generatedAt": "2026-10-26T04:41:57.672Z",
   "collectionPolicy": "metadata-only",
   "stats": {
     "catalogSources": 43,
     "feedSources": 30,
     "healthyFeeds": 29,
     "robotsAllowedFeeds": 29,
-    "articles": 181
+    "articles": 180
   },
   "sources": [
     {
@@ -17,10 +17,10 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.184Z",
+      "checkedAt": "2026-10-26T04:41:53.212Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/airbnb-engineering",
         "checks": [
           {
@@ -29,7 +29,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -97,10 +97,10 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.299Z",
+      "checkedAt": "2026-10-26T04:41:53.296Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.991Z",
+        "checkedAt": "2026-10-26T04:41:53.172Z",
         "finalFeedUrl": "https://engineering.atspotify.com/feed",
         "checks": [
           {
@@ -109,7 +109,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.991Z"
+            "checkedAt": "2026-10-26T04:41:53.172Z"
           },
           {
             "origin": "https://engineering.atspotify.com",
@@ -117,7 +117,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.991Z"
+            "checkedAt": "2026-10-26T04:41:53.172Z"
           }
         ]
       },
@@ -141,10 +141,10 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.818Z",
+      "checkedAt": "2026-10-26T04:41:53.661Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/uber-design",
         "checks": [
           {
@@ -153,7 +153,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -254,10 +254,10 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:52.389Z",
+      "checkedAt": "2026-10-26T04:41:54.269Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/dropbox-design",
         "checks": [
           {
@@ -266,7 +266,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -368,10 +368,10 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.086Z",
+      "checkedAt": "2026-10-26T04:41:53.162Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:51.013Z",
+        "checkedAt": "2026-10-26T04:41:53.109Z",
         "finalFeedUrl": "https://slack.design/feed/",
         "checks": [
           {
@@ -380,7 +380,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:51.013Z"
+            "checkedAt": "2026-10-26T04:41:53.109Z"
           }
         ]
       },
@@ -498,10 +498,10 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.432Z",
+      "checkedAt": "2026-10-26T04:41:53.181Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:51.351Z",
+        "checkedAt": "2026-10-26T04:41:53.116Z",
         "finalFeedUrl": "https://microsoft.design/feed/",
         "checks": [
           {
@@ -510,7 +510,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:51.351Z"
+            "checkedAt": "2026-10-26T04:41:53.116Z"
           }
         ]
       },
@@ -613,10 +613,10 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.727Z",
+      "checkedAt": "2026-10-26T04:41:53.771Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:51.604Z",
+        "checkedAt": "2026-10-26T04:41:53.663Z",
         "finalFeedUrl": "https://www.intercom.com/blog/feed",
         "checks": [
           {
@@ -625,7 +625,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:51.604Z"
+            "checkedAt": "2026-10-26T04:41:53.663Z"
           },
           {
             "origin": "https://www.intercom.com",
@@ -633,7 +633,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:51.604Z"
+            "checkedAt": "2026-10-26T04:41:53.663Z"
           }
         ]
       },
@@ -656,10 +656,10 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.980Z",
+      "checkedAt": "2026-10-26T04:41:53.573Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:51.944Z",
+        "checkedAt": "2026-10-26T04:41:53.558Z",
         "finalFeedUrl": "https://blog.duolingo.com/rss/",
         "checks": [
           {
@@ -668,13 +668,13 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:51.944Z"
+            "checkedAt": "2026-10-26T04:41:53.558Z"
           }
         ]
       },
       "articles": [
         {
-          "title": "Strengthen your Chinese skills with new Component Sessions",
+          "title": "Strengthen your Chinese and Japanese skills with new Component Sessions",
           "url": "https://blog.duolingo.com/component-sessions/",
           "publishedAt": "2026-10-15T12:00:00.000Z",
           "topics": [
@@ -690,10 +690,10 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:51.970Z",
+      "checkedAt": "2026-10-26T04:41:53.820Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:51.931Z",
+        "checkedAt": "2026-10-26T04:41:53.790Z",
         "finalFeedUrl": "https://www.canva.dev/blog/engineering/feed.xml",
         "checks": [
           {
@@ -702,7 +702,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:51.931Z"
+            "checkedAt": "2026-10-26T04:41:53.790Z"
           }
         ]
       },
@@ -733,10 +733,10 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:52.233Z",
+      "checkedAt": "2026-10-26T04:41:53.980Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:52.169Z",
+        "checkedAt": "2026-10-26T04:41:53.955Z",
         "finalFeedUrl": "https://github.blog/feed/",
         "checks": [
           {
@@ -745,24 +745,23 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:52.169Z"
+            "checkedAt": "2026-10-26T04:41:53.955Z"
           }
         ]
       },
       "articles": [
         {
-          "title": "The next developer interface is ambient intelligence",
-          "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
-          "publishedAt": "2026-10-15T19:39:27.000Z",
+          "title": "How bug bounty sharpens one researcher’s security skills",
+          "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+          "publishedAt": "2026-10-22T17:21:30.000Z",
           "topics": [
-            "microinteractions",
-            "dark-mode"
+            "biometric-auth"
           ]
         },
         {
-          "title": "How one bug bounty researcher chooses the features they investigate",
-          "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-          "publishedAt": "2026-10-08T17:02:52.000Z",
+          "title": "The next developer interface is ambient intelligence",
+          "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+          "publishedAt": "2026-10-15T19:39:27.000Z",
           "topics": [
             "microinteractions",
             "dark-mode"
@@ -777,10 +776,10 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:53.032Z",
+      "checkedAt": "2026-10-26T04:41:54.732Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/netflix-techblog",
         "checks": [
           {
@@ -789,7 +788,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -842,10 +841,10 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:53.639Z",
+      "checkedAt": "2026-10-26T04:41:55.184Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/design-ibm",
         "checks": [
           {
@@ -854,7 +853,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -961,10 +960,10 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:54.562Z",
+      "checkedAt": "2026-10-26T04:41:55.627Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/indeed-design",
         "checks": [
           {
@@ -973,7 +972,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -1079,10 +1078,10 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:55.168Z",
+      "checkedAt": "2026-10-26T04:41:56.088Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/etsy-design",
         "checks": [
           {
@@ -1091,7 +1090,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -1199,11 +1198,11 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "stale",
-      "checkedAt": "2026-10-19T04:35:52.612Z",
+      "checkedAt": "2026-10-26T04:41:54.256Z",
       "error": "robots.txt policy denied https://codeascraft.com",
       "robots": {
         "status": "blocked",
-        "checkedAt": "2026-10-19T04:35:52.612Z",
+        "checkedAt": "2026-10-26T04:41:54.256Z",
         "finalFeedUrl": "https://codeascraft.com/feed/",
         "checks": [
           {
@@ -1212,7 +1211,7 @@
             "httpStatus": 403,
             "decision": "blocked",
             "reason": "unreachable-or-restricted",
-            "checkedAt": "2026-10-19T04:35:52.612Z"
+            "checkedAt": "2026-10-26T04:41:54.256Z"
           }
         ]
       },
@@ -1225,10 +1224,10 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:55.969Z",
+      "checkedAt": "2026-10-26T04:41:56.740Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/wayfair-design",
         "checks": [
           {
@@ -1237,7 +1236,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -1346,10 +1345,10 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:52.486Z",
+      "checkedAt": "2026-10-26T04:41:54.335Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:52.451Z",
+        "checkedAt": "2026-10-26T04:41:54.323Z",
         "finalFeedUrl": "https://engineering.fb.com/feed/",
         "checks": [
           {
@@ -1358,28 +1357,25 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:52.451Z"
+            "checkedAt": "2026-10-26T04:41:54.323Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+          "publishedAt": "2026-10-19T16:00:47.000Z",
+          "topics": [
+            "personalization"
+          ]
+        },
         {
           "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
           "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
           "publishedAt": "2026-10-12T16:01:32.000Z",
           "topics": [
             "realtime-content"
-          ]
-        },
-        {
-          "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-          "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
-          "publishedAt": "2026-10-12T16:00:50.000Z",
-          "topics": [
-            "personalization",
-            "sustainable-design",
-            "frontend-platform",
-            "accessibility-performance"
           ]
         }
       ]
@@ -1391,10 +1387,10 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:53.798Z",
+      "checkedAt": "2026-10-26T04:41:55.258Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:52.914Z",
+        "checkedAt": "2026-10-26T04:41:54.646Z",
         "finalFeedUrl": "https://web.dev/static/blog/feed.xml",
         "checks": [
           {
@@ -1403,7 +1399,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:52.914Z"
+            "checkedAt": "2026-10-26T04:41:54.646Z"
           },
           {
             "origin": "https://web.dev",
@@ -1411,7 +1407,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:52.914Z"
+            "checkedAt": "2026-10-26T04:41:54.646Z"
           }
         ]
       },
@@ -1497,10 +1493,10 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:53.692Z",
+      "checkedAt": "2026-10-26T04:41:54.920Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:53.061Z",
+        "checkedAt": "2026-10-26T04:41:54.828Z",
         "finalFeedUrl": "https://developer.chrome.com/static/blog/feed.xml",
         "checks": [
           {
@@ -1509,7 +1505,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:53.061Z"
+            "checkedAt": "2026-10-26T04:41:54.828Z"
           }
         ]
       },
@@ -1542,10 +1538,10 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:54.052Z",
+      "checkedAt": "2026-10-26T04:41:55.842Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:53.452Z",
+        "checkedAt": "2026-10-26T04:41:55.129Z",
         "finalFeedUrl": "https://webkit.org/feed/",
         "checks": [
           {
@@ -1554,11 +1550,28 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:53.452Z"
+            "checkedAt": "2026-10-26T04:41:55.129Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "WebKit Features for Safari 27.1",
+          "url": "https://webkit.org/blog/18486/webkit-features-for-safari-27-1/",
+          "publishedAt": "2026-10-23T17:00:59.000Z",
+          "topics": [
+            "webview-hybrid"
+          ]
+        },
+        {
+          "title": "Blocking Identity Resolution Infrastructure",
+          "url": "https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/",
+          "publishedAt": "2026-10-19T17:50:24.000Z",
+          "topics": [
+            "biometric-auth",
+            "webview-hybrid"
+          ]
+        },
         {
           "title": "WebKit Features for Safari 27.0",
           "url": "https://webkit.org/blog/18325/webkit-features-for-safari-27-0/",
@@ -1574,14 +1587,6 @@
           "topics": [
             "webview-hybrid"
           ]
-        },
-        {
-          "title": "WebKit Features for Safari 26.6",
-          "url": "https://webkit.org/blog/18178/webkit-features-for-safari-26-6/",
-          "publishedAt": "2026-07-27T18:00:52.000Z",
-          "topics": [
-            "webview-hybrid"
-          ]
         }
       ]
     },
@@ -1592,10 +1597,10 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:54.122Z",
+      "checkedAt": "2026-10-26T04:41:55.299Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:54.099Z",
+        "checkedAt": "2026-10-26T04:41:55.290Z",
         "finalFeedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
         "checks": [
           {
@@ -1604,7 +1609,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:54.099Z"
+            "checkedAt": "2026-10-26T04:41:55.290Z"
           }
         ]
       },
@@ -1718,10 +1723,10 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:54.494Z",
+      "checkedAt": "2026-10-26T04:41:55.788Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:54.337Z",
+        "checkedAt": "2026-10-26T04:41:55.662Z",
         "finalFeedUrl": "https://hacks.mozilla.org/feed/",
         "checks": [
           {
@@ -1730,7 +1735,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:54.337Z"
+            "checkedAt": "2026-10-26T04:41:55.662Z"
           }
         ]
       },
@@ -1760,10 +1765,10 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:54.607Z",
+      "checkedAt": "2026-10-26T04:41:55.796Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:54.496Z",
+        "checkedAt": "2026-10-26T04:41:55.701Z",
         "finalFeedUrl": "https://blogs.windows.com/msedgedev/feed/",
         "checks": [
           {
@@ -1772,7 +1777,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:54.496Z"
+            "checkedAt": "2026-10-26T04:41:55.701Z"
           }
         ]
       },
@@ -1813,19 +1818,19 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:55.757Z",
+      "checkedAt": "2026-10-26T04:41:56.654Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:55.505Z",
+        "checkedAt": "2026-10-26T04:41:56.520Z",
         "finalFeedUrl": "https://developer.android.com/static/blog/atom.xml",
         "checks": [
           {
             "origin": "https://android-developers.googleblog.com",
             "robotsUrl": "https://android-developers.googleblog.com/robots.txt",
-            "httpStatus": 404,
+            "httpStatus": 200,
             "decision": "allowed",
-            "reason": "not-published",
-            "checkedAt": "2026-10-19T04:35:55.014Z"
+            "reason": "Allow: /",
+            "checkedAt": "2026-10-26T04:41:56.219Z"
           },
           {
             "origin": "https://developer.android.com",
@@ -1833,7 +1838,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:55.505Z"
+            "checkedAt": "2026-10-26T04:41:56.520Z"
           }
         ]
       },
@@ -1842,15 +1847,6 @@
           "title": "AAOS SDV - Secure by Design",
           "url": "https://developer.android.com/blog/posts/aaos-sdv-secure-by-design",
           "publishedAt": "2026-08-24T00:00:00.000Z",
-          "topics": [
-            "webview-hybrid",
-            "accessibility-performance"
-          ]
-        },
-        {
-          "title": "Preparing your app for broader memory limits",
-          "url": "https://developer.android.com/blog/posts/preparing-your-app-for-broader-memory-limits",
-          "publishedAt": "2026-08-19T00:00:00.000Z",
           "topics": [
             "webview-hybrid",
             "accessibility-performance"
@@ -1865,10 +1861,10 @@
       "url": "https://www.smashingmagazine.com/",
       "feed": "https://www.smashingmagazine.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:55.108Z",
+      "checkedAt": "2026-10-26T04:41:56.309Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:54.959Z",
+        "checkedAt": "2026-10-26T04:41:56.278Z",
         "finalFeedUrl": "https://www.smashingmagazine.com/feed/",
         "checks": [
           {
@@ -1877,11 +1873,20 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:54.959Z"
+            "checkedAt": "2026-10-26T04:41:56.278Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "publishedAt": "2026-10-20T10:00:00.000Z",
+          "topics": [
+            "kinetic-typography",
+            "frontend-platform"
+          ]
+        },
         {
           "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
           "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
@@ -1980,16 +1985,6 @@
           "topics": [
             "microinteractions"
           ]
-        },
-        {
-          "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
-          "url": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
-          "publishedAt": "2026-07-07T10:00:00.000Z",
-          "topics": [
-            "3d-graphics-animation",
-            "sustainable-design",
-            "accessibility-performance"
-          ]
         }
       ]
     },
@@ -2000,10 +1995,10 @@
       "url": "https://css-tricks.com/",
       "feed": "https://css-tricks.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:55.729Z",
+      "checkedAt": "2026-10-26T04:41:56.838Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:55.092Z",
+        "checkedAt": "2026-10-26T04:41:56.275Z",
         "finalFeedUrl": "https://css-tricks.com/feed/",
         "checks": [
           {
@@ -2012,7 +2007,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-10-19T04:35:55.092Z"
+            "checkedAt": "2026-10-26T04:41:56.275Z"
           }
         ]
       },
@@ -2126,10 +2121,10 @@
       "url": "https://blog.cloudflare.com/",
       "feed": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:55.640Z",
+      "checkedAt": "2026-10-26T04:41:56.750Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:55.571Z",
+        "checkedAt": "2026-10-26T04:41:56.721Z",
         "finalFeedUrl": "https://blog.cloudflare.com/rss/",
         "checks": [
           {
@@ -2138,21 +2133,11 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-10-19T04:35:55.571Z"
+            "checkedAt": "2026-10-26T04:41:56.721Z"
           }
         ]
       },
-      "articles": [
-        {
-          "title": "Introducing Web Search API via AI Gateway",
-          "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-          "publishedAt": "2026-10-02T13:28:10.000Z",
-          "topics": [
-            "realtime-content",
-            "personalization"
-          ]
-        }
-      ]
+      "articles": []
     },
     {
       "id": "vercel-changelog",
@@ -2161,10 +2146,10 @@
       "url": "https://vercel.com/changelog",
       "feed": "https://vercel.com/changelog/rss",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:56.607Z",
+      "checkedAt": "2026-10-26T04:41:57.287Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:56.080Z",
+        "checkedAt": "2026-10-26T04:41:57.038Z",
         "finalFeedUrl": "https://vercel.com/atom",
         "checks": [
           {
@@ -2173,7 +2158,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:56.080Z"
+            "checkedAt": "2026-10-26T04:41:57.038Z"
           },
           {
             "origin": "https://vercel.com",
@@ -2181,7 +2166,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:56.080Z"
+            "checkedAt": "2026-10-26T04:41:57.038Z"
           }
         ]
       },
@@ -2295,10 +2280,10 @@
       "url": "https://medium.com/pinterest-engineering",
       "feed": "https://medium.com/feed/pinterest-engineering",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:56.617Z",
+      "checkedAt": "2026-10-26T04:41:57.304Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:50.918Z",
+        "checkedAt": "2026-10-26T04:41:53.112Z",
         "finalFeedUrl": "https://medium.com/feed/pinterest-engineering",
         "checks": [
           {
@@ -2307,7 +2292,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:50.918Z"
+            "checkedAt": "2026-10-26T04:41:53.112Z"
           }
         ]
       },
@@ -2320,10 +2305,10 @@
       "url": "https://www.w3.org/WAI/",
       "feed": "https://www.w3.org/WAI/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-10-19T04:35:56.162Z",
+      "checkedAt": "2026-10-26T04:41:57.322Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-10-19T04:35:56.133Z",
+        "checkedAt": "2026-10-26T04:41:57.308Z",
         "finalFeedUrl": "https://www.w3.org/WAI/feed.xml",
         "checks": [
           {
@@ -2332,7 +2317,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-10-19T04:35:56.133Z"
+            "checkedAt": "2026-10-26T04:41:57.308Z"
           }
         ]
       },
@@ -2433,6 +2418,63 @@
   ],
   "articles": [
     {
+      "title": "WebKit Features for Safari 27.1",
+      "url": "https://webkit.org/blog/18486/webkit-features-for-safari-27-1/",
+      "publishedAt": "2026-10-23T17:00:59.000Z",
+      "topics": [
+        "webview-hybrid"
+      ],
+      "sourceId": "webkit-blog",
+      "source": "WebKit Blog",
+      "company": "Apple WebKit"
+    },
+    {
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+      "publishedAt": "2026-10-22T17:21:30.000Z",
+      "topics": [
+        "biometric-auth"
+      ],
+      "sourceId": "github-ux",
+      "source": "GitHub Engineering · UX",
+      "company": "GitHub"
+    },
+    {
+      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+      "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "topics": [
+        "kinetic-typography",
+        "frontend-platform"
+      ],
+      "sourceId": "smashing-magazine",
+      "source": "Smashing Magazine",
+      "company": "Smashing Media"
+    },
+    {
+      "title": "Blocking Identity Resolution Infrastructure",
+      "url": "https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/",
+      "publishedAt": "2026-10-19T17:50:24.000Z",
+      "topics": [
+        "biometric-auth",
+        "webview-hybrid"
+      ],
+      "sourceId": "webkit-blog",
+      "source": "WebKit Blog",
+      "company": "Apple WebKit"
+    },
+    {
+      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+      "publishedAt": "2026-10-19T16:00:47.000Z",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "meta-engineering",
+      "source": "Meta Engineering",
+      "company": "Meta"
+    },
+    {
       "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
       "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
       "publishedAt": "2026-10-16T16:01:02.000Z",
@@ -2471,7 +2513,7 @@
       "company": "GitHub"
     },
     {
-      "title": "Strengthen your Chinese skills with new Component Sessions",
+      "title": "Strengthen your Chinese and Japanese skills with new Component Sessions",
       "url": "https://blog.duolingo.com/component-sessions/",
       "publishedAt": "2026-10-15T12:00:00.000Z",
       "topics": [
@@ -2579,32 +2621,6 @@
       "company": "Meta"
     },
     {
-      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
-      "publishedAt": "2026-10-12T16:00:50.000Z",
-      "topics": [
-        "personalization",
-        "sustainable-design",
-        "frontend-platform",
-        "accessibility-performance"
-      ],
-      "sourceId": "meta-engineering",
-      "source": "Meta Engineering",
-      "company": "Meta"
-    },
-    {
-      "title": "How one bug bounty researcher chooses the features they investigate",
-      "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-      "publishedAt": "2026-10-08T17:02:52.000Z",
-      "topics": [
-        "microinteractions",
-        "dark-mode"
-      ],
-      "sourceId": "github-ux",
-      "source": "GitHub Engineering · UX",
-      "company": "GitHub"
-    },
-    {
       "title": "Designing Michelangelus",
       "url": "https://microsoft.design/articles/designing-michelangelus/",
       "publishedAt": "2026-10-08T12:00:00.000Z",
@@ -2660,18 +2676,6 @@
       "sourceId": "microsoft-design",
       "source": "Microsoft Design",
       "company": "Microsoft"
-    },
-    {
-      "title": "Introducing Web Search API via AI Gateway",
-      "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-      "publishedAt": "2026-10-02T13:28:10.000Z",
-      "topics": [
-        "realtime-content",
-        "personalization"
-      ],
-      "sourceId": "cloudflare-blog",
-      "source": "Cloudflare Blog",
-      "company": "Cloudflare"
     },
     {
       "title": "New to the web platform in September",
@@ -3206,18 +3210,6 @@
       "company": "CSS-Tricks"
     },
     {
-      "title": "Preparing your app for broader memory limits",
-      "url": "https://developer.android.com/blog/posts/preparing-your-app-for-broader-memory-limits",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "topics": [
-        "webview-hybrid",
-        "accessibility-performance"
-      ],
-      "sourceId": "android-developers",
-      "source": "Android Developers Blog",
-      "company": "Google Android"
-    },
-    {
       "title": "Dark mode toggles: two states are enough",
       "url": "https://css-tricks.com/dark-mode-toggles-two-states-are-enough/",
       "publishedAt": "2026-08-17T14:15:50.000Z",
@@ -3361,17 +3353,6 @@
       "company": "Smashing Media"
     },
     {
-      "title": "WebKit Features for Safari 26.6",
-      "url": "https://webkit.org/blog/18178/webkit-features-for-safari-26-6/",
-      "publishedAt": "2026-07-27T18:00:52.000Z",
-      "topics": [
-        "webview-hybrid"
-      ],
-      "sourceId": "webkit-blog",
-      "source": "WebKit Blog",
-      "company": "Apple WebKit"
-    },
-    {
       "title": "The Baseline Features audit is now available in Lighthouse",
       "url": "https://web.dev/blog/baseline-lighthouse-features-audit?hl=en",
       "publishedAt": "2026-07-27T07:00:00.000Z",
@@ -3475,19 +3456,6 @@
       "sourceId": "microsoft-edge",
       "source": "Microsoft Edge Blog",
       "company": "Microsoft Edge"
-    },
-    {
-      "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
-      "url": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
-      "publishedAt": "2026-07-07T10:00:00.000Z",
-      "topics": [
-        "3d-graphics-animation",
-        "sustainable-design",
-        "accessibility-performance"
-      ],
-      "sourceId": "smashing-magazine",
-      "source": "Smashing Magazine",
-      "company": "Smashing Media"
     },
     {
       "title": "New to the web platform in June",
