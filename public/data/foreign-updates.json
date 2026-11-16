@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-09T06:19:28.159Z",
+  "generatedAt": "2026-11-16T06:22:08.724Z",
   "collectionPolicy": "metadata-only",
   "stats": {
     "catalogSources": 43,
     "feedSources": 30,
     "healthyFeeds": 29,
     "robotsAllowedFeeds": 29,
-    "articles": 181
+    "articles": 170
   },
   "sources": [
     {
@@ -17,10 +17,10 @@
       "url": "https://medium.com/airbnb-engineering",
       "feed": "https://medium.com/feed/airbnb-engineering",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:22.587Z",
+      "checkedAt": "2026-11-16T06:22:03.165Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/airbnb-engineering",
         "checks": [
           {
@@ -29,7 +29,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -78,15 +78,6 @@
             "microinteractions",
             "immersive-scrolling"
           ]
-        },
-        {
-          "title": "Personalizing Airbnb search by learning from the guest journey",
-          "url": "https://medium.com/airbnb-engineering/personalizing-airbnb-search-by-learning-from-the-guest-journey-bcefd1915624",
-          "publishedAt": "2026-07-21T17:01:04.000Z",
-          "topics": [
-            "personalization",
-            "kinetic-typography"
-          ]
         }
       ]
     },
@@ -97,10 +88,10 @@
       "url": "https://engineering.atspotify.com/",
       "feed": "https://engineering.atspotify.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:23.772Z",
+      "checkedAt": "2026-11-16T06:22:03.258Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:23.092Z",
+        "checkedAt": "2026-11-16T06:22:02.987Z",
         "finalFeedUrl": "https://engineering.atspotify.com/feed",
         "checks": [
           {
@@ -109,7 +100,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:23.092Z"
+            "checkedAt": "2026-11-16T06:22:02.987Z"
           },
           {
             "origin": "https://engineering.atspotify.com",
@@ -117,7 +108,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:23.092Z"
+            "checkedAt": "2026-11-16T06:22:02.987Z"
           }
         ]
       },
@@ -141,10 +132,10 @@
       "url": "https://medium.com/uber-design",
       "feed": "https://medium.com/feed/uber-design",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:23.091Z",
+      "checkedAt": "2026-11-16T06:22:03.733Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/uber-design",
         "checks": [
           {
@@ -153,7 +144,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -254,10 +245,10 @@
       "url": "https://medium.com/dropbox-design",
       "feed": "https://medium.com/feed/dropbox-design",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:23.586Z",
+      "checkedAt": "2026-11-16T06:22:04.240Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/dropbox-design",
         "checks": [
           {
@@ -266,7 +257,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -368,10 +359,10 @@
       "url": "https://slack.design/",
       "feed": "https://slack.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:22.622Z",
+      "checkedAt": "2026-11-16T06:22:02.953Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.546Z",
+        "checkedAt": "2026-11-16T06:22:02.903Z",
         "finalFeedUrl": "https://slack.design/feed/",
         "checks": [
           {
@@ -380,7 +371,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.546Z"
+            "checkedAt": "2026-11-16T06:22:02.903Z"
           }
         ]
       },
@@ -498,10 +489,10 @@
       "url": "https://microsoft.design/",
       "feed": "https://microsoft.design/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:22.792Z",
+      "checkedAt": "2026-11-16T06:22:03.056Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.589Z",
+        "checkedAt": "2026-11-16T06:22:02.967Z",
         "finalFeedUrl": "https://microsoft.design/feed/",
         "checks": [
           {
@@ -510,7 +501,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.589Z"
+            "checkedAt": "2026-11-16T06:22:02.967Z"
           }
         ]
       },
@@ -613,10 +604,10 @@
       "url": "https://www.intercom.com/blog/design/",
       "feed": "https://www.intercom.com/blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:23.392Z",
+      "checkedAt": "2026-11-16T06:22:03.656Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:23.152Z",
+        "checkedAt": "2026-11-16T06:22:03.452Z",
         "finalFeedUrl": "https://www.intercom.com/blog/feed",
         "checks": [
           {
@@ -625,7 +616,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:23.152Z"
+            "checkedAt": "2026-11-16T06:22:03.452Z"
           },
           {
             "origin": "https://www.intercom.com",
@@ -633,7 +624,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:23.152Z"
+            "checkedAt": "2026-11-16T06:22:03.452Z"
           }
         ]
       },
@@ -656,10 +647,10 @@
       "url": "https://blog.duolingo.com/tag/design/",
       "feed": "https://blog.duolingo.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:23.437Z",
+      "checkedAt": "2026-11-16T06:22:03.525Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:23.402Z",
+        "checkedAt": "2026-11-16T06:22:03.504Z",
         "finalFeedUrl": "https://blog.duolingo.com/rss/",
         "checks": [
           {
@@ -668,7 +659,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:23.402Z"
+            "checkedAt": "2026-11-16T06:22:03.504Z"
           }
         ]
       },
@@ -690,10 +681,10 @@
       "url": "https://www.canva.dev/blog/engineering/",
       "feed": "https://www.canva.dev/blog/engineering/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:23.893Z",
+      "checkedAt": "2026-11-16T06:22:03.820Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:23.862Z",
+        "checkedAt": "2026-11-16T06:22:03.783Z",
         "finalFeedUrl": "https://www.canva.dev/blog/engineering/feed.xml",
         "checks": [
           {
@@ -702,7 +693,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:23.862Z"
+            "checkedAt": "2026-11-16T06:22:03.783Z"
           }
         ]
       },
@@ -733,10 +724,10 @@
       "url": "https://github.blog/engineering/user-experience/",
       "feed": "https://github.blog/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:23.910Z",
+      "checkedAt": "2026-11-16T06:22:03.966Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:23.875Z",
+        "checkedAt": "2026-11-16T06:22:03.941Z",
         "finalFeedUrl": "https://github.blog/feed/",
         "checks": [
           {
@@ -745,7 +736,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:23.875Z"
+            "checkedAt": "2026-11-16T06:22:03.941Z"
           }
         ]
       },
@@ -758,14 +749,6 @@
             "sustainable-design",
             "accessibility-performance"
           ]
-        },
-        {
-          "title": "How bug bounty sharpens one researcher’s security skills",
-          "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-          "publishedAt": "2026-10-22T17:21:30.000Z",
-          "topics": [
-            "biometric-auth"
-          ]
         }
       ]
     },
@@ -776,10 +759,10 @@
       "url": "https://netflixtechblog.com/",
       "feed": "https://medium.com/feed/netflix-techblog",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:24.098Z",
+      "checkedAt": "2026-11-16T06:22:04.848Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/netflix-techblog",
         "checks": [
           {
@@ -788,7 +771,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -839,10 +822,10 @@
       "url": "https://medium.com/design-ibm",
       "feed": "https://medium.com/feed/design-ibm",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:24.630Z",
+      "checkedAt": "2026-11-16T06:22:05.590Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/design-ibm",
         "checks": [
           {
@@ -851,7 +834,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -958,10 +941,10 @@
       "url": "https://medium.com/indeed-design",
       "feed": "https://medium.com/feed/indeed-design",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:25.119Z",
+      "checkedAt": "2026-11-16T06:22:06.174Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/indeed-design",
         "checks": [
           {
@@ -970,7 +953,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -1076,10 +1059,10 @@
       "url": "https://medium.com/etsy-design",
       "feed": "https://medium.com/feed/etsy-design",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:25.634Z",
+      "checkedAt": "2026-11-16T06:22:06.904Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/etsy-design",
         "checks": [
           {
@@ -1088,7 +1071,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -1196,11 +1179,11 @@
       "url": "https://www.etsy.com/codeascraft",
       "feed": "https://codeascraft.com/feed/",
       "status": "stale",
-      "checkedAt": "2026-11-09T06:19:24.446Z",
+      "checkedAt": "2026-11-16T06:22:04.215Z",
       "error": "robots.txt policy denied https://codeascraft.com",
       "robots": {
         "status": "blocked",
-        "checkedAt": "2026-11-09T06:19:24.446Z",
+        "checkedAt": "2026-11-16T06:22:04.214Z",
         "finalFeedUrl": "https://codeascraft.com/feed/",
         "checks": [
           {
@@ -1209,7 +1192,7 @@
             "httpStatus": 403,
             "decision": "blocked",
             "reason": "unreachable-or-restricted",
-            "checkedAt": "2026-11-09T06:19:24.446Z"
+            "checkedAt": "2026-11-16T06:22:04.214Z"
           }
         ]
       },
@@ -1222,10 +1205,10 @@
       "url": "https://medium.com/wayfair-design",
       "feed": "https://medium.com/feed/wayfair-design",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:26.481Z",
+      "checkedAt": "2026-11-16T06:22:07.680Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/wayfair-design",
         "checks": [
           {
@@ -1234,7 +1217,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -1343,10 +1326,10 @@
       "url": "https://engineering.fb.com/",
       "feed": "https://engineering.fb.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:24.417Z",
+      "checkedAt": "2026-11-16T06:22:04.332Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:24.370Z",
+        "checkedAt": "2026-11-16T06:22:04.305Z",
         "finalFeedUrl": "https://engineering.fb.com/feed/",
         "checks": [
           {
@@ -1355,11 +1338,19 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:24.370Z"
+            "checkedAt": "2026-11-16T06:22:04.305Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
+          "url": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
+          "publishedAt": "2026-11-10T17:00:49.000Z",
+          "topics": [
+            "personalization"
+          ]
+        },
         {
           "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
           "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
@@ -1368,14 +1359,6 @@
             "personalization",
             "sustainable-design",
             "accessibility-performance"
-          ]
-        },
-        {
-          "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
-          "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
-          "publishedAt": "2026-10-19T16:00:47.000Z",
-          "topics": [
-            "personalization"
           ]
         }
       ]
@@ -1387,10 +1370,10 @@
       "url": "https://web.dev/",
       "feed": "https://web.dev/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:24.961Z",
+      "checkedAt": "2026-11-16T06:22:05.251Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:24.601Z",
+        "checkedAt": "2026-11-16T06:22:04.632Z",
         "finalFeedUrl": "https://web.dev/static/blog/feed.xml",
         "checks": [
           {
@@ -1399,7 +1382,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:24.601Z"
+            "checkedAt": "2026-11-16T06:22:04.632Z"
           },
           {
             "origin": "https://web.dev",
@@ -1407,7 +1390,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:24.601Z"
+            "checkedAt": "2026-11-16T06:22:04.632Z"
           }
         ]
       },
@@ -1493,10 +1476,10 @@
       "url": "https://developer.chrome.com/",
       "feed": "https://developer.chrome.com/static/blog/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:25.180Z",
+      "checkedAt": "2026-11-16T06:22:04.985Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:25.008Z",
+        "checkedAt": "2026-11-16T06:22:04.865Z",
         "finalFeedUrl": "https://developer.chrome.com/static/blog/feed.xml",
         "checks": [
           {
@@ -1505,7 +1488,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:25.008Z"
+            "checkedAt": "2026-11-16T06:22:04.865Z"
           }
         ]
       },
@@ -1538,10 +1521,10 @@
       "url": "https://webkit.org/blog/",
       "feed": "https://webkit.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:25.852Z",
+      "checkedAt": "2026-11-16T06:22:06.028Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:25.236Z",
+        "checkedAt": "2026-11-16T06:22:05.245Z",
         "finalFeedUrl": "https://webkit.org/feed/",
         "checks": [
           {
@@ -1550,7 +1533,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:25.236Z"
+            "checkedAt": "2026-11-16T06:22:05.245Z"
           }
         ]
       },
@@ -1608,10 +1591,10 @@
       "url": "https://developer.mozilla.org/en-US/blog/",
       "feed": "https://developer.mozilla.org/en-US/blog/rss.xml",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:25.421Z",
+      "checkedAt": "2026-11-16T06:22:05.414Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:25.398Z",
+        "checkedAt": "2026-11-16T06:22:05.400Z",
         "finalFeedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml",
         "checks": [
           {
@@ -1620,7 +1603,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:25.398Z"
+            "checkedAt": "2026-11-16T06:22:05.400Z"
           }
         ]
       },
@@ -1734,10 +1717,10 @@
       "url": "https://hacks.mozilla.org/",
       "feed": "https://hacks.mozilla.org/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:25.748Z",
+      "checkedAt": "2026-11-16T06:22:05.851Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:25.625Z",
+        "checkedAt": "2026-11-16T06:22:05.732Z",
         "finalFeedUrl": "https://hacks.mozilla.org/feed/",
         "checks": [
           {
@@ -1746,7 +1729,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:25.625Z"
+            "checkedAt": "2026-11-16T06:22:05.732Z"
           }
         ]
       },
@@ -1776,10 +1759,10 @@
       "url": "https://blogs.windows.com/msedgedev/",
       "feed": "https://blogs.windows.com/msedgedev/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:26.058Z",
+      "checkedAt": "2026-11-16T06:22:05.969Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:25.965Z",
+        "checkedAt": "2026-11-16T06:22:05.891Z",
         "finalFeedUrl": "https://blogs.windows.com/msedgedev/feed/",
         "checks": [
           {
@@ -1788,7 +1771,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:25.965Z"
+            "checkedAt": "2026-11-16T06:22:05.891Z"
           }
         ]
       },
@@ -1827,19 +1810,19 @@
       "url": "https://android-developers.googleblog.com/",
       "feed": "https://android-developers.googleblog.com/feeds/posts/default",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:27.095Z",
+      "checkedAt": "2026-11-16T06:22:08.373Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:26.995Z",
+        "checkedAt": "2026-11-16T06:22:07.778Z",
         "finalFeedUrl": "https://developer.android.com/static/blog/atom.xml",
         "checks": [
           {
             "origin": "https://android-developers.googleblog.com",
             "robotsUrl": "https://android-developers.googleblog.com/robots.txt",
-            "httpStatus": 404,
+            "httpStatus": 200,
             "decision": "allowed",
-            "reason": "not-published",
-            "checkedAt": "2026-11-09T06:19:26.547Z"
+            "reason": "Allow: /",
+            "checkedAt": "2026-11-16T06:22:06.377Z"
           },
           {
             "origin": "https://developer.android.com",
@@ -1847,7 +1830,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:26.995Z"
+            "checkedAt": "2026-11-16T06:22:07.778Z"
           }
         ]
       },
@@ -1869,10 +1852,10 @@
       "url": "https://www.smashingmagazine.com/",
       "feed": "https://www.smashingmagazine.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:26.569Z",
+      "checkedAt": "2026-11-16T06:22:06.625Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:26.412Z",
+        "checkedAt": "2026-11-16T06:22:06.514Z",
         "finalFeedUrl": "https://www.smashingmagazine.com/feed/",
         "checks": [
           {
@@ -1881,7 +1864,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:26.412Z"
+            "checkedAt": "2026-11-16T06:22:06.514Z"
           }
         ]
       },
@@ -2001,10 +1984,10 @@
       "url": "https://css-tricks.com/",
       "feed": "https://css-tricks.com/feed/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:27.027Z",
+      "checkedAt": "2026-11-16T06:22:07.046Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:26.499Z",
+        "checkedAt": "2026-11-16T06:22:06.498Z",
         "finalFeedUrl": "https://css-tricks.com/feed/",
         "checks": [
           {
@@ -2013,11 +1996,43 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-11-09T06:19:26.499Z"
+            "checkedAt": "2026-11-16T06:22:06.498Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "10 Big Ol’ 2027 Black Friday Deals",
+          "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
+          "publishedAt": "2026-11-13T14:05:24.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "Beyond 12 Columns: Designing Layouts With Personality",
+          "url": "https://css-tricks.com/beyond-12-columns/",
+          "publishedAt": "2026-11-12T16:06:55.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today?",
+          "url": "https://css-tricks.com/css-using-declarations-just-once/",
+          "publishedAt": "2026-11-10T16:42:18.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
+        {
+          "title": "CSS-Tricks, Version 20",
+          "url": "https://css-tricks.com/css-tricks-version-20/",
+          "publishedAt": "2026-11-09T15:49:48.000Z",
+          "topics": [
+            "frontend-platform"
+          ]
+        },
         {
           "title": "RSS Club: CSS-Tricks Redesign Preview",
           "url": "https://css-tricks.com/css-tricks-redesign-preview/",
@@ -2085,39 +2100,6 @@
           "topics": [
             "frontend-platform"
           ]
-        },
-        {
-          "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-          "url": "https://css-tricks.com/css-random-function-polyfill/",
-          "publishedAt": "2026-08-31T15:12:19.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "What’s !important #18: , Syntax ::highlight()ing, named-feature(), and More",
-          "url": "https://css-tricks.com/whats-important-18/",
-          "publishedAt": "2026-08-31T14:08:55.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-          "url": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-          "publishedAt": "2026-08-27T14:41:06.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "animation-trigger",
-          "url": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-          "publishedAt": "2026-08-26T15:38:41.000Z",
-          "topics": [
-            "3d-graphics-animation",
-            "frontend-platform"
-          ]
         }
       ]
     },
@@ -2128,10 +2110,10 @@
       "url": "https://blog.cloudflare.com/",
       "feed": "https://blog.cloudflare.com/rss/",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:27.086Z",
+      "checkedAt": "2026-11-16T06:22:07.175Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:27.037Z",
+        "checkedAt": "2026-11-16T06:22:07.129Z",
         "finalFeedUrl": "https://blog.cloudflare.com/rss/",
         "checks": [
           {
@@ -2140,7 +2122,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "Allow: /",
-            "checkedAt": "2026-11-09T06:19:27.037Z"
+            "checkedAt": "2026-11-16T06:22:07.129Z"
           }
         ]
       },
@@ -2153,10 +2135,10 @@
       "url": "https://vercel.com/changelog",
       "feed": "https://vercel.com/changelog/rss",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:27.808Z",
+      "checkedAt": "2026-11-16T06:22:07.612Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:27.421Z",
+        "checkedAt": "2026-11-16T06:22:07.477Z",
         "finalFeedUrl": "https://vercel.com/atom",
         "checks": [
           {
@@ -2165,7 +2147,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:27.421Z"
+            "checkedAt": "2026-11-16T06:22:07.477Z"
           },
           {
             "origin": "https://vercel.com",
@@ -2173,7 +2155,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:27.421Z"
+            "checkedAt": "2026-11-16T06:22:07.477Z"
           }
         ]
       },
@@ -2202,81 +2184,6 @@
             "frontend-platform",
             "accessibility-performance"
           ]
-        },
-        {
-          "title": "AI Gateway adds Browserbase Search and Fetch tools",
-          "url": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools",
-          "publishedAt": "2026-09-30T21:00:00.000Z",
-          "topics": [
-            "personalization",
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "Search trace spans from the Vercel CLI",
-          "url": "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli",
-          "publishedAt": "2026-09-29T13:00:00.000Z",
-          "topics": [
-            "personalization"
-          ]
-        },
-        {
-          "title": "Search domains without authentication",
-          "url": "https://vercel.com/changelog/search-domains-without-authentication",
-          "publishedAt": "2026-09-28T00:00:00.000Z",
-          "topics": [
-            "biometric-auth",
-            "personalization"
-          ]
-        },
-        {
-          "title": "Vercel Marketplace database browser now supports Redis",
-          "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
-          "publishedAt": "2026-09-25T00:00:00.000Z",
-          "topics": [
-            "frontend-platform"
-          ]
-        },
-        {
-          "title": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev",
-          "url": "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
-          "publishedAt": "2026-09-21T00:00:00.000Z",
-          "topics": [
-            "kinetic-typography"
-          ]
-        },
-        {
-          "title": "FastAPI frontends and static files served from the CDN",
-          "url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
-          "publishedAt": "2026-09-10T17:00:00.000Z",
-          "topics": [
-            "frontend-platform",
-            "accessibility-performance"
-          ]
-        },
-        {
-          "title": "Tako Search is free on AI Gateway through September 30",
-          "url": "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
-          "publishedAt": "2026-09-10T00:00:00.000Z",
-          "topics": [
-            "personalization"
-          ]
-        },
-        {
-          "title": "You can now read and search changelogs from the CLI",
-          "url": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli",
-          "publishedAt": "2026-09-09T00:00:00.000Z",
-          "topics": [
-            "personalization"
-          ]
-        },
-        {
-          "title": "v0 adds one-click integrations for email, auth, search, and databases",
-          "url": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases",
-          "publishedAt": "2026-09-09T00:00:00.000Z",
-          "topics": [
-            "personalization"
-          ]
         }
       ]
     },
@@ -2287,10 +2194,10 @@
       "url": "https://medium.com/pinterest-engineering",
       "feed": "https://medium.com/feed/pinterest-engineering",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:26.964Z",
+      "checkedAt": "2026-11-16T06:22:08.197Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:22.404Z",
+        "checkedAt": "2026-11-16T06:22:02.907Z",
         "finalFeedUrl": "https://medium.com/feed/pinterest-engineering",
         "checks": [
           {
@@ -2299,7 +2206,7 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:22.404Z"
+            "checkedAt": "2026-11-16T06:22:02.907Z"
           }
         ]
       },
@@ -2312,10 +2219,10 @@
       "url": "https://www.w3.org/WAI/",
       "feed": "https://www.w3.org/WAI/feed.xml",
       "status": "ok",
-      "checkedAt": "2026-11-09T06:19:27.449Z",
+      "checkedAt": "2026-11-16T06:22:07.616Z",
       "robots": {
         "status": "allowed",
-        "checkedAt": "2026-11-09T06:19:27.433Z",
+        "checkedAt": "2026-11-16T06:22:07.590Z",
         "finalFeedUrl": "https://www.w3.org/WAI/feed.xml",
         "checks": [
           {
@@ -2324,11 +2231,20 @@
             "httpStatus": 200,
             "decision": "allowed",
             "reason": "rules-found",
-            "checkedAt": "2026-11-09T06:19:27.433Z"
+            "checkedAt": "2026-11-16T06:22:07.590Z"
           }
         ]
       },
       "articles": [
+        {
+          "title": "The multiplier effect: How authoring tools can transform web accessibility",
+          "url": "https://www.w3.org/WAI/news/2026-11-10/atag-blog/",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "topics": [
+            "sustainable-design",
+            "accessibility-performance"
+          ]
+        },
         {
           "title": "Crafting WCAG 3 for more accessible user experiences",
           "url": "https://www.w3.org/WAI/news/2026-09-25/wcag3-blog/",
@@ -2410,20 +2326,78 @@
             "sustainable-design",
             "accessibility-performance"
           ]
-        },
-        {
-          "title": "For Review: WCAG 3 Working Draft - September 2025",
-          "url": "https://www.w3.org/WAI/news/2025-09-04/wcag3/",
-          "publishedAt": "2025-09-04T00:00:00.000Z",
-          "topics": [
-            "sustainable-design",
-            "accessibility-performance"
-          ]
         }
       ]
     }
   ],
   "articles": [
+    {
+      "title": "10 Big Ol’ 2027 Black Friday Deals",
+      "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
+      "publishedAt": "2026-11-13T14:05:24.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Beyond 12 Columns: Designing Layouts With Personality",
+      "url": "https://css-tricks.com/beyond-12-columns/",
+      "publishedAt": "2026-11-12T16:06:55.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
+      "url": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
+      "publishedAt": "2026-11-10T17:00:49.000Z",
+      "topics": [
+        "personalization"
+      ],
+      "sourceId": "meta-engineering",
+      "source": "Meta Engineering",
+      "company": "Meta"
+    },
+    {
+      "title": "CSS Optimization: Is Using Declarations Just Once (UDJO) Still Effective Today?",
+      "url": "https://css-tricks.com/css-using-declarations-just-once/",
+      "publishedAt": "2026-11-10T16:42:18.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
+    {
+      "title": "The multiplier effect: How authoring tools can transform web accessibility",
+      "url": "https://www.w3.org/WAI/news/2026-11-10/atag-blog/",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "topics": [
+        "sustainable-design",
+        "accessibility-performance"
+      ],
+      "sourceId": "w3c-wai",
+      "source": "Web Accessibility Initiative",
+      "company": "W3C"
+    },
+    {
+      "title": "CSS-Tricks, Version 20",
+      "url": "https://css-tricks.com/css-tricks-version-20/",
+      "publishedAt": "2026-11-09T15:49:48.000Z",
+      "topics": [
+        "frontend-platform"
+      ],
+      "sourceId": "css-tricks",
+      "source": "CSS-Tricks",
+      "company": "CSS-Tricks"
+    },
     {
       "title": "AI Gateway adds DeepSeek Search and Fetch tools",
       "url": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
@@ -2727,17 +2701,6 @@
       "company": "Apple WebKit"
     },
     {
-      "title": "How bug bounty sharpens one researcher’s security skills",
-      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-      "publishedAt": "2026-10-22T17:21:30.000Z",
-      "topics": [
-        "biometric-auth"
-      ],
-      "sourceId": "github-ux",
-      "source": "GitHub Engineering · UX",
-      "company": "GitHub"
-    },
-    {
       "title": "Embracing Playful Imperfection With The CSS `random()` Function",
       "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
       "publishedAt": "2026-10-20T10:00:00.000Z",
@@ -2760,17 +2723,6 @@
       "sourceId": "webkit-blog",
       "source": "WebKit Blog",
       "company": "Apple WebKit"
-    },
-    {
-      "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
-      "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
-      "publishedAt": "2026-10-19T16:00:47.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "meta-engineering",
-      "source": "Meta Engineering",
-      "company": "Meta"
     },
     {
       "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
@@ -2950,18 +2902,6 @@
       "company": "Google Chrome"
     },
     {
-      "title": "AI Gateway adds Browserbase Search and Fetch tools",
-      "url": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools",
-      "publishedAt": "2026-09-30T21:00:00.000Z",
-      "topics": [
-        "personalization",
-        "frontend-platform"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
       "title": "Personalization without user identity",
       "url": "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486",
       "publishedAt": "2026-09-29T17:01:01.000Z",
@@ -2972,17 +2912,6 @@
       "sourceId": "airbnb-engineering",
       "source": "Airbnb Engineering",
       "company": "Airbnb"
-    },
-    {
-      "title": "Search trace spans from the Vercel CLI",
-      "url": "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli",
-      "publishedAt": "2026-09-29T13:00:00.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
     },
     {
       "title": "HTML-in-Canvas updates: Iterating toward a better Web API",
@@ -3007,29 +2936,6 @@
       "sourceId": "web-dev",
       "source": "web.dev",
       "company": "Google Chrome"
-    },
-    {
-      "title": "Search domains without authentication",
-      "url": "https://vercel.com/changelog/search-domains-without-authentication",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "topics": [
-        "biometric-auth",
-        "personalization"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
-      "title": "Vercel Marketplace database browser now supports Redis",
-      "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
     },
     {
       "title": "Crafting WCAG 3 for more accessible user experiences",
@@ -3105,17 +3011,6 @@
       "company": "Microsoft Edge"
     },
     {
-      "title": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev",
-      "url": "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "topics": [
-        "kinetic-typography"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
       "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
       "url": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553",
       "publishedAt": "2026-09-17T17:01:02.000Z",
@@ -3176,29 +3071,6 @@
       "company": "Smashing Media"
     },
     {
-      "title": "FastAPI frontends and static files served from the CDN",
-      "url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
-      "publishedAt": "2026-09-10T17:00:00.000Z",
-      "topics": [
-        "frontend-platform",
-        "accessibility-performance"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
-      "title": "Tako Search is free on AI Gateway through September 30",
-      "url": "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
       "title": "For Review: WCAG 3 Working Draft – September 2026",
       "url": "https://www.w3.org/WAI/news/2026-09-10/wcag3/",
       "publishedAt": "2026-09-10T00:00:00.000Z",
@@ -3223,28 +3095,6 @@
       "company": "Smashing Media"
     },
     {
-      "title": "You can now read and search changelogs from the CLI",
-      "url": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
-      "title": "v0 adds one-click integrations for email, auth, search, and databases",
-      "url": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "topics": [
-        "personalization"
-      ],
-      "sourceId": "vercel-changelog",
-      "source": "Vercel Changelog",
-      "company": "Vercel"
-    },
-    {
       "title": "Submit your proposals for Interop 2027",
       "url": "https://web.dev/blog/interop-2027-proposals?hl=en",
       "publishedAt": "2026-09-03T07:00:00.000Z",
@@ -3256,28 +3106,6 @@
       "company": "Google Chrome"
     },
     {
-      "title": "Let’s Use the Emergent CSS random() Function in all the Browsers",
-      "url": "https://css-tricks.com/css-random-function-polyfill/",
-      "publishedAt": "2026-08-31T15:12:19.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
-      "title": "What’s !important #18: , Syntax ::highlight()ing, named-feature(), and More",
-      "url": "https://css-tricks.com/whats-important-18/",
-      "publishedAt": "2026-08-31T14:08:55.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
       "title": "New to the web platform in August",
       "url": "https://web.dev/blog/web-platform-08-2026?hl=en",
       "publishedAt": "2026-08-28T07:00:00.000Z",
@@ -3287,29 +3115,6 @@
       "sourceId": "web-dev",
       "source": "web.dev",
       "company": "Google Chrome"
-    },
-    {
-      "title": "Creating Web Widgets Using the Document Picture-in-Picture API",
-      "url": "https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/",
-      "publishedAt": "2026-08-27T14:41:06.000Z",
-      "topics": [
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
-    },
-    {
-      "title": "animation-trigger",
-      "url": "https://css-tricks.com/almanac/properties/a/animation-trigger/",
-      "publishedAt": "2026-08-26T15:38:41.000Z",
-      "topics": [
-        "3d-graphics-animation",
-        "frontend-platform"
-      ],
-      "sourceId": "css-tricks",
-      "source": "CSS-Tricks",
-      "company": "CSS-Tricks"
     },
     {
       "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
@@ -3427,18 +3232,6 @@
       "sourceId": "w3c-wai",
       "source": "Web Accessibility Initiative",
       "company": "W3C"
-    },
-    {
-      "title": "Personalizing Airbnb search by learning from the guest journey",
-      "url": "https://medium.com/airbnb-engineering/personalizing-airbnb-search-by-learning-from-the-guest-journey-bcefd1915624",
-      "publishedAt": "2026-07-21T17:01:04.000Z",
-      "topics": [
-        "personalization",
-        "kinetic-typography"
-      ],
-      "sourceId": "airbnb-engineering",
-      "source": "Airbnb Engineering",
-      "company": "Airbnb"
     },
     {
       "title": "Product Quality: A Shared Commitment to Craft in the wake of AI",
@@ -3770,18 +3563,6 @@
       "sourceId": "slack-design",
       "source": "Slack Design",
       "company": "Slack"
-    },
-    {
-      "title": "For Review: WCAG 3 Working Draft - September 2025",
-      "url": "https://www.w3.org/WAI/news/2025-09-04/wcag3/",
-      "publishedAt": "2025-09-04T00:00:00.000Z",
-      "topics": [
-        "sustainable-design",
-        "accessibility-performance"
-      ],
-      "sourceId": "w3c-wai",
-      "source": "Web Accessibility Initiative",
-      "company": "W3C"
     },
     {
       "title": "Raising the Volume Quietly: A Designer’s Challenge",
